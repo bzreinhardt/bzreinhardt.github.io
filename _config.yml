@@ -1,0 +1,19 @@
+# Site settings
+title: "The Green Dragon"
+email: bzreinhardt@gmail.com
+description: "Ben Reinhardt on the Internet"
+baseurl: ""
+url: "http://benjaminreinhardt.com"
+username: bzreinhardt
+twittername: Ben_Reinhardt
+
+# not sure what these do
+paginate: 10
+# Build settings
+markdown: kramdown
+#another option - rdiscount
+permalink: pretty
+highlighter: pygments
+collections: 
+ concerning_bens: 
+  output: true
