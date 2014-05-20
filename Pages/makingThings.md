@@ -2,7 +2,10 @@
 layout: page
 title: Things I've made
 ---
-{% include dragon2flipped.gif %}
+
+
+Things in atomland
+----------------------------
 
 Two-story Trojan Horse.
 
@@ -19,5 +22,12 @@ Tractor Beams
 Gymanstics Rings
 
 A standing desk
+
+
+Things in bitland
+-------------------------
+Discussions of many things - mostly space, robots, history, and technology
+
+A 
 
 

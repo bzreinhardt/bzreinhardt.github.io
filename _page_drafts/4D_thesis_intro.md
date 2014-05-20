@@ -1,0 +1,1 @@
+Everybody knows the adage "What you say is less important than how you say it." So why do we cram science into static (often even black and white) symbols on dead trees or bits that do nothing but replicate those dead trees?
