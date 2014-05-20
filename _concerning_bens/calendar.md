@@ -4,6 +4,7 @@ title: Ben's Schedule
 
 ---
 <div class="span3">
+	
 	<p> Let me know what free 30 min block between 10 am and 6pm Eastern works for you </p>
 <div id="upcoming"></div><!--/span-->
 </div>
