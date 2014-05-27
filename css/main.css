@@ -140,6 +140,12 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
+/* Image Styles */
+img {
+    max-width: 90%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/

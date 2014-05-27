@@ -10,9 +10,14 @@
     <div class="page-content">
       <div class="wrap">
       {{ content }}
+
       </div>
     </div>
 
+    {% if page.comments == true %}
+      {% include comments.html %}
+    {% endif %}
+    
     {% include footer.html %}
 
     </body>
