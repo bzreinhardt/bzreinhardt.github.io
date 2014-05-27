@@ -7,8 +7,8 @@ comments: true
 
 Experiments to investigate and validate the ability of an induction coupler to produce attactive and repulsive forces while straddling a convex conductor. 
 
-[Experiment](../air_track_data_acquisition.html)
+[Experiment](air_track_data_acquisition.html)
 
-[Data Extraction](../air_track_image_analysis.html)
+[Data Extraction](air_track_image_analysis.html)
 
-[Analysis](../air_track_force_analysis.html)
+[Analysis](air_track_force_analysis.html)
