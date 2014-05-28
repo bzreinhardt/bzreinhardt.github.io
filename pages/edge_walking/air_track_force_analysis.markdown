@@ -23,8 +23,8 @@ The Savitzky-Golay Filter produces smoother derivatives of the position than fin
  3. The velocity data from the derivative of the filtered position data
  4. The acceleration data from the derivative of the filtered position data 
 
+{% include plot_img.html url = "https://plot.ly/~bzreinhardt/0" description = "Force on cart synched with motor commands" %}
 
-{% include image.html url="/pictures/air_track_force_analysis/motor_speed_v_force.jpg" description="Force on cart synched with motor commands" %}
 
 Converting the cart's acceleration to the external forces on the cart[^3] and synching with the motor-command data shows the following results [(recall the setup)][data acq]:
 
@@ -39,6 +39,8 @@ __Future Things to Explore__
 1)	Because [the skin effect][SE] reduces the volume of currents in the aluminum. 
 2)	Because faster spinning magnets actually reduce the change in magnetic field seen by the target - think of how a quickly flickering light begins to blur and eventually looks like a single steady light. 
 
+* Creating a bode plot of the system response in frequency space. 
+
 The code for this analysis can be found [here][pos2Acc].
 
 
@@ -50,7 +52,7 @@ The code for this analysis can be found [here][pos2Acc].
 [data acq]: air_track_data_acquisition.html
 [SE]: http://en.wikipedia.org/wiki/Skin_effect
 [pos2Acc]: https://github.com/bzreinhardt/track-video-analysis/blob/master/Scripts/pos2accTest.m
-
+***
  [^1]:  The interpolation increased the sampling rate by five times to a 3 millisecond timestep.
  [^2]:  The filter's window size \\(w = 201 \\) frames - 0.3 seconds is still fast compared to the dynamics.
  [^3]: \\(F = ma\\) with m = 294.5 g

@@ -19,6 +19,7 @@ The goal of the experiment is to answer the question "what is the relationship b
 [vid]:http://youtu.be/8lF_H1IqPiU
 [ArduinoCode]:https://github.com/bzreinhardt/track-video-analysis/blob/master/Arduino%20Code/motor_control_2.ino
 [setup_pic]: /pictures/air_track_data_acquisition/setup.jpg
+***
  [^1]: Accelerometers have several problems: cheap, small accelerometers are imprecise. High quality accelerometers are expensive and often large. Both sorts need a way to communicate their information, which can happen one of three ways - through wires, through a wireless connection, or on-board stoarge. All three mess up the dynamics of the cart - wires interfere with movement  and the latter two options add mass that creates friction between the cart and the track. Other contactless position sensors have low precision (sonar sensors) or low bandwidth (laser sensors.)
  [^2]: Assuming off-line force calculation is acceptable. 
  [^3]: Ranging from 0-255

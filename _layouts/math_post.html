@@ -8,15 +8,40 @@ layout: default
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
   <head>
-
-    <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    
 
 </head>
 
   <article class="post-content">
   {{ content }}
   </article>
+<!-- Possible in line discussions 
+<link rel="stylesheet" type="text/css" href="/inlineDisqussions.css" />
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/inlineDisqussions.js"></script>
+    <script>
+      disqus_shortname = 'bzreinhardt';
+      jQuery(document).ready(function() {
+        jQuery("p:not('.highlighted, .narrow-p')").inlineDisqussions({
+          position: 'right'
+        });
+        jQuery("p.highlighted").inlineDisqussions({
+          identifier: 'disqussion-highlighted',
+          highlighted: true,
+        });
+jQuery("p").inlineDisqussions({
+  identifier: 'disqussion',
+  displayCount: true,
+  highlighted: false,
+  position: 'right',
+  background: 'white',
+  maxWidth: 9999
+});
+        
+      });
+    </script>
+  -->
+
 
 </div>

@@ -39,7 +39,7 @@ In the future, this process can be made more precise with explicit markers. Howe
 <!-- Links and references -->
 [vid]:http://youtu.be/8lF_H1IqPiU
 [Lab]:http://en.wikipedia.org/wiki/Lab_color_space
-
+***
  [^1]: In this case, smaller than 50 pixels. 
  [^2]:  The left-side-point on the cart doesn't need to have a consistent height because the entire left side of the cart at the same x-coordinate in the cart coordinate system. 
  [^3]: The a and b values used were 143 and 132. The threshold value (above which the mask decided the pixel was 'not red') was 6.
