@@ -15,7 +15,11 @@ layout: default
   <article class="post-content">
   {{ content }}
 
-  <a href="index.html">Back to hub for this section</a>
+  <p><a href="index.html">Back to hub for this section</a> </p>
+  {% if page.linear == true %}
+  <p><a href={{page.next_page}}>Next Section</a></p>
+  <p><a href={{page.prev_page}}>Previous Section</a></p>
+  {% endif %}
   </article>
 <!-- Possible in line discussions 
 <link rel="stylesheet" type="text/css" href="/inlineDisqussions.css" />

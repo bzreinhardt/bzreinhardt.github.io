@@ -5,7 +5,13 @@ tags: [analysis,edge_experiments]
 comments: true
 ---
 
-Experiments to investigate and validate the ability of an induction coupler to produce attactive and repulsive forces while straddling a convex conductor. 
+Experiments to investigate and validate the ability of an induction coupler to produce attactive and repulsive forces while straddling a convex conductor.
+
+<!-- TODO 
+Make induction coupler page
+Introduction page
+convex conductor page
+--> 
 
 [Experiment](air_track_data_acquisition.html)
 
