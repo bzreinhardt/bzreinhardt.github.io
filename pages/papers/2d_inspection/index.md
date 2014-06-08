@@ -24,26 +24,35 @@ Small satellites can enable a new mission profile: investigating larger satellit
 		<!--will lead to section about jacobian between -->
 		<!--link to papers about better machine vision -->
 	* EC actuated small satellite can take advantage of the Curvature of the environment
-3. Construct model of EC
+3. [Induction Coupler Behavior](behavior.html)
 	* EC actuator inputs, outputs and dependencies
 	* Possible maneuvers
 		* Edge walking
 <!-- todo: look at how sharp the edges/curves on the topology of the iss/satellites -->
 		* Safety repulsion
 <!--todo: look at how bad of a situation you can recover from-->
-4. Actuator to Inspector Control Jacobian
+4. [Actuator to Inspector Control Jacobian](control_jacobian.html)
 	* Dependence on local topology
 	* Dependence on Inspector state
 	* Dependence on inspector geometry
-5. Conclusion
+5. [Conclusion](conclusion.html)
 	* EC allow a new paradigm for OOS
 	* The ideas presented here scale well as EC actuator technology improves
 	* This is extensible to non-ISS OOS missions as well
-6. Bibliography
+6. [Bibliography](bibliography.html)
+
+## Figures and Pictures
+-----------------------
+1. Visual Legend
+2. Single Magnet 3 DoF Induction Coupler
+2. Minimum 3 DoF Induction Coupler
 
 ## Terms
 -----------------------------------
 <a href="physics_background.html#dof">Degree-of-Freedom</a>
 <a href="purpose.html#oos">On-Orbit Serivicing</a>
+<a href="motivational_mission.html#iss">International Space Station</a>
+<a href="behavior.html#array">Magnet Array</a>
+
 
 
