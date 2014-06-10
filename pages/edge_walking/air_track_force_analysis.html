@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Air Track Setup</title>
+    <title>Air Track Force Analysis</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Ben Reinhardt on the Internet">
-    <link rel="canonical" href="http://benjaminreinhardt.com/pages/documentation/air_track_setup">
+    <link rel="canonical" href="http://benjaminreinhardt.com/pages/edge_walking/air_track_force_analysis.html">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -106,7 +106,7 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Air Track Setup</h1>
+    <h1>Air Track Force Analysis</h1>
     <p class="meta"></p>
   </header>
   <head>
@@ -115,7 +115,88 @@
 </head>
 
   <article class="post-content">
-  
+  <p>The goal here is to investigate the correlations between spinning magnets’ speed and direction and the resultant forces on an aluminum edge that the induction coupler straddles. </p>
+
+<p>A <a href="http://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter_for_smoothing_and_differentiation">Savitzky-Golay Filter</a> <a href="http://en.wikipedia.org/wiki/Numerical_differentiation">smooths and differentiates</a> the numerical position data from the <a href="air_track_image_analysis.html">video analyis</a> after an interpolation increases the data sample rate.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>  The filter finds a second order least-squares polynomial fit to the function over the size of the window as it moves across the data. The filter then evaluates this fit and its derivatives at the point in the middle of the window. </p>
+
+<p>The Savitzky-Golay Filter produces smoother derivatives of the position than finite differences passed through a low-pass filter without losing information.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> </p>
+
+<!-- Put in equations for the polynomials maybe -->
+
+<!-- Perhaps replace the filename with a liquid post name tag -->
+<p><img src="/pictures/air_track_force_analysis/all_data.jpg" alt="x_data" /></p>
+
+<p>This figure shows (from top to bottom)</p>
+
+<ol>
+  <li>The interpolated position data</li>
+  <li>The filtered position data</li>
+  <li>The velocity data from the derivative of the filtered position data</li>
+  <li>The acceleration data from the derivative of the filtered position data </li>
+</ol>
+
+<table class="image">
+<caption align="bottom">Force on cart synched with motor commands</caption>
+<tr><td><iframe src="https://plot.ly/~bzreinhardt/0" width="600" height="500" seamless="seamless" scrolling="no" frameborder="0"></iframe></td></tr>
+</table>
+
+<p>Converting the cart’s acceleration to the external forces on the cart<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> and synching with the motor-command data shows the following results <a href="air_track_data_acquisition.html">(recall the setup)</a>:</p>
+
+<ul>
+  <li>Faster Motor speeds yield to larger forces in either direction. </li>
+  <li>Outward spinning magnets produce repulsive (-X direction) forces. (Magnet 1 negative and Magnet 2 positive)</li>
+  <li>Inward spinning magnets produce attractive (+X direction) forces. (Magnet 1 positive and Magnet 2 negative)</li>
+  <li>The forces on the cart have a maximum magnitude of 8 mN when the motor is at 25% of maximum voltage. </li>
+</ul>
+
+<p>(Update 6/8/2014)
+<strong>Conversion between PWM and motor speed</strong> <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> The motor has a no load speed of 16800. The effective voltage is </p>
+
+<p><script type="math/tex"> V_eff = V_0 \frac{\tau_0}{tau_c} </script> <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup> </p>
+
+<p>where \(\frac{\tau_0}{tau_c}\) is the % on-time shown in the graph and \(V_0\) is the input voltage (12 V.)</p>
+
+<p><a name="specs"><a>
+In this case the maxiumum force occurs at a 25% duty cycle, which corresponds to 4200 RPM and 0.25 amps. At 3 V and 0.25 amps, the motor will dissipate 0.75 Watts of electrical power. The motor needs additional power to start and turn direction, but the amount of electrical power disappated is important to consider for space applications. The disappated power will leave the battery and turn into heat.</a></a></p>
+
+<p><strong>Future Things to Explore</strong></p>
+
+<ul>
+  <li>
+    <p>Functional relationship between maximum motor speed and force - does the force increase linearly with motor speed or does the increase in force with increased motor speed drop off above a certain speed? It could be expected to drop off for two reasons: 
+1)	Because <a href="http://en.wikipedia.org/wiki/Skin_effect">the skin effect</a> reduces the volume of currents in the aluminum. 
+2)	Because faster spinning magnets actually reduce the change in magnetic field seen by the target - think of how a quickly flickering light begins to blur and eventually looks like a single steady light. </p>
+  </li>
+  <li>
+    <p>Creating a bode plot of the system response in frequency space. </p>
+  </li>
+</ul>
+
+<p>The code for this analysis can be found <a href="https://github.com/bzreinhardt/track-video-analysis/blob/master/Scripts/pos2accTest.m">here</a>.</p>
+
+<!-- FOODNOTES AND REFERENCES -->
+
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>The interpolation increased the sampling rate by five times to a 3 millisecond timestep. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>The filter’s window size \(w = 201 \) frames - 0.3 seconds is still fast compared to the dynamics. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>\(F = ma\) with m = 294.5 g <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Using a BaneBots RS540 Motor - 12V. It has a stall torque of 280 mN-m, so a force of 8 mN at a few centimeters is orders of magnitude below the stall torque. This means we can assume that it is effectively acting with at its no load RPM and current - 16800 RPM and one amp. <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>http://web.cecs.pdx.edu/~gerry/class/EAS199A/topics/pdf/PWM_output_Arduino.pdf <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
 
   <p><a href="index.html">Back to hub for this section</a> </p>
   

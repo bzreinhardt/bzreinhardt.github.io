@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Air Track Setup</title>
+    <title>2D Inspection Outline and Abstract</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Ben Reinhardt on the Internet">
-    <link rel="canonical" href="http://benjaminreinhardt.com/pages/documentation/air_track_setup">
+    <link rel="canonical" href="http://benjaminreinhardt.com/pages/papers/2d_inspection/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -106,7 +106,7 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Air Track Setup</h1>
+    <h1>2D Inspection Outline and Abstract</h1>
     <p class="meta"></p>
   </header>
   <head>
@@ -115,7 +115,82 @@
 </head>
 
   <article class="post-content">
-  
+  <h2 id="abstract">Abstract</h2>
+<hr />
+<p>Small satellites can enable a new mission profile: investigating larger satellites on orbit. Induction couplers are a new actuation technology that can augment on-orbit servicing. Current technologies for relative actuation between two spacecraft have glaring gaps - they require direct contact or propellant. Induction couplers using the forces between a magnetic field and its induced electric currents could control the relative position between a small chaser spacecraft and a larger target without physical contact. A system utilizing these eddy-current forces places relatively few requirements on the target and chaser compared to more exotic EM actuation systems. This paper presents a system overview of a contactless induction coupler, outlines those requirements through the analysis of an inspection mission on the International Space Station, and compares them to current experimental work.</p>
+
+<h2 id="contents">Contents</h2>
+<hr />
+<ol>
+  <li>Introduction
+    <ul>
+      <li><a href="purpose.html">Purpose - demonstrate the use case of an induction coupler for OOS</a></li>
+      <li><a href="alt_tech_background.html">Alternative Tech Backgroundd</a></li>
+      <li><a href="physics_background.html">Physics Backgroundd</a></li>
+    </ul>
+  </li>
+  <li><a href="motivational_mission.html">Motivational Mission descriptionn</a> 
+    <ul>
+      <li>EC actuated small satellite can replicate a spacewalk in ways that no other technology can
+        <ul>
+          <li>Robotics offers opportunities, 
+  <!-- Emphasize positive. cit robonaut, be political. Offload astronauts from tasks.[spacewalks are expensive and dangerous] Possibly gravity reference --></li>
+          <li>spacewalks are clearly valuable (Hubble, constant ISS maintenance)</li>
+          <li>will lead later in the paper to a section about the different maneuvers</li>
+        </ul>
+      </li>
+      <li>EC actuated small satellite can do station keeping very close to the surface for visual inspection
+  <!--will lead to section about jacobian between -->
+  <!--link to papers about better machine vision --></li>
+      <li>EC actuated small satellite can take advantage of the Curvature of the environment</li>
+    </ul>
+  </li>
+  <li><a href="behavior.html">Induction Coupler Behaviorr</a>
+    <ul>
+      <li>EC actuator inputs, outputs and dependencies</li>
+      <li>Possible maneuvers
+        <ul>
+          <li>Edge walking
+<!-- todo: look at how sharp the edges/curves on the topology of the iss/satellites --></li>
+          <li>Safety repulsion
+<!--todo: look at how bad of a situation you can recover from--></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="control_jacobian.html">Actuator to Inspector Control Jacobian</a>
+    <ul>
+      <li>Dependence on local topology</li>
+      <li>Dependence on Inspector state</li>
+      <li>Dependence on inspector geometry</li>
+    </ul>
+  </li>
+  <li><a href="conclusion.html">Conclusionn</a>
+    <ul>
+      <li>EC allow a new paradigm for OOS</li>
+      <li>The ideas presented here scale well as EC actuator technology improves</li>
+      <li>This is extensible to non-ISS OOS missions as well</li>
+    </ul>
+  </li>
+  <li><a href="bibliography.html">Bibliographyy</a></li>
+</ol>
+
+<h2 id="figures-and-pictures">Figures and Pictures</h2>
+<hr />
+<ol>
+  <li>Visual Legend</li>
+  <li>Single Magnet 3 DoF Induction Coupler</li>
+  <li>Minimum 3 DoF Induction Coupler</li>
+</ol>
+
+<h2 id="terms">Terms</h2>
+<hr />
+<p><a href="physics_background.html#dof">Degree-of-Freedom</a>
+<a href="purpose.html#oos">On-Orbit Serivicing</a>
+<a href="motivational_mission.html#iss">International Space Station</a>
+<a href="behavior.html#array">Magnet Array</a></p>
+
+
 
   <p><a href="index.html">Back to hub for this section</a> </p>
   

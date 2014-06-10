@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Air Track Setup</title>
+    <title>Air Track Image Analysis</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Ben Reinhardt on the Internet">
-    <link rel="canonical" href="http://benjaminreinhardt.com/pages/documentation/air_track_setup">
+    <link rel="canonical" href="http://benjaminreinhardt.com/pages/edge_walking/air_track_image_analysis.html">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -106,48 +106,63 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Air Track Setup</h1>
-    <p class="meta"></p>
+    <h1>Air Track Image Analysis</h1>
+    <p class="meta">May 26, 2014</p>
   </header>
-  <head>
-    
-
-</head>
 
   <article class="post-content">
-  
+  <p>A sequence of image processing tricks turn the <a href="http://youtu.be/8lF_H1IqPiU">raw video</a> of the cart moving on an air track into an absolute position measurement.<sup id="fnref:4"><a href="#fn:4" class="footnote">1</a></sup> There are two major steps:</p>
 
-  <p><a href="index.html">Back to hub for this section</a> </p>
-  
+<ol>
+  <li>Locating the left side of the cart in pixel coordinates</li>
+  <li>Locating the positions of the 10cm markers in pixel coordinates</li>
+  <li>Finding the conversion between the pixel coordinate system and the cart coordinate system. </li>
+</ol>
+
+<!-- IMAGE OF BOTH COORDINATE SYSTEMS -->
+<p><img src="https://docs.google.com/drawings/d/1IPDk7SiyBEATDIrY5CKoQ60U-1c37dVs9MlSfIGoZ74/pub?w=960&amp;h=720" /></p>
+
+<p><strong>Locating the left side of the cart in pixel coordinates</strong> 
+The algorithm makes the frame black and white, performs an <a href="http://www.mathworks.com/help/images/ref/imextendedmax.html">extended-maxima transform</a> (increasing the contrast) and removes all small objects.<sup id="fnref:1"><a href="#fn:1" class="footnote">2</a></sup> The cart is the largest dark object in the video so the left-most point of the largest object in the frame will be the left-most point of the cart.<sup id="fnref:2"><a href="#fn:2" class="footnote">3</a></sup></p>
+
+<p><strong>Locating the positions of the 10cm markers in pixel coordinates</strong> 
+The algorithm clips the bottom third of the video frame to isolate the track. The algorithm converts the frame from an rgb to an <a href="http://en.wikipedia.org/wiki/Lab_color_space">Lab color scheme</a> and creates a mask based on the distance between the a and b values of each pixel and the experimentally determined average a and b values of the red markers.<sup id="fnref:3"><a href="#fn:3" class="footnote">4</a></sup> The algorithm converts the frame to black and white, applies the mask, dilates the remaining pixels, eliminates small structures, and finds the centroids of the three largest structures remaining. These three centroids correspond to the middle of the three 10cm markers. </p>
+
+<table class="image">
+<caption align="bottom">Masked air track with algorithmically generated 10cm marker locations</caption>
+<tr><td><img src="/pictures/air_track_image_analysis/roi_with_mask.jpg" alt="Masked air track with algorithmically generated 10cm marker locations" /></td></tr>
+</table>
+
+<p><strong>Finding the conversion between the pixel coordinate system and the cart coordinate system.</strong>
+With the locations of the 10cm markers, it is simple to convert the left side of the cart into absolute position on the track in each frame. The algorithm sets the origin of both coordinate systems as the position of the leftmost marker and finds a scaling factor between pixels and centimeters based on the length of the vectors to the second and third marker. Normalized vectors in each coordinate system generate a rotation matrix between the two. </p>
+
+<p>The combination of the scale factor, relative origin positions, and rotation matrix can convert the position of the cart in pixels into the track coordinates. Here, the X coordinates are the unconstrained values that are valuable to analyze.   </p>
+
+<p>The code for this process can be found <a href="https://github.com/bzreinhardt/track-video-analysis/tree/master">here</a>.</p>
+
+<p><strong>Upgrades</strong>
+In the future, this process can be made more precise with explicit markers. However, this process illustrates how to extract data from video from an experiment not explicitly designed for post-processing.</p>
+
+<!-- Links and references -->
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:4">
+      <p>Despite camera jitter and focus changes. <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>In this case, smaller than 50 pixels.  <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>The left-side-point on the cart doesn’t need to have a consistent height because the entire left side of the cart is at the same x-coordinate in the cart coordinate system.  <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>The a and b values used were 143 and 132. The threshold value (above which the mask decided the pixel was ‘not red’) was 6. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
   </article>
-<!-- Possible in line discussions 
-<link rel="stylesheet" type="text/css" href="/inlineDisqussions.css" />
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="javascripts/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="/inlineDisqussions.js"></script>
-    <script>
-      disqus_shortname = 'bzreinhardt';
-      jQuery(document).ready(function() {
-        jQuery("p:not('.highlighted, .narrow-p')").inlineDisqussions({
-          position: 'right'
-        });
-        jQuery("p.highlighted").inlineDisqussions({
-          identifier: 'disqussion-highlighted',
-          highlighted: true,
-        });
-jQuery("p").inlineDisqussions({
-  identifier: 'disqussion',
-  displayCount: true,
-  highlighted: false,
-  position: 'right',
-  background: 'white',
-  maxWidth: 9999
-});
-        
-      });
-    </script>
-  -->
-
 
 </div>
 
