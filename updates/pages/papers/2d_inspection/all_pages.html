@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2D Inspection Outline and Abstract</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Ben Reinhardt on the Internet">
+    <link rel="canonical" href="http://benjaminreinhardt.com/pages/papers/2d_inspection/all_pages.html">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+	<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <a class="site-title" href="/">The Green Dragon</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+        
+          <a class="page-link" href="/about/">About</a>
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <a class="page-link" href="/index.html">Home</a>
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>2D Inspection Outline and Abstract</h1>
+    <p class="meta"></p>
+  </header>
+  <head>
+    
+
+</head>
+
+  <article class="post-content">
+  <h2 id="abstract">Abstract</h2>
+<hr />
+<!-- put picture in abstract -->
+<p>Small satellites can enable a new mission profile: investigating larger satellites on orbit. Induction couplers are a new actuation technology that can augment on-orbit servicing. Current technologies for relative actuation between two spacecraft have glaring gaps - they require direct contact or propellant. Induction couplers using the forces between a magnetic field and its induced electric currents could control the relative position between a small chaser spacecraft and a larger target without physical contact. A system utilizing these eddy-current forces places relatively few requirements on the target and chaser compared to more exotic EM actuation systems. This paper presents a system overview of a contactless induction coupler, outlines those requirements through the analysis of an inspection mission on the International Space Station, and compares them to current experimental work.</p>
+
+<p><img src="/pictures/2d_inspection/iss_inspector.jpg" width="200" height="200" /></p>
+
+<h2 id="contents">Contents</h2>
+<hr />
+<ol>
+  <li><a href="#purpose">Introduction</a>
+    <ul>
+      <li><a href="#alt_tech">Alternative Tech Backgroundd</a>
+        <ul>
+          <li>There are other ways to generate contactless forces, but all of them have limitations that induction couplers do not.</li>
+        </ul>
+      </li>
+      <li><a href="#physics_background">Physics Background</a>
+        <ul>
+          <li>A brief introduction to the physics behind induction couplers.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#mission">Motivational Mission descriptionn</a> 
+    <ul>
+      <li>Small satellites using induction couplers can replicate a spacewalk in ways that no other technology can
+        <ul>
+          <li>Robotics offers opportunities, 
+  <!-- Emphasize positive. cit robonaut, be political. Offload astronauts from tasks.[spacewalks are expensive and dangerous] Possibly gravity reference --></li>
+          <li>Spacewalks are clearly valuable (Hubble, Space Station maintenance)</li>
+          <li>will lead later in the paper to a section about the different maneuvers</li>
+        </ul>
+      </li>
+      <li>Small satellites using induction couplers can do station keeping very close to the surface for visual inspection
+  <!--will lead to section about jacobian between -->
+  <!--link to papers about better machine vision --></li>
+    </ul>
+  </li>
+  <li><a href="#behavior">Induction Coupler Behavior</a>
+    <ul>
+      <li>Description of Inputs, outputs and dependencies
+ <!--  Possible maneuvers
+   Edge walking 
+   Safety repulsion-->
+<!-- todo: look at how sharp the edges/curves on the topology of the iss/satellites -->
+<!--todo: look at how bad of a situation you can recover from--></li>
+    </ul>
+  </li>
+  <li><a href="#jacobian">Actuator to Inspector Control Jacobian</a>
+    <ul>
+      <li>Dependence on local topology</li>
+      <li>Dependence on Inspector state</li>
+      <li>Dependence on inspector geometry</li>
+    </ul>
+  </li>
+  <li><a href="#conclusion">Conclusion</a>
+    <ul>
+      <li>Induction Couplers enable a new paradigm for on-orbit servicing</li>
+      <li>The ideas presented here scale well as induction coupler technology improves</li>
+    </ul>
+  </li>
+  <li><a href="#refereces">Bibliographyy</a></li>
+</ol>
+
+<h2 id="figures-and-pictures">Figures and Pictures</h2>
+<hr />
+
+<h2 id="terms">Terms</h2>
+<hr />
+<ul>
+  <li><a href="#dof">DoF</a></li>
+  <li><a href="#oos">OOS</a></li>
+  <li><a href="#iss">ISS</a></li>
+  <li><a href="#array">Magnet Array</a></li>
+</ul>
+
+<h3 id="a-name--purposeintroductiona"><a name="purpose">Introduction</a></h3>
+
+<!-- What is an induction coupler -->
+<p>An induction coupler uses magnetic eddy currents to create forces between itself and a conductive target. The coupler doesn’t require direct contact with a target or cooperation from the target. The coupler can also operate on electricity alone, rather than requiring fuel or propellant. If you note that most satellites are skinned in aluminum, this makes induction couplers the closest thing we have to science fiction’s tractor beam - a device that can produce contactless forces on an uncooperative target. </p>
+
+<p>Induction couplers could be particularly useful in space, for three major reasons. First, small forces can have large effects because they are not overwhelmed by gravity, friction, or drag. Second, objects designed for space tend to be fragile, so the ability to interact without potentially damaging direct contact is valuable. Third, propellant and fuel is at a premium in space so the ability to mutually maneuver without expendables can cut costs and extend the useable lifetime of a spacecraft.</p>
+
+<p>A small spacecraft could use an induction coupler to control its own dynamics relative to a much larger target like the international spacestation, crawling along the targets surface without ever touching like the underwater robots that now inspect pipelines and shipwrecks. Increased interest in on-orbit servicing <a name="oos"> </a> (OOS) provides compelling motivation for developing induction couplers. A small inspection vehicle will be primarily concerned with planar motion perpendicular to the surface of the target. This paper will present how this planar motion can be achieved by a small spacecraft equipped with induction couplers. </p>
+
+<h3 id="a-name--alttechalternative-technologies-a"><a name="alt_tech">Alternative Technologies </a></h3>
+<!-- Other technologies -->
+<!--### Contactless Actuatoion-->
+
+<p>There are other technologies that can produce contactless forces between a spacecraft and a target. Coulombic forces can mediate interactions between two charged spacecraft. <!--ref--> A number of different systems produce contactless forces with magnetic interactions between controlled dipoles on both the spacecraft and the target. <a href="#Natarajan2006">(Natarajan and Schaub; Schweighart, Sedwick, and Schweighart)</a><!-- ref utah, ref RINGS, ref colorado --> All of these systems require a subsystem on both the chaser and the target (that is, the target must be cooperative.) However, none of the possible targets currently in orbit meet these criteria. Laser tweezers can produce contactless forces on an uncooperative target. <a href="#Brzobohaty2013">(Brzobohatý, Karásek, and Šiler)</a>  However, the target must be smaller than a micrometer - a size restriction that few spacecraft targets currently in orbit can meet. The restrictions of current technology leaves direct contact as the only option to create forces between two spacecraft.</p>
+
+<!-- Other inspection vehicles 
+	SPHERES
+	AerCAM'
+	-->
+
+<h3 id="a-name--physicsbackgroundphysics-of-induction-couplers-a"><a name="physics_background">Physics of Induction Couplers </a></h3>
+
+<p>An induction coupler generates relative forces between itself and a target with eddy-current forces. These forces depend on a time-varying magnetic field that first induces a current in a conductive target and then produces a force on that current. </p>
+
+<p>In broad strokes, the generation of eddy-current forces is a straightforward manifestation of Maxwell’s equations. <a href="#Reinhardt2011">(Reinhardt and Peck)</a></p>
+
+<ol>
+  <li>Any material with non-infinite conductivity will experience a voltage gradient in response to a time-varying magnetic field. <!-- Maxwell equation --></li>
+  <li>The voltage difference drives a current through the material. This current tries to “cancel out” the change in the magnetic field. <!-- Link --></li>
+  <li>This induced current acts like a wire in a magnetic field, <!-- link --> and experiences a force.</li>
+</ol>
+
+<p>These steps give intuition for the physical process, but they are a gross oversimplification. The currents in the conductor depend on the geometry of the material, material properties, the direction and magnitude of the changes in the magnets in the induction coupler, and the relative velocity between the target and the induction coupler. The actual forces depend not just on the current, but on the magnetic field’s magnitude and direction. Compounding the difficulty is the unavoidable coupling between the magnetic field and the changes in the magnets. These interlocking dependencies make the forces very sensitive to the state of the system - induction actuators are a difficult nonlinear problem. </p>
+
+<p>Induction couplers can produce forces both tangential and perpendicular to the surface of a target . Therefore, a small spacecraft generating a time-varying magnetic field could produce forces in all three translational degrees of freedom. Extending that idea, two induction couplers separated by a moment arm could also produce torques to orient the spacecraft. </p>
+
+<p>There are two ways for an induction coupler to generate its changing magnetic fields and resultant forces. While both moving permanent magnets and variable electromagnets can generate those forces, each kind of magnet is especially good at producing different sorts of force. A single electromagnet with a sinusoidal driving current will always produce a repulsive force between itself and the target. Replicating that force with a permanent magnet would require either a closed-loop linear actuator or a complicated set of linkages. Similarly, a simple permanent magnet mounted on a motor shaft easily produces horizontal shear forces between itself and the target, a force that is hard to replicate with electromagnets. It isn’t yet clear which combination of permanent and electromagnets optimally generates 6-degree-of-freedom <a name="dof"> </a>(DOF) forces. There may not be an optimal configuration. Instead, the composition of the magnets in an induction coupler may depend on the mission profile - different for an inspection vehicle operating near the surface of a large target than a free-flier maneuvering near a smaller target. This exploration will focus primarily on the former. </p>
+
+<h3 id="a-name--mission-motivational-mission-a"><a name="mission"> Motivational Mission </a></h3>
+
+<p><img src="/pictures/2d_inspection/iss_inspector.jpg" width="200" height="200" /> </p>
+
+<p>A small inspection spacecraft can use induction couplers to crawl along the surface of a larger target spacecraft without physically grappling the target. The inspector can fulfill a number of functions including investigating problematic areas, scanning for damage, performing small tasks, or providing support for astronauts on space walks. This paper will focus on the International Space Sation <a name="iss"></a>(ISS), but a similar inspection spacecraft could enable unique OOS missions to inspect and repair other large satellites.</p>
+
+<p>The inspection spacecraft would use induction couplers to pull itself along the aluminum surface of the ISS, maintaining a separation distance of a few centimeters. From this vantage point, it could act like a damage-inspection roomba, canvassing the surface and automatically detecting damage from micrometeorite strikes. It could also be controlled directly by an astronaut in the space station to look at a problem area and possibly use an attached robotic arm to perform small actions. During spacewalks, the spacecraft could act like an extra pair of hands, remaining near an astronaut and holding tools. Robotnaut <!-- citation --> and the Canada Arm have demonstrated the value of this role, but are limited by rails to specific locations. </p>
+
+<p>The ability to span the exterior of the ISS without being constrained by rails or fuel supply can free up one of the most valuable resources on the ISS - astronaut time. </p>
+
+<h3 id="a-name--behavior-induction-coupler-behavior-a"><a name="behavior"> Induction Coupler Behavior </a></h3>
+
+<p>Spinning-magnet induction couplers consist of  <a name="array"> arrays </a> of one or more permanent magnets spinning on axes perpendicular to their dipole moment. The perpendicular orientation between the dipole moment and the spin axis maximizes the changes in the magnetic field as a motor spins the magnets. For consistency, these arrays are portrayed as a single dipole, but could consist of any number of magnets.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> <!-- TODO put in magnet picture --></p>
+<figure>
+<img src="https://docs.google.com/drawings/d/1XHJnncLGJkWnTkd02plwKgFV4Qtmm0zb3iikBr1uOlQ/pub?w=474&amp;h=263" />
+<figcaption> Diagram of Magnet Arrays with one dipole (left) and four dipoles (right)
+</figcaption>
+</figure>
+
+<p>The simplest induction-coupled system is a single array spinning on an axis perpendicular to a flat conductive surface. In this case, the coupler will produce a force perpendicular to <!-- the spin axis crossed with the surface --> \( \mathbf{\omega} \times \textbf{r} \).</p>
+<figure>
+<img src="https://docs.google.com/drawings/d/1uwVR5Mcwh1GAjPA3Dt0PBwJQVE0dzptc1hgQqLCV9Uc/pub?w=474&amp;h=263" />
+<figcaption> A dipole spinning clockwise above a target that extends out of the page will generate a force to the left.
+</figcaption>
+</figure>
+<!-- TODO put in video -->
+
+<p>Each array can only directly generate a force. The array can use this force to torque the spacecraft if it is located so there is a moment arm between the spacecraft’s center of mass and the array. Experimental demonstration of an induction coupler have shown that these forces vary with the magnitude and sign of \(\mathbf{\omega}\). <a href="../edge_walking/air_track_force_analysis.html">Preliminary results</a> show milliNewton shear forces perpendicular to a surface using small motors and permanent magnets. Two small motors<sup id="fnref:4"><a href="#fn:4" class="footnote">2</a></sup> driven by 12V at a 25% duty cycle while holding two neodymium permanent magnets have together generated 5 mN, or 2.5 mN apiece. Spinning at 4200 RPM, each motor drew 0.25 amps of current, dissipating 0.75 Watts of electrical power. This power consumption corresponds to a 3.33 mN/Watt force per power ratio. </p>
+
+<p><img src="https://docs.google.com/drawings/d/1IPDk7SiyBEATDIrY5CKoQ60U-1c37dVs9MlSfIGoZ74/pub?w=474&amp;h=263" /> 
+<strong>Picture of Experimental Setup: cart wth aluminum plate on left. The magnets on the right are rotating around axes pointed down.</strong></p>
+
+<!-- plot of force to demonstrate its magnitude -->
+
+<table class="image">
+<caption align="bottom">Force vs. motor speed for a small two-motor induction coupler</caption>
+<tr><td><iframe src="https://plot.ly/~bzreinhardt/0" width="600" height="500" seamless="seamless" scrolling="no" frameborder="0"></iframe></td></tr>
+</table>
+
+<p>The angular velocity of the array can control the force because the induced voltage scales with \(\left | v \times B \right | \) where \(v = \omega \times d\)<sup id="fnref:2"><a href="#fn:2" class="footnote">3</a></sup> is the relative velocity between the target conductor and the magnetic field.<sup id="fnref:3"><a href="#fn:3" class="footnote">4</a></sup></p>
+
+<p><a name="dependencies"></a>
+The force between the spinning array and the target also depends both on the system state, he design of the induction coupler, and the properties of the target. The forces decrease with \(\frac{1}{d^4}\). Larger magnets will increase the forces generated by the induction coupler for a given spin speed. Greater thickness and conductivity of the target both increase the induced current and scale the force. <a href="#Reinhardt2011">(Reinhardt and Peck)</a></p>
+
+<h3 id="references-and-links---"><!-- references and links --></h3>
+<hr />
+
+<h3 id="a-name--jacobiancontrol-jacobiana"><a name="jacobian">Control Jacobian</a></h3>
+
+<p>The rotational speed of each array controls the force between that array and the surface of the target. The sum of the forces from all the arrays and their resultant torques can be mapped through the linearized spacecraft dynamics to plan control inputs based on a desired maneuver. </p>
+
+<p><a name="assumptions"></a>This analysis assumes that the inspection spacecraft maintains a small constant distance from the surface.<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup> With an operating range of a few centemeters, the surface for most of the ISS will look to the inspection spacecraft like an infinite plane. The analysis assumes that the proposed inspection vehicle conforms to the cubesat standard so the mass of the entire system will not exceed m = 4 kg.<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup></p>
+
+<p><a name="magnum"></a> An induction coupler with only one or two spinning arrays can achieve planar motion, but it would not be holonomic - its ability to move in a desired direction would depend on its orientation. Three spinning arrays are needed to achieve three independent degrees of freedom. In implementation, more should be used for redundancy and greater control authority. As long as the arrays have sufficient separation, their forces will sum. These advantages will be a tradeoff with the additional power, weight, and number of moving parts introduced by the additional arrays.</p>
+
+<p>In the induction coupler each array is located at some radius, \(\textbf{r}\), from the spacecraft’s center of mass. Each array has a spin axis (\(\hat{\textbf{a}}\)) oriented parallel to the target surface at an angle \(\phi\) from the x-axis in spacecraft coordinates. </p>
+
+<figure>
+<img src="https://docs.google.com/drawings/d/1KdWXSclkymvUB7jrDnPewwD0Q3GvkfkN_5vG76apnZ8/pub?w=474&amp;h=263" />
+<figcaption> Diagram of a single array.
+</figcaption>
+</figure>
+
+<p>For N arrays, the transformation between the angular speeds of the arrays and the net force and torque on the spacecraft is:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+ \begin{bmatrix} F_x\\F_y\\\tau \end{bmatrix} = \begin{bmatrix} \cos{(\phi_1 -\pi/2)} & \cos{(\phi_2 -\pi/2)} & ... & \cos{(\phi_N -\pi/2)} \\
+\sin{(\phi_1 -\pi/2)} & \sin{(\phi_2 -\pi/2)} & ... & \sin{(\phi_N -\pi/2)} 
+\\\textbf{r}_1\cdot \hat{\textbf{a}}_1 & \textbf{r}_2 \cdot \hat{\textbf{a}}_2 & ... & \textbf{r}_N \cdot \hat{\textbf{a}}_N \end{bmatrix}
+\begin{bmatrix} \omega_1\\\omega_2\\...\\\omega_N \end{bmatrix} %]]></script>
+
+<p>The speed-force Jacobian imposes constraints on the design of the induction coupler. </p>
+
+<ul>
+  <li>\(\textbf{r}_i \cdot \hat{\textbf{a}}_i\) must be nonzero for at least one array, dictating that all of the spin axes cannot be perpendicular their moment arms, nor can all \(r_i\) be zero - some of the arrays cannot be at the spacecraft’s center of mass.</li>
+  <li>All of the axis angles cannot be in a line. This would cause all \(\phi_i\) to be integer multiples of \(\pi \) apart, and the Jacobian would not be full rank.</li>
+</ul>
+
+<p>For a sense of the maneuverability, take the specific case of an inspection vehicle equipped with an induction coupler consisting of three magnet arrays with \(\left | r \right | =0.1 \text{cm}\)</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\mathbf{\phi} = \begin{bmatrix} \frac{3\pi}{4}&\frac{pi}{2}&\frac{pi}{4}\end{bmatrix}  %]]></script>
+
+<p>and </p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+ \hat{\textbf{r}} = \begin{bmatrix} \frac{\sqrt{2}}{2} & 0 & -\frac{\sqrt{2}}{2} \\
+\frac{\sqrt{2}}{2} & 1 & \frac{\sqrt{2}}{2}\end{bmatrix}  %]]></script>
+
+<figure>
+<img src="https://docs.google.com/drawings/d/1NNcgmmLkylAJuXrgxlEbyjmNYzpxVGD_Ov-WgdYSUHI/pub?w=474&amp;h=263" />
+<figcaption> Example induction coupler architecture with three magnet arrays.
+</figcaption>
+</figure>
+
+<p>The Jacobian will be:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+ \begin{bmatrix} F_x\\F_y\\\tau \end{bmatrix} = \begin{bmatrix} \frac{\sqrt{2}}{2} & 1 & \frac{\sqrt{2}}{2} \\
+\frac{\sqrt{2}}{2} & 0  & -\frac{\sqrt{2}}{2}
+\\0  &  1 & 0 \end{bmatrix}
+\begin{bmatrix} \omega_1\\\omega_2\\\omega_3 \end{bmatrix} %]]></script>
+
+<p>This Jacobian ignores the constants scaling \(F_x\), \(F_y\), \(\tau\) <a href="behavior.html#dependencies">based on the system state and physical constants of the target.</a> </p>
+
+<p>In this configuration on a 4 kg spacecraft, an induction coupler can generate a linear acceleration of \(2* 10^{-3}\frac{m}{\text{s}^2} \) and an angular acceleration of \(9*10^{-3}\frac{\text{rad}}{s^2}\).<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup> These values, while modest, will allow an inspection vehicle to overcome perturbance forces and move slowly over the surface of the ISS. Recall also that these values are based on a small prototype and an induction coupler with only three magnet arrays. Additional arrays and optimized hardware are two straightforward ways to increase the capabilities of an induction-coupled spacecraft. 
+<!-- TODO what kind of analyses are really worthwhile ?--></p>
+
+<hr />
+
+<h3 id="a-name--conclusionconclusiona"><a name="conclusion">Conclusion</a></h3>
+
+<p>There are many paths for future induction coupler research. The frequency response of the system and its sensitivity to system state and environment are important to future designs. This analysis assumed planar motion - remaining in that plane is a challenge in itself, and ideally the inspection vehicle would have full 6-degree-of-freedom maneuverability. </p>
+
+<p>This paper presents a starting point for induction coupler technology. It describes <a href="physics">the physics</a> of spinning magnet arrays producing contactless forces and torques on any conductive target. <a href="behavior">Preliminary experiments verified and measured these forces</a>. <a href="jacobian">When coupled together, three or more arrays can produce 3 independent degrees of freedom in the plane above the target’s surface.</a>  </p>
+
+<p><a href="intro">This paper presents a completely new method for small-spacecraft mobility.</a>Induction couplers can generate forces between an inspection spacecraft and any conductive target using only electric power and without physical contact. This capability is especially valuable for <a href="mission">on-orbit servicing of valuable targets like the ISS.</a> </p>
+
+<h3 id="a-name--references-references-a"><a name="references"> References </a></h3>
+<hr />
+<ol class="bibliography"><li><span id="Brzobohaty2013">Brzobohatý, O, V Karásek, and M Šiler. “Experimental Demonstration of Optical Transport, Sorting And Self-Arrangement Using a/Tractor Beam/.’” <i>Nature \ldots</i> 7.February (2013): 123–128. Web. . &lt;http://www.nature.com/nphoton/journal/vaop/ncurrent/full/nphoton.2012.332.html &gt;</span></li>
+<li><span id="Natarajan2006">Natarajan, Arun, and Hanspeter Schaub. “Linear Dynamics And Stability Analysis of a Two-Craft Coulomb Tether Formation.” <i>Journal of Guidance, Control, and Dynamics</i> 29.4 (2006): 831–839. Web. . &lt;http://arc.aiaa.org/doi/abs/10.2514/1.16480&gt;</span></li>
+<li><span id="Reinhardt2011">Reinhardt, Benjamin, and Mason Peck. “Eddy-Current Space Tug.” <i>AIAA Space 2011 Conference And Exposition</i>. Long Beach, CA: AIAA, 2011. Web. . &lt;http://arc.aiaa.org/doi/abs/10.2514/6.2011-7168&gt;</span></li>
+<li><span id="Schweighart2005">Schweighart, Samuel A, Raymond J Sedwick, and Samuel Adam Schweighart. “ELECTROMAGNETIC FORMATION FLIGHT DIPOLE SOLUTION PLANNING E LECTROMAGNETIC F ORMATION F LIGHT by.” June (2005): n. pag. Print.</span></li></ol>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>As the number of magnets increases on an array of a given size, the magnetic field will necessarily become smoother, becoming uniform as the number of magnets goes to infinity. This smoothing decreases the change in the magnetic field as the magnets spin. The number of magnets per array is one of the many considerations in the design of an induction coupler. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Motor -  <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Where \(d\) is the separation between the conductor and the array <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>The direct scaling between force and \(\omega\) makes two assumptions: that \(\frac{1}{\omega\}) is much larger than the characteristic time of the inductor and that the relative velocity between the inspection spacecraft and the target is much smaller than the tangential velocity of the magnetic field seen by the target.  <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>This is not a trivial problem and deserves its own treatment. <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p><a href="http://browncubesat.org/wp-content/uploads/2013/01/Cubesat-Reqs.pdf">Cube Sat Requirements</a> <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>\(a = \frac{F}{m}\) . Assuming a spherical spacecraft with r = 0.1 m. \(I = \frac{2mr^2}{3}\). \(\alpha = \frac{\tau}{I}\)— <a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+  <p><a href="index.html">Back to hub for this section</a> </p>
+  
+  </article>
+<!-- Possible in line discussions 
+<link rel="stylesheet" type="text/css" href="/inlineDisqussions.css" />
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/inlineDisqussions.js"></script>
+    <script>
+      disqus_shortname = 'bzreinhardt';
+      jQuery(document).ready(function() {
+        jQuery("p:not('.highlighted, .narrow-p')").inlineDisqussions({
+          position: 'right'
+        });
+        jQuery("p.highlighted").inlineDisqussions({
+          identifier: 'disqussion-highlighted',
+          highlighted: true,
+        });
+jQuery("p").inlineDisqussions({
+  identifier: 'disqussion',
+  displayCount: true,
+  highlighted: false,
+  position: 'right',
+  background: 'white',
+  maxWidth: 9999
+});
+        
+      });
+    </script>
+  -->
+
+
+</div>
+
+      </div>
+    </div>
+
+    
+      <!-- Add Disqus comments. -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'bzreinhardt'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+    
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <h2 class="footer-heading">The Green Dragon</h2>
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>Contact</li>
+        <li><a href="mailto:bzreinhardt@gmail.com">bzreinhardt@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        <li>
+          <a href="https://github.com/bzreinhardt">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">bzreinhardt</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Ben_Reinhardt">
+            <span class="icon twitter">
+              <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill="#C2C2C2" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27
+                c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767
+                c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206
+                C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271
+                c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469
+                c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+              </svg>
+            </span>
+            <span class="username">Ben_Reinhardt</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">Ben Reinhardt on the Internet</p>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    </body>
+</html>
