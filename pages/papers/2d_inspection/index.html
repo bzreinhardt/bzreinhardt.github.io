@@ -307,7 +307,7 @@ The force between the spinning array and the target also depends both on the sys
 <p>The speed-force Jacobian imposes constraints on the design of the induction coupler. </p>
 
 <ul>
-  <li>\(\textbf{r}_i \cdot \hat{\textbf{a}}_i\) must be nonzero for at least one array, dictating that all of the spin axes cannot be perpendicular their moment arms, nor can all \(r_i\) be zero - some of the arrays cannot be at the spacecraft’s center of mass.</li>
+  <li>\(\textbf{r}_i \cdot \hat{\textbf{a}}_i\) must be nonzero for at least one array, dictating that not all of the spin axes can be perpendicular to their moment arms, nor can all \(r_i\) be zero - some of the arrays cannot be at the spacecraft’s center of mass.</li>
   <li>All of the axis angles cannot be in a line. This would cause all \(\phi_i\) to be integer multiples of \(\pi \) apart, and the Jacobian would not be full rank.</li>
 </ul>
 
@@ -338,7 +338,7 @@ The force between the spinning array and the target also depends both on the sys
 
 <p>This Jacobian ignores the constants scaling \(F_x\), \(F_y\), \(\tau\) <a href="behavior.html#dependencies">based on the system state and physical constants of the target.</a> </p>
 
-<p>In this configuration on a 4 kg spacecraft, an induction coupler can generate a linear acceleration of \(2* 10^{-3}\frac{m}{\text{s}^2} \) and an angular acceleration of \(9*10^{-3}\frac{\text{rad}}{s^2}\).<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup> These values, while modest, will allow an inspection vehicle to overcome perturbance forces and move slowly over the surface of the ISS. Recall also that these values are based on a small prototype and an induction coupler with only three magnet arrays. Additional arrays and optimized hardware are two straightforward ways to increase the capabilities of an induction-coupled spacecraft. 
+<p>In this configuration on a 4 kg spacecraft, an induction coupler can generate a linear acceleration of \(2\times 10^{-3}\frac{m}{\text{s}^2} \) and an angular acceleration of \(9\times10^{-3}\frac{\text{rad}}{s^2}\).<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup> These values, while modest, will allow an inspection vehicle to overcome perturbance forces and move slowly over the surface of the ISS. Recall also that these values are based on a small prototype and an induction coupler with only three magnet arrays. Additional arrays and optimized hardware are two straightforward ways to increase the capabilities of an induction-coupled spacecraft. 
 <!-- TODO what kind of analyses are really worthwhile ?--></p>
 
 <hr />
