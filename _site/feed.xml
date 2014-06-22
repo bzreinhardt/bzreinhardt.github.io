@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Green Dragon</title>
+    <description>Ben Reinhardt on the Internet</description>
+    <link>http://benjaminreinhardt.com/</link>
+    <atom:link href="http://benjaminreinhardt.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>The scientific process and the Internet</title>
+        <description>&lt;p&gt;I’m beginning a big project. This post will explain more, but for now, &lt;a href=&quot;/pages/edge_walking&quot;&gt;here’s my first shot at how the scientific process can leverage the unique capabilites of the internet.&lt;/a&gt; &lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 May 2014 00:00:00 -0700</pubDate>
+        <link>http://benjaminreinhardt.com/updates/edgewalking.html</link>
+        <guid isPermaLink="true">http://benjaminreinhardt.com/updates/edgewalking.html</guid>
+      </item>
+    
+      <item>
+        <title>Wordpress Blog</title>
+        <description>&lt;p&gt;You can find my old posts about many things on &lt;a href=&quot;http://benjaminreinhardt.wordpress.com&quot;&gt;Wordpress&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 May 2014 11:50:19 -0700</pubDate>
+        <link>http://benjaminreinhardt.com/updates/wordpress-blog.html</link>
+        <guid isPermaLink="true">http://benjaminreinhardt.com/updates/wordpress-blog.html</guid>
+      </item>
+    
+  </channel>
+</rss>
