@@ -33,6 +33,17 @@ Converting the cart's acceleration to the external forces on the cart[^3] and sy
 * Inward spinning magnets produce attractive (+X direction) forces. (Magnet 1 positive and Magnet 2 negative)
 * The forces on the cart have a maximum magnitude of 8 mN when the motor is at 25% of maximum voltage. 
 
+(Update 6/8/2014)
+__Conversion between PWM and motor speed__ [^4] The motor has a no load speed of 16800. The effective voltage is 
+
+$$ V_eff = V_0 \frac{\tau_0}{tau_c} $$ [^5] 
+
+where \\(\frac{\tau_0}{tau_c}\\) is the % on-time shown in the graph and \\(V_0\\) is the input voltage (12 V.)
+
+<a name = "specs"><a>
+In this case the maxiumum force occurs at a 25% duty cycle, which corresponds to 4200 RPM and 0.25 amps. At 3 V and 0.25 amps, the motor will dissipate 0.75 Watts of electrical power. The motor needs additional power to start and turn direction, but the amount of electrical power disappated is important to consider for space applications. The disappated power will leave the battery and turn into heat.
+
+
 __Future Things to Explore__
 
 * Functional relationship between maximum motor speed and force - does the force increase linearly with motor speed or does the increase in force with increased motor speed drop off above a certain speed? It could be expected to drop off for two reasons: 
@@ -56,3 +67,5 @@ The code for this analysis can be found [here][pos2Acc].
  [^1]:  The interpolation increased the sampling rate by five times to a 3 millisecond timestep.
  [^2]:  The filter's window size \\(w = 201 \\) frames - 0.3 seconds is still fast compared to the dynamics.
  [^3]: \\(F = ma\\) with m = 294.5 g
+ [^4]: Using a BaneBots RS540 Motor - 12V. It has a stall torque of 280 mN-m, so a force of 8 mN at a few centimeters is orders of magnitude below the stall torque. This means we can assume that it is effectively acting with at its no load RPM and current - 16800 RPM and one amp.
+ [^5]: http://web.cecs.pdx.edu/~gerry/class/EAS199A/topics/pdf/PWM_output_Arduino.pdf

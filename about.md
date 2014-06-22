@@ -5,8 +5,7 @@ permalink: /about/
 ---
 I'm Ben.
  
-Sometimes, I act like a Spacecraft engineer ... when it's necessary. 
-Other times, I act like a son, a friend, or a very large set of lungs. 
+[I like building things.][projects]
 
 [Here's my lab at cornell.][lab]
 
@@ -16,3 +15,4 @@ Everybody is busy, so to make scheduling a bit easier [here's my calendar.][cal]
 
 [lab]:http://www.spacecraftresearch.com/
 [cal]:/pages/calendar.html
+[projects]:/pages/makingThings.html
