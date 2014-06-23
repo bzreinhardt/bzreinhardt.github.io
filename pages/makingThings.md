@@ -8,35 +8,38 @@ Things in atomland
 ----------------------------
 A small-scale tractor beam (serious name: induction coupler) for spacecraft. [Video 1][vid1] [Video 2][vid2] 
 
-A two-story Trojan Horse:
+#### A two-story Trojan Horse:
 
-<a href="/pictures/Trojan-Horse/IMG_7077.JPG"><img src="/pictures/Trojan-Horse/IMG_7077.JPG" width="200" data-rotate="90" alt = "Two Story Trojan Horse"></a> 
+<img src="/pictures/Trojan-Horse/IMG_7077.JPG" width="200" data-rotate="90" alt = "Two Story Trojan Horse">
 
+[Big Picture][bighorse]
 [(and what goes up must come down)][downhorse]
 
 
-Ice climbing wall. In Pasadena. In May:
+#### Ice climbing wall. In Pasadena. In May:
 
-<a href="/pictures/Ditch-Day/IMG_0214.JPG"><img src="/pictures/Ditch-Day/IMG_0214.JPG" width="200" data-rotate="90" alt = "Ice Wall"></a> 
+<img src="/pictures/Ditch-Day/IMG_0214.JPG" width="200" data-rotate="90" alt = "Ice Wall">
 
-Magically collapsing wall to the tunnels of Mt. Doom. [Video][MtDoom]
+[Big Picture][bigwall]
 
-Aquatic Robots [Video][waterbots]
+#### Magically collapsing wall to the tunnels of Mt. Doom. 
+[Video][MtDoom]
 
-Trebuchets: 
+####Aquatic Robots 
+[Video][waterbots]
 
-<a href="/pictures/Trebuchet/n1403850022_30006516_1142.jpg"><img src="/pictures/Trebuchet/n1403850022_30006516_1142.jpg" width="200" alt = "Trebuchet"></a> 
+####Trebuchets: 
 
-[Video][trebvid]
+<img src="/pictures/Trebuchet/n1403850022_30006516_1142.jpg" width="200" alt = "Trebuchet"> 
+
+[Big Picture][bigtreb] or [Video][trebvid]
 
 
-[Costumes][costumepage]
+####[Costumes][costumepage]
 
-[Bows and Arrows from scratch][bowpage]
+####[Bows and Arrows from scratch][bowpage]
 
-Gymanstics Rings 
-
-A standing desk
+#### Gymanstics Rings 
 
 
 Things in bitland
@@ -47,6 +50,9 @@ Discussions of many things - mostly space, robots, history, and technology. [Blo
 
 This website and [the website for my research group.][lab]
 
+[bigtreb]:/pictures/Trebuchet/n1403850022_30006516_1142.jpg
+[bigwall]:/pictures/Ditch-Day/IMG_0214.JPG
+[bighorse]:/pictures/Trojan-Horse/IMG_7077.JPG
 [blog]:www.benjaminreinhardt.wordpress.com
 [github]:github.com/bzreinhardt
 [lab]:spacecraftresearch.com
