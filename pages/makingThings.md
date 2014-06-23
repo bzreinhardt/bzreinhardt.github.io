@@ -6,7 +6,8 @@ I've made a lot of things. Some have been successful. Some less so. All have tau
 
 Things in atomland
 ----------------------------
-A small-scale tractor beam (serious name: induction coupler) for spacecraft. [Video 1][vid1] [Video 2][vid2] 
+
+#### A small-scale tractor beam (serious name: induction coupler) for spacecraft. [Video 1][vid1] [Video 2][vid2] 
 
 #### A two-story Trojan Horse:
 
@@ -22,11 +23,9 @@ A small-scale tractor beam (serious name: induction coupler) for spacecraft. [Vi
 
 [Big Picture][bigwall]
 
-#### Magically collapsing wall to the tunnels of Mt. Doom. 
-[Video][MtDoom]
+#### Magically collapsing wall to the tunnels of Mt. Doom. [Video][MtDoom]
 
-####Aquatic Robots 
-[Video][waterbots]
+####Aquatic Robots [Video][waterbots]
 
 ####Trebuchets: 
 
@@ -50,6 +49,9 @@ Discussions of many things - mostly space, robots, history, and technology. [Blo
 
 This website and [the website for my research group.][lab]
 
+[Varied research papers and presentations][papers]
+
+
 [bigtreb]:/pictures/Trebuchet/n1403850022_30006516_1142.jpg
 [bigwall]:/pictures/Ditch-Day/IMG_0214.JPG
 [bighorse]:/pictures/Trojan-Horse/IMG_7077.JPG
@@ -64,6 +66,7 @@ This website and [the website for my research group.][lab]
 [trebvid]: https://www.youtube.com/watch?v=ScBBxa8Eg0s
 [costumepage]:/pictures/Costumes
 [bowpage]:/pictures/Archery
+[papers]:/pages/papers
 
 
 
