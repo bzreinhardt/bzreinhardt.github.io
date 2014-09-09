@@ -1,18 +1,30 @@
 ---
 layout: page
 ---
-[How to use spinning-magnet induction couplers to control an on-orbit servicing spacecraft][2dInspect] (To be presented at SmallSat 2014)
 
-[AIAA Space 2011 Conference paper about the physics of induction couplers and using them in spacecraft.][space2011]
+Conference Papers
+***
+A New Actuator for On-Orbit Inspection.
+Benjamin Reinhardt and Mason Peck.
+SmallSat 2014. August 2014. [Link][2dInspect][PDF][smallsat2014.pdf]
 
-[AIAA GNC 2012 Conference paper about how you can't use a single magnet to pull on a plate without system dynamics.][GNC2012]
+Development of an Eddy-Current Actuator Test Bed.
+Benjamin Z. Reinhardt, Mason A. Peck, and Brandon Hencey
+AIAA Guidance, Navigation, and Control Conference. January 2014. [Link][scitech2014][PDF][SciTech_Paper.pdf]
 
-[AIAA SciTech 2014 Conference paper about building a spacecraft test bed from commercial, off-the-shelf parts.][scitech2014]
+Characterization of Eddy Currents for Space Actuation.
+Benjamin Reinhardt, Brandon Hencey, and Mason Peck
+AIAA/AAS Astrodynamics Specialist Conference. August 2012. [Link][GNC2012]
 
-[A web-first science (make it for the web before you make it for a piece of paper) writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
+Eddy-Current Space Tug.
+Benjamin Reinhardt and Mason Peck.
+AIAA SPACE 2011 Conference & Exposition. September 2011. [Link][space2011]
+***
+
+A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
 
 [space2011]:http://arc.aiaa.org/doi/abs/10.2514/6.2011-7168
 [GNC2012]:http://arc.aiaa.org/doi/abs/10.2514/6.2012-4868
 [scitech2014]:http://arc.aiaa.org/doi/abs/10.2514/6.2014-0273
 [edgewalking]:/pages/edge_walking/
-[2dInspect]:/pages/papers/2d_inspection/all_pages.html
+[2dInspect]:http://digitalcommons.usu.edu/smallsat/2014/Poster/1/

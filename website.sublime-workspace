@@ -85,6 +85,14 @@
 				"buffer_size": 8,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "pages/papers/index.md",
+			"settings":
+			{
+				"buffer_size": 968,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
@@ -258,7 +266,6 @@
 	"groups":
 	[
 		{
-			"selected": 8,
 			"sheets":
 			[
 				{
@@ -327,8 +334,8 @@
 						"selection":
 						[
 							[
-								5587,
-								5587
+								17215,
+								17252
 							]
 						],
 						"settings":
@@ -337,7 +344,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1304.0,
+						"translation.y": 3759.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -492,6 +499,32 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pages/papers/index.md",
+					"settings":
+					{
+						"buffer_size": 968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
