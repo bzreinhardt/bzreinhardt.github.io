@@ -3,7 +3,7 @@ layout: page
 ---
 
 Conference Papers
-##
+-----
 
 A New Actuator for On-Orbit Inspection.
 Benjamin Reinhardt and Mason Peck.
@@ -22,7 +22,7 @@ Benjamin Reinhardt and Mason Peck.
 AIAA SPACE 2011 Conference & Exposition. September 2011. [Link][space2011]
 
 Experiments
-##
+-----
 
 A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
 
