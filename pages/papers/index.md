@@ -3,7 +3,8 @@ layout: page
 ---
 
 Conference Papers
-***
+##
+
 A New Actuator for On-Orbit Inspection.
 Benjamin Reinhardt and Mason Peck.
 SmallSat 2014. August 2014. [Link][2dInspect][PDF][smallsat2014.pdf]
@@ -19,7 +20,9 @@ AIAA/AAS Astrodynamics Specialist Conference. August 2012. [Link][GNC2012]
 Eddy-Current Space Tug.
 Benjamin Reinhardt and Mason Peck.
 AIAA SPACE 2011 Conference & Exposition. September 2011. [Link][space2011]
-***
+
+Experiments
+##
 
 A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
 
