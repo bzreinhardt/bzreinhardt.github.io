@@ -7,11 +7,11 @@ Conference Papers
 
 A New Actuator for On-Orbit Inspection.
 Benjamin Reinhardt and Mason Peck.
-SmallSat 2014. August 2014. [Link][2dInspect][PDF][./smallsat2014.pdf]
+SmallSat 2014. August 2014. [Link][2dInspect][PDF](./smallsat2014.pdf)
 
 Development of an Eddy-Current Actuator Test Bed.
 Benjamin Z. Reinhardt, Mason A. Peck, and Brandon Hencey
-AIAA Guidance, Navigation, and Control Conference. January 2014. [Link][scitech2014][PDF][./SciTech_Paper.pdf]
+AIAA Guidance, Navigation, and Control Conference. January 2014. [Link][scitech2014][PDF](./SciTech_Paper.pdf)
 
 Characterization of Eddy Currents for Space Actuation.
 Benjamin Reinhardt, Brandon Hencey, and Mason Peck
