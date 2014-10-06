@@ -12,38 +12,6 @@
 	"buffers":
 	[
 		{
-			"file": "_plugins",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 840,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "pages/papers/2d_inspection/all_pages.md",
-			"settings":
-			{
-				"buffer_size": 21170,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "pages/papers/2d_inspection/physics_background.md",
-			"settings":
-			{
-				"buffer_size": 3307,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "pages/papers/2d_inspection/index.md",
 			"settings":
 			{
@@ -90,7 +58,7 @@
 			"file": "pages/papers/index.md",
 			"settings":
 			{
-				"buffer_size": 968,
+				"buffer_size": 1203,
 				"line_ending": "Unix"
 			}
 		}
@@ -147,6 +115,10 @@
 	},
 	"file_history":
 	[
+		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/physics_background.md",
+		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/all_pages.md",
+		"/Users/Zaaron/Projects/Website/_config.yml",
+		"/Users/Zaaron/Projects/Website/_plugins",
 		"/Users/Zaaron/Projects/Website/pages/makingThings.md",
 		"/Users/Zaaron/Projects/Website/pictures/Archery/index.md",
 		"/Users/Zaaron/Projects/Website/pages/papers/index.md",
@@ -160,7 +132,6 @@
 		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/alt_tech_background.md",
 		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/ext_abstract.md",
 		"/Users/Zaaron/Projects/Website/pages/essays/investing_in_atoms_vs_bits.md",
-		"/Users/Zaaron/Projects/Website/_plugins",
 		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/bibliography.bib",
 		"/Users/Zaaron/Projects/Website/_site/pages/papers/2d_inspection/bibliography.bib",
 		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/bibliography.md",
@@ -186,7 +157,6 @@
 		"/Users/Zaaron/Projects/Website/pages/test.md",
 		"/Users/Zaaron/Projects/Website/pages/edge_walking.md",
 		"/Users/Zaaron/Projects/Website/pages/edge_walking/air_track_data_acquisition.markdown",
-		"/Users/Zaaron/Projects/Website/_config.yml",
 		"/Users/Zaaron/Projects/Website/_includes/comments.html",
 		"/Users/Zaaron/Projects/Website/about.md",
 		"/Users/Zaaron/Projects/Website/_posts/air_track_force_analysis.markdown",
@@ -266,117 +236,11 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_plugins",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_config.yml",
-					"settings":
-					{
-						"buffer_size": 840,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/papers/2d_inspection/all_pages.md",
-					"settings":
-					{
-						"buffer_size": 21170,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17215,
-								17252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3759.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "pages/papers/2d_inspection/physics_background.md",
-					"settings":
-					{
-						"buffer_size": 3307,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3303,
-								3303
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 193.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "pages/papers/2d_inspection/index.md",
 					"settings":
 					{
@@ -403,7 +267,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 1,
 					"file": "pages/papers/2d_inspection/paper_bib.md",
 					"settings":
 					{
@@ -429,7 +293,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 2,
 					"file": "about.md",
 					"settings":
 					{
@@ -455,7 +319,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 3,
 					"file": "_site/pictures/Costumes/index.md",
 					"settings":
 					{
@@ -481,7 +345,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 4,
 					"file": ".gitignore",
 					"settings":
 					{
@@ -507,19 +371,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 5,
 					"file": "pages/papers/index.md",
 					"settings":
 					{
-						"buffer_size": 968,
+						"buffer_size": 1203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								168,
+								168
 							]
 						],
 						"settings":
