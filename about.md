@@ -18,4 +18,4 @@ Everybody is busy, so to make scheduling a bit easier [here's my calendar.][cal]
 [lab]:http://www.spacecraftresearch.com/
 [cal]:/pages/calendar.html
 [projects]:/pages/makingThings.html
-[resume]:/pages/resume_2014.pdf
+[resume]:/pages/bzr_resume.pdf
