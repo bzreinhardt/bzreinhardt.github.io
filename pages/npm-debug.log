@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'markdown-live' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'markdown-live', null ]
+5 verbose cache add name=undefined spec="markdown-live" args=["markdown-live",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'markdown-live',
+6 verbose parsed url   path: 'markdown-live',
+6 verbose parsed url   href: 'markdown-live' }
+7 silly lockFile 09926559-markdown-live markdown-live
+8 verbose lock markdown-live /Users/Zaaron/.npm/09926559-markdown-live.lock
+9 silly lockFile 09926559-markdown-live markdown-live
+10 silly lockFile 09926559-markdown-live markdown-live
+11 verbose addNamed [ 'markdown-live', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 259078cc-markdown-live markdown-live@
+14 verbose lock markdown-live@ /Users/Zaaron/.npm/259078cc-markdown-live.lock
+15 silly addNameRange { name: 'markdown-live', range: '*', hasData: false }
+16 verbose request where is /markdown-live
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ca9a067599141374
+19 verbose url raw /markdown-live
+20 verbose url resolving [ 'https://registry.npmjs.org/', './markdown-live' ]
+21 verbose url resolved https://registry.npmjs.org/markdown-live
+22 verbose request where is https://registry.npmjs.org/markdown-live
+23 info trying registry request attempt 1 at 23:14:42
+24 http GET https://registry.npmjs.org/markdown-live
+25 http 200 https://registry.npmjs.org/markdown-live
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Mon, 02 Feb 2015 04:14:42 GMT',
+26 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+26 silly registry.get     etag: '"CALQ7PC37NZGI902TPUED7TDP"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '12906',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1422850482.847518,VS0,VE90',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'markdown-live', range: '*', hasData: true }
+28 silly addNameRange versions [ 'markdown-live',
+28 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.8' ] ]
+29 verbose addNamed [ 'markdown-live', '1.0.8' ]
+30 verbose addNamed [ '1.0.8', '1.0.8' ]
+31 silly lockFile 151fd7db-markdown-live-1-0-8 markdown-live@1.0.8
+32 verbose lock markdown-live@1.0.8 /Users/Zaaron/.npm/151fd7db-markdown-live-1-0-8.lock
+33 silly lockFile a60991b8-own-live-markdown-live-1-0-8-tgz https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz
+34 verbose lock https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz /Users/Zaaron/.npm/a60991b8-own-live-markdown-live-1-0-8-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz',
+35 verbose addRemoteTarball   'f88a8bd9a06c194a9601f0c76a220b128665a730' ]
+36 info retry fetch attempt 1 at 23:14:43
+37 verbose fetch to= /var/folders/dw/w03h5r8s3jl4pc35sbn2bspm0000gn/T/npm-3739-Ugl7BiCO/registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz
+38 http GET https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz
+39 http 200 https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz
+40 silly lockFile a60991b8-own-live-markdown-live-1-0-8-tgz https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz
+41 silly lockFile a60991b8-own-live-markdown-live-1-0-8-tgz https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz
+42 silly lockFile 151fd7db-markdown-live-1-0-8 markdown-live@1.0.8
+43 silly lockFile 151fd7db-markdown-live-1-0-8 markdown-live@1.0.8
+44 silly lockFile 259078cc-markdown-live markdown-live@
+45 silly lockFile 259078cc-markdown-live markdown-live@
+46 silly resolved [ { name: 'markdown-live',
+46 silly resolved     version: '1.0.8',
+46 silly resolved     description: 'Markdown preview with live update.',
+46 silly resolved     main: 'app.js',
+46 silly resolved     author: { name: 'Marcin Dziewulski', email: 'hello@mobily.pl' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     dependencies:
+46 silly resolved      { express: '^4.10.4',
+46 silly resolved        filewatcher: '^2.0.1',
+46 silly resolved        hamljs: '^0.6.2',
+46 silly resolved        marked: '^0.3.2',
+46 silly resolved        minimist: '^1.1.0',
+46 silly resolved        open: '0.0.5',
+46 silly resolved        'socket.io': '^1.2.1',
+46 silly resolved        watch: '^0.13.0' },
+46 silly resolved     devDependencies: {},
+46 silly resolved     bin: { mdlive: 'bin/mdlive' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'https://github.com/mobily/markdown-live.git' },
+46 silly resolved     keywords: [ 'markdown', 'live', 'preview' ],
+46 silly resolved     bugs: { url: 'https://github.com/mobily/markdown-live/issues' },
+46 silly resolved     homepage: 'https://github.com/mobily/markdown-live',
+46 silly resolved     gitHead: 'b13556fe0152a9cb04c163b276d841cc1840221c',
+46 silly resolved     _id: 'markdown-live@1.0.8',
+46 silly resolved     scripts: {},
+46 silly resolved     _shasum: 'f88a8bd9a06c194a9601f0c76a220b128665a730',
+46 silly resolved     _from: 'markdown-live@',
+46 silly resolved     _npmVersion: '2.1.11',
+46 silly resolved     _nodeVersion: '0.10.33',
+46 silly resolved     _npmUser: { name: 'mobily', email: 'hello@mobily.pl' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'f88a8bd9a06c194a9601f0c76a220b128665a730',
+46 silly resolved        tarball: 'http://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/markdown-live/-/markdown-live-1.0.8.tgz' } ]
+47 info install markdown-live@1.0.8 into /usr/local/lib
+48 info installOne markdown-live@1.0.8
+49 verbose lib/node_modules/markdown-live unbuild
+50 verbose tar unpack /Users/Zaaron/.npm/markdown-live/1.0.8/package.tgz
+51 silly lockFile 4c1909c6-l-lib-node-modules-markdown-live tar:///usr/local/lib/node_modules/markdown-live
+52 verbose lock tar:///usr/local/lib/node_modules/markdown-live /Users/Zaaron/.npm/4c1909c6-l-lib-node-modules-markdown-live.lock
+53 silly lockFile f1ec5766--markdown-live-1-0-8-package-tgz tar:///Users/Zaaron/.npm/markdown-live/1.0.8/package.tgz
+54 verbose lock tar:///Users/Zaaron/.npm/markdown-live/1.0.8/package.tgz /Users/Zaaron/.npm/f1ec5766--markdown-live-1-0-8-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/markdown-live'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/markdown-live']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/markdown-live',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/markdown-live',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.4.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "markdown-live"
+60 error cwd /Users/Zaaron/Projects/Website/pages
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/markdown-live
+64 error fstream_path /usr/local/lib/node_modules/markdown-live
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/markdown-live'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

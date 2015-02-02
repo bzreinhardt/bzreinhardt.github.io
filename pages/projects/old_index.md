@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: old_projects_pages
 ---
 I've made a lot of things. Some have been successful. Some less so. 
 

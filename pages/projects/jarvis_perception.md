@@ -27,9 +27,9 @@ How to Use
 First make sure all dependencies have been installed and a vicon (or other localization system) is broadcasting the pose of the kinect. 
 
 Run
-...
-roslaunch perception.launch
-...
+
+	roslaunch perception.launch
+
 
 This will open an RVIZ window, ensure the kinect localization is running, and open a slew of nodes. Most of them are associated with Openni_launch and openni_tracker.
 
