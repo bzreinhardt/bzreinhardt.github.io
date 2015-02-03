@@ -1,9 +1,20 @@
 ---
 layout: page
+title: Papers
 ---
+
+Journal Papers
+-----
+(In Review) A New Electromagnetic Actuator for On-Orbit Inspection.
+Benjamin Reinhardt and Mason Peck.
+Journal of Guidance, Control, and Dynamics
 
 Conference Papers
 -----
+
+A New Actuator for On-Orbit Inspection
+Benjamin Reinhardt and Mason Peck
+(To Appear) ICRA 2015. 
 
 A New Actuator for On-Orbit Inspection.
 Benjamin Reinhardt and Mason Peck.
@@ -21,7 +32,7 @@ Eddy-Current Space Tug.
 Benjamin Reinhardt and Mason Peck.
 AIAA SPACE 2011 Conference & Exposition. September 2011. [Link][space2011]
 
-Experiments
+Experimental Papers
 -----
 
 A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
