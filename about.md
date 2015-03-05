@@ -3,19 +3,24 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm Ben.
+I'm a PhD student working on [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History. 
+
+Life should be more [epic](http://en.wikipedia.org/wiki/Clarke%27s_three_laws). 
  
-[I like building things.][projects]
+ALL THE INFORMATION:
 
-[Here's my lab at cornell.][lab]
+[Resume][resume]
 
-[My Resume][resume]
+[Calendar][cal]
 
-My contact information is at the bottom of the page. I like hearing other people's ideas.
+Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-Everybody is busy, so to make scheduling a bit easier [here's my calendar.][cal]
+[LinkedIn](http://linkedin.com/in/benjaminzreinhardt)
+
 
 [lab]:http://www.spacecraftresearch.com/
 [cal]:/pages/calendar.html
 [projects]:/projects
 [resume]:/pages/bzr_resume.pdf
+[tractor]: https://www.youtube.com/watch?v=Y-FXqIcmVHc
+[beams]: https://www.youtube.com/watch?v=8lF_H1IqPiU

@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Projects
+permalink: /projects/
 ---
 
-#### A small-scale tractor beam (serious name: induction coupler) for spacecraft. [Video 1][vid1] [Video 2][vid2] 
+#### [Robotic Grasp Detection](jarvis_perception.html)
 
-#### A two-story Trojan Horse:
+#### The Trojan Horse:
 
 <img src="/pictures/Trojan-Horse/IMG_7077.JPG" width="200" data-rotate="90" alt = "Two Story Trojan Horse">
 
@@ -13,7 +14,7 @@ title: Projects
 [(and what goes up must come down)][downhorse]
 
 
-#### Ice climbing wall. In Pasadena. In May:
+#### A climbing wall. Made of Ice. In Pasadena. In May:
 
 <img src="/pictures/Ditch-Day/IMG_0214.JPG" width="200" data-rotate="90" alt = "Ice Wall">
 
@@ -32,14 +33,13 @@ title: Projects
 
 ####[Costumes][costumepage]
 
-####[Bows and Arrows from scratch][bowpage]
+####[Bows][bowpage]
 
-#### Gymanstics Rings 
+#### Writing about pace, robots, history, and technology. [Wordpress Blog][blog]
 
+#### Research tools for extracting data from videos and simulating inductive forces. [Github][github]
 
-#### Space, robots, history, and technology. [Wordpress Blog][blog]
-
-#### Researchy things like extracting data from videos and simulating inductive forces. [Github][github]
+#### Contactless manipulators for orbital robotics. [Video](https://www.youtube.com/watch?v=GGLYvqLYbmo)
 
 
 [bigtreb]:/pictures/Trebuchet/n1403850022_30006516_1142.jpg
@@ -57,6 +57,7 @@ title: Projects
 [costumepage]:/pictures/Costumes
 [bowpage]:/pictures/Archery
 [papers]:/pages/papers
+
 
 
 

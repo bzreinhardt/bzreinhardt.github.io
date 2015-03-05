@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+permalink: /research/
 ---
 
 Journal Papers
@@ -9,12 +10,18 @@ Journal Papers
 Benjamin Reinhardt and Mason Peck.
 Journal of Guidance, Control, and Dynamics
 
+(Submitted) Co-Generation of Design and Control for Dynamical Systems.
+Benjamin Reinhardt, Ross Knepper, and Mason Peck. [Link](/research/controller_creation.pdf)
+
+A mechanochemical model for auto-regulation of lung airway surface layer volume. [Link][Lung]
+
+
 Conference Papers
 -----
 
 A New Actuator for On-Orbit Inspection
 Benjamin Reinhardt and Mason Peck
-(To Appear) ICRA 2015. 
+(To Appear) ICRA 2015. [Link][ICRA]
 
 A New Actuator for On-Orbit Inspection.
 Benjamin Reinhardt and Mason Peck.
@@ -42,3 +49,5 @@ A web-first science (make it for the web before you make it for a piece of paper
 [scitech2014]:http://arc.aiaa.org/doi/abs/10.2514/6.2014-0273
 [edgewalking]:/pages/edge_walking/
 [2dInspect]:http://digitalcommons.usu.edu/smallsat/2014/Poster/1/
+[Lung]:http://www.sciencedirect.com/science/article/pii/S0022519313000489
+[ICRA]:root.pdf
