@@ -5,7 +5,7 @@ permalink: /about/
 ---
 I'm a PhD student working on [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History. 
 
-Life should be more [epic](http://en.wikipedia.org/wiki/Clarke%27s_three_laws). 
+*Longer bio coming eventually.*
  
 ALL THE INFORMATION:
 
