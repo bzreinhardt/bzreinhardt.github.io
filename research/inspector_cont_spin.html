@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+  </head>
+  <body>
+<div id="slider"></div>
+    <script type="text/javascript">
+
+var main_chart_svg = d3.select("body")
+        .append("svg")
+        .attr({
+            "width":800,
+            "height":1000
+        });
+
+var speed;
+d3.slider().on("slide", function(evt, value) {
+  d3.select('#slider3text').text(value);
+})
+
+
+d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(documentFragment,error) {
+        if (error) {console.log(error); return;}
+    
+        var svgNode = documentFragment
+                    .getElementsByTagName("svg")[0];
+    
+        main_chart_svg.node().appendChild(svgNode);
+
+        var magnet1 = d3.select('#magnet');
+        //magnet.style("fill","blue");
+var magnet2 = d3.select('#magnet-41')
+
+
+var mag_center_x1  = +magnet1.attr("x")+ +magnet1.attr("width")/2;
+var mag_center_y1  = +magnet1.attr("y")+ +magnet1.attr("height")/2;
+
+var mag_center_x2  = +magnet2.attr("x")+ +magnet2.attr("width")/2;
+var mag_center_y2  = +magnet2.attr("y")+ +magnet2.attr("height")/2;
+var t0 = Date.now();
+var speed = 20;
+var start = Date.now();
+d3.timer(function() {
+    var angle = (Date.now() - start) * .3,
+        rotate = function(d,i) {
+            return "rotate(" + speed*angle / 80 + ","+mag_center_x1.toString()+ " , " +mag_center_y1.toString()+ ")";
+        };
+    magnet2.attr("transform", rotate);
+    magnet1.attr("transform", rotate);
+
+});
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
