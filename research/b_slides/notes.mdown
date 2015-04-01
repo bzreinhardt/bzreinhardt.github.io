@@ -1,3 +1,86 @@
+On-Orbit Servicing
+Valuable but hard. Four main tasks: inspect, repair, repurpose, remove.
+Aercam - propellant using inspector. Phoenix - mechanical grappler based repurpose
+
+Contactless Actuation
+Four other options (Clockwise from upper left)
+EMFF - electromagnets
+Flux Pinning - permanent magnets and superconductors
+Lasers - potential wells
+Coulomb Tethers - static electricity
+Everything but lasers requires compliant systems. Lasers too small
+
+EC Force Applications
+trash separation 
+active damping and braking
+Mag lev - recent kickstarter
+
+Modeling Eddy-current forces
+Critical for design, path planning, control
+Hard, many specialized ways to do it
+
+Governing equations
+Start with maxwell
+Changing magnetic field causes an electric field
+Changing electric field also causes a magnetic field
+No magnetic monopoles, so the currents have to form a loop
+Current loops depend on conductive material
+Magnetic vector potential
+Solve for the vector potential from the electric field (see how tangled this is?)
+Combine all of the above to get a magnetic potential propigation - form of 3d heat equation
+Assuming A, use Maxwell's Stress Tensor to find Force (big assumption)
+
+Dynamic Solution
+How do you find A in a useful way? Decouple surface and magnetic field.
+Paudel Bird solution - take spatial fourier transform of the field, 
+Gamma depends on the surface
+B depends only on magnet
+Needs to be generalized further when a can be in any orientation
+Deal with in 3 ways:
+full solution for Fz (slow)
+splines (less slow)
+fit (fast)
+
+Generating Eddy-Current Forces
+Goal: verify force model for spacecraft actuation and compare to other options
+
+Air Track Experiments
+Setup in uppder right. From above. Magnet on either side of v shaped plate. Forces tangential to surface. Constrained to 1d motion
+Video from the side - controlled by hand
+
+Air Track Experiments: Results
+Motor speeds: dashed lines
+Force on cart: red line
+increase at top due to filtering error
+
+Contactless Actuator Comparisons
+Specific force - force per watt
+Eddy currents dominate other options
+
+Linear and nonlinear behavior
+From the model:
+At low speeds, normal force ~0 and tangential force ~linear
+Notice increase in normal force at high range - this matters a lot 
+
+Planar Inspection
+Zoom out from characterizing forces to applications.
+Major Contributions
+
+Goal: Control across flat surface
+Assume constrained to plane 
+Layout - notice needing axes that aren't parallel to get torque control. Could do it with two actuators, three to be fully actuated.
+
+Coupler-Augmented Dynamics
+Abstract each coupler to an actuator rigidly attached at some distance from CoM. Notice that the design assumes some sort of arms. 
+This model assumes nice dynamics and a linear map between inputs and forces to get a handle on the world 
+
+Inspector Simulation
+TODO: add labels to plot 
+position,heading,control - all using real values and saturating at 1000 rad/s
+
+Inspection path
+follows follows 7 waypoints with lqr gains 
+
 inspection control
 Main thought: controller can constrain to a reasonable path using real values 
 TODO: make a diagram of the swath that it can cover for results
@@ -99,8 +182,37 @@ Mutli-Primative Trajectory: Phases
 4 - translate in y
 5 - reorient about z
 
+Multi-Primitive Trajectory: Results 1
+Phase 1: initial input spike to push in z direction, then turn on feedback control. Note the increase in x position.
+Phase 2: long roll reorientation, note coupling between y and roll
+
+Multi-Primitive Trajectory: Results 2 
+phase 3: x repositioning
+phase 4: y translation 
+phase 5: very tiny increase in yaw, but important to keep the couplers aligned correctly 
+
 Probabilistic Design and control
 Raises the question - is the hand designed approach best?
 Intuition is hard. New tools enable automatic robust-ish control
 
+Target systems
+Multi query - don't know exact trajectory profile at design time
+High dimensional - inspector state has at least 12 dimensions: many techniques that work at lower dimensions fail
+Complex Dynamics - actuator saturation means a lot of controllability analysis fails, nonlinearities mean you can't just put a global controller on, state-dependent control means that not all states are equal
 
+Algorithm
+While loop until convergnce conditions
+1 - create a design: can be done randomly, genetic algorithms
+2 - create a bunch of lqr blobs and then add them and their level sets to the controller:this is how the inspector can stabalize itself. Note that 
+3 - connect all unconnected nodes - this is how you know how to plan paths and which controlers to use
+4 - check the total volume of the lqr blobs: proxy for controllable volume
+
+Algorithm: Output Example
+L 2d projections of 12 d stable regions
+R connection roadmap between different nodes. Bold line is path between them.
+
+Algorithm-Human Comparison
+Note the emergent performance of the straight down leg. Possibly suggests 4 actuators is unecessary. 
+
+Algorithm-Baseline Comparison
+Convergence towards optimal pend
