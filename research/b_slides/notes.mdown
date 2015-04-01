@@ -1,0 +1,106 @@
+inspection control
+Main thought: controller can constrain to a reasonable path using real values 
+TODO: make a diagram of the swath that it can cover for results
+
+detumbling
+Main thought:
+
+rotation sensing
+Main thought:
+magnet can detect target spin speed through torque on shaft. Important because tumbling often unknown.
+TODO - equation?
+
+lyapunov stability
+Main thought:
+A magnet-tumbling object system is stable in the sense of lyapunov
+conditions:
+-way to hold magnet still
+-break magnet symmetry with at least three magnets
+
+Todo?: equation?
+
+Active Detumbling
+Main thought:
+Magnet can speed up detumbling by spinning contrary to target motion. Use info from 1 and 2.
+Todo?: equation?
+Todo?: should detumbling go before 2d inspection? more logical flow from inspection--> primitives
+
+Motion Primitives
+Main thought:
+Need different control laws for different configurations and different movements
+
+Planar vs. Out-of-Plane Motion
+Main thought: 
+Very different requirements for moving in a plane vs. out of the plane
+
+The Four Motion Primitives 
+Main thought:
+There are four motion primitives: 
+-Planar Translation
+-Planar rotation
+-oop translation
+-oop rotation
+Composing them can yield 6-DOF motion control
+
+Planar Motion:
+Main thought:
+Conceptually easier: similar to differential drive. Magnet axes parallel to plane. 
+
+Planar Experiment Setup
+Main thought: 
+Note magnet axes parallel to plane
+
+Planar Translation: Simulation
+Main Thought:
+goal is to have rotation-free translation
+forward and backward - larger force than experiments because speed is higher
+y force and torque are due to the plates meshing
+simulations are to give viewer a sense of the primitive's essence
+
+Planar Translation: experiment
+Plate and inspector in lower right corner. 
+
+Planar Rotation: Simulation
+Goal is to have translation-free rotation
+
+Planar rotation: experiment
+Rotate right and then left. 
+Drift is due to coupler asymmetry 
+
+Out-of-Plane Motion
+TODO make link to original force slide
+Takes advantage of tangential forces to control dynamics about axes parallel to the surface
+
+Oop experiment setup. 
+Two couplers w/ axes parallel to curve. Curve matches ISS.
+
+OOP Translation: Simulation
+Note that the force vectors from each coupler are along the surface.
+Danger: if you spin too fast, the vectors separate from the surface
+
+Out-of-Plane Translation: experiment
+Screams for closed loop control
+
+OOP rotation: simulation
+Even in a perfect environment there is inevitable coupling between the rotation and translation
+
+Zone of Safety:
+The oop experiments show that you can get too close - velocity prevents you from creating enough force to return
+And too far - velocity prevents you from ever producing enough force to get back 
+Allowed: 'jump' from one target to the other.
+
+Multi-Primative Trajectory: Setup
+Need 6 static couplers so that it can still control out-of-plane motion oncerotation happened
+
+Mutli-Primative Trajectory: Phases
+1 - translate in +z
+2 - rotate about x
+3 - translate in x
+4 - translate in y
+5 - reorient about z
+
+Probabilistic Design and control
+Raises the question - is the hand designed approach best?
+Intuition is hard. New tools enable automatic robust-ish control
+
+
