@@ -7,3 +7,9 @@ _site.**/**/*
 _site.*/*
 _site.*/*/*
 **/*.swp
+research/b_slides/node_modules/*
+research/b_slides/node_modules/**
+research/b_slides/node_modules/
+research/b_slides/node_modules/
+research/b_slides/node_modules/**/**/*
+research/b_slides/node_modules/**/**/**/*

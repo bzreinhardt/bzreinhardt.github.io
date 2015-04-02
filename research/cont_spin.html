@@ -48,7 +48,7 @@ svg {
   <body>
     <div>
     <p>Speed</p>
-<input id="speed" type="range" min="0" max="100" step="1" value="20"/>
+<input id="volume" type="range" min="0" max="100" step="1" value="20"/>
 </div>
 <div id="inspector">
     </div>
@@ -61,8 +61,6 @@ var margin = {top:30,right:10,bottom:30,left:10}
   , barHeight = 20
   , spacing = 3
   , percent = d3.format('%')
-  , g = 0.02;
-  , speed = 0;
 
 
 
@@ -75,28 +73,21 @@ var main_chart_svg = d3.select("body")
         })
         .attr("viewBox","0 0 " + width + " "+ (height+100));
 
+var speed = 20;
 
-
+document.getElementById('volume').addEventListener('change', function() {
+      speed = this.value;
+  });
 
 
 function f_x(speed) {
-    
+    var g = 0.02;
     return (((-5.6219*Math.pow(10,-08)*Math.pow(speed,3))
     +6.2003*Math.pow(10,-6)*Math.pow(speed,2)
     +76.0622*speed)
     *6.2003*Math.pow(10,-6)*Math.exp(-44.1463*g));
 };
-
-
-function f_y(speed) {
-    return (((5.811*Math.pow(10,-09)*Math.pow(speed,4))
-        -2.2676*Math.pow(10,-8)*Math.pow(speed,3)
-    -1.8637*Math.pow(speed,2)
-    +0.29795*speed)
-    *-33.8115*Math.exp(38.9901*g-21.8594));
-} 
-
- 
+ console.log(f_x(2000));
 
 d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(documentFragment,error) {
         if (error) {console.log(error); return;}
@@ -118,25 +109,6 @@ d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(
     var mag_center_x2  = +magnet2.attr("x")+ +magnet2.attr("width")/2;
     var mag_center_y2  = +magnet2.attr("y")+ +magnet2.attr("height")/2;
 
-
-
-    //adjust force vector based on speed
-    document.getElementById('speed').addEventListener('change', function() {
-      speed = this.value;
-      console.log(f_x(speed));
-     console.log(f_y(speed));
-
-     //draw force vectors
-    var x_1 = d3.scale.linear().range([mag_center_x1, mag_center_x1+100*f_x(speed)]),
-        y_1 = d3.scale.linear().range([mag_center_x1, mag_center_y1+100*f_y(speed)]);
-    var f1 = d3.svg.line()
-        .x(function(d) {return x_1(d.x); })
-        .y(function(d) {return y_1(d.y); })
-
-  });
-
-
-
     //initialize spinning
     var t0 = Date.now();
     var start = Date.now();
@@ -153,13 +125,14 @@ d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(
     var radius = 550;
     main_chart_svg.append("circle")
                         .attr("cx",mag_center_x1 + 670).attr("cy",body.attr("y")).attr("r",radius).attr("fill","grey");
-                        
 
 
 });
 
 
 
+//fy = (5.811e-09.*u.^4+-2.2676e-08.*u.^3+-1.8637...
+  //  .*u.^2+0.29795.*u).*-33.8115.*exp(-38.9901.*g+-21.8594);
 
 
 
