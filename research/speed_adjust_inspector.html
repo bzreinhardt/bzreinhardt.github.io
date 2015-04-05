@@ -48,11 +48,11 @@ svg {
   <body>
     <div>
     <p>Speed</p>
-<input id="speed" type="range" min="0" max="100" step="1" value="20"/>
+<input id="speed" type="range" min="0" max="100" step="1" value="0"/>
 </div>
 <div id="inspector">
     </div>
-
+  </body>
 
     <script type="text/javascript">
 var margin = {top:30,right:10,bottom:30,left:10}
@@ -61,7 +61,7 @@ var margin = {top:30,right:10,bottom:30,left:10}
   , barHeight = 20
   , spacing = 3
   , percent = d3.format('%')
-  , g = 0.02;
+  , g = 0.02
   , speed = 0;
 
 
@@ -169,5 +169,5 @@ d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(
 
 
     </script>
-  </body>
+
 </html>
