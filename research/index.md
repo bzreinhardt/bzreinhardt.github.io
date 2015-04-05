@@ -4,11 +4,19 @@ title: Research
 permalink: /research/
 ---
 
+Explorations
+-----
+(Interactive Force Visualization)(speed_adjust_inspector.html)
+
+A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
+
+[B-Exam Slides][slides]
+
 Journal Papers
 -----
 (In Review) A New Electromagnetic Actuator for On-Orbit Inspection.
 Benjamin Reinhardt and Mason Peck.
-Journal of Guidance, Control, and Dynamics
+Journal of Spacecraft and Rockets
 
 (Submitted) Co-Generation of Design and Control for Dynamical Systems.
 Benjamin Reinhardt, Ross Knepper, and Mason Peck. [Link](/research/controller_creation.pdf)
@@ -39,10 +47,6 @@ Eddy-Current Space Tug.
 Benjamin Reinhardt and Mason Peck.
 AIAA SPACE 2011 Conference & Exposition. September 2011. [Link][space2011]
 
-Experimental Papers
------
-
-A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
 
 [space2011]:http://arc.aiaa.org/doi/abs/10.2514/6.2011-7168
 [GNC2012]:http://arc.aiaa.org/doi/abs/10.2514/6.2012-4868
@@ -51,3 +55,4 @@ A web-first science (make it for the web before you make it for a piece of paper
 [2dInspect]:http://digitalcommons.usu.edu/smallsat/2014/Poster/1/
 [Lung]:http://www.sciencedirect.com/science/article/pii/S0022519313000489
 [ICRA]:root.pdf
+[slides]:http://calm-fortress-9671.herokuapp.com

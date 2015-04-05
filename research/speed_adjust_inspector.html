@@ -55,6 +55,10 @@ svg {
   </body>
 
     <script type="text/javascript">
+    /* TODO
+    initially rotate vectors to be parallel to surface
+    show force
+    */
 var margin = {top:30,right:10,bottom:30,left:10}
   , width = 1000
   , height = 1200 // placeholder
@@ -62,7 +66,8 @@ var margin = {top:30,right:10,bottom:30,left:10}
   , spacing = 3
   , percent = d3.format('%')
   , g = 0.02
-  , speed = 0;
+  , speed = 0
+  , speedscale = 10000;
 
 
 
@@ -95,10 +100,32 @@ function f_y(speed) {
     +0.29795*speed)
     *-33.8115*Math.exp(38.9901*g-21.8594));
 } 
+//rotate a vector by angle in degrees
+function rotate_vector(id,ang){
+  var c = document.getElementById(id).getPointAtLength(0);
+  var v = d3.select("#"+id);
+  rotate = "rotate"+"("+(-1*ang)+","+c.x + "," + c.y +")";
+  v.attr("transform",rotate);
+  //matrix(a,b,c,d,e,f) ==> [a c e; b d f; 0 0 1]
+  //var matrix = "("+Math.cos(ang)+ ","+ -Math.sin(ang)+"," + Math.sin(ang) +"," + Math.cos(ang) + "," 
+  //                  + (-c.x*Math.cos(ang)+c.y*Math.sin(ang)+c.x) + ","
+  //                  + (-c.x*Math.sin(ang) - c.y*Math.cos(ang) + c.y) +")";
+  //    console.log(matrix); 
+  //f1.setAttribute("transform","matrix"+matrix)
+}
+//scale a path vector with id string id
+function set_length(id,len){
+  var c = document.getElementById(id).getPointAtLength(0);
+  var l = document.getElementById(id).getTotalLength();
+  var end = document.getElementById(id).getPointAtLength(l);
+  if (len == 0){len = 0.001;}
+  d3.select("#"+id).attr("d", "m " + c.x + "," +c.y +" " + (len*(end.x-c.x)/l)+","+(len*(end.y-c.y)/l));
+
+}
 
  
 
-d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(documentFragment,error) {
+d3.xml("http://benjaminreinhardt.com/pictures/svgs/oop_inspector_base_w_force.svg", function(documentFragment,error) {
         if (error) {console.log(error); return;}
     
     var svgNode = documentFragment
@@ -110,6 +137,9 @@ d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(
     var magnet1 = d3.select('#magnet');
     var magnet2 = d3.select('#magnet-41')
     var body = d3.select("#body");
+    set_length("f1",speed);
+    set_length("f2",speed);
+    
 
     //variables holding the centers of the magnets
     var mag_center_x1  = +magnet1.attr("x")+ +magnet1.attr("width")/2;
@@ -125,14 +155,19 @@ d3.xml("http://benjaminreinhardt.com/pictures/oop_inspector_base.svg", function(
       speed = this.value;
       console.log(f_x(speed));
      console.log(f_y(speed));
-
+     
      //draw force vectors
+    set_length("f1",2*speed);
+    set_length("f2",2*speed);
+    rotate_vector("f1",Math.atan2(-3*f_y(speedscale*speed),f_x(speedscale*speed)));
+    rotate_vector("f2",Math.atan2(3*f_y(speedscale*speed),f_x(speedscale*speed)));
+    /*
     var x_1 = d3.scale.linear().range([mag_center_x1, mag_center_x1+100*f_x(speed)]),
         y_1 = d3.scale.linear().range([mag_center_x1, mag_center_y1+100*f_y(speed)]);
     var f1 = d3.svg.line()
         .x(function(d) {return x_1(d.x); })
         .y(function(d) {return y_1(d.y); })
-
+*/
   });
 
 
