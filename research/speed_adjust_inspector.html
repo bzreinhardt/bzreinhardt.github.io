@@ -67,7 +67,7 @@ var margin = {top:30,right:10,bottom:30,left:10}
   , percent = d3.format('%')
   , g = 0.02
   , speed = 0
-  , speedscale = 10000;
+  , speedscale = 30;
 
 
 
@@ -159,8 +159,9 @@ d3.xml("http://benjaminreinhardt.com/pictures/svgs/oop_inspector_base_w_force.sv
      //draw force vectors
     set_length("f1",2*speed);
     set_length("f2",2*speed);
-    rotate_vector("f1",Math.atan2(-3*f_y(speedscale*speed),f_x(speedscale*speed)));
-    rotate_vector("f2",Math.atan2(3*f_y(speedscale*speed),f_x(speedscale*speed)));
+    rotate_vector("f1",180/3.14159*Math.atan2(-f_y(speedscale*speed),f_x(speedscale*speed)));
+    rotate_vector("f2",180/3.14159*Math.atan2(f_y(speedscale*speed),f_x(speedscale*speed)));
+    
     /*
     var x_1 = d3.scale.linear().range([mag_center_x1, mag_center_x1+100*f_x(speed)]),
         y_1 = d3.scale.linear().range([mag_center_x1, mag_center_y1+100*f_y(speed)]);
@@ -179,11 +180,11 @@ d3.xml("http://benjaminreinhardt.com/pictures/svgs/oop_inspector_base_w_force.sv
     //make the thing spin
     d3.timer(function() {
         var angle = (Date.now() - start) * .3,
-            rotate = function(d,i) {
-                return "rotate(" + speed*angle / 80 + ","+mag_center_x1.toString()+ " , " +mag_center_y1.toString()+ ")";
+            rotate = function(spd) {
+                return "rotate(" + spd*angle / 80 + ","+mag_center_x1.toString()+ " , " +mag_center_y1.toString()+ ")";
             };
-    magnet2.attr("transform", rotate);
-    magnet1.attr("transform", rotate);
+      magnet2.attr("transform", rotate(-speed));
+      magnet1.attr("transform", rotate(speed));
     });
     var radius = 550;
     main_chart_svg.append("circle")
