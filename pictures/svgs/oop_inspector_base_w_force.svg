@@ -64,6 +64,20 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path16074-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
   </defs>
   <metadata
      id="metadata8217">
@@ -138,12 +152,16 @@
   </g>
   <path
      style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-     d="m 465.97609,708.8087 -137.82392,0"
-     id="f2"
-     inkscape:connector-curvature="0" />
+     d="M 438.55311,53.437103 347.13693,156.58029"
+     id="f1"
+     inkscape:connector-curvature="0"
+     inkscape:transform-center-x="46.70809"
+     inkscape:transform-center-y="52.571594" />
   <path
      style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-     d="m 443.00543,53.441925 -137.82392,0"
-     id="f1"
-     inkscape:connector-curvature="0" />
+     d="M 468.55561,711.62625 377.13943,608.48306"
+     id="f2"
+     inkscape:connector-curvature="0"
+     inkscape:transform-center-x="46.70809"
+     inkscape:transform-center-y="-52.571594" />
 </svg>
