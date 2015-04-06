@@ -6,7 +6,7 @@ permalink: /research/
 
 Explorations
 -----
-(Interactive Force Visualization)(speed_adjust_inspector.html)
+[Interactive Force Visualization](speed_adjust_inspector.html)
 
 A web-first science (make it for the web before you make it for a piece of paper.) [A writeup of spinning magnet induction coupler experiments and analysis.][edgewalking]
 
