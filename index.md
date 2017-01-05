@@ -8,7 +8,7 @@ layout: default
 -- Robert A. Heinlein
 <br>
 <br>
-I want to make us Smarter, Faster, Stronger, Higher. Currently, I'm a PhD student working on [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History. 
+I want to make us Smarter, Faster, Stronger, Higher. Currently, I [teach computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History. 
 <br>
 <br>
 Life should be more [epic](http://tvtropes.org/pmwiki/pmwiki.php/Main/ClarkesThirdLaw). 
@@ -35,3 +35,5 @@ Life should be more [epic](http://tvtropes.org/pmwiki/pmwiki.php/Main/ClarkesThi
 [resume]:/pages/bzr_resume.pdf
 [tractor]: https://www.youtube.com/watch?v=Y-FXqIcmVHc
 [beams]: https://www.youtube.com/watch?v=8lF_H1IqPiU
+[magicleap]: http://www.magicleap.com
+[deeplearning]:https://en.wikipedia.org/wiki/Deep_learning
