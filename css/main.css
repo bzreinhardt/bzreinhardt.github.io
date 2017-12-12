@@ -121,7 +121,7 @@ a:visited { color: #205caa; }
   letter-spacing: -.3px;
   color: #828282;
 }
-
+.rotatified {transform: rotate(180deg);}
 .github-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
