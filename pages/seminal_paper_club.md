@@ -3,6 +3,8 @@ title: Seminal Paper Club
 layout: page
 ---
 
+Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
+
 12/30/2017 - [ON COMPUTABLE NUMBERS, WITH AN APPLICATION TO THE ENTSCHEIDUNGSPROBLEM By Turing](https://www.dropbox.com/s/e2qrcz0snqerr3r/Turing_Paper_1936.pdf?dl=0)
 
 12/23/2017 - [Marie Curie Radiation Paper](https://www.dropbox.com/sh/wvfptcwo0puajsx/AABLxrkf5uNJDhdGTVSJ0_oQa?dl=0)
@@ -52,5 +54,4 @@ layout: page
 
 6/24/2017 - [Shannon’s Mathematical Theory of Communication](https://www.dropbox.com/s/tcsp3dwhmltop21/entropy.pdf?dl=0)
 
-Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
 
