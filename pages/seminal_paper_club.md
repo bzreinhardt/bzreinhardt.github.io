@@ -5,6 +5,10 @@ layout: page
 
 Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
 
+1/13/2018 - [On the Relationshipbetween the Second Fundamental Theorem of the MechanicalTheory of Heat and Probability Calculations Regarding theConditions for Thermal Equilibrium](https://www.dropbox.com/s/tfcf6xi5pabqn0k/entropy-17-01971.pdf?dl=0)
+
+1/7/2018 - [Economic Possibilities for Our Grandchildren](https://www.dropbox.com/s/ijt067yn8wnjvsy/Economic%20Possibilities%20for%20Our%20Grandchildren.pdf?dl=0)
+
 12/30/2017 - [ON COMPUTABLE NUMBERS, WITH AN APPLICATION TO THE ENTSCHEIDUNGSPROBLEM By Turing](https://www.dropbox.com/s/e2qrcz0snqerr3r/Turing_Paper_1936.pdf?dl=0)
 
 12/23/2017 - [Marie Curie Radiation Paper](https://www.dropbox.com/sh/wvfptcwo0puajsx/AABLxrkf5uNJDhdGTVSJ0_oQa?dl=0)
