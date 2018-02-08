@@ -4,105 +4,352 @@
 		"selected_items":
 		[
 			[
-				"stepp",
-				"stepper2"
+				"audio",
+				"audio_key"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"getSE",
+				"getSelectionText"
+			],
+			[
+				"current_",
+				"current_topic_id"
+			],
+			[
+				"current",
+				"current_topic_id"
+			],
+			[
+				"next",
+				"nextSibling"
+			],
+			[
+				"curren",
+				"current_topic_id"
+			],
+			[
+				"pop",
+				"popOverSettings"
+			],
+			[
+				"pause",
+				"pauseAllAudio"
+			],
+			[
+				"FILE",
+				"FILE_NAME"
+			],
+			[
+				"IBM",
+				"IBM_PASSWORD"
+			],
+			[
+				"piece",
+				"piece_name"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"lat",
+				"latitutde"
+			],
+			[
+				"piec",
+				"piece_name"
+			],
+			[
+				"art",
+				"artist_name"
+			],
+			[
+				"db_",
+				"db_descriptors"
+			],
+			[
+				"quer",
+				"query_descriptors"
+			],
+			[
+				"fil",
+				"file_list"
+			],
+			[
+				"pre",
+				"precisions"
+			],
+			[
+				"sstabe",
+				"sstable_lmdb"
+			],
+			[
+				"total_reca",
+				"total_recall_emb"
+			],
+			[
+				"total_mis",
+				"total_misclass_emb"
+			],
+			[
+				"total_rec",
+				"total_recall_emb"
+			],
+			[
+				"top_nn",
+				"top_nn_pb"
+			],
+			[
+				"p_im",
+				"p_imgs_out"
+			],
+			[
+				"rig0",
+				"rig0_T_rig"
+			],
+			[
+				"W_T",
+				"w_T_rig0"
+			],
+			[
+				"deser",
+				"deserialize_slam_proto"
+			],
+			[
+				"matched_",
+				"matched_imu_pin"
+			],
+			[
+				"posed_i",
+				"posed_img_pin"
+			],
+			[
+				"camer",
+				"camera_pin"
+			],
+			[
+				"vico",
+				"vicon_head_pin"
+			],
+			[
+				"assocai",
+				"associate_imgs_poses"
+			],
+			[
+				"helme",
+				"helmet_id_num"
+			],
+			[
+				"recor",
+				"recording_file"
+			],
+			[
+				"send_",
+				"send_query_to_server"
+			],
+			[
+				"send",
+				"send_anchor_to_server"
+			],
+			[
+				"AN",
+				"ANCHOR_BUFFER_SIZE"
+			],
+			[
+				"active",
+				"active_index"
+			],
+			[
+				"query",
+				"query_map"
+			],
+			[
+				"anchor",
+				"anchor_point"
+			],
+			[
+				"keyf",
+				"keyframe_list"
+			],
+			[
+				"loca",
+				"localization"
+			],
+			[
+				"save",
+				"save_index"
+			],
+			[
+				"posed",
+				"posed_images"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"local",
+				"localizer"
+			],
+			[
+				"ri",
+				"rigframe_pb2"
+			],
+			[
+				"camera_m",
+				"camera_map_file"
+			],
+			[
+				"camera",
+				"camera_map_file"
+			],
+			[
+				"find",
+				"find_relative_pose"
+			],
+			[
+				"keyfr",
+				"keyframe"
+			],
+			[
+				"bad",
+				"bad_matches"
+			],
+			[
+				"third",
+				"thirdeye_root"
+			],
+			[
+				"out_",
+				"out_of_ball_percent"
+			],
+			[
+				"pose",
+				"pose_ball"
+			],
+			[
+				"dat_p",
+				"dat_p"
+			],
+			[
+				"delta",
+				"delta_poses"
+			],
+			[
+				"rela",
+				"relative_pose_matrix"
+			],
+			[
+				"tum",
+				"tum_file"
+			],
+			[
+				"load",
+				"load_lmdb"
+			],
+			[
+				"Local",
+				"LocalizationServerConfig"
+			],
+			[
+				"keyframe",
+				"keyframe_list"
+			],
+			[
+				"Par",
+				"ParseFromString"
+			],
+			[
+				"serial",
+				"serial_proto"
+			],
+			[
+				"SLAM",
+				"SLAMData"
+			],
+			[
+				"cmap",
+				"cmaplist"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "pages/papers/2d_inspection/index.md",
+			"file": "/Users/Zaaron/Code/Fern/website/index.html",
 			"settings":
 			{
-				"buffer_size": 21186,
+				"buffer_size": 3101,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "pages/papers/2d_inspection/paper_bib.md",
+			"file": "/Users/Zaaron/Code/Fern/website/css/main.css",
 			"settings":
 			{
-				"buffer_size": 77,
+				"buffer_size": 6461,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "about.md",
+			"file": "/Users/Zaaron/Code/Fern/website/README.md",
 			"settings":
 			{
-				"buffer_size": 464,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "_site/pictures/Costumes/index.md",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 8,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "pages/papers/index.md",
-			"settings":
-			{
-				"buffer_size": 1203,
+				"buffer_size": 134,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 307.0,
+		"last_filter": "html",
 		"selected_items":
 		[
 			[
-				"pack",
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"syntax: mark",
-				"Set Syntax: Markdown"
-			],
-			[
-				"syntax: H",
-				"Set Syntax: HTML"
-			],
-			[
-				"syntax",
-				"Set Syntax: Markdown"
-			],
-			[
-				"Package Control: ",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: dis",
-				"Package Control: Disable Package"
+				"package co",
+				"Package Control: Install Package"
 			],
 			[
-				"Package Control: Ins",
-				"Package Control: Install Package"
+				"package",
+				"Preferences: Browse Packages"
 			]
 		],
-		"width": 575.0
+		"width": 467.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 139.0,
+		"history":
+		[
+			"rsub .gitignore",
+			"rsub ~/Dev/ThirdEye/.gitingore",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -113,112 +360,163 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/Zaaron/Code/Fern/website",
+		"/Users/Zaaron/Code/Fern/website/css"
+	],
 	"file_history":
 	[
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/physics_background.md",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/all_pages.md",
-		"/Users/Zaaron/Projects/Website/_config.yml",
-		"/Users/Zaaron/Projects/Website/_plugins",
-		"/Users/Zaaron/Projects/Website/pages/makingThings.md",
-		"/Users/Zaaron/Projects/Website/pictures/Archery/index.md",
-		"/Users/Zaaron/Projects/Website/pages/papers/index.md",
-		"/Users/Zaaron/Projects/Website/_site/pictures/Archery/le-bow.JPG",
-		"/Users/Zaaron/Projects/Website/_site/pictures/Archery/index.md",
-		"/Users/Zaaron/Projects/Website/_site/pages/papers/index.md",
-		"/Users/Zaaron/Projects/Website/pictures/Costumes/index.md",
-		"/Users/Zaaron/Projects/Website/Gemfile",
-		"/Users/Zaaron/Projects/Website/_site/pictures/Costumes/index.md",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/behavior.md",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/alt_tech_background.md",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/ext_abstract.md",
-		"/Users/Zaaron/Projects/Website/pages/essays/investing_in_atoms_vs_bits.md",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/bibliography.bib",
-		"/Users/Zaaron/Projects/Website/_site/pages/papers/2d_inspection/bibliography.bib",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/bibliography.md",
-		"/Users/Zaaron/Projects/Website/pages/documentation/air_track_setup",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/bibliography.html",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/bibliography.tex",
-		"/Users/Zaaron/Projects/Website/_includes/head.html",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/mission_description.md",
-		"/Users/Zaaron/Projects/Website/pages/edge_walking/index.md",
-		"/Users/Zaaron/Projects/Website/pages/things_that_are_harder_than_they_should_be.md",
-		"/Users/Zaaron/Projects/Website/_layouts/math_post.html",
-		"/Users/Zaaron/Projects/Website/pages/edge_walking/air_track_force_analysis.markdown",
-		"/Users/Zaaron/Projects/Website/pages/edge_walking/air_track_image_analysis.markdown",
-		"/Users/Zaaron/Projects/Website/pages/documentation/index.md",
-		"/Users/Zaaron/Projects/Website/_includes/plot_img.html",
-		"/Users/Zaaron/Projects/Website/_includes/image.html",
-		"/Users/Zaaron/Projects/Website/_layouts/default.html",
-		"/Users/Zaaron/Projects/Website/_includes/to_hub.md",
-		"/Users/Zaaron/Projects/Website/_layouts/page.html",
-		"/Users/Zaaron/Projects/Website/_includes/sidebar.html",
-		"/Users/Zaaron/Projects/Website/pages/papers/2d_inspection/2d_inspection_abstract.md",
-		"/Users/Zaaron/Projects/Website/css/main.css",
-		"/Users/Zaaron/Projects/Website/pages/test.md",
-		"/Users/Zaaron/Projects/Website/pages/edge_walking.md",
-		"/Users/Zaaron/Projects/Website/pages/edge_walking/air_track_data_acquisition.markdown",
-		"/Users/Zaaron/Projects/Website/_includes/comments.html",
-		"/Users/Zaaron/Projects/Website/about.md",
-		"/Users/Zaaron/Projects/Website/_posts/air_track_force_analysis.markdown",
-		"/Users/Zaaron/Projects/Website/_posts/air_track_image_analysis.markdown",
-		"/Users/Zaaron/Projects/Website/_posts/2014-05-26-edgewalking.md",
-		"/Users/Zaaron/Projects/Website/_drafts/air_track_data_acquisition.md",
-		"/Users/Zaaron/Projects/Website/_drafts/air_track_force_analysis.md",
-		"/Users/Zaaron/Projects/Website/_drafts/air_track_image_analysis.md",
-		"/Users/Zaaron/Projects/Website/_layouts/comments.html",
-		"/Users/Zaaron/Projects/Website/_drafts/air_track_data_synching.md",
-		"/Users/Zaaron/Projects/Website/_drafts/video_data_image_analysis.md",
-		"/Users/Zaaron/Projects/Website/_drafts/smallSat_intro.md",
-		"/Users/Zaaron/Projects/Website/_drafts/ECs_and_OOS.md",
-		"/Users/Zaaron/Projects/Website/_drafts/movement_modes.md",
-		"/Users/Zaaron/Projects/Website/_drafts/terms.md",
-		"/Users/Zaaron/Projects/Website/_data/test_bibliography.bib",
-		"/Users/Zaaron/Projects/Website/_page_drafts/4D_thesis_intro.md",
-		"/Users/Zaaron/Projects/Website/_posts/2014-05-10-welcome-to-jekyll.markdown",
-		"/Users/Zaaron/Projects/Website/index.html",
-		"/Users/Zaaron/Projects/Website/_concerning_bens/calendar.md",
-		"/Users/Zaaron/Projects/Website/Pages/makingThings.md",
-		"/Users/Zaaron/Projects/Website/_concerning_bens/quriks_of_bens/working_with_ben.md",
-		"/Users/Zaaron/Projects/Website/_includes/footer.html",
-		"/Users/Zaaron/Projects/Website/Pages/calendar.md",
-		"/Users/Zaaron/Projects/Website/_includes/header.html",
-		"/Users/Zaaron/Projects/Website/CNAME",
-		"/Users/Zaaron/Projects/Website/.gitignore",
-		"/Users/Zaaron/School/Experiments/Spinning mag exp 5 11/Data/setup.txt",
-		"/Users/Zaaron/School/Experiments/Spinning mag exp 5 11/Data/spinning mag repulsion motor data",
-		"/Users/Zaaron/Projects/Website/_concerning_bens/working_with_ben.md",
-		"/Users/Zaaron/Projects/Website/index.md"
+		"/Users/Zaaron/Code/bzreinhardt.github.io/_config.yml",
+		"/Users/Zaaron/Code/Fern/evoke/index.html",
+		"/Users/Zaaron/Code/Fern/evoke/README.md",
+		"/Users/Zaaron/Code/Fern/evoke/img/logo.svg",
+		"/Users/Zaaron/Code/beautiful-jekyll/_includes/nav.html",
+		"/Users/Zaaron/Code/beautiful-jekyll/_config.yml",
+		"/Users/Zaaron/Code/beautiful-jekyll/index.md",
+		"/Users/Zaaron/Code/beautiful-jekyll/about.md",
+		"/Users/Zaaron/Code/beautiful-jekyll/_layouts/base.html",
+		"/Users/Zaaron/Code/beautiful-jekyll/_includes/gtm_body.html",
+		"/Users/Zaaron/Code/LittleSleeper/audio_server.py",
+		"/Users/Zaaron/Code/bzreinhardt.github.io/pages/calendar.md",
+		"/Users/Zaaron/Code/Fern/photo_cycler.html",
+		"/Users/Zaaron/Code/Fern/photo_cycler.js",
+		"/Users/Zaaron/Code/beautiful-jekyll/_posts/2015-02-26-flake-it-till-you-make-it.md",
+		"/Users/Zaaron/Code/beautiful-jekyll/_posts/2015-02-28-test-markdown.md",
+		"/Users/Zaaron/Code/keystone/webapp/main/templates/main/landing_page.html",
+		"/Users/Zaaron/Code/keystone/webapp/main/views.py",
+		"/Users/Zaaron/Code/bzreinhardt.github.io/old_index.html",
+		"/Users/Zaaron/Code/oTranscribe/src/js/app/input.js",
+		"/Users/Zaaron/Code/keystone/experimental_webapp/templates/audio_page.html",
+		"/Users/Zaaron/Code/keystone/README.md",
+		"/Users/Zaaron/Downloads/illiad-b77eecf1d75a.json",
+		"/Users/Zaaron/Code/keystone/experimental_webapp/static/js/mindstone_ui.js",
+		"/Users/Zaaron/Code/keystone/experimental_webapp/db.json",
+		"/Users/Zaaron/Data/amicorpus/ES2016a/audio/ibm_transcript.json",
+		"/Users/Zaaron/Code/mindstone/html_test/example.html",
+		"/Users/Zaaron/Code/speech_recognition/credentials.html",
+		"/Users/Zaaron/Data/amicorpus/ES2016b/audio/ibm_transcript.json",
+		"/Users/Zaaron/Code/keystone/response.json",
+		"/Users/Zaaron/Code/keystone/webapp/templates/no_audio_test.html",
+		"/Users/Zaaron/Code/keystone/webapp/static/js/mindstone_ui.js",
+		"/Users/Zaaron/Code/keystone/webapp/templates/header.html",
+		"/Users/Zaaron/Code/keystone/webapp/templates/audio_page.html",
+		"/Users/Zaaron/Code/keystone/webapp/static/test.js",
+		"/Users/Zaaron/Code/keystone/webapp/templates/index.html",
+		"/Users/Zaaron/Code/keystone/webapp/db.json",
+		"/Users/Zaaron/Code/keystone/ibm_test/README.md",
+		"/Users/Zaaron/Code/bootstrap-3.3.7/docs/examples/starter-template/index.html",
+		"/Users/Zaaron/Code/keystone/webapp/server_settings.json",
+		"/Users/Zaaron/Code/mindstone/credentials.py",
+		"/Users/Zaaron/Code/mindstone/response.json",
+		"/Users/Zaaron/Code/mindstone/readme.md",
+		"/Users/Zaaron/Data/amicorpus/words/ES2016a.D.words.xml",
+		"/Users/Zaaron/Code/mindstone/set_up_data.sh",
+		"/Users/Zaaron/Code/mindstone/mindstone_ui.js",
+		"/Users/Zaaron/Code/keystone/html_test/no_audio_test.html",
+		"/Users/Zaaron/Code/keystone/webapp/templates/mindstone_ui.js",
+		"/Users/Zaaron/Code/keystone/webapp/templates/popover_test.html",
+		"/Users/Zaaron/Code/mindstone/html_test/full_test.html",
+		"/Users/Zaaron/Code/mindstone/html_test/test.html",
+		"/Users/Zaaron/Downloads/demo output/Meeting Note Demo.html",
+		"/Users/Zaaron/Code/keystone/webapp/templates/layout.html",
+		"/Users/Zaaron/Code/keystone/mindstone_ui.js",
+		"/Users/Zaaron/Code/DeepSpeech/data/lm/lm.binary",
+		"/Users/Zaaron/Code/DeepSpeech/util/spell.py",
+		"/Users/Zaaron/Code/DeepSpeech/DeepSpeech.py",
+		"/Users/Zaaron/Code/DeepSpeech/bin/run-ldc93s1.sh",
+		"/Users/Zaaron/Code/DeepSpeech/bin/import_ldc93s1.py",
+		"/Users/Zaaron/Code/DeepSpeech/bin/README.md",
+		"/Users/Zaaron/Code/speech_recognition/credentials.json",
+		"/Users/Zaaron/Code/speech_recognition/speech_recognition/__init__.py",
+		"/Users/Zaaron/Code/speech_recognition/pretty.json",
+		"/Users/Zaaron/Code/speech_recognition/examples/test_recording.json",
+		"/Users/Zaaron/Code/speech_recognition/examples/extended_results.py",
+		"/Users/Zaaron/Code/speech_recognition/examples/MobileAppCall.json",
+		"/Users/Zaaron/Code/SmArt/README.md",
+		"/Users/Zaaron/Code/SmArt/manage.py",
+		"/Users/Zaaron/Code/SmArt/app.py",
+		"/Users/Zaaron/Code/SmArt/test.py",
+		"/Users/Zaaron/Code/flask_heroku/art_db.json",
+		"/Users/Zaaron/Code/SmArt/art-db.json",
+		"/Users/Zaaron/Code/flask_heroku/app_old.py",
+		"/Users/Zaaron/Code/flask_heroku/s3-test.py",
+		"/Users/Zaaron/Code/flask_heroku/readme.md",
+		"/Users/Zaaron/Code/flask_heroku/app.py",
+		"/Users/Zaaron/Code/SmArt/server.py",
+		"/Users/Zaaron/Code/netvlad_python/convert_murals.sh",
+		"/Users/Zaaron/Code/netvlad_python/amplify_db.py",
+		"/Users/Zaaron/Code/netvlad_python/find_matches.py",
+		"/Users/Zaaron/Code/netvlad_python/calc_best_alpha.py",
+		"/Users/Zaaron/Code/netvlad_python/visualize_matches.py",
+		"/Users/Zaaron/Code/netvlad_python/assess_image.py",
+		"/Users/Zaaron/Code/tensorflow/matrix_multiply.py",
+		"/anaconda/lib/python2.7/site-packages/tensorflow/models/image/cifar10/cifar10_input.py",
+		"/anaconda/lib/python2.7/site-packages/tensorflow/models/image/cifar10/cifar10.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/deepslam/netspec_deepslam.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/classmatrix_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/tum_to_sst.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/pairimage_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/core/utils.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/lmdbwatcher_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/selectpairs_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/examples/freiburg/netspec_siamese_global.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/examples/freiburg/netspec_siamese_orb.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/.gitignore",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/compile_pr_curves.sh",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/sstable/convert_recording.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/utils/convert_recording.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/core/sstable_lmdb.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/atoms/atom_base.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/proto/slam.proto",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/embeddings.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/file_utils.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/convert_tum_to_sstable.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/rank_results.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/error_analysis.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/localize_batch_poses.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/utils/shortcuts.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/utils/list_operations.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/web_server/app2.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/rigframe.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/visualization/trajectory_viewer.js",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/relative_pose_estimator.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/core/ml_protobuf_conversions.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/find_localization_errors.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/rigframe_localizer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/multi_pr_curves.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/find_relocalization_errors.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/find_localization_errors.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/slam/display_slam_sst.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/embeddingimage_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/math/quaternion_geometry.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/dotmatrix_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/create_json_map.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/distort_layer.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/futz/test_exe_comms.py",
+		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/futz/demo_controller.py"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"cite",
-			"stepper1",
-			"Left",
-			"datastr",
-			"direction",
-			"Background",
-			"left",
-			"relative",
-			"image",
-			"plot_img.html",
-			"link rel",
-			"air_tra",
-			"image",
-			"img"
+			"robot",
+			"Fern",
+			"Evoke",
+			"ico"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -226,6 +524,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Fern"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -241,89 +540,40 @@
 			[
 				{
 					"buffer": 0,
-					"file": "pages/papers/2d_inspection/index.md",
+					"file": "/Users/Zaaron/Code/Fern/website/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21186,
+						"buffer_size": 3101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1735,
-								1738
+								245,
+								247
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "pages/papers/2d_inspection/paper_bib.md",
+					"file": "/Users/Zaaron/Code/Fern/website/css/main.css",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 77,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "about.md",
-					"settings":
-					{
-						"buffer_size": 464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								464,
-								464
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_site/pictures/Costumes/index.md",
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 6461,
 						"regions":
 						{
 						},
@@ -336,81 +586,54 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": ".gitignore",
+					"buffer": 2,
+					"file": "/Users/Zaaron/Code/Fern/website/README.md",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8,
+						"buffer_size": 134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8,
-								8
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "pages/papers/index.md",
-					"settings":
-					{
-						"buffer_size": 1203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 2,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -421,18 +644,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.89961997894,
 			1.0
 		],
 		"rows":
@@ -442,63 +658,567 @@
 		]
 	},
 	"menu_visible": true,
-	"output.PS3USB":
-	{
-		"height": 100.0
-	},
-	"output.PS3USB_test":
-	{
-		"height": 100.0
-	},
-	"output.data_and_control":
-	{
-		"height": 100.0
-	},
-	"output.data_and_control2":
-	{
-		"height": 100.0
-	},
-	"output.example_accelStepper":
-	{
-		"height": 100.0
-	},
-	"output.example_data_logger":
-	{
-		"height": 100.0
-	},
-	"output.latex_log":
-	{
-		"height": 100.0
-	},
-	"replace":
+	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"db.",
+				"experimental_webapp/db.json"
+			],
+			[
+				"audio_pa",
+				"experimental_webapp/templates/audio_page.html"
+			],
+			[
+				"mind",
+				"experimental_webapp/static/js/mindstone_ui.js"
+			],
+			[
+				"m",
+				"~/Code/keystone/webapp/static/js/mindstone_ui.js"
+			],
+			[
+				"audi",
+				"~/Code/keystone/webapp/templates/audio_page.html"
+			],
+			[
+				"rigframe_l",
+				"thirdeye/modules/localization/rigframe_localizer.py"
+			],
+			[
+				"relative_",
+				"thirdeye/modules/localization/relative_pose_estimator.py"
+			],
+			[
+				"rigframe",
+				"thirdeye/modules/localization/rigframe_localizer.py"
+			],
+			[
+				"find_l",
+				"tools/scripts/slam/find_localization_errors.py"
+			],
+			[
+				"app2.",
+				"tools/web_server/app2.py"
+			],
+			[
+				"protobuf_",
+				"thirdeye/core/ml_protobuf_conversions.py"
+			],
+			[
+				"find",
+				"tools/scripts/slam/find_localization_errors.py"
+			],
+			[
+				"find_lo",
+				"tools/scripts/slam/find_localization_errors.py"
+			],
+			[
+				"",
+				"thirdeye/layers/pairimage_layer.py"
+			],
+			[
+				"error",
+				"thirdeye/modules/localization/error_analysis.py"
+			],
+			[
+				"selec",
+				"thirdeye/layers/selectpairs_layer.py"
+			],
+			[
+				"pair",
+				"thirdeye/layers/pairimage_layer.py"
+			],
+			[
+				"tum_",
+				"tools/scripts/slam/tum_to_sst.py"
+			],
+			[
+				"sstable_lm",
+				"thirdeye/core/sstable_lmdb.py"
+			],
+			[
+				"convert_re",
+				"thirdeye/utils/convert_recording.py"
+			],
+			[
+				"file_uti",
+				"thirdeye/modules/localization/file_utils.py"
+			],
+			[
+				"tum_to",
+				"tools/scripts/slam/tum_to_sst.py"
+			],
+			[
+				"convert_tum",
+				"tools/scripts/convert_tum_to_sstable.py"
+			],
+			[
+				"select",
+				"thirdeye/layers/selectpairs_layer.py"
+			],
+			[
+				"lmdb",
+				"thirdeye/layers/lmdbwatcher_layer.py"
+			],
+			[
+				"netspec",
+				"examples/freiburg/netspec_siamese.py"
+			],
+			[
+				"recording",
+				"thirdeye/utils/convert_recording.py"
+			],
+			[
+				"error_an",
+				"thirdeye/modules/localization/error_analysis.py"
+			],
+			[
+				"localize_b",
+				"tools/scripts/slam/localize_batch_poses.py"
+			],
+			[
+				"find_loca",
+				"tools/scripts/slam/find_localization_errors.py"
+			],
+			[
+				"find_",
+				"tools/scripts/slam/find_relocalization_errors.py"
+			],
+			[
+				"file_u",
+				"thirdeye/modules/localization/file_utils.py"
+			],
+			[
+				"short",
+				"thirdeye/utils/shortcuts.py"
+			],
+			[
+				"list_",
+				"thirdeye/utils/list_operations.py"
+			],
+			[
+				"utils.p",
+				"thirdeye/core/utils.py"
+			],
+			[
+				"atom",
+				"thirdeye/atoms/atom_base.py"
+			],
+			[
+				"slam",
+				"proto/slam.proto"
+			],
+			[
+				"embedd",
+				"thirdeye/modules/localization/embeddings.py"
+			],
+			[
+				"rigfram",
+				"thirdeye/modules/localization/rigframe.py"
+			],
+			[
+				"classmatrix",
+				"thirdeye/layers/classmatrix_layer.py"
+			],
+			[
+				"netspec_deep",
+				"thirdeye/modules/deepslam/netspec_deepslam.py"
+			],
+			[
+				"netspec_",
+				"examples/freiburg/netspec_siamese_global.py"
+			],
+			[
+				"trajec",
+				"tools/visualization/trajectory_viewer.js"
+			],
+			[
+				"rigframe_lo",
+				"thirdeye/modules/localization/rigframe_localizer.py"
+			],
+			[
+				"find_loc",
+				"tools/scripts/slam/find_relocalization_errors.py"
+			],
+			[
+				"find_local",
+				"tools/scripts/slam/find_relocalization_errors.py"
+			],
+			[
+				"traject",
+				"tools/visualization/trajectory_viewer.js"
+			],
+			[
+				"dotm",
+				"thirdeye/layers/dotmatrix_layer.py"
+			],
+			[
+				"quater",
+				"thirdeye/math/quaternion_geometry.py"
+			],
+			[
+				"distor",
+				"thirdeye/layers/distort_layer.py"
+			],
+			[
+				"lmd",
+				"thirdeye/layers/lmdbwatcher_layer.py"
+			],
+			[
+				"classmat",
+				"thirdeye/layers/classmatrix_layer.py"
+			],
+			[
+				"embeddi",
+				"thirdeye/layers/embeddingimage_layer.py"
+			],
+			[
+				"netspec_sia",
+				"examples/freiburg/netspec_siamese_global.py"
+			],
+			[
+				"crea",
+				"thirdeye/modules/localization/create_json_map.py"
+			],
+			[
+				"displ",
+				"tools/scripts/slam/display_slam_sst.py"
+			],
+			[
+				"quatern",
+				"thirdeye/math/quaternion_geometry.py"
+			],
+			[
+				"sst",
+				"thirdeye/core/sstable_lmdb.py"
+			],
+			[
+				"create_jso",
+				"thirdeye/modules/localization/create_json_map.py"
+			],
+			[
+				"convert_rec",
+				"tools/scripts/sstable/convert_recording.py"
+			],
+			[
+				"prep",
+				"tools/scripts/preprocess_localization_db.py"
+			],
+			[
+				"ssta",
+				"thirdeye/core/sstable.py"
+			],
+			[
+				"localization_d",
+				"thirdeye/modules/localization/preprocess_database.py"
+			],
+			[
+				"params",
+				"proto/image_params.proto"
+			],
+			[
+				"image.",
+				"proto/image.proto"
+			],
+			[
+				"rigfr",
+				"thirdeye/modules/localization/rigframe.py"
+			],
+			[
+				"slam.",
+				"proto/slam.proto"
+			],
+			[
+				"lmdbw",
+				"thirdeye/layers/lmdbwatcher_layer.py"
+			],
+			[
+				"rigfra",
+				"thirdeye/modules/localization/rigframe.py"
+			],
+			[
+				"convert_",
+				"tools/scripts/sstable/convert_recording.py"
+			],
+			[
+				"atom_im",
+				"thirdeye/atoms/atom_image.py"
+			],
+			[
+				"utils",
+				"thirdeye/core/utils.py"
+			],
+			[
+				"convert_recor",
+				"thirdeye/utils/convert_recording.py"
+			],
+			[
+				"sstable",
+				"tools/scripts/sstable.py"
+			],
+			[
+				"message",
+				"tools/scripts/futz/message_testing.py"
+			],
+			[
+				"atom_pose",
+				"thirdeye/atoms/atom_pose.py"
+			],
+			[
+				"atom_int",
+				"thirdeye/atoms/atom_int.py"
+			],
+			[
+				"atom_po",
+				"thirdeye/atoms/atom_pose.py"
+			],
+			[
+				"atom_imu",
+				"thirdeye/atoms/atom_imu.py"
+			],
+			[
+				"log_",
+				"ThirdEye/tools/scripts/futz/log_to_lmdb.py"
+			],
+			[
+				"reloc",
+				"ThirdEye/examples/freiburg/relocalization.py"
+			],
+			[
+				"rigframe_li",
+				"ThirdEye/tools/scripts/slam/rigframe_listener.py"
+			],
+			[
+				"relocal",
+				"ThirdEye/thirdeye/modules/localization/relocalization.py"
+			],
+			[
+				"app2",
+				"ThirdEye/tools/web_server/app2.py"
+			],
+			[
+				"frame",
+				"ThirdEye/proto/external/frame.proto"
+			],
+			[
+				"ml_proto",
+				"ThirdEye/thirdeye/core/ml_protobuf_conversions.py"
+			],
+			[
+				"rigframe_",
+				"ThirdEye/tools/scripts/slam/rigframe_listener.py"
+			],
+			[
+				"key",
+				"tools/web_server/keyframe_viewer.html"
+			],
+			[
+				"keyf",
+				"tools/web_server/keyframe_viewer.js"
+			],
+			[
+				"keyfra",
+				"tools/web_server/keyframe_viewer.js"
+			],
+			[
+				"reloca",
+				"examples/freiburg/relocalization.py"
+			],
+			[
+				"send_",
+				"futz/send_image_to_server.py"
+			],
+			[
+				"json",
+				"tools/scripts/slam/create_json_map.py"
+			],
+			[
+				"to_json",
+				"tools/scripts/slam/embeddings_to_json.py"
+			],
+			[
+				"default",
+				"config/default_localization_server_config.json"
+			],
+			[
+				"localization_ser",
+				"thirdeye/modules/localization/localization_server_config.py"
+			],
+			[
+				"config",
+				"thirdeye/core/config.py"
+			],
+			[
+				"extrac",
+				"thirdeye/modules/localization/extract_embeddings.py"
+			],
+			[
+				"embed",
+				"thirdeye/modules/localization/embeddings.py"
+			],
+			[
+				"app",
+				"tools/web_server/app.py"
+			],
+			[
+				"test",
+				"tools/scripts/test_embedding_localization.py"
+			],
+			[
+				"ml_rig",
+				"proto/external/ml_rig.proto"
+			],
+			[
+				"camera",
+				"proto/external/camera.proto"
+			],
+			[
+				"posed",
+				"proto/external/posed_camera.proto"
+			],
+			[
+				"map.pro",
+				"proto/external/map.proto"
+			],
+			[
+				"test_",
+				"tools/scripts/test_embedding_localization.py"
+			],
+			[
+				"embedding",
+				"thirdeye/modules/localization/embeddings.py"
+			],
+			[
+				"defaul",
+				"config/default_localization_config.json"
+			],
+			[
+				"third",
+				"proto/thirdeye.proto"
+			],
+			[
+				"sla",
+				"proto/slam.proto"
+			],
+			[
+				"test_e",
+				"tools/scripts/test_embedding_localization.py"
+			],
+			[
+				"defau",
+				"config/default_localization_config.json"
+			],
+			[
+				"ml_pro",
+				"thirdeye/core/ml_protobuf_conversions.py"
+			],
+			[
+				"tu",
+				"tools/scripts/slam/tum_to_extended_tum.py"
+			],
+			[
+				"tum",
+				"tools/scripts/slam/tum_to_extended_tum.py"
+			],
+			[
+				"ml_",
+				"thirdeye/core/ml_protobuf_conversions.py"
+			],
+			[
+				"rigf",
+				"thirdeye/modules/localization/rigframe.py"
+			],
+			[
+				"plot_sla",
+				"tools/scripts/plot_slam_sstable.py"
+			],
+			[
+				"plot",
+				"tools/scripts/plot_lmdb.py"
+			],
+			[
+				"convert_t",
+				"tools/scripts/convert_tum_to_lmdb.py"
+			],
+			[
+				"proto.",
+				"thirdeye/core/proto.py"
+			],
+			[
+				"proto.py",
+				"thirdeye/core/proto.py"
+			],
+			[
+				"traje",
+				"tools/visualization/trajectory_viewer.js"
+			],
+			[
+				"viewer.js",
+				"tools/visualization/trajectory_viewer.js"
+			],
+			[
+				"vie",
+				"tools/visualization/html/viewer.html"
+			],
+			[
+				"viewer",
+				"tools/visualization/html/viewer.html"
+			],
+			[
+				"eval",
+				"thirdeye/modules/localization/eval_graphs.py"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"/Users/Zaaron/School/Experiments/summer 2014 experiments/stepper_and_game_controller_control/motor_control.sublime-project"
-			]
 		],
 		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 262.0,
-	"status_bar_visible": true
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
