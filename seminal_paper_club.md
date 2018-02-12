@@ -5,6 +5,9 @@ layout: page
 
 Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
 
+2/11/2018 - [Separation of Ownership and Control. Fama et. al. 1983](https://www.dropbox.com/preview/Weekly%20Readings/2-5-2018/fama1983.pdf)
+NOTE: if you or someone you know can explain why this paper is heavily cited, let me know.
+
 2/4/2018 - [Intro to Material Science](https://www.dropbox.com/sh/seo7ys2cvf38gum/AABWsxKJVLuS7lw8ilI_aihDa?dl=0) - NOTE: If you have a good seminal paper in material science, let me know.
 
 1/27/2018 - [EQUILIBRIUM POINTS IN N-PERSON GAMES](https://www.dropbox.com/s/v91evewdaq58kgb/48.full.pdf?dl=0) 
