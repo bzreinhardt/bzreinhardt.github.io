@@ -28,6 +28,7 @@ navbar-links:
   Projects:
     - Seminal Paper Club: "seminal_paper_club"
     - Old Projects: "projects"
+    - Research: "research"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
 #  Author's home: "http://deanattali.com"
