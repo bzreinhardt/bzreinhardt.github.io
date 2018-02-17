@@ -4,6 +4,7 @@ title:  "AI Breakfast"
 date:   2018-2-14
 tags: [AI, UX, process, lessons, tactics]
 categories: [Informational Posts]
+crosspost_to_medium: true
 ---
 Some quick notes from a great discussion/breakfast put on by [Canvas Ventures](http://www.canvas.vc/) and [Bloomberg Beta](https://github.com/Bloomberg-Beta/Manual) focused on building AI products in the real world.
 
@@ -26,17 +27,12 @@ ML pipelines can become so long that pieces farther down the pipeline are shaped
 
 ![Communication Pipeline](/img/ai_breakfast/communication_pipeline.png)
 
-PMs can be a critical bridge between customers and those building the AI product. Their (very hard) job is to transform fuzzy problems into concrete numbers.
+PMs can be a critical bridge between customers and those building the AI product. Their (very hard) job is to transform fuzzy problems into concrete numbers. 
 
 ![AI PMs Job](/img/ai_breakfast/pms_job.png)
 
 How do you get metrics on fuzzy problems? Remember, people are terrible at coming up with number-based metrics, but are amazing at discriminating between two possibilies - Good/Bad, In/Out, A/B. If you can pose a problem in that way, you can get the metrics you need.
 
-![Descriminator](/img/ai_breakfast/people_are_great_discriminators.png)
+![Discriminator](/img/ai_breakfast/people_are_great_discriminators.png)
 
 Certainty about undercertainty is a big and often ignored consideration. You would hope that when an AI system says it's 99% certain its answer is correct, you would also be 99% certain its answer is correct. This is rarely the case and instead you have systems that are usually correct at 50% certainty and incorrect most of the time at 99%. One possible step towards addressing this is [Yarin Gal's Baysean Model](https://arxiv.org/abs/1506.02142)
-
-
-
-### References
-

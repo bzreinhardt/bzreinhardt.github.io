@@ -17,7 +17,7 @@ ALL THE INFORMATION:
 
 [Calendar][cal]
 
-Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+<a href="mailto:{{ site.author.email }}">Email</a>
 
 [LinkedIn](http://linkedin.com/in/benjaminzreinhardt)
 
@@ -29,7 +29,6 @@ Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
 [tractor]: https://www.youtube.com/watch?v=Y-FXqIcmVHc
 [beams]: https://www.youtube.com/watch?v=8lF_H1IqPiU
 [lab]:http://www.spacecraftresearch.com/
-[cal]:/pages/calendar.html
 [projects]:/projects
 [resume]:/pages/bzr_resume.pdf
 [tractor]: https://www.youtube.com/watch?v=Y-FXqIcmVHc

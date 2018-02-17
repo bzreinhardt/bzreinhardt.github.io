@@ -1,7 +1,8 @@
 # Beautiful Jekyll
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
-[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
+## TODO:
+- Fix 404 Page
+- Add MeDB to projects
+- Figure out how to add excerpts to posts on front page
 
 > *Copyright 2016 [Dean Attali](http://deanattali.com)*
 
