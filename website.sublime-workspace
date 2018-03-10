@@ -298,10 +298,91 @@
 			}
 		},
 		{
+			"file": "categories.html",
+			"settings":
+			{
+				"buffer_size": 621,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		},
+		{
+			"file": "tags.html",
+			"settings":
+			{
+				"buffer_size": 557,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 1 file for \"categories\" (case sensitive)\n\n<untitled 362>:\n    7  \n    8  <div id=\"archives\">\n    9: {% for category in site.categories %}\n   10    <div class=\"archive-group\">\n   11      {% capture category_name %}{{ category | first }}{% endcapture %}\n   ..\n   15      <h3 class=\"category-head\">{{ category_name }}</h3>\n   16      <a name=\"{{ category_name | slugize }}\"></a>\n   17:     {% for post in site.categories[category_name] %}\n   18      <article class=\"archive-item\">\n   19        <h4><a href=\"{{ site.baseurl }}{{ post.url }}\">{{post.title}}</a></h4>\n\n2 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
 			"file": "README.md",
 			"settings":
 			{
 				"buffer_size": 23988,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 2826,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2018-2-16-ai-breakfast.md",
+			"settings":
+			{
+				"buffer_size": 3943,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/social-share.html",
+			"settings":
+			{
+				"buffer_size": 1911,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 9740,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "signup.html",
+			"settings":
+			{
+				"buffer_size": 1726,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -313,6 +394,42 @@
 				"buffer_size": 134,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2017-12-26-networking-for-nerds.md",
+			"settings":
+			{
+				"buffer_size": 9932,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/navbarlink.html",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Zaaron/Code/test.html",
+			"settings":
+			{
+				"buffer_size": 1641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<!-- Begin MailChimp Signup Form -->"
 			}
 		}
 	],
@@ -371,9 +488,15 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/Zaaron/Code/bzreinhardt.github.io",
+		"/Users/Zaaron/Code/bzreinhardt.github.io/_includes",
+		"/Users/Zaaron/Code/bzreinhardt.github.io/_layouts",
+		"/Users/Zaaron/Code/bzreinhardt.github.io/_posts"
 	],
 	"file_history":
 	[
+		"/Users/Zaaron/Code/bzreinhardt.github.io/old_index.md",
+		"/Users/Zaaron/Code/bzreinhardt.github.io/signup.md",
 		"/Users/Zaaron/Code/bzreinhardt.github.io/_config.yml",
 		"/Users/Zaaron/Code/Fern/evoke/index.html",
 		"/Users/Zaaron/Code/Fern/evoke/README.md",
@@ -499,9 +622,7 @@
 		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/math/quaternion_geometry.py",
 		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/dotmatrix_layer.py",
 		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/modules/localization/create_json_map.py",
-		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/distort_layer.py",
-		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/futz/test_exe_comms.py",
-		"/Users/Zaaron/Dev/work/ThirdEye/tools/scripts/futz/demo_controller.py"
+		"/Users/Zaaron/Dev/work/ThirdEye/thirdeye/layers/distort_layer.py"
 	],
 	"find":
 	{
@@ -512,6 +633,7 @@
 		"height": 101.0,
 		"where_history":
 		[
+			"<current file>",
 			""
 		]
 	},
@@ -520,6 +642,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"comments",
+			"news",
+			"tags",
+			"category",
+			"categories",
+			"pre",
+			"css",
+			"link",
+			"news",
 			"robot",
 			"Fern",
 			"Evoke",
@@ -531,6 +662,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"tag",
+			"tags",
 			"Fern"
 		],
 		"reverse": false,
@@ -542,7 +675,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -564,7 +697,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1518548011.18,
+							"markdonw_live_preview_last_run": 1519174786.53,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -572,7 +705,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -588,26 +721,138 @@
 						"selection":
 						[
 							[
-								916,
-								916
+								3568,
+								3576
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1518548063.71,
+							"markdonw_live_preview_last_run": 1519174786.53,
 							"syntax": "Packages/YAML/YAML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 1312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "categories.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "tags.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										134,
+										144
+									],
+									[
+										417,
+										427
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
@@ -625,18 +870,198 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1518548438.92,
+							"markdonw_live_preview_last_run": 1519174786.53,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
+					"file": "_layouts/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1963,
+								1963
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519174839.52,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_posts/2018-2-16-ai-breakfast.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3629,
+								3629
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519181384.84,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 606.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_includes/social-share.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519180307.39,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9249,
+								9249
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519175240.31,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2625.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519175800.33,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "/Users/Zaaron/Code/Fern/website/README.md",
 					"semi_transient": false,
 					"settings":
@@ -654,14 +1079,140 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1518548011.18,
+							"markdonw_live_preview_last_run": 1519174786.53,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 16,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 13,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1547,
+								1547
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519179289.1,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_posts/2017-12-26-networking-for-nerds.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519179892.32,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "_includes/navbarlink.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519175975.36,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/Zaaron/Code/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!-- Begin MailChimp Signup Form -->",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -673,7 +1224,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 37.0
 	},
 	"layout":
 	{
@@ -684,11 +1235,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
