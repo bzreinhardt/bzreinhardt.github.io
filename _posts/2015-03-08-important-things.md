@@ -2,7 +2,7 @@
 layout: post
 title:  "Important Things"
 date:   2015-03-08 
-tags: [flatulance,IA]
+tags: [flatulance, IA]
 categories: [Thoughts]	
 ---
 Smarter, Faster, Stronger, Higher. 
