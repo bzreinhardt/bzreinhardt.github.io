@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create and Save your own Venn diagrams here.</title>
+</head>
+
+<style type="text/css">
+  #controls {
+    float:left;
+    width: 200px;
+    border: 1px solid black;
+    line-height: 1.5em;
+    padding: 20px;
+  }
+</style>
+
+<body>
+
+<div id="controls">
+  <h3>Venn Diagram Generator</h3>
+  <label>Diagram size (px):</label>
+  <input type="text" id="size_textbox" value="600"/>
+  <br>
+  <label>Number of cirlces</label>
+  <input type="text" id="size_selector" value="2"/>
+  <br>
+  <button id="color_button">Recolor circles</button>
+  <button id="export_button">Export as PNG</button>
+  <hr>
+  <div id="text">
+  </div>
+</div>
+
+<div id="output">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" style="font-size: 15px"></svg>
+
+</div>
+
+<footer style="position:fixed; bottom: 5px">
+<!-- 
+This generator was originally (c) 2016 Bradley Momberger and released under the MIT License.  Source code at <a href="https://github.com/airhadoken/venn-diagram-generator">https://github.com/airhadoken/venn-diagram-generator</a>
+Updated by Benjamin Reinhardt 2018
+-->
+</footer>
+
+<!-- script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script>
+  
+var circletexts = {
+  "1" : null,
+  "2" : null,
+  "3" : null,
+  "4" : null,
+  "12" : null,
+  "23" : null,
+  "34" : null,
+  "41" : null,
+  "123" : null,
+  "234" : null,
+  "341" : null,
+  "412" : null,
+  "1234" : null
+};
+
+var circles = [];
+var center = {x:0, y:0}
+var x = 0;
+var y = 0;
+
+function zp(str) {
+  if(str.length < 2) {
+    return "0" + str;
+  } else {
+    return str;
+  }
+} 
+
+
+// Next Todos:
+// [DONE]Find the "farthest point " on each circle
+// [DONE]Find the absolute distance to the farthest point for each circle
+// Check out https://beta.observablehq.com/
+// https://datavizcatalogue.com/
+// https://developers.google.com/chart/interactive/docs/gallery/sankey
+// Display the relative amount of each circle
+// Click and drag point
+// Visual display of the amount of each circle
+// Dynamic radio plot
+function findTheMouse(){
+  var coordinates = d3.mouse(this);
+  x = coordinates[0];
+  y = coordinates[1];
+  p0 = {x:x, y:y};
+  var i = -1;
+  circles.forEach((circle)=> {
+    i++;
+    $("#circle"+i+"-text")[0].innerText = "Circle " + i + ": " + (100*distanceFromFar(p0, circle)).toFixed();
+  })
+}
+
+d3.select('#output svg')
+  .on('mousemove', findTheMouse);
+
+function norm(p1, p2) {
+  if (p2!==null && p2!==undefined) {
+    var dx = p1.x - p2.x;
+    var dy = p1.y - p2.y;
+    return (Math.sqrt(dx*dx + dy*dy));
+  } else {
+    return(Math.sqrt(p1.x*p1.x + p1.y*p1.y));
+  }
+
+}
+
+function point(px, py) {
+  return {x:px, y:py}
+}
+
+function distanceFromFar(point, circle) {
+  console.log(norm(point, circle.f));
+  var dist = (2*circle.r - norm(point, circle.f));
+  return Math.max(0,(dist/(2*circle.r)));
+}
+
+
+function drawCircle(current, total) {
+
+  var svg = $("#output svg")[0];
+
+  var theta = current / total * Math.PI * 2;
+
+  // offsets.
+  var cx = 50 + Math.round(Math.cos(theta) * 50)/ 3;
+  var cy = 50 - Math.round(Math.sin(theta) * 50)/ 3;
+
+  // Expressed as percentage of total SVG width.
+  var radius = 390 / (+total + 12);
+  var r = svg.getBoundingClientRect().width*radius/100;
+
+  var fr = Math.floor(Math.random() * 255);
+  var fg = Math.floor(Math.random() * 255);
+  var fb = Math.floor(Math.random() * 255);
+
+
+  svg.innerHTML += [
+    '\n<ellipse cx="',
+    cx, '%" cy="',
+    cy, '%" rx="',
+    radius,
+    '%" ry="',
+    radius, 
+    '%" fill="rgba(',
+    fr.toString(10),
+    ", " ,
+    fg.toString(10),
+    ", " ,
+    fb.toString(10),
+    ', 0.3)" style="stroke:#',
+    zp(Math.floor((fr/2)).toString(16)),
+    zp(Math.floor((fg/2)).toString(16)),
+    zp(Math.floor((fb/2)).toString(16)), 
+    '; stroke-opacity: 0.5"></ellipse>'
+  ].join("");
+
+  return {
+    cx: cx,
+    cy: cy,
+    c: {x:cx/100*svg.getBoundingClientRect().width, y:cy/100*svg.getBoundingClientRect().height},
+    radius: radius,
+    r: r,
+    theta: theta,
+    fx: cx,
+    fy: cy,
+    f: {x:0, y:0}
+  };
+}
+
+
+function permuteCenters(fullcount, primitive_centers) {
+  // Finds the centers for each set intersection
+  fullcount = +fullcount;
+
+  var initial_fill = new Array(fullcount).fill(0).map(function(_, i) {
+    return (i + 1);
+  });
+  var keyed_object = initial_fill.reduce(function(obj, i) {
+    var key = "", key_array;
+    for(var j = 0; j < fullcount - 1; j++) {
+      key = key + ((i + j - 1) % fullcount + 1).toString(10);
+      key_array = key.split("");
+
+      var theta = key_array.reduce(function(accumulator, idx, _i) {
+        if(_i > 0 && +idx < +key_array[0]) {
+          accumulator += Math.PI + Math.PI;
+        }
+        return accumulator + primitive_centers[idx].theta;
+      }, 0) / key.length;
+
+      var placement_r = key.split("").reduce(function(accumulator, idx) {
+        var item = primitive_centers[idx];
+        var offset_x = Math.abs(50 - item.cx) + item.radius; // measure to edge, not center
+        var offset_y = Math.abs(50 - item.cy) + item.radius;
+        return accumulator + Math.sqrt(offset_x * offset_x + offset_y * offset_y);
+      }, 0) / key.length;
+
+      obj[key] = {
+        cx : 50 + placement_r * Math.cos(theta) * Math.pow(0.6, key.length)*(fullcount + 4)/7,
+        cy : 50 - placement_r * Math.sin(theta) * Math.pow(0.6, key.length)*(fullcount + 4)/7,
+        theta : theta
+      };
+    }
+    return obj;
+  }, {});
+  keyed_object[initial_fill.join("")] = {cx: 50, cy: 50, theta: 0};
+  return keyed_object;
+}
+
+function drawPoint(p, size=1) {
+  var svg = $("#output svg")[0];
+  svg.innerHTML += [
+    '\n<ellipse cx="',
+    p.x, 'px" cy="',
+    p.y, 'px" rx=',size, ' ry="',size,'" fill="rgba(0,0,0,1.0)"></ellipse>'
+  ].join("");
+}
+
+$("#size_selector").on("change", function() {
+  // Number of circles
+  var ncircs = $(this).val(),
+      _nc = ncircs;
+  var placement;
+  var numbers = [];
+  var centers = {};
+  circles = [];
+  $("#output svg").html("");
+  while(_nc--) {
+    centers[_nc + 1] = placement = drawCircle(_nc, ncircs);
+    circles.push(centers[_nc+1]);
+    numbers.unshift((_nc + 1).toString(10));
+  }
+  center = {x:0, y:0};
+  circles.forEach((circle)=> {
+    center.x += circle.c.x;
+    center.y += circle.c.y;
+  });
+  center.x = center.x/circles.length;
+  center.y = center.y/circles.length;
+  $("#text").empty();
+  var i = -1;
+  circles.forEach((circle)=> {
+    i++;
+    d = {x:(circle.c.x - center.x), y:(circle.c.y - center.y)};
+
+    circle.fx = circle.c.x + circle.r*(d.x)/norm(d);
+    circle.fy = circle.c.y + circle.r*(d.y)/norm(d);
+    circle.f = {x:circle.fx, y:circle.fy}
+    drawPoint(circle.f);
+    drawPoint(circle.c);
+    $("#text").append('<div id=circle'+i+'-container><text id=circle'+i+'-text>circle '+i+'</text></div');
+
+  })
+    //var permutedCenters = permuteCenters(ncircs, centers);
+  drawPoint(center);
+});
+
+$("#size_textbox").on("change", function() {
+  // Size of circles
+  var val = $(this).val();
+  var fontsize;
+  if(+val > 0) {
+    $("#output svg")
+    .attr("width", val)
+    .attr("height", val)
+    .css("font-size", function() {
+      return (fontsize = this.width.baseVal.value / 40);
+    })
+    // note: if there's text need to find a clever way to deal with it
+  }
+});
+
+
+$("#size_selector").trigger("change");
+
+
+$("#color_button").on("click", function() {
+  $("#output ellipse").each(function() {
+    var fr = Math.floor(Math.random() * 255),
+      fg = Math.floor(Math.random() * 255),
+      fb = Math.floor(Math.random() * 255);
+
+    $(this).attr(
+      "fill",
+      "rgba(" + fr + ", " + fg + ", " + fb + ", 0.3)"
+    ).css(
+      "stroke",
+      '#' + 
+        zp(Math.floor((fr/2)).toString(16)) +
+        zp(Math.floor((fg/2)).toString(16)) +
+        zp(Math.floor((fb/2)).toString(16))
+    );
+  });
+});
+
+
+
+$("#export_button").on("click", function() {
+
+  var svg = $("#output svg");
+  var $canvas = $("<canvas>")
+                .attr("height", svg.attr("height"))
+                .attr("width", svg.attr("width"))
+                .css("display", "none")
+                .appendTo("#output");
+
+  var context = $canvas[0].getContext("2d");
+
+//  var imgsrc = 'data:image/svg+xml;base64,'+ btoa(svg.html());
+  var imgsrc = 'data:image/svg+xml;base64,'+ btoa(svg[0].outerHTML);
+  var image = new Image();
+  image.addEventListener("load", function() {
+    context.fillStyle = "white";
+    context.fillRect(0, 0, $canvas[0].width, $canvas[0].height);
+    context.drawImage(image, 0, 0);
+
+    var link = document.createElement('a');
+    link.download = svg.find("text:last").text() + ".png";
+    link.href = $canvas[0].toDataURL();
+    link.click();
+
+    $canvas.remove();
+  }, false);
+  image.addEventListener("error", function(ev, err) {
+    console.error(this);
+  });
+  image.src = imgsrc;
+});
+</script>
+</body>
+</html>
