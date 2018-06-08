@@ -17,38 +17,63 @@
 <body>
 
 <div id="controls">
+<!--
   <h3>Venn Diagram Generator</h3>
   <label>Diagram size (px):</label>
   <input type="text" id="size_textbox" value="600"/>
   <br>
   <label>Number of cirlces</label>
-  <input type="text" id="size_selector" value="2"/>
+-->
+  <input type="hidden" id="size_selector" value="13"/>
+  <!--
   <br>
   <button id="color_button">Recolor circles</button>
   <button id="export_button">Export as PNG</button>
   <hr>
+-->
   <div id="text">
   </div>
 </div>
 
 <div id="output">
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" style="font-size: 15px"></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" style="font-size: 15px"></svg>
 
 </div>
 
 <footer style="position:fixed; bottom: 5px">
 <!-- 
-This generator was originally (c) 2016 Bradley Momberger and released under the MIT License.  Source code at <a href="https://github.com/airhadoken/venn-diagram-generator">https://github.com/airhadoken/venn-diagram-generator</a>
+This generator was originally (c) 2016 Bradley Momberger and released under the MIT License. 
+ Source code at <a href="https://github.com/airhadoken/venn-diagram-generator">https://github.com/airhadoken/venn-diagram-generator</a>
 Updated by Benjamin Reinhardt 2018
 -->
 </footer>
 
 <!-- script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 
 <script>
+
+var width = 1000;
+var height = 1000;
+
+var categories = 
+[
+'Glory Seekers/Ambition',
+'Hype Chasers',
+'Woo Woo/Nature/Zen/Crystals',
+'Actual Counterculture',
+'Artists',
+'Climbing/Outdoorsey',
+'Finance/Consulting',
+'International Wealthy',
+'Academics',
+'Mad Scientists',
+'Makers',
+'Burners',
+'Techies'
+]
   
 var circletexts = {
   "1" : null,
@@ -71,6 +96,8 @@ var center = {x:0, y:0}
 var x = 0;
 var y = 0;
 
+var radius = 1;
+
 function zp(str) {
   if(str.length < 2) {
     return "0" + str;
@@ -86,10 +113,41 @@ function zp(str) {
 // Check out https://beta.observablehq.com/
 // https://datavizcatalogue.com/
 // https://developers.google.com/chart/interactive/docs/gallery/sankey
-// Display the relative amount of each circle
-// Click and drag point
+// [DONE] Display the relative amount of each circle
+// [DONE]Click and drag point
+// Make Point an X
 // Visual display of the amount of each circle
 // Dynamic radio plot
+
+function CalculateStarPoints(centerX, centerY, arms, outerRadius, innerRadius)
+{
+   var results = "";
+
+   var angle = Math.PI / arms;
+
+   for (var i = 0; i < 2 * arms; i++)
+   {
+      // Use outer or inner radius depending on what iteration we are in.
+      var r = (i & 1) == 0 ? outerRadius : innerRadius;
+      
+      var currX = centerX + Math.cos(i * angle) * r;
+      var currY = centerY + Math.sin(i * angle) * r;
+
+      // Our first time we simply append the coordinates, subsequet times
+      // we append a ", " to distinguish each coordinate pair.
+      if (i == 0)
+      {
+         results = currX + "," + currY;
+      }
+      else
+      {
+         results += ", " + currX + "," + currY;
+      }
+   }
+
+   return results;
+}
+
 function findTheMouse(){
   var coordinates = d3.mouse(this);
   x = coordinates[0];
@@ -98,12 +156,15 @@ function findTheMouse(){
   var i = -1;
   circles.forEach((circle)=> {
     i++;
-    $("#circle"+i+"-text")[0].innerText = "Circle " + i + ": " + (100*distanceFromFar(p0, circle)).toFixed();
+    $("#circle"+i+"-text")[0].innerText = circle.category + ":" + (100*distanceFromFar(p0, circle)).toFixed();
   })
 }
 
-d3.select('#output svg')
-  .on('mousemove', findTheMouse);
+
+
+
+//d3.select('#output svg')
+//  .on('mousemove', findTheMouse);
 
 function norm(p1, p2) {
   if (p2!==null && p2!==undefined) {
@@ -116,14 +177,49 @@ function norm(p1, p2) {
 
 }
 
+var svg = d3.select("#output svg");
+
+var test = d3.range(1).map(function() {
+  return {
+    x: Math.round(Math.random() * (width - radius * 2) + radius),
+    y: Math.round(Math.random() * (height - radius * 2) + radius)
+  };
+});
+
+
+function dragstarted(d) {
+  d3.select(this).raise().classed("active", true);
+}
+
+function dragged(d) {
+ d = {x:d3.event.x, y:d3.event.y};
+  d3.select(this).attr("transform","translate(" +
+        (d.x-width/2) + "," + (d.y-height/2) + ")");
+  var i = -1;
+  circles.forEach((circle)=> {
+    i++;
+    $("#circle"+i+"-text")[0].innerText = circle.category + ":" + (100*distanceFromFar(d, circle)).toFixed();
+  })
+  //d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
+}
+
+function dragended(d) {
+  d3.select(this).classed("active", false);
+}
+
+
 function point(px, py) {
   return {x:px, y:py}
 }
 
 function distanceFromFar(point, circle) {
-  console.log(norm(point, circle.f));
-  var dist = (2*circle.r - norm(point, circle.f));
-  return Math.max(0,(dist/(2*circle.r)));
+  //console.log(norm(point, circle.f));
+  var distFromCenter = norm(point, circle.c);
+  if (distFromCenter > circle.r) {
+    return 0;
+  }
+  var distFromFar = (2*circle.r - norm(point, circle.f));
+  return Math.max(0,(distFromFar/(2*circle.r)));
 }
 
 
@@ -134,8 +230,8 @@ function drawCircle(current, total) {
   var theta = current / total * Math.PI * 2;
 
   // offsets.
-  var cx = 50 + Math.round(Math.cos(theta) * 50)/ 3;
-  var cy = 50 - Math.round(Math.sin(theta) * 50)/ 3;
+  var cx = 40 + Math.round(Math.cos(theta) * 40)/ 3;
+  var cy = 40 - Math.round(Math.sin(theta) * 40)/ 3;
 
   // Expressed as percentage of total SVG width.
   var radius = 390 / (+total + 12);
@@ -175,7 +271,8 @@ function drawCircle(current, total) {
     theta: theta,
     fx: cx,
     fy: cy,
-    f: {x:0, y:0}
+    f: {x:0, y:0},
+    category: 'circle'
   };
 }
 
@@ -219,7 +316,7 @@ function permuteCenters(fullcount, primitive_centers) {
   return keyed_object;
 }
 
-function drawPoint(p, size=1) {
+function drawPoint(p, size=10) {
   var svg = $("#output svg")[0];
   svg.innerHTML += [
     '\n<ellipse cx="',
@@ -251,21 +348,35 @@ $("#size_selector").on("change", function() {
   center.y = center.y/circles.length;
   $("#text").empty();
   var i = -1;
+  var svg = $("#output svg")[0];
   circles.forEach((circle)=> {
     i++;
     d = {x:(circle.c.x - center.x), y:(circle.c.y - center.y)};
 
     circle.fx = circle.c.x + circle.r*(d.x)/norm(d);
     circle.fy = circle.c.y + circle.r*(d.y)/norm(d);
-    circle.f = {x:circle.fx, y:circle.fy}
-    drawPoint(circle.f);
-    drawPoint(circle.c);
-    $("#text").append('<div id=circle'+i+'-container><text id=circle'+i+'-text>circle '+i+'</text></div');
 
+    circle.f = {x:circle.fx, y:circle.fy};
+    if (circles.length === categories.length) {
+      circle.category = categories[i];
+    } else {
+      circle.category = 'circle ' + i; 
+    }
+    //drawPoint(circle.f);
+    //drawPoint(circle.c);
+    $("#text").append('<div id=circle'+i+'-container><text id=circle'+i+'-text></text></div');
+    var textX = circle.c.x + 1.05*circle.r*(d.x)/norm(d)-10;
+    var textY = circle.c.y + 1.05*circle.r*(d.y)/norm(d);
+    
+    svg.innerHTML += '<text id=text-'+i+' y='+textY+' x='+textX + '> '+ circle.category + '</text>'
   })
     //var permutedCenters = permuteCenters(ncircs, centers);
-  drawPoint(center);
+  //drawPoint(center);
 });
+
+function changeText(i) {
+
+}
 
 $("#size_textbox").on("change", function() {
   // Size of circles
@@ -279,7 +390,9 @@ $("#size_textbox").on("change", function() {
       return (fontsize = this.width.baseVal.value / 40);
     })
     // note: if there's text need to find a clever way to deal with it
+
   }
+
 });
 
 
@@ -305,7 +418,27 @@ $("#color_button").on("click", function() {
   });
 });
 
+var color = d3.scaleOrdinal()
+    .range(d3.schemeCategory20);
+/*
+svg.selectAll("circle")
+  .data(test)
+  .enter().append("circle")
+    .attr("cx", function(d) { return d.x; })
+    .attr("cy", function(d) { return d.y; })
+    .attr("r", radius)
+    .style("fill", function(d, i) { return color(i); })
+  */  
 
+  d3.select("#output svg")
+  .append("svg:polygon")
+  .attr("id", "star_1")
+  .attr("visibility", "visible")
+  .attr("points", CalculateStarPoints(width/2, height/2, 5, 10, 5))
+.call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended))
 
 $("#export_button").on("click", function() {
 
