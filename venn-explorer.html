@@ -98,6 +98,59 @@ var y = 0;
 
 var radius = 1;
 
+
+
+function byte2hex(b) {
+  var h=b.toString(16);
+  while (h.length<2) h='0'+h;
+  return h;
+}
+
+function findColors(n) {
+  var colors=new Array();
+
+  //Calculate raw colors
+  var minR=1000;
+  var maxR=-1000;
+  var minG=1000;
+  var maxG=-1000;
+  var minB=1000;
+  var maxB=-1000;
+  for (var i=0;i<n;i++) {
+    //Calculate angle
+    var phi=3.1316*2/n*i;
+    //Calculate coordinates
+      var U=Math.cos(phi);
+      var V=Math.sin(phi);
+      var Y=0.5;
+      //Create RGB
+      R=Y+V/0.88
+      if (R<minR) minR=R;
+      if (R>maxR) maxR=R;
+    G=Y-0.38*U-0.58*V
+      if (G<minG) minG=G;
+      if (G>maxG) maxG=G;
+    B=Y+U/0.49
+      if (B<minB) minB=B;
+      if (B>maxB) maxB=B;
+    colors[i]=new Array(R,G,B,"phi="+phi+"<br>U="+U+"<br>V="+V+"<br>Y="+Y+"<br>raw R="+R+"<br>raw G="+G+"<br>raw B="+B);
+  }
+
+  //Normalize Colors
+  var scaleR=255/(maxR-minR);
+  var scaleG=255/(maxG-minG);
+  var scaleB=255/(maxB-minB);
+  outColors = [];
+  for (var i=0;i<n;i++) {
+    var col=colors[i];
+    var R=Math.round(scaleR*(col[0]-minR));
+    var G=Math.round(scaleG*(col[1]-minG));
+    var B=Math.round(scaleB*(col[2]-minB));
+    outColors.push({r:R, g:G, b:B});
+  }
+  return outColors;
+}
+
 function zp(str) {
   if(str.length < 2) {
     return "0" + str;
@@ -177,14 +230,6 @@ function norm(p1, p2) {
 
 }
 
-var svg = d3.select("#output svg");
-
-var test = d3.range(1).map(function() {
-  return {
-    x: Math.round(Math.random() * (width - radius * 2) + radius),
-    y: Math.round(Math.random() * (height - radius * 2) + radius)
-  };
-});
 
 
 function dragstarted(d) {
@@ -194,11 +239,11 @@ function dragstarted(d) {
 function dragged(d) {
  d = {x:d3.event.x, y:d3.event.y};
   d3.select(this).attr("transform","translate(" +
-        (d.x-width/2) + "," + (d.y-height/2) + ")");
+        (d.x-width/2.5) + "," + (d.y-height/2.5) + ")");
   var i = -1;
   circles.forEach((circle)=> {
     i++;
-    $("#circle"+i+"-text")[0].innerText = circle.category + ":" + (100*distanceFromFar(d, circle)).toFixed();
+    $("#circle"+i+"-text")[0].innerText = circle.category + ":" + (1000*distanceFromFar(d, circle)).toFixed();
   })
   //d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
 }
@@ -236,10 +281,10 @@ function drawCircle(current, total) {
   // Expressed as percentage of total SVG width.
   var radius = 390 / (+total + 12);
   var r = svg.getBoundingClientRect().width*radius/100;
-
-  var fr = Math.floor(Math.random() * 255);
-  var fg = Math.floor(Math.random() * 255);
-  var fb = Math.floor(Math.random() * 255);
+  var color = findColors(total)[current];
+  var fr = color.r;
+  var fg = color.g;
+  var fb = color.b;
 
 
   svg.innerHTML += [
@@ -325,8 +370,19 @@ function drawPoint(p, size=10) {
   ].join("");
 }
 
+
+var svg = d3.select("#output svg");
+
+var test = d3.range(1).map(function() {
+  return {
+    x: Math.round(Math.random() * (width - radius * 2) + radius),
+    y: Math.round(Math.random() * (height - radius * 2) + radius)
+  };
+});
+
 $("#size_selector").on("change", function() {
   // Number of circles
+  console.log("drawing circles");
   var ncircs = $(this).val(),
       _nc = ncircs;
   var placement;
@@ -349,6 +405,8 @@ $("#size_selector").on("change", function() {
   $("#text").empty();
   var i = -1;
   var svg = $("#output svg")[0];
+  var colors = findColors(circles.length);
+  console.log("num circles = " + circles.length);
   circles.forEach((circle)=> {
     i++;
     d = {x:(circle.c.x - center.x), y:(circle.c.y - center.y)};
@@ -364,7 +422,11 @@ $("#size_selector").on("change", function() {
     }
     //drawPoint(circle.f);
     //drawPoint(circle.c);
-    $("#text").append('<div id=circle'+i+'-container><text id=circle'+i+'-text></text></div');
+    var colorText = 'style="color:rgb('+colors[i].r+','+colors[i].g+','+colors[i].b+');"';
+    // find current value of star
+    var dispText = categories[i] + ":";
+    console.log('appending');
+    $("#text").append('<div id=circle'+i+'-container><text '+colorText+' id=circle'+i+'-text>'+dispText+'</text></div');
     var textX = circle.c.x + 1.05*circle.r*(d.x)/norm(d)-10;
     var textY = circle.c.y + 1.05*circle.r*(d.y)/norm(d);
     
@@ -434,7 +496,7 @@ svg.selectAll("circle")
   .append("svg:polygon")
   .attr("id", "star_1")
   .attr("visibility", "visible")
-  .attr("points", CalculateStarPoints(width/2, height/2, 5, 10, 5))
+  .attr("points", CalculateStarPoints(width/2.5, height/2.5, 5, 10, 5))
 .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
