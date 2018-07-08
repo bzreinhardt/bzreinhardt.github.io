@@ -2,6 +2,23 @@
 Tweets
 --
 
+---
+
+Thread on trust 
+
+Trust - building and maintaining it - is the driver for at least 80% of human interactions. Yet we rarely talk about it explicitly. Some thoughts and realizations about naked trust.
+
+
+
+
+It's shocking how easily you can evaluate someone's status and what worlds they live in by who your mutual friends are on facebook. It is about who you know :-(
+
+Anybody who says you should write like you talk has never listened to a transcript.
+
+Is there a better way for aliens to non lethally neutralize us than give us the internet?
+
+Is that an episode of star trek? Because it should be.
+
 UX for AI -
 Let's define AI - 
 Speed Up Feedback Loops - AI  

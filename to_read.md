@@ -1,4 +1,37 @@
-Things to Read.
+---
+title: Things to Read.
+---
+Tips for Convivality - Andy M
+
+Drawdown - Andy M
+
+Neuroeconomics by Vernon Hill
+
+The Power - via Elise Liu
+
+A Culture of Growth - Via James Redd
+
+The Lever of Riches - via James Redd
+
+Where good ideas come from - via James Redd
+
+Psychology of Intelligence Analysis - via James Redd
+
+[Feel the fear and do it anyway](https://www.amazon.com/s/ref=nb_sb_ss_c_1_24?url=search-alias%3Daps&field-keywords=feel+the+fear+and+do+it+anyway&sprefix=feel+the+fear+and+do+it+%2Caps%2C-1&crid=3Q24Y83M2SVI2) - via Tessa Lau
+
+Venture Deals - via Tessa Lau
+
+The Black Swan - via @TheAncientSage
+
+Stumbling on Happiness - via @TheAncientSage
+
+48 Laws of Power - via @TheAncientSage
+
+Enlightenment Now - via Andy Matuschak
+
+The Speed of Trust - via Sean Kolk
+
+Ubik - Phillip K Dick - via Bethanie Maples
 
 The Sirens of Titan - Kurt Vonnegut - via Andy Sparks 
 

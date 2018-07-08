@@ -5,6 +5,52 @@ layout: page
 
 Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
 
+7/8/2018 - [THE ACTUAL CONTENT OF QUANTUM THEORETICAL KINEMATICS AND MECHANICS. Heisenberg.](https://www.dropbox.com/s/fc5d63tbvcrj2c4/heisenberg.pdf?dl=0)
+
+7/1/2018 - [The Present Situation in Quantum Mechanics. Erwin Schrodinger](https://www.dropbox.com/s/646g5hur0poj176/Schrodinger_1935_cat.pdf?dl=0)
+
+6/24/2018 - [The Faculty of Language: What Is It, Who Has It, and How Did It Evolve? Hauser and Chomsky](https://www.dropbox.com/s/4b158itl0z20gsp/hauser2002.pdf?dl=0)
+
+
+6/7/2018 - ["Relative State" Formulation of Quantum Mechanics.
+HUGH EVERETT) III)](https://www.dropbox.com/s/lu2s4yhbceapo5v/Relative%20State%20Formulation%20of%20Quantum%20Mechanics.pdf?dl=0)
+
+5/31/2018 - [Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments
+Justin Kruger and David Dunning](https://www.dropbox.com/s/v6tufeilxms3cri/UnskilledAndUnawareOfIt.pdf?dl=0)
+
+
+5/13/2018 - [Particle Creation by Black Holes
+S.W. Hawking](https://www.dropbox.com/s/5k2n8jjib8cmsua/Hawking%20Particle%20Creation.pdf?dl=0)
+
+5/7/2018 - [Neocortex size as a constraint on group size in primates. R.I.M Dunbar.](https://www.dropbox.com/s/ts90kh8ripyp3uu/dunbar1992.pdf?dl=0)
+
+4/29/2018 - [Cramming More Components onto Integrated Circuits. Gordon Moore](https://www.dropbox.com/s/7as6vyc9g4zdxvs/moore.pdf?dl=0)
+
+4/22/2018 - [V. Experimental researches in electricity
+Michael Faraday, F. R. S., M. R. I.
+Phil. Trans. R. Soc. Lond. 1832 122, 125-162, published 1 January 1832](https://www.dropbox.com/s/8hgsd5vz4nzzftt/Phil.%20Trans.%20R.%20Soc.%20Lond.-1832-Faraday-rstl.1832.0006.pdf?dl=0)
+
+4/15/2018 - [John von Neumann
+COLLECTED WORKS
+Volume v
+DESIGN OF COMPUTERS, THEORY OF AUTOMATA AND NUMERICAL ANALYSIS](https://www.dropbox.com/s/xtbsj5vcvqualsf/vonNeumannSelfReproducingAutomata.pdf?dl=0)
+
+4/8/2018 - [A Theory of Human Motivation A. H. Maslow (1943)](https://www.dropbox.com/s/xcpychtqm4tbk55/maslow_1943.pdf?dl=0)
+
+4/1/2018 - [A Programmable Dual-RNA–Guided
+DNA Endonuclease in Adaptive
+Bacterial Immunity. ie. CRISPR.](https://www.dropbox.com/s/nc2zrhf43jvc4mo/CRISPR.pdf?dl=0)
+
+3/18/2018 - [The Synthesis of Ammonia from its Elements. Fritz Haber](https://www.dropbox.com/s/kkjqafmc20q6zcp/haber-lecture.pdf?dl=0)
+
+3/11/2018 - [Science as Falsification. Karl Popper](https://www.dropbox.com/s/rdjajn7qc03zz20/Sir%20Karl%20Popper%20Science%20as%20Falsification%2C%201963.pdf?dl=0)
+
+
+2/25/2018 - [An Example of Statistical Investigation of the Text Eugene
+Onegin Concerning the Connection of Samples in Chains. A.A. Markov 1913](https://www.dropbox.com/s/ofe7ksjxe54a096/DavidLink_AnExampleOfStatistical_MarkovTrans_2007.pdf?dl=0)
+
+2/17/2018 - A t
+
 2/11/2018 - [Separation of Ownership and Control. Fama et. al. 1983](https://www.dropbox.com/preview/Weekly%20Readings/2-5-2018/fama1983.pdf)
 NOTE: if you or someone you know can explain why this paper is heavily cited, let me know.
 
