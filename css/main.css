@@ -347,7 +347,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 15px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -393,7 +393,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 
@@ -535,10 +535,10 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 62px;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 32px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
