@@ -100,7 +100,7 @@ This is the good stuff you want at the end of the day. Turning on music, enterin
 
 ### What Speech Tech Does Well
 
-There are three areas where current speech tech shines. If an applic
+There are three areas where current speech tech shines. If a speech application falls outside of these categories, beware.
 
 #### 1. It allows you to do computer input without your hands or eyes<sup>[2](#design)</sup>
 
