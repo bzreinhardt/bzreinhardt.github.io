@@ -66,7 +66,7 @@ Many proposed solutions solve a problem on only one side of the family-older adu
 #### Does the Product Appeal to System and Story?
 Solutions that don’t fit into both a system and a story will struggle. Either they will be rejected by the dyad or an organization like a nonprofit, hospital, insurance company, or care agency. The dyad’s day-to-day struggles are hard to capture in data which makes stories the only way to get buy in from them. On the flip side, organizations and their representatives are data driven. They demand systems explanation of how a solution will address their metrics and priorities.
 
-####Conclusion
+#### Conclusion
 
 Story and System Thinking, dyads, and Wicked Problems don’t pop up exclusively in elder care. The next time you run into a situation where there are many unsolved problems that seem fixable, try looking at it through those lenses.
 
