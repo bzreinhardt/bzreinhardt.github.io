@@ -3,14 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-Currently I'm an EIR at [Susa Ventures][Susa] and am using robotics to empower elders at [Fern][fern]. In the past, I [taught computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History.
+
+Currently I'm an EIR at [Susa Ventures][Susa] and am using robotics to empower elders at [Fern][fern]. In the past, I [taught computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History. 
+
+Multi-Class Fighter/Mage with some levels in Bard.
 
 
-Multi-Class Fighter/Mage with some levels in Bard. 
- 
-
-*Longer bio coming eventually.*
- 
 ALL THE INFORMATION:
 
 [Resume][resume]
