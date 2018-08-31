@@ -17,7 +17,7 @@ baseurl: ""
 title: The Green Dragon
 
 # Short description of your site
-description: Permittre dragonis adsurgo 
+description: Permittre dragonis adsurgo
 # alt: shit-wrecking for fun and profit
 # --- Navigation bar options --- #
 
@@ -172,6 +172,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - node_modules
 
 include:
   - RequestsFor

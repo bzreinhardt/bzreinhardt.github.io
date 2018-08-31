@@ -28,7 +28,7 @@ As an outsider who has been delving deep into elder care, I’ve realized that i
 3) Wicked Problems.
 
 #### Story Thought and Systems Thought
-The story about my grandparents is an example of story thinking while the statistics about elder care are an example of story thinking. I’m pulling the excellent definitions from [this post](https://medium.com/quora-design/story-thought-and-system-thought-188dce7a87e6) from Mills Baker:
+The story about my grandparents is an example of story thinking while the statistics about elder care are an example of systems thinking. I’m pulling the excellent definitions from [this post](https://medium.com/quora-design/story-thought-and-system-thought-188dce7a87e6) from Mills Baker:
 - Story thought emphasizes subjective human experience, the primacy of individual actors, narrative and social ordering, messiness, edge cases, content, and above all meaning.
 - System thought emphasizes 3rd-person descriptions of phenomena from a neutral perspective, the interchangeability of actors and details, categorical or logical ordering, measurements, flow, form, and above all coherence.
 
@@ -38,7 +38,7 @@ Keeping both of these thought styles in mind is especially important in elder ca
 
 A [dyad](https://en.wikipedia.org/wiki/Dyad_(sociology)) in person-centered design is a construct that allows a designer to think of two individuals as a single persona or user.
 
-My mother and my grandmother were a parent-child dyad, from the perspective of anybody trying to build something to help them.  This dyad model is critical in elder care because both the parent and the child are using the same product. Dyads can be confused with other systems where there are multiple stakeholders like when there are separate people paying for and using the product. In a dyad, both sides are actively using the product in some way and the *interaction*
+My mother and my grandmother were a parent-child dyad, from the perspective of anybody trying to build something to help them.  This dyad model is critical in elder care because both the parent and the child are using the same product. Dyads can be confused with other systems where there are multiple stakeholders - when there are separate people paying for and using the product, for example. In a dyad, both sides are actively using the product in some way.
 
 #### Wicked Problems
 
@@ -66,7 +66,7 @@ Many proposed solutions solve a problem on only one side of the family-older adu
 #### Does the Product Appeal to System and Story?
 Solutions that don’t fit into both a system and a story will struggle. Either they will be rejected by the dyad or an organization like a nonprofit, hospital, insurance company, or care agency. The dyad’s day-to-day struggles are hard to capture in data which makes stories the only way to get buy in from them. On the flip side, organizations and their representatives are data driven. They demand systems explanation of how a solution will address their metrics and priorities.
 
-####Conclusion
+#### Conclusion
 
 Story and System Thinking, dyads, and Wicked Problems don’t pop up exclusively in elder care. The next time you run into a situation where there are many unsolved problems that seem fixable, try looking at it through those lenses.
 
