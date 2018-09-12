@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Never Say Never
-date: 2013-12-29 23:37:22.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-12-29 23:37:22 -08:00
 tags:
 - Future
 - history
 - optimism
 - technology
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>The deluge of end-of-year related media seems to take two forms: recaps of the past year and predictions for the future. (Interestingly, there aren’t a lot of year-end reports along the lines of ‘and here’s what I’m doing RIGHT NOW’) Many predictions involve technology: will 2014 be the year of the 3-D printed, cloud-neural network quantum-computing autonomous cars?!?!?! (Answer: No.)</p>
 <p>For everybody who thinks fusion powered utopia is just around the corner, it seems there are at least ten naysayers who think technological optimists are just indulging sci-fi daydreams. Although anecdotes aren’t proof, many very smart people, through their own pessimism, have inadvertently offered up counter-evidence for a pessimistic viewpoint. Check it out:</p>
 <ul>

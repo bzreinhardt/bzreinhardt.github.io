@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Links of the Week 10-19
-date: 2013-10-19 21:15:10.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-19 21:15:10 -07:00
 categories:
 - Links of the Week
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li><a href="http://www.nature.com/news/blood-filled-mosquito-is-a-fossil-first-1.13946" target="_blank">Welcome to...Jurassic Park</a></li>

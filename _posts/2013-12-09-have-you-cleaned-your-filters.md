@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Have you cleaned your filters?
-date: 2013-12-09 22:59:44.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-12-09 22:59:44 -08:00
 tags:
 - analogies
 - brains
 - engineering
 - human filters
 - kalman filters
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>One tool in the control/dynamics engineer’s toolbox is the Kalman filter. It’s one of those big intellectual hammers that makes many problems look like nails.</p>
 <p>Put simply, a Kalman filter combines noisy external measurements with an internal simulation of the system in question in order to estimate the system’s true state. Depending on how much you trust the measurements (the covariance of those measurements), the filter will weigh the internal model and the external measurements differently.</p>
 <p>As with a lot of these big concepts, it’s a fun thought experiment to draw an analogy from the Kalman filter to the human brain. In many different domains, we are always running an internal model of the world, and comparing our own measurements to that model. We use a pseudo-Kalman filter when we’re walking – you hold a model of the ground in your head and for the most part assume that the ground at your next step is roughly the same as the ground on your last step. We also use a pseudo-Kalman filter when we’re learning or thinking – you compare new information to the model of the world in your head. Depending on certainty in your model and trust in the source of information, you give relative weight to both and compose the two together to estimate the true state of things.</p>

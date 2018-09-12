@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Pessimism Be Gone! Pt 2
-date: 2013-07-23 01:36:44.000000000 -07:00
+date: 2013-07-23 01:36:44 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>As a side effect of spending a lot of time yakking about the future of space exploration, I encounter many pessimistic outlooks on private space flight. One of those most common explanations for this pessimism is:</p>
 <blockquote><p>“Most of the NewSpace companies popping up everywhere are crazy and can’t possibly survive.”</p>
 </blockquote>

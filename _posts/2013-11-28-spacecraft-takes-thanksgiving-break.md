@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Spacecraft Takes Thanksgiving Break
-date: 2013-11-28 23:36:13.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-11-28 23:36:13 -08:00
 tags:
 - Misperceptions
 - News
 - Rockets
 - SES8
 - SpaceX
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>SpaceX took anybody who was paying attention on a roller coaster today with <a href="http://spaceflightnow.com/falcon9/007/131128scrub/" target="_blank">back-to-back countdowns</a> to less than T minus 60 seconds before aborting. Way more nerve-racking than any Thanksgiving football game.</p>
 <p>Your initial reaction to the aborted launches might be 'SpaceX clearly screwed up and got their just desserts for building up hype.' But I see it in a more positive light. SpaceX was working as close to the principles of 'try fast, fail fast,' as you can when you have a multi-million dollar rocket and payload on the line.</p>
 <p>Negative reactions to glitches like tonights launch and <a href="http://www.wired.com/autopia/2013/10/first-flight-dream-chaser-nasa/" target="_blank">last month's problem in the Dreamchaser's landing gear</a> contribute to the glacial pace of big engineering innovations. It makes sense when you consider that going very slowly on a project to try to cover all your bases only raises brief, vague annoyance. Actually trying something big and not succeeding perfectly draws  at best harsh criticism. So my take is that if nobody innocent is hurt (physically or monetarily) actually going for it should be applauded.</p>

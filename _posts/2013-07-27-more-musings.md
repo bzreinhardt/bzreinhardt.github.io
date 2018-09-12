@@ -1,14 +1,11 @@
 ---
-layout: post
 title: More Musings
-date: 2013-07-27 01:55:58.000000000 -07:00
+date: 2013-07-27 01:55:58 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Some assorted NewSpace 2013 inspired thoughts that I want to put up while they are still fresh and go into more detail in future posts:</p>
 <ul>
 <li> Public Perception/Personal Connection – as much as I would like to be wrong, I believe that a most people feel little connection to space.  When they think of it, if at all, it’s all robots and telescopes and maybe a funny Canadian astronaut every once so often.  Epic or useful space exploration is something that we used to do, but is a relic of the past, like knights and sailing ships. As long as these perceptions persist, it will be an uphill battle to make useful space exploration a reality.</li>

@@ -1,9 +1,12 @@
 ---
-layout: math_post 
 title: 2D Inspection Outline and Abstract
-tags: [papers, indexes]
+layout: math_post
+tags:
+- papers
+- indexes
 comments: true
 ---
+
 ## Abstract
 ------------------------
 <!-- put picture in abstract -->

@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Robustness Revision
-date: 2013-11-05 23:41:28.000000000 -08:00
+date: 2013-11-05 23:41:28 -08:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>After a talk with my ever-insightful PhD advisor, I need to amend my model of robust design.  I had conceived of robustness as a spectrum with hard-to-break on the end close to fragility and easy-to-fix on the end close to antifragility.</p>
 <p> I think the picture is actually two-dimensional and more complicated than ‘hard-to-break’ bad! ‘easy-to-fix’ good!</p>
 <p> Instead of a line between ‘hard-to-break’ and ‘easy-to-fix,’ now I’m thinking of robustness like a triangle, with ‘cheap-to-replace’ on the third corner.</p>

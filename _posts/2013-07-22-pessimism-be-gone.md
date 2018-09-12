@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Pessimism Be Gone!
-date: 2013-07-22 01:12:14.000000000 -07:00
+date: 2013-07-22 01:12:14 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>If it weren’t clear already, I am very optimistic about the future of the private space industry.  I’ve had many conversations with pessimists on private space - those who simply doubt feasibility generally bring up two major problems:</p>
 <p> Problem 1:</p>
 <p>Most of the NewSpace companies popping up everywhere can’t possibly succeed.</p>

@@ -1,14 +1,11 @@
 ---
-layout: post
 title: IXV Musings
-date: 2013-06-26 01:43:22.000000000 -07:00
+date: 2013-06-26 01:43:22 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://www.reuters.com/article/2013/06/21/us-air-show-space-idUSBRE95K0V920130621">This article</a> about the European Space Agency’s attempts at making a reusable space plane brings up two big issues. I don’t have time to go into depth about them now, but it’s still worthwhile to bring them to the surface:</p>
 <p> Competition between companies is useful and makes sense – driving each company to do better than it would without the incentives. Competition between governments on space technology bugs me.  Yes, I realize there is a national security component, etc. etc. but through probably unnecessary secret keeping, the US government is basically forcing the Europeans, with whom we already share tons of military tech, to reinvent the very very complicated wheel.</p>
 <p> Basically, I feel like governments have no place competing like companies, especially in the area of space exploration, which should really be a shared human endeavor.</p>

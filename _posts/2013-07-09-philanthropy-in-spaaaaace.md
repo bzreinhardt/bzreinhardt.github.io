@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Philanthropy... in spaaaaace
-date: 2013-07-09 01:10:51.000000000 -07:00
+date: 2013-07-09 01:10:51 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://www.kickstarter.com/projects/597141632/cat-a-thruster-for-interplanetary-cubesats" target="_blank">Here’s yet another Kickstarter for a small, possibly awesome space project.</a></p>
 <p> The proposal has received a stamp of feasibility from colleagues who have cubesat and cubesat propulsion knowledge that I trust.  Also note the images of actual developed hardware rather than just pretty graphics.</p>
 <p> A thought on the bigger picture: the number of small and feasible but unfunded space projects suggests that there is a need for a new paradigm for funding not-for-profit space exploration.</p>

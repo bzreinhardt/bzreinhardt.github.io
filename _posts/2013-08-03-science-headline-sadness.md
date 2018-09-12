@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Science Headline Sadness
-date: 2013-08-03 03:52:22.000000000 -07:00
+date: 2013-08-03 03:52:22 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>With (unedited) headlines like these, no wonder most people don’t find science worthwhile:</p>
 <blockquote><p>“Physicists at the University of California at Berkeley are putting Albert Einstein's theory of special relativity to the test with an experiment using electrons.”</p>
 <p> </p>

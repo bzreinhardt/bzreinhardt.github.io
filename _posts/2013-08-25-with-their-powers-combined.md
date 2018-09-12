@@ -1,18 +1,16 @@
 ---
-layout: post
 title: With their powers combined....
-date: 2013-08-25 22:33:06.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-25 22:33:06 -07:00
 tags:
 - mechanisms
 - robotics
 - sleep deprivation
 - space
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>While looking at the job market for mechanical engineers during my senior year, I often lamented that nobody did cool purely mechanical things anymore. Back in the day, my complaint went, mechanical engineers came up with brilliantly clever things like <a href="http://kmoddl.library.cornell.edu/model.php" target="_blank">Reuleaux mechanisms </a>and farther back in time, world changing things like clocks and trebuchets. Now, mechanical engineers, rather than building the exciting thing, design the box that holds the box that routes the wires that run the subsystem of the exciting thing.  (Admittedly, 2010 was an especially abysmal year for mechanical engineering job prospects in general.)</p>
 <p> To me it seemed like all the impactful projects were pure software – simply leveraging computers teach some old hardware new tricks. Self-driving cars come to mind as something that I would have pulled up as an example.</p>
 <p> Thinking about my previous mindset today, I realize how naïve it was.  Purely mechanical projects are clever, but not optimal – it’s basically doing it the long, hard, expensive way just so you can say you did.  However, pure software is similarly limited.</p>

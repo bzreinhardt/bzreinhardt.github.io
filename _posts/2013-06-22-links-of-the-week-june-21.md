@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week, June 21
-date: 2013-06-22 02:23:52.000000000 -07:00
+date: 2013-06-22 02:23:52 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li>On the PR front, Space Exploration needs more celebrity endorsement <a href="http://www.newspacejournal.com/2013/06/20/planetary-resources-breaks-the-million-dollar-mark-in-its-crowdfunding-campaign/" target="_blank">like this</a></li>

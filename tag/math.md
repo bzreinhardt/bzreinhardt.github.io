@@ -1,6 +1,7 @@
 ---
+title: 'Tag: math'
 layout: tagpage
-title: "Tag: math"
 tag: math
 robots: noindex
 ---
+

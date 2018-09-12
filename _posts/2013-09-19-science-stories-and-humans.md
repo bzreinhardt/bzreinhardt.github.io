@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Science, Stories, and Humans
-date: 2013-09-19 22:56:05.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-19 22:56:05 -07:00
 tags:
 - history
 - science
 - storytelling
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>The opening statement of<a href="http://www.npr.org/blogs/13.7/2013/09/17/223129177/the-bubble-at-the-edge-of-the-solar-system?utm_source=NPR&amp;utm_medium=gplus&amp;utm_campaign=nprgoogleplus" target="_blank"> this NPR blog</a> really struck a chord with me. The rest of the article does a nice job explaining the exciting science behind the recent <a href="http://www.xkcd.com/1189/" target="_blank">voyager news</a>, but doesn’t pursue the opening idea as far as I wanted.</p>
 <blockquote><p>“Science at its most fundamental level is not made of experiments or math, copper tubing or silicon chips. Science, at its most fundamental level, is made up of stories because that's how human beings understand themselves and their place in the cosmos.”</p></blockquote>
 <p>This story-telling aspect of human nature is everywhere and can’t be ignored. I used to think that there was a stark difference between ‘facts’ and ‘stories.’ Many (most?) people still do. But really there are just stories that do better or worse jobs of describing the world, or just describe certain aspects of it. In this way, history and engineering are more similar it may appear on the surface (though they are still quite different.)</p>

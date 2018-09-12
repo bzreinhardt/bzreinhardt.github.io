@@ -1,18 +1,16 @@
 ---
-layout: post
 title: 'Ditch Day Chronicles: Announcements Pt. 2'
-date: 2013-09-05 22:35:37.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-05 22:35:37 -07:00
 tags:
 - blacker
 - caltech
 - Ditch Day
 - storytelling
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Like stacks themselves, Ditch Day announcements can span a continuum from a senior reading from a piece of paper (bleechh, in my opinion) to a production with the components of a small play – acting, props, lighting, dramatic entrances and exits. If done right, each announcement builds on the energy of the one before it, until the dining hall is positively buzzing with Ditch Day anticipation.</p>
 <p>The buzzing becomes literal when dinner ends and the underclassmen eagerly discuss (based on the announcements and their knowledge of the seniors) what the themes will be and which stacks they want to go on.</p>
 <p>I could write pages describing all of the excellent announcements I’ve both seen and been part of, but instead I’ll just give a few brief flashes.  While I was at Tech, announcements have included:</p>

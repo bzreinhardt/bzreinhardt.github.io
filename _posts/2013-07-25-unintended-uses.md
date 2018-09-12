@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Unintended Uses
-date: 2013-07-25 01:55:14.000000000 -07:00
+date: 2013-07-25 01:55:14 -07:00
+categories:
+- Best-of
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: Best-of
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’m a big fan of using things for purposes other than those intended by their creators. I’ve used Legos as a reconfigurable experimental setup, a firecracker case as an electronic <a href="http://en.wikipedia.org/wiki/Palantir" target="_blank">Palantir</a>, and cardboard for pretty much everything except packing things (ok, I’ve used it to pack things too.)</p>
 <p>People repurposing is useful as well – I’ve often observed the value added by an entirely different expertise/background from the rest of a team. Many people think that you are locked into a certain set of jobs by your degree or training – this is only true if you let it constrain you. Instead, the reality is that most technical degrees are pretty much interchangeable pieces of paper that say “I’m smart!”</p>
 <p>Of course, repurposing happens all the time with technology.  Most “inventions” are actually just repurposed from an entirely different area. History is littered with examples of this - Henry Ford didn’t invent the moving assembly line, he simply repurposed the idea from meat processing factories.</p>

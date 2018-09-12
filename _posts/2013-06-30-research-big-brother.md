@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Research Big Brother
-date: 2013-06-30 21:58:40.000000000 -07:00
+date: 2013-06-30 21:58:40 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>In <a href="http://www.econtalk.org/archives/2013/06/stevenson_and_w.html" target="_blank">this week’s EconTalk podcast</a>  (around minute 55,) Russ Roberts reiterates an interesting idea: that economists should film a constant video feed of themselves and their computer screen while they’re doing research. That way, all the discarded dead ends and fruitless attempts are documented along with the brilliant paper-worthy successes.</p>
 <p>The reason for taking this video is that null results can actually be just as valuable as positive results, but are far less rewarding – to the extent that most researchers don’t find them worth documenting well and thus a lot of potentially valuable information falls through the cracks.</p>
 <p>Russ makes the suggestion in the context of economics research, but I think it would be valuable in my field – mechanical engineering – and don’t see why it wouldn’t be useful in other fields as well.</p>

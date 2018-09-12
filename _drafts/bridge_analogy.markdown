@@ -1,3 +1,8 @@
+---
+title: Bridge_analogy
+date: 2018-09-12 12:01:08.080000000 -07:00
+---
+
 Key points:
 
 Water

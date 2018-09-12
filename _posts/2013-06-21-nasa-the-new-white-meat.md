@@ -1,14 +1,11 @@
 ---
-layout: post
 title: 'NASA: the new white meat?'
-date: 2013-06-21 02:12:03.000000000 -07:00
+date: 2013-06-21 02:12:03 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>One of the upshots of <a title="An (over?) abundance of awesome" href="http://benjaminreinhardt.wordpress.com/2013/06/19/an-over-abundance-of-awesome/" target="_blank">Monday’s post</a> is that NASA has kind of poor PR. A slew of factors contribute to this problem:</p>
 <ul>
 <li>Half of the news published about NASA focuses on congressional squabbling over funding and constant direction changes that make it look like it’s NASA’s fault.</li>

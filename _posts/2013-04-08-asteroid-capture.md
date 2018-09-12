@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Asteroid Capture
-date: 2013-04-08 23:22:08.000000000 -07:00
+date: 2013-04-08 23:22:08 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>It looks like NASA will be getting funding for a proposed mission to capture an asteroid.  Space.com reports on it <a href="http://www.space.com/20538-nasa-asteroid-capture-funding.html" target="_blank">here</a>.</p>
 <p>I think the concept is very cool, and probably feasible given enough money.  However, I’m going to have to bet against the project making actual headway due to the scourge of NASA: politics.</p>
 <p>One should notice two things about the politics of the mission:</p>

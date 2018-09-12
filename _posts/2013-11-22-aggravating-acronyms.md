@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Aggravating Acronyms
-date: 2013-11-22 23:15:55.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-11-22 23:15:55 -08:00
 tags:
 - acronyms
 - NASA
 - whatsInAName
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A friend told me an excellent story:</p>
 <blockquote><p>When I first started seeing "FTFY" (fixed that for you), I originally thought it meant "fuck that, fuck you."</p>
 <p>I was *so* confused when people used it because they didn't sound angry at all!</p>

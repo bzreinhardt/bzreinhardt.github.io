@@ -1,6 +1,7 @@
 ---
+title: 'Tag: crazy-ideas'
 layout: tagpage
-title: "Tag: crazy-ideas"
 tag: crazy-ideas
 robots: noindex
 ---
+

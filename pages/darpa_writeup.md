@@ -1,7 +1,7 @@
 ---
-layout: page
 title: D60 Writeup
-permalink: /d60_notes
+permalink: "/d60_notes"
+layout: page
 ---
 
 These are my initial takeaways from the DARPA D60 Conference. Anything particularly interesting? Places I should go into more depth? <ben@benjaminreinhardt.com>

@@ -1,18 +1,17 @@
 ---
-layout: post
 title: Links of the Week 9-14
-date: 2013-09-14 18:17:06.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-09-14 18:17:06 -07:00
 categories:
 - Links of the Week
 tags:
 - comics
 - NASA
 - Videos
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -25,6 +24,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li><a href="http://news.discovery.com/space/private-spaceflight/awesome-all-angle-virgin-galactic-test-flight-video-130909.htm" target="_blank">It's so cool because it does so many new things.</a> Think about it (video)</li>

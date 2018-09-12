@@ -1,8 +1,7 @@
 ---
-layout: page
 title: quotes
+layout: page
 ---
-
 
 Journalism is printing what someone else does not want printed; everything else is public relations.
 

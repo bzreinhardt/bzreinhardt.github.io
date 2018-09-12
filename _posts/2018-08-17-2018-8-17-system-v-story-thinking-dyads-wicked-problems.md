@@ -1,9 +1,14 @@
 ---
+title: 'Elder Care: Dyads, Wicked Problems, and System v Story Thinking'
+date: 2018-08-17 00:00:00 -07:00
+categories:
+- Learnings
+tags:
+- Design
+- tradeoffs
+- eldercare
+- trends
 layout: post
-title:  "Elder Care: Dyads, Wicked Problems, and System v Story Thinking"
-date:   2018-08-17
-tags: [Design, tradeoffs, eldercare, trends]
-categories: [Learnings]  
 ---
 
 Let me tell you a **story** about elder care.

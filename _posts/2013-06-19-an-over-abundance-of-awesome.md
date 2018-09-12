@@ -1,14 +1,11 @@
 ---
-layout: post
 title: An (over?) abundance of awesome
-date: 2013-06-19 01:49:21.000000000 -07:00
+date: 2013-06-19 01:49:21 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Another “my day has been consumed by Ames so that is all I have to write about” post:</p>
 <p>Here’s a thought to chew on – is one of NASA’s problems that it’s actually doing <b>too many</b> awesome things? I might be wrong, but the perception of many Americans seems to be that the only things NASA does are the big flagship missions – the MSL’s, the Space Shuttles, the Hubbles. If this were the case, the perception that NASA is basically a big science circus would be correct.</p>
 <p>The reality is that there are so many projects going on at once that I doubt any one person could actually remember them all.  Just over the past two days I learned about:</p>

@@ -1,7 +1,8 @@
 ---
-layout: math_post 
 title: Physics Background
-tags: [papers]
+layout: math_post
+tags:
+- papers
 comments: true
 linear: true
 linear_name: 2d_inspection

@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Jarvis Grip Recognition
+layout: page
 ---
 
 Summary

@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Fragile Five
-date: 2013-10-15 23:00:44.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-15 23:00:44 -07:00
 tags:
 - freedman dyson
 - fusion power
 - moore's law
 - musings
 - technology predictions
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’m currently reading Freedman Dyson’s excellent book, <a href="http://www.amazon.com/Infinite-All-Directions-Lectures-April--November/dp/0060728892/ref=sr_1_1?ie=UTF8&amp;qid=1381892163&amp;sr=8-1&amp;keywords=infinite+in+all+directions" target="_blank">Infinite in All Directions</a>. The title is apt, as that’s roughly the scope of the (science focused) subjects Dyson writes about. I wanted to share a very astute rule of<a href="http://thumbs.dreamstime.com/z/slim-robot-arm-thumb-up-6145001.jpg" target="_blank"> technological thumb</a> he introduces, and I find very compelling.  I dub it the fragile five.</p>
 <p>In short, you should be extremely wary of any technological prediction that will take more than five years from now to come to fruition.</p>
 <p> This includes everything from the extravagant claims of tinfoil hat wearing loons to meticulously laid-out project plans that nevertheless depend on technology that doesn’t yet exist.</p>

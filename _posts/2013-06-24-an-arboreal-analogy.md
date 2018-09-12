@@ -1,14 +1,11 @@
 ---
-layout: post
 title: An Arboreal Analogy
-date: 2013-06-24 01:03:48.000000000 -07:00
+date: 2013-06-24 01:03:48 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _oembed_deb8adacf9bb476f8a7589ff4d2d9ee2: "{{unknown}}"
@@ -28,6 +25,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Please excuse the mildly philosophical thought experiment:</p>
 <p> Imagine a giant tree that was planted many years ago in an empty meadow.  This tree provides many things – fruit, shade, and beauty to name a few – that almost anybody you ask would agree makes it superior to the empty field. Some small, shade-dependent plants grow beneath the tree’s branches, but the extent and thickness of the foliage prevents much else from growing in the area. </p>
 <p> What would grow there if the tree were to suddenly cease to exist?  It would be naïve to assume that the small shade plants would just remain constant, or that the area would simply regress to the field it was many years before. Over the years, fallen branches and leaves along with the shade plants will have altered the soil and the wildlife that frequents the area, making it possible that many other kinds of plants could grow there in the vacuum left by the disappearance of the tree. </p>

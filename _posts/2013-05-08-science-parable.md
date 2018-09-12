@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Science Parable
-date: 2013-05-08 23:00:48.000000000 -07:00
+date: 2013-05-08 23:00:48 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I recently came across <a href="http://launiusr.wordpress.com/2012/02/08/why-explore-space-a-1970-letter-to-a-nun-in-africa/" target="_blank">a letter</a> written by <a href="http://en.wikipedia.org/wiki/Ernst_Stuhlinger" target="_blank">Ernst Stuhlinger</a> in 1970<i>.   </i>It’s a fairly long letter, but provides some good arguments for space exploration.</p>
 <p>What stood out in my mind was this  (possibly fictional) story:</p>
 <blockquote><p>“About 400 years ago, there lived a count in a small town in Germany. He was one of the benign counts, and he gave a large part of his income to the poor in his town. This was much appreciated, because poverty was abundant during medieval times, and there were epidemics of the plague which ravaged the country frequently. One day, the count met a strange man. He had a workbench and little laboratory in his house, and he labored hard during the daytime so that he could afford a few hours every evening to work in his laboratory. He ground small lenses from pieces of glass; he mounted the lenses in tubes, and he used these gadgets to look at very small objects. The count was particularly fascinated by the tiny creatures that could be observed with the strong magnification, and which he had never seen before. He invited the man to move with his laboratory to the castle, to become a member of the count’s household, and to devote henceforth all his time to the development and perfection of his optical gadgets as a special employee of the count.</p>

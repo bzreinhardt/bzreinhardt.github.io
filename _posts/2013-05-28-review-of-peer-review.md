@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Review of Peer Review
-date: 2013-05-28 22:43:35.000000000 -07:00
+date: 2013-05-28 22:43:35 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>This chain of emails is unaltered except for the removal of identifying information:</p>
 <p><strong>On Thu, May 2, 2013 at 3:09 PM, Benjamin Reinhardt &lt;bzr3@cornell.edu&gt; wrote: </strong></p>
 <p>Hello, Would it be possible to get more information regarding the rejection decision on my paper for Conference 2013? Thank you.</p>

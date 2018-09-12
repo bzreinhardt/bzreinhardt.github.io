@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Aggravating Aggregation
-date: 2013-08-09 00:35:06.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-09 00:35:06 -07:00
 tags:
 - language
 - musings
 - Rants
 - space
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A small rant inspired by the space settlement video yesterday:</p>
 <p> If you pay attention, throughout the video, the narrator continually refers to activities that will be performed by an unspecified group. Is it humanity? The population of the United States? Just you and the narrator? ‘We will go to L1.’ ‘We will create a base on Phobos.’</p>
 <p> ‘We’ has become one of my least favorite words. It enables (often unconsciously) a passive-aggressive door to a slew of distasteful things: issue commands, assert consensus, play down inherent differences, avoid responsibility, and more.</p>

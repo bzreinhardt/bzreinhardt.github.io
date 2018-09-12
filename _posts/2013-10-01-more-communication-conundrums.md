@@ -1,13 +1,6 @@
 ---
-layout: post
 title: More Communication Conundrums
-date: 2013-10-01 22:48:46.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-01 22:48:46 -07:00
 tags:
 - communication
 - idea transfer
@@ -15,6 +8,11 @@ tags:
 - science communication
 - science papers
 - search algorithms
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -25,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>It’s intuitive that a graduate student (that’s me) should be very aware of the research related to his area of focus.</p>
 <p>What’s less intuitive is the process of finding related research, labyrinthine despite modern search technology. There are the (un?)lucky students who’s project is just a small spur off of a well established field. In this case, they can depend interpersonal connections, which despite the sometimes blinding glitter of new technology are still the oldest and most dependable of resources. For the rest of us though, figuring out who is doing similar work is quite the gamble, and a lot falls through the gaps.</p>
 <p>Two events today highlighted this problem for me: I discovered a paper published at the end of last year proposing a concept very similar to my research, but conceived entirely independently. Until now, I didn’t know about them and they still don’t know about me. On a more depressing note, a friend found a thirty-year-old paper showing the same results as the brand-new paper he’s preparing to submit.</p>

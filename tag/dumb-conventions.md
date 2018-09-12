@@ -1,6 +1,7 @@
 ---
+title: 'Tag: dumb-conventions'
 layout: tagpage
-title: "Tag: dumb-conventions"
 tag: dumb-conventions
 robots: noindex
 ---
+

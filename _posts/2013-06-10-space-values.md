@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Space Values
-date: 2013-06-10 22:37:48.000000000 -07:00
+date: 2013-06-10 22:37:48 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>At <a href="http://www.thespacereview.com/article/2309/1" target="_blank">The Space Review</a>, Matt Greenhouse presents a compelling vision for framing future NASA operations: science missions supported by human operations. One of the most successful examples of this idea is the <a href="http://en.wikipedia.org/wiki/Hubble_Space_Telescope#Servicing_missions_and_new_instruments" target="_blank">Hubble Telescope</a>. </p>
 <p>While I don’t exactly share the exact priorities of the article, (I’m more pro-humans with some incidental science thrown in) I really want to emphasize the underlying point – more than anything, NASA needs <b>consistency</b>, something that the congressional overlords refuse to provide.</p>
 <p>Not to be too preachy, but:</p>

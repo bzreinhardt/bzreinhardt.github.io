@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Links of the Week 8-31
-date: 2013-08-31 23:12:30.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-08-31 23:12:30 -07:00
 categories:
 - Links of the Week
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday (Space) Stories!</p>
 <ul>
 <li><a href="http://www.smbc-comics.com/index.php?db=comics&amp;id=3092" target="_blank">My sentiments exactly.</a></li>

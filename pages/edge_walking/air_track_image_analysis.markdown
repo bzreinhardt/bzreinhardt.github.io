@@ -1,10 +1,13 @@
 ---
-layout: post 
-title: "Air Track Image Analysis"
-tags: [analysis,edge_experiments]
-date: 2014-5-26
+title: Air Track Image Analysis
+date: 2014-05-26 00:00:00 -07:00
+layout: post
+tags:
+- analysis
+- edge_experiments
 comments: true
-categories: [Thesis]
+categories:
+- Thesis
 ---
 
 A sequence of image processing tricks turn the [raw video][vid] of the cart moving on an air track into an absolute position measurement.[^4] There are two major steps:

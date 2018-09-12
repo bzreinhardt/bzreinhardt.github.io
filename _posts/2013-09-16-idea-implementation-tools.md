@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Idea-->Implementation Tools
-date: 2013-09-16 23:00:25.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-16 23:00:25 -07:00
 tags:
 - efficiency
 - engineering practices
 - questions
 - technology
 - tradeoffs
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -26,6 +24,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Some insightful comments from my advisor have got me thinking about innovation tools. His thought was that many more kids would want to go into STEM (Science, Technology, Engineering and Math) fields if we separated out the creation parts from the grungy math and/or fabrication parts. I’d bet that any engineer (or really anybody who creates things) shares in the experience of having to slog through grungy, parts of the process driven only by the vision of the final product.</p>
 <p>This ties right back to thinking about the question ‘what are people good at? vs. what are computers good at?’ Two relevant answers (among many): ‘people are really good at making (sometimes bizarrely) abstract connections and new ideas’ and ‘computers are really good at grungy, known processes.’</p>
 <p>Basically, the ideal goal is that the shorter the effort-distance between brain-flash and real-world implementation, the more brain-flashes can be tried. This in turn increases the rate of innovation iteration, accelerating new technology.</p>

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Ben's Schedule
-
+layout: page
 ---
+
 Trying out a new tool for easier scheduling: [https://calendly.com/bzreinhardt/chat/](https://calendly.com/bzreinhardt/chat/)
 
 <div>

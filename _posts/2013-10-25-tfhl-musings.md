@@ -1,19 +1,17 @@
 ---
-layout: post
 title: TFHL Musings
-date: 2013-10-25 23:14:11.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-25 23:14:11 -07:00
 tags:
 - big picture
 - massless space exploration
 - musings
 - space
 - TFHL
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Two tinfoil-hat-line-skirting thoughts.</p>
 <p><b> </b><b>Uranium In Space</b> – I haven’t heard it discussed, but it seems like one of the most valuable things to mine in space would be uranium or other fissile material. Nuclear reactors are incredibly valuable in space. They are basically the only option for long-term power to meet requirements greater than the amount the sun can provide. And since the sun doesn’t provide much power past the asteroid belt, or during a dust storm on Mars, nuclear power will be important for significant exploration of the solar system.</p>
 <p>Unfortunately, it’s an epic regulatory adventure to launch any sort of radioactive material from earth. If a rocket with a radioactive payload were to explode during launch, it could potentially contaminate a huge swatch of land.  So, instead of launching huge chunks of fissile material, why not aggregate it in space? One option is to mine uranium in space (although I have no idea if mineable asteroids or the moon have anywhere near enough to consider.) Launch a little bit on each rocket that goes up and then bring together the pieces in orbit. This would effectively divide the risk into pieces so small they are zero.  You are more likely to suffer adverse effects from <a href="http://www.epa.gov/radtown/antiques.html" target="_blank">old watches t</a>han a tiny bit of radioactive material smeared over several hundred miles.</p>

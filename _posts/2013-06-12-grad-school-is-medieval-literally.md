@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Grad School is Medieval (Literally)
-date: 2013-06-12 22:29:58.000000000 -07:00
+date: 2013-06-12 22:29:58 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>As I mentioned yesterday, I am currently in the throes of preparing for my <a href="http://www.gradschool.cornell.edu/requirements/exams/exams-phds" target="_blank">A-Exam</a>.</p>
 <p> At Cornell, this entails the potential PhD candidate presenting their thesis topic and convincing the committee that they are prepared to undertake the quest entailed in the topic.  What’s weird about it is that the exam doesn’t happen until the members of the committee feel that the candidate is ready to take it – ie. the candidate is able and ready to convince the committee.  Doesn’t this mean that they are already convinced? Yes, yes it does.</p>
 <p> The circular logic of the A exam highlights just one of many aspects of graduate school that are archaic holdovers from as long ago as the 12<sup>th</sup> century, when the <a href="http://en.wikipedia.org/wiki/University_of_Paris" target="_blank">first ‘modern’ European universities</a> were established. </p>

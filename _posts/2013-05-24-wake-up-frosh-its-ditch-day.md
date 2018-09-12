@@ -1,14 +1,14 @@
 ---
-layout: post
 title: Wake up frosh! It's Ditch day!
-date: 2013-05-24 23:27:07.000000000 -07:00
+date: 2013-05-24 23:27:07 -07:00
+categories:
+- Ditch
+- Day
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: Ditch Day
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -21,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Today holds a special place in my heart: it's the long standing Caltech tradition known as Ditch Day!</p>
 <p>While it started off as a normal senior ditch day, Caltech undergrad culture being what it is, it didn't stay normal for long.</p>
 <blockquote><p>The original Ditch Day "stacks"-a Caltech euphemism for locks-were devices installed, or measures taken, by seniors to keep underclassmen out of their rooms when they were off campus for the day. Traditionally, there were three different kinds of stacks, each named for the approach required to undo it:</p></blockquote>

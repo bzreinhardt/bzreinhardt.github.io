@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Specialization Surprise!
-date: 2013-11-20 23:01:49.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-11-20 23:01:49 -08:00
 tags:
 - cubesats
 - specialization
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -21,6 +19,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’m a big believer in the power of specialization (thanks in no small part to Russ Roberts and EconTalk.) What I didn’t realize is that specialization has become so endemic to the modern world that you can be far more specialized than you even realize. I spent this past weekend interacting with many people outside of the space/engineering/nerd bubble, giving me a good specialization slap in the face.</p>
 <p>Some Space Specialization Surprises:</p>
 <p>Many educated people think that “<a href="http://en.wikipedia.org/wiki/JPL" target="_blank">JPL</a>” is technical jargon.</p>

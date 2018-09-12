@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Good NASA Spending, Bad NASA Spending
-date: 2013-06-07 23:13:43.000000000 -07:00
+date: 2013-06-07 23:13:43 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Years ago, the awesome kid’s TV show <a href="http://en.wikipedia.org/wiki/Anamaniacs" target="_blank">Anamaniacs</a> sometimes had a short segment called ‘<a href="http://www.youtube.com/watch?v=f8PhzrmBgMI" target="_blank">Good Idea, Bad Idea</a>’ that contrasted two semantically similar, but hilariously different ideas (just watch the video in the link – it’s sort.)</p>
 <p>I was reminded of ‘Good Idea, Bad Idea’ by two recent articles about two separate NASA initiatives, both with similar price tags of about $1.5 Million. The contrast is striking.</p>
 <p>Good NASA Spending:</p>

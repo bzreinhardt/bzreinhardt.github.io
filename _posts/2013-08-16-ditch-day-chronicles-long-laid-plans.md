@@ -1,17 +1,15 @@
 ---
-layout: post
 title: 'Ditch Day Chronicles: Long Laid Plans'
-date: 2013-08-16 01:50:12.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-16 01:50:12 -07:00
 tags:
 - Ditch Day
 - Indiana Jones
 - schemes
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>When an experience blows your mind, it leaves a permanent mark. That being the case, I schemed about Ditch Day a lot during my sophomore (s’more) and junior years.</p>
 <p> One of my favorite parts of ditch day was how it led to the discovery of parts of campus that I didn’t even know existed and seeing other parts in a whole new way.  As a frosh, our stack experienced the <a href="http://www.youtube.com/watch?v=eTsPt_8Q4jU">“X marks the spot” scene</a> from The Last Crusade by standing on the 9<sup>th</sup> floor of the library (where I’d never set foot) and seeing a huge painters tape X on an unexplored rooftop. </p>
 <p> Then, as a s’more, our Ditch Day quest led us (on mine-cart-like skateboards) into a maze of drainage tunnels that I didn’t even know existed.</p>

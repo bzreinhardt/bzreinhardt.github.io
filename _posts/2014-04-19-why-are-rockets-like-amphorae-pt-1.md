@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Why are Rockets like Amphorae? Pt 1.
-date: 2014-04-19 23:06:03.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2014-04-19 23:06:03 -07:00
 tags:
 - history
 - history of technology
 - Rants
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Short answer: They're both technological local maxima.</p>
 <p>[caption id="" align="aligncenter" width="171"]<img src="{{ site.baseurl }}/assets/image_thumb%25255B7%25255D.png?imgmax=800" alt="" width="171" height="141" /> "whoo hoo, I'm a local maxima!"[/caption]</p>
 <p>Long answer:</p>

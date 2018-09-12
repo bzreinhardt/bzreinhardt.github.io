@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Spinning > Not Spinning
-date: 2014-04-14 22:29:10.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2014-04-14 22:29:10 -07:00
 categories:
 - Dissertation
 - Grad School
@@ -15,6 +9,11 @@ tags:
 - research
 - spinning magnets
 - Videos
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -25,6 +24,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>The changing component of the magnetic fields that produce eddy currents can come from two sources: a relative velocity between the field and the target or change in the strength of the field itself. For a number of reasons the bulk of EC actuation research has focused on the latter mechanism. Time-varying electromagnets are easier to both analyze and implement.</p>
 <p>However, two motors spinning magnets to create eddy-currents through moving magnetic fields may be able to achieve something that is much harder with electromagnets: attraction AND repulsion without a complicated scheme.</p>
 <p>The motor-magnet actuator says to the plate: "come here"</p>

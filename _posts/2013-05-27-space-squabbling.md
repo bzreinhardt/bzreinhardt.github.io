@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Space Squabbling
-date: 2013-05-27 22:34:07.000000000 -07:00
+date: 2013-05-27 22:34:07 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>If you’ve been paying attention to space news recently, you’ll know there’s a lot of conflict in congress concerning the course that they want NASA to take. It’s like a bunch of small children fighting over a teddy bear – in the same way that the bear isn’t fun for anybody with its arms ripped off, NASA is useless when it is paralyzed by being told to undertake a slew of different directions.</p>
 <p>Jeff Faust at the Space Review <a href="http://www.thespacereview.com/article/2291/1" target="_blank">goes into details</a>, but here’s a quick summary of NASA’s directional conflicts:</p>
 <ul>

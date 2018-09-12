@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Links of the Week 11-9
-date: 2013-11-09 22:33:32.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-11-09 22:33:32 -08:00
 categories:
 - Links of the Week
 tags:
@@ -14,6 +8,11 @@ tags:
 - mars
 - scientific communication
 - smallsats
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li><a href="http://www.ft.com/intl/cms/s/0/92192b02-4543-11e3-997c-00144feabdc0.html?ftcamp=crm/email/2013?ftcamp=crm/email/2013114/nbe/BreakingNews1/product_a2___a3__/nbe/BreakingNews1/product&amp;siteedition=intl#axzz2jjRntYw8" target="_blank">It's amazing what you can see when you look.</a> It seems laughable that people claimed only a few decades ago that stars with ANY planets were probably anomalies.</li>

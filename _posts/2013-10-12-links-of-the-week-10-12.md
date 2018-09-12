@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Links of the Week 10-12
-date: 2013-10-12 22:11:12.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-12 22:11:12 -07:00
 categories:
 - Links of the Week
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <p>Awesome Space Links of the Week 10/5</p>
 <ul>

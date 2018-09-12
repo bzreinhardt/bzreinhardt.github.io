@@ -1,19 +1,17 @@
 ---
-layout: post
 title: BlackBoxification
-date: 2013-09-10 22:48:14.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-10 22:48:14 -07:00
 tags:
 - blackboxification
 - plumbing
 - tech trends
 - technology
 - tradeoffs
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -26,6 +24,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>This post brought to you by my bathroom at work.</p>
 <p>Ok, not literally. Nor did I write this in the bathroom, but two separate plumbing malfunctions both perfectly illustrate something that I’ve been thinking about a lot.</p>
 <ol>

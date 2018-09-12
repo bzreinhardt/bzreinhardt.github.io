@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Beware of Pretty Pictures
-date: 2013-04-01 23:02:04.000000000 -07:00
+date: 2013-04-01 23:02:04 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>On space.com today, one of these reports is not like the others:</p>
 <p><a href="http://www.space.com/20449-swiss-private-rocket-plane-2017.html">http://www.space.com/20449-swiss-private-rocket-plane-2017.html</a></p>
 <p><a href="http://www.space.com/20461-russia-moon-robots-missions.html">http://www.space.com/20461-russia-moon-robots-missions.html</a></p>

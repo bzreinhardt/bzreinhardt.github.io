@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Government Gatekeepers
-date: 2013-07-15 23:44:18.000000000 -07:00
+date: 2013-07-15 23:44:18 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p dir="ltr">Two news items today focus on the “privatization” of government space resources - parts of <a href="http://www.thespacereview.com/article/2328/1" target="_blank">the ISS</a> and <a href="http://nasawatch.com/archives/2013/07/cape-canaveral.html" target="_blank">Cape Canaveral.</a></p>
 <p dir="ltr">I feel like these developments fall into the category of “actions that have a label that sounds good in principle, but doesn't really have a benefit in practice.” It’s similar to making things more “natural” without any actual additional benefits.</p>
 <p>Why do I say this? Aren't assets run by private entities more efficient and incentivized than those in the public sector? Well yes, if they are actually subject to a market.</p>

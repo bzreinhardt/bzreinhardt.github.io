@@ -1,7 +1,9 @@
 ---
-layout: post 
 title: Edge Walking Experiments and Analysis
-tags: [analysis,edge_experiments]
+layout: post
+tags:
+- analysis
+- edge_experiments
 comments: true
 ---
 

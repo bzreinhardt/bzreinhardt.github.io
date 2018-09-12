@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Why EM is Especially Useful in Space
-date: 2014-02-05 22:38:42.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2014-02-05 22:38:42 -08:00
 categories:
 - Dissertation
 tags:
@@ -14,6 +8,11 @@ tags:
 - frontiers
 - history
 - space environments
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p dir="ltr">Space: the final frontier. Every new frontier has a new set of rules - things that don’t work the way they did back home.</p>
 <p>The stars are different in the southern Hemisphere, the most deadly animal in the tropics is the mosquito, and dogs are more useful than mules in the Antarctic.  But physical rules of thumb generally stay valid anywhere on earth, from merry old england all the way to the East Indies.  Engines work by turning some kind of shaft, spinning wheels that push against the ground, hot air rises, and if you don’t keep pushing, friction will eventually stop anything that’s moving.</p>
 <p>[caption id="" align="aligncenter" width="558"]<img alt="" src="{{ site.baseurl }}/assets/image_full" width="558" height="298" /> We're not in Kansas anymore... Courtesy of Nasa[/caption]</p>

@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Links of the Week 8/11
-date: 2013-08-11 21:28:25.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-11 21:28:25 -07:00
 tags:
 - Links
 - medicine
 - space
 - space politics
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Sunday Stories (Saturday Stories slightly time-shifted due to satellite and redwood filled backpacking)</p>
 <ul>
 <li><a href="http://www.space.com/22209-curiosity-s-first-year-on-mars-in-2-minutes-time-lapse-video.html" target="_blank">Cool curiosity compilation</a> - I would recommend you have your volume off.</p>

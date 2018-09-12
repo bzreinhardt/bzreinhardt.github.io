@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Academic Self-Sufficiency
-date: 2013-08-30 22:27:23.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-30 22:27:23 -07:00
 tags:
 - academia
 - communication
 - EconTalk
 - specialization
 - trade
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>As you might know, I’m a devoted listener of the EconTalk podcast. Since one a week isn’t nearly enough to fill all the walking that I do, I have also been listening through five years of archived episodes. While they are consistently high quality, <a href="http://www.econtalk.org/archives/2010/02/roberts_on_smit.html" target="_blank">this episode</a> blew me away.</p>
 <p>In short (very short– it’s packed to the brim with good stuff) Russ Roberts breaks down why trade is awesome because it allows us to both leverage the fact that we are good at different things (<a href="http://en.wikipedia.org/wiki/David_Ricardo#Comparative_advantage" target="_blank">a Ricardian perspective</a>) and that there are a lot of us (<a href="http://en.wikipedia.org/wiki/Business_process#Adam_Smith" target="_blank">a Smithian perspective.</a>)</p>
 <p>The podcast touches on many things I think about a lot – technology, how to use your abilities best, entrepreneurship, how humanity pulls itself up by its bootstraps, and more.</p>

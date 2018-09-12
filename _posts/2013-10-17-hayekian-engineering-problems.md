@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Hayekian Engineering Problems
-date: 2013-10-17 22:57:29.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-17 22:57:29 -07:00
 tags:
 - documentation
 - hayek
 - implementation
 - lab
 - theory
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Whenever I spend a lot of time in lab, I inevitably run into some bizarre equipment-related challenge, and can’t help but think of how <a href="http://en.wikipedia.org/wiki/Local_knowledge_problem" target="_blank">Hayek’s knowledge problem</a> manifests itself in engineering land.</p>
 <p>The knowledge problem isn’t unique to engineering – there is distributed, circumstantial knowledge that can’t be easily transferred everywhere. However, I find it especially frustrating in the engineering domain because of engineering’s normally excellent breadth, spanning the spectrum from theoretical to practical.</p>
 <p>The problem is that theory is like a zoomed out map, smoothing out the details and giving you a broad overview of how to get somewhere. It doesn’t tell you anything about potholes or deer crossing the street.  So while a lot of my colleagues ‘know’ how to do a task, that knowledge is like knowing which turns to make from looking at a map, when I actually need advice on when to swerve to avoid deer and potholes.</p>

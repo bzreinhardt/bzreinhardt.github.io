@@ -1,14 +1,11 @@
 ---
-layout: post
 title: On a Space Kick
-date: 2013-05-29 23:40:50.000000000 -07:00
+date: 2013-05-29 23:40:50 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Today, the asteroid mining company Planetary Resources launched a <a href="http://www.kickstarter.com/projects/1458134548/arkyd-a-space-telescope-for-everyone-0">Kickstarter campaign</a> to finance a publicly accessible space telescope, called ARKYD. It is continuing a trend that I hope will continue: space-centered crowdfunding campaigns.  <a href="http://www.kickstarter.com/projects/251588730/kicksat-your-personal-spacecraft-in-space/posts">Some</a> are successful, <a href="http://www.indiegogo.com/projects/golden-spike-is-sending-nations-and-people-to-the-moon-join-in">some less so</a>, but each one further normalizes the idea that the government no longer needs to be the primary player in space exploration.</p>
 <p>The telescope itself is not a particularly impressive piece of technology. However, I would argue that the technology isn’t the point. Instead, the exciting aspect is demonstrating the feasibility of an entirely private space venture (funding, building and launch) that doesn’t rely entirely on billionaires with cash to burn.</p>
 <p>As noted in <a href="http://www.space.com/21345-asteroid-mining-crowdfunding-space-telescope.html">this article</a>, Planetary Resources and its backers could fund the project without the Kickstarter funds. A friend of mine pointed out that this raises <a href="http://www.nytimes.com/2013/05/26/magazine/was-it-ethical-for-zach-braff-to-take-to-kickstarter.html?_r=1&amp;">a few issues</a>. I don’t see any of them as a problem:</p>

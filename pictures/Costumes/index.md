@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Costumes
+layout: post
 ---
 
 [Indiana Jones Costume](./Indiana Jones Costume.JPG)

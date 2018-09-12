@@ -1,18 +1,17 @@
 ---
-layout: post
 title: Optimism! It's just more fun.
-date: 2013-12-01 22:38:38.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-12-01 22:38:38 -08:00
 categories:
 - Essays
 tags:
 - economics
 - EconTalk
 - technology trends
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>This week, Russ Roberts of the ever-excellent EconTalk is having a<a href="http://cafehayek.com/2013/11/econtalk-contest.html" target="_blank"> short essay contest.</a> The prompt is to compare the visions of our technology-future as portrayed <a href="http://en.wikipedia.org/wiki/Tyler_Cowen" target="_blank">Tyler Cowen</a> and <a href="http://en.wikipedia.org/wiki/Joel_Mokyr" target="_blank">Joel Mokyr</a> (both guests on the podcast.)</p>
 <p>Here's my take on the matter, but I highly recommend you listen to both podcasts and form your own opinion.</p>
 <div title="Page 1">

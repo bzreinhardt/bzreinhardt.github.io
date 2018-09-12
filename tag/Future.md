@@ -1,6 +1,7 @@
 ---
+title: 'Tag: Future'
 layout: tagpage
-title: "Tag: Future"
 tag: Future
 robots: noindex
 ---
+

@@ -1,7 +1,8 @@
 ---
+permalink: "/styleguide"
 Title: Styleguide
-permalink: /styleguide
 ---
+
 - Don't half ass things. This is what Yoda actually meant.
 
 - Do not make glossy business cards. People need to write on them.

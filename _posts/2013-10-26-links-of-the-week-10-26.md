@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Links of the Week 10-26
-date: 2013-10-26 22:50:32.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-26 22:50:32 -07:00
 categories:
 - Links of the Week
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li>Some cool, possible, but not yet feasible engineering *<a href="http://in.reuters.com/article/2013/10/20/argentina-cows-gas-idINDEE99J07D20131020" target="_blank">BURP*  </a></li>

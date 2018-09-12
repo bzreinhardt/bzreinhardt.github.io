@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Space Links of the Week, June 8
-date: 2013-06-08 22:33:30.000000000 -07:00
+date: 2013-06-08 22:33:30 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li>It’s calming – despite not changing anything, somehow <a href="http://www.economist.com/news/science-and-technology/21578637-mars-has-always-been-shangri-la-space-buffs-two-new-private-missions-show" target="_blank">an Economist article</a> about private Mars missions makes them feel even more on the ‘crazy, yet feasible’ side of the tinfoil hat line.</li>

@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Insert Title Here.
-date: 2013-06-11 22:30:19.000000000 -07:00
+date: 2013-06-11 22:30:19 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A kind of cheaty post because I am scrambling to both prep for my <a href="http://www.gradschool.cornell.edu/requirements/exams/exams-phds" target="_blank">A Exam</a> and move to California for the summer to work at the <a href="http://en.wikipedia.org/wiki/Nasa_ames" target="_blank">NASA Ames Research Center</a> (more on why this later.)  </p>
 <p>I wrote the following essay a while back for the Cornell Engineering Graduate Student Association, but hopefully anybody can get some use for it.  </p>
 <p>tl;dr: time is the one resource humans really can't make more of (yet) so don't squander it. I'm like one of those people who yells at you for throwing away a plastic bottle, but with time.</p>

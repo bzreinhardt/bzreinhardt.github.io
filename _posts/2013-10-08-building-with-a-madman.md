@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Building with a Madman
-date: 2013-10-08 22:55:44.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-08 22:55:44 -07:00
 tags:
 - design
 - prototyping
 - the creative process
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -27,6 +25,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>The ‘madman’ is the first persona (step) of the creating process. It’s also my favorite – it’s full of newness, excitement, confidence, and every once and a while you get to let out your best <a href="https://www.youtube.com/watch?v=MP2oWvh6I44" target="_blank">mad-scientist laugh.  </a></p>
 <p>The madman doesn’t play by the rules. The madman has a goal and will do whatever it takes to get there with gusto. The madman is full of energy. The madman doesn’t think like a normal person. The madman doesn’t need to justify his actions.</p>
 <p>There are several tricks to tackling this persona in a useful way. You have to remove all doubt. It’s always tempting to second-guess yourself :‘what if this doesn’t work?’ ‘there’s a more elegant way to do this,’ ‘this hasn’t been analyzed yet.’ These thoughts are just a giant creativity killjoy – you have to have trust in yourself and the process – the other personas will be plenty critical when their time comes.</p>

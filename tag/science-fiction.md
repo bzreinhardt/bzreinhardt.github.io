@@ -1,6 +1,7 @@
 ---
+title: 'Tag: science-fiction'
 layout: tagpage
-title: "Tag: science-fiction"
 tag: science-fiction
 robots: noindex
 ---
+

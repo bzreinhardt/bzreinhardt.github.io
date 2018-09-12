@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Links of the Week 10-5
-date: 2013-10-05 22:07:23.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-05 22:07:23 -07:00
 categories:
 - Links of the Week
 tags:
@@ -14,6 +8,11 @@ tags:
 - legos
 - science
 - space
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -24,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Awesome Space Links of the Week 9/29</p>
 <ul>
 <li><a href="http://www.forbes.com/sites/johnkotter/2013/09/24/leadership-lessons-from-lego/#!" target="_blank">It has Legos, I couldn’t resist. </a>This advice actually applies pretty directly to research or any creative endeavor. Nothing new, but fun to see through the lens of Legos.</li>

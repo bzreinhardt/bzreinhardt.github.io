@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Wind Tunnel Vision
-date: 2013-08-22 10:46:41.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-22 10:46:41 -07:00
 tags:
 - cubesats
 - hardware
 - software
 - testing
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
   tagazine-media: a:7:{s:7:"primary";s:76:"http://benjaminreinhardt.files.wordpress.com/2013/08/2013-08-21-09-50-31.jpg";s:6:"images";a:1:{s:76:"http://benjaminreinhardt.files.wordpress.com/2013/08/2013-08-21-09-50-31.jpg";a:6:{s:8:"file_url";s:76:"http://benjaminreinhardt.files.wordpress.com/2013/08/2013-08-21-09-50-31.jpg";s:5:"width";i:3264;s:6:"height";i:2448;s:4:"type";s:5:"image";s:4:"area";i:7990272;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:1;s:6:"author";s:8:"44242401";s:7:"blog_id";s:8:"46163602";s:9:"mod_stamp";s:19:"2013-08-22
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>While standing inside the Ames 80x120 (dimensions, in feet, of the cross section) wind tunnel today, it was pretty hard not to just keep looking up in awe and thinking ‘man, you could fit my house in here…twice.’ However, when I did glance down, I saw this awesome setup:</p>
 <p><a href="http://benjaminreinhardt.files.wordpress.com/2013/08/2013-08-21-09-50-31.jpg"><img class="size-full wp-image" id="i-614" alt="Image" src="{{ site.baseurl }}/assets/2013-08-21-09-50-31.jpg?w=650" /></a></p>
 <p>Yes. They are testing a model of the 80x120 wind tunnel inside the 80x120 wind tunnel. <a href="http://inception.davepedu.com/" target="_blank">[Cue inception bwaaaammmmmmm.]</a></p>

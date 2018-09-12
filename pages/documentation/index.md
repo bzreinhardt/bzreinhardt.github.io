@@ -1,6 +1,9 @@
 ---
-layout: post 
 title: Documentation for Various Projects
-tags: [hub, documentation]
+layout: post
+tags:
+- hub
+- documentation
 comments: true
 ---
+

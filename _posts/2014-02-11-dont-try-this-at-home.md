@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Don't Try This at Home
-date: 2014-02-11 22:39:00.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2014-02-11 22:39:00 -08:00
 tags:
 - black pepper
 - experiments
 - health
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p dir="ltr">Today I inadvertently ran a human toxicity trial with N = 1 data points. I’m calling it ‘the effects of way too much black pepper on human physiology.’ The conclusion is that you should ALWAYS make sure you have the side of the the pepper container with many little holes, rather than one big hole open. If you’ve ever wondered what happens if you eat several tablespoons of cracked black pepper in more detail, read on.</p>
 <p>[caption id="" align="alignnone" width="254"]<img class="    " alt="Black Pepper Kernel" src="{{ site.baseurl }}/assets/Sa-pepper.jpg" width="254" height="246" /> There's a reason it looks like the Death Star[/caption]</p>
 <p>I ate the pepper around 8:45 pm and noticed nothing before going to bed. However, I woke up the next morning around 7:00 am and thought ‘weird, it feels like my face is on fire.’ The effect was similar to eating something extremely spicy - you feel hot and flushed, sensitivity in the back of your throat, and nothing tastes quite right. Except it has lasted all day (due, I’m guessing to the time-release effects of digestion.)</p>

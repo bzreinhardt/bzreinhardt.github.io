@@ -1,14 +1,15 @@
 ---
-layout: post
 title: Space Settlement
-date: 2013-08-08 01:34:13.000000000 -07:00
+date: 2013-08-08 01:34:13 -07:00
+tags:
+- ambitious-plans
+- big-picture
+- space
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: ambitious-plans big-picture space
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +19,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Yesterday’s post discussed an idea that would be a fairly significant shift from our current paradigm. Comparing shifting to tiered launches to <a href="http://spacefrontier.org/thereisanotherway" target="_blank">this space settlement architecture</a> is like comparing leaving the house five minutes early to getting a car when you previously bike commuted – orders of magnitude more change.</p>
 <p> I have pretty polarized feelings about the idea.</p>
 <p> On the one hand, it is a very attractive story. The concept of reviving the NASA of the 60’s – a young energetic agency driven by a single road mapped mission is incredibly appealing. Suborbital -&gt; 1 man orbital missions (Mercury) -&gt;  2 man orbital missions (Gemini) -&gt; fly to the moon -&gt; land on the moon (Apollo) analogizes well to LEO-&gt;L1-&gt;Moon-&gt;Phobos-&gt;Mars.</p>

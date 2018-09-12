@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week 7/27
-date: 2013-07-28 02:36:09.000000000 -07:00
+date: 2013-07-28 02:36:09 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Bat_bomb" target="_blank">Incendiary flying animals</a> as weapons are <a href="http://askthepast.blogspot.com/2013/07/how-to-make-bird-missiles-13th-century.html" target="_blank">apparently not new</a><br /> </li>

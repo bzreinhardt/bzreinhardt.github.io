@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Historiography II
-date: 2013-07-18 01:52:27.000000000 -07:00
+date: 2013-07-18 01:52:27 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A few more thoughts on historiography following yesterday’s post:</p>
 <p> I’ve come to realize that the history of anything, no matter how simple, never has just a single thread - it's a thickly bundled rope. Any one narrative can only observe a few threads of that rope at once. When you look at one side of the rope, clearly you can't see the other.  If you were to look at a cross section (a broad slice from a single point in time) you can't see all the other cross sections, and humans can't hold every single cross section in their minds at once.</p>
 <p> Basically, so many influences and interplays go into the many intertwined stories giving rise to History (with a capital ‘H’) that no one narrative can fully encapsulate any single one of them. </p>

@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Volatility? Bring it on.
-date: 2013-09-25 22:26:35.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-25 22:26:35 -07:00
 tags:
 - antifragility
 - asteroid mining
 - crazy ideas
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>To follow up Monday’s pessimistic post with some optimism in the same Antifragile-inspired thought-domain, here are some speculations on how space exploration could become more robust (fairly realistic) and possibly antifragile (woooo everybody put on your tinfoil hats!)</p>
 <p>Some robustification ideas:</p>
 <ul>

@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Ditch Day Chronicles - Breakfast!
-date: 2013-10-23 22:25:59.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-23 22:25:59 -07:00
 categories:
 - Ditch Day
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>When we last saw our protagonists they were gathered at the art house, which through the power of imagination was the Prancing Pony in Bree.</p>
 <p>Wait, the protagonists? Are the protagonists the Seniors or the Stackees?</p>
 <p>From this side of ditch day I’m biased and think the seniors are definitely the protagonists. But a big goal of ditch day (in my mind) is to create a world in which the stackees are protagonists at the center of their own story.  So really, the answer is both.</p>

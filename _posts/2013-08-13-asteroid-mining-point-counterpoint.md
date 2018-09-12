@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Asteroid Mining Point-Counterpoint
-date: 2013-08-13 02:25:37.000000000 -07:00
+date: 2013-08-13 02:25:37 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Some thoughts prompted by <a href="http://www.spacenews.com/article/opinion/36511the-inevitability-of-extraterrestrial-mining#.Ufsavhaqc3w" target="_blank">two</a> <a href="http://www.spacenews.com/article/opinion/36510belaboring-the-obvious#.UfseHxaqc3w" target="_blank">articles</a> expressing opposing views of asteroid mining:</p>
 <ul>
 <li>Writing quality is more important than most people will consciously admit. I sometimes find myself having to fight the urge to judge opinions purely on how well they are expressed. I suspect many people who like to think of themselves as judging based on facts and merit share this subconscious urge.</li>

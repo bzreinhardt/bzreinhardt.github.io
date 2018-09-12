@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Bipolar Technology
-date: 2013-08-27 21:33:55.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-27 21:33:55 -07:00
 tags:
 - efficiency
 - history
 - innovation
 - technology
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
   tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"44242401";s:7:"blog_id";s:8:"46163602";s:9:"mod_stamp";s:19:"2013-08-28
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Sunday’s post has me thinking about other ways my outlook on technology has changed as I’ve been exposed to more of its underbelly. In particular, how I’ve softened my derision towards technology that doesn’t actually allow us to do anything new.</p>
 <p>From what I can tell, there are two main ‘modes’ in which technology moves forward:</p>
 <ol>

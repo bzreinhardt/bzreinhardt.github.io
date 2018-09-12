@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Analog Complaints, Digital Conversion (ACDC)
-date: 2013-07-24 01:45:19.000000000 -07:00
+date: 2013-07-24 01:45:19 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Considering how prevalent it is, converting analog data (ie. the real world) to digital form is a piece of our technological portfolio that is still surprisingly difficult to get right.</p>
 <p> As much as some CS majors may like to ignore it, computers that interact with the real world need to do this conversion.  It’s a difficult problem partially because the digital devices for the most part have no way of knowing whether the data they’re getting is ‘good enough’ to act on – leading to some annoying situations. Another problem is that once it’s digitized, data looks far more clean and official than it may actually be.</p>
 <p> These musings come courtesy of a day filled with events tied together by this theme:</p>

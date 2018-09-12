@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Links of the Week 9-28
-date: 2013-09-28 22:10:59.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-09-28 22:10:59 -07:00
 categories:
 - Links of the Week
 tags:
@@ -15,6 +9,11 @@ tags:
 - OOS
 - sci fi
 - Tolkien
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -25,6 +24,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <ul>
 <li><a href="http://www.csmonitor.com/Science/2013/0920/NASA-declares-its-Deep-Impact-Probe-finished" target="_blank">Poor Deep Impact.</a> Also, will it STOP orbiting the sun when it runs out of fuel?</li>
 <li>Is there a better way<a href="http://www.sciencemag.org/content/341/6152/1331.full" target="_blank"> than peer review</a>?</li>

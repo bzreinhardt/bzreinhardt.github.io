@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Engineering vs. Economics (a response)
-date: 2014-01-16 22:49:59.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2014-01-16 22:49:59 -08:00
 tags:
 - complexity
 - economics
 - engineering
 - theory
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Last week, Russ Roberts (of ever excellent Econtalk) <a href="http://cafehayek.com/2014/01/economics-vs-engineering.html" target="_blank">wrote a blog post</a> about economics and engineering. I was surprised by how much I disagreed, though not in the way you might expect.  His point: looking at the economy isn’t anything like an engineering problem. The economy is complex and emergent while engineering problems can be modeled very accurately by simple equations:</p>
 <blockquote><p>“Running an economy is not an engineering problem. There are no simple equations that describe its motion that are akin to the engineering problem of space travel.”</p>
 </blockquote>

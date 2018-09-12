@@ -1,14 +1,11 @@
 ---
-layout: post
 title: InterSpecialization Specializing
-date: 2013-09-01 23:01:29.000000000 -07:00
+date: 2013-09-01 23:01:29 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Specialization: the concept, in the context of trade from the <a title="Academic Self-Sufficiency" href="http://benjaminreinhardt.wordpress.com/2013/08/30/academic-self-sufficiency/" target="_blank">excellent EconTalk Monologue</a> hit me very personally.</p>
 <p> Trade (in ideas and goods) both benefits from and encourages us to become even more intensely specialized. I wondered ‘where do I fit into this? Am I in trouble?’</p>
 <p> I’m not intensely specialized in one area – in my job I have to deal with everything from Maxwell’s equations to microcontrollers, from programming languages to power supplies. And my hobbies span practicing cartwheels to reading articles about the political economy of recycling. There isn’t one area in which I would say I’m a specialist.</p>

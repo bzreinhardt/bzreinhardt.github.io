@@ -1,18 +1,17 @@
 ---
-layout: post
 title: Links of the Week 11/2
-date: 2013-11-02 22:31:25.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-11-02 22:31:25 -07:00
 categories:
 - Links of the Week
 tags:
 - education
 - robots
 - space politics
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday (Mostly Space) Stories!</p>
 <ul>
 <li><a href="http://www.space.com/23415-astronomy-data-overload-astroinformatics-project.html" target="_blank">Big Data in Spaaaaace</a></li>

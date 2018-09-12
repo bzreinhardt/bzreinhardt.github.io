@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Risk Aversion Paralysis
-date: 2013-06-02 22:10:21.000000000 -07:00
+date: 2013-06-02 22:10:21 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Venting alert!</p>
 <p>One of the big space stories this week is a study published in Science <a href="http://www.washingtonpost.com/national/health-science/space-radiation-makes-mars-mission-hazardous/2013/05/30/1acd1542-c94a-11e2-9245-773c0123c027_story.html" target="_blank">showing the levels of radiation in deep space can be hazardous to your health</a>. NASA’s reaction to this data (that was measured by the Curiosity rover on it’s way to Mars - very cool) is just another example of NASA’s risk aversion. I sadly feel that the agency doesn’t embody the spirit of the explorers it once did, but instead reflects our increasingly paternalistic society.</p>
 <p>Oh no! The astronauts might not be able to have children!</p>

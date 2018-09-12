@@ -1,6 +1,7 @@
 ---
-layout: post 
 title: EC's and OOS
+date: 2018-09-12 12:01:07.943000000 -07:00
+layout: post
 ---
 
 EC actuators are uniquely useful for OOS because of a combination of attributes.

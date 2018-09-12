@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Piqued by Petrol
-date: 2013-06-29 02:05:32.000000000 -07:00
+date: 2013-06-29 02:05:32 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Every day I bike past an intersection with a gas station on three of the four corners.  The nice thing about biking is that my speed gives me time to pay attention to the prices at each place each day.  This leads (as is wont to happen while biking) to thinking about gas prices far more than is warranted. Here are some of those thoughts and what answers I could find so they occupy <b>your</b> commute:</p>
 <ul>
 <li>Each station has a different price – a 0<sup>th</sup> level economic analysis would say that this makes no sense. Shouldn’t the more expensive one get no business assuming the gas is the same? However, <a href="http://armchaircapitalists.blogspot.com/2005/08/gas-stations.html" target="_blank">there is a more sophisticated explanation</a> (or at least an interesting and satisfying story) of why the price differences make sense.</li>

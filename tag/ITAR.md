@@ -1,6 +1,7 @@
 ---
+title: 'Tag: ITAR'
 layout: tagpage
-title: "Tag: ITAR"
 tag: ITAR
 robots: noindex
 ---
+
