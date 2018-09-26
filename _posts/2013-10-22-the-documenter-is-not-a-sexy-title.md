@@ -1,17 +1,15 @@
 ---
-layout: post
 title: "'The Documenter' is Not a Sexy Title"
-date: 2013-10-22 19:26:27.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-22 19:26:27 -07:00
 tags:
 - crazy ideas
 - documentation
 - ideas
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>It’s time for some tinfoil-hat-line-skirting ideas! I’ve been mulling the idea of automatic documentation.  </p>
 <p> Getting into the ‘<a href="http://en.wikipedia.org/wiki/Flow_state" target="_blank">flow state</a>’ is awesome. You feel like you’re rocketing through a problem – one task leading seamlessly to the next until you skid to a stop and say ‘whoah.’ The flow state can also be dangerous for long-term progress. After the fact, it can be very hard to figure out exactly what you were doing and why. This makes it hard to build upon your past work.</p>
 <p>Imagine a process that runs in the background and pays attention to your work. The documenter would make note whenever you make a large change (creating a new function while programming, generating new constants when modeling, composing three new pages when you’re writing, you name it.) At that point it could pop up and ask you to make a note about what’s going on or quietly log the event and associated actions for future analysis (not interrupting your flow.)</p>

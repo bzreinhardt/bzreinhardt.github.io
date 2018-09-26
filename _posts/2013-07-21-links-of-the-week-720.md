@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week 7/20
-date: 2013-07-21 03:00:24.000000000 -07:00
+date: 2013-07-21 03:00:24 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li>I worry <a href="http://www.thespacereview.com/article/2328/1" target="_blank">this won't be useful</a> until we can have non-astronauts on the space station</p>

@@ -1,14 +1,11 @@
 ---
-layout: post
 title: SMBC Musings
-date: 2013-06-03 23:07:37.000000000 -07:00
+date: 2013-06-03 23:07:37 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>As a kid, I loved <a href="http://www.gocomics.com/calvinandhobbes/" target="_blank">Calvin and Hobbes</a> for the simple jokes, art, and the resonance of the characters. I grew up and continued to re-read my old Calvin and Hobbes books, I realized Bill Watterson accomplished with grace and skill something that few people manage in any medium: subtlety and deep insight layered below the surface humor.</p>
 <p> Zach Weiner, the artist behind <a href="http://www.smbc-comics.com/" target="_blank">SMBC Comics</a> continues in Watterson’s footsteps – layering wit and sometimes-rib-cracking humor on top of deep insights. </p>
 <p> What does this have to do with anything in this blog? Well, in addition to sharing what I think is one of the best comics on the web (and boy are there a lot of them) I wanted to point out SMBC because it combines science, economics and insight in a way that is extremely accessible - which is exactly what I am trying to do here.</p>

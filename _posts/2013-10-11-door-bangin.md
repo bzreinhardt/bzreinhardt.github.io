@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Door Bangin'
-date: 2013-10-11 23:06:57.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-11 23:06:57 -07:00
 categories:
 - Ditch Day
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><b>-WHAM WHAM WHAM- </b>WAKE UP FROSH! IT’S DITCH DAY <b>–WHAM WHAM WHAM-</b><b></b></p>
 <p>The sound of fists pounding on doors, feet pounding the ground, and senior’s shouts are the signal that Ditch Day has come. It’s time to gather in the courtyard, join a stack, and embark on an adventure. For the underclassmen, it’s pure Christmas Morning. Like Christmas, it always starts the same way, but beyond that, who knows what the day will bring.</p>
 <p>For the seniors, 7:45am on Ditch Day morning is some combination of space shuttle launch, sending a kid off to college, and marathon-ending sprint.  Years of plotting, months of building, several days of all-out-effort all about to be put to the test.</p>

@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Announcements Pt. 3
-date: 2013-09-12 22:49:03.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-12 22:49:03 -07:00
 tags:
 - Acting
 - Announcements
 - Ditch Day
 - Lord of the Rings
 - Will it blend
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Ah yes, the actual Ditch Day announcement. I hope you’re reading these posts in order and have had to wait a bit for this one.  The atmosphere of unspoken sentiment that pervades the dining hall: “Get to the announcements! We know they’re coming. Between the hint-hint wink-wink emails, the periodic banning of non-seniors from the dining hall and the alumni now helping pack dinner wall to wall, we know it’s going to happen! Come on already!”</p>
 <p>And of course, most Ditch Day announcements are better if you get their references so <a href="https://www.youtube.com/watch?v=lAl28d6tbko" target="_blank">here is some background viewing</a> that might increase your appreciation. Oh, and the little bit of background reading is the entire Lord of the Rings Trilogy.</p>
 <p>I walk into the dining hall in full lab safety gear – googles, coat, and welding gloves to the intro music of ‘Will it blend?’ and announced that I am Tom Dickson. (Suspension of disbelief pervades announcements as well as ditch day itself.) “I wonder if this banana will blend?”</p>

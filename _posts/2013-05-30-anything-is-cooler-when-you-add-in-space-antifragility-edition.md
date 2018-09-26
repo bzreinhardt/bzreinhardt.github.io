@@ -1,14 +1,11 @@
 ---
-layout: post
 title: 'Anything is Cooler When You Add "...In Space" : Antifragility Edition'
-date: 2013-05-30 22:57:44.000000000 -07:00
+date: 2013-05-30 22:57:44 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Space exploration needs more antifragility. For those unfamiliar with the concept of antifragility, (this includes the word processor I’m using) here the quick definition from the appropriately titled book, <a href="http://www.amazon.com/Antifragile-Things-That-Gain-Disorder/dp/1400067820/ref=sr_1_1?ie=UTF8&amp;qid=1369967290&amp;sr=8-1&amp;keywords=antifragile">Antifragile:</a></p>
 <blockquote><p> "Some things benefit from shocks; they thrive and grow when exposed to volatility, randomness, disorder, and stressors and love adventure, risk, and uncertainty. Yet, in spite of the ubiquity of the phenomenon, there is no word for the exact opposite of fragile. Let us call it antifragile. Antifragility is beyond resilience or robustness. The resilient resists shocks and stays the same; the antifragile gets better."</p></blockquote>
 <p>If the spectrum from fragile to antifragile were like the rainbow, with antifragility on the violet side, the standard spacecraft would fall in the land of bright, pulsing red. They have literally been likened to <a href="http://www.space.com/19751-refueling-in-space-could-spur-commercialization-video.html">museum pieces</a> that we delicately place on the self (orbit) and then take a deep breath, step away, and hope nothing unexpected happens.  Think of the two space shuttle disasters or any of a slew of other spacecraft failures – one small unaccounted-for factor raises it’s head  (a chipped cracked tile, metric-to-english conversions) and billions of dollars or worse, human lives, are lost.</p>

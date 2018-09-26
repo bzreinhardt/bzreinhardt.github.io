@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Some Links from the Future
-date: 2014-02-14 22:23:33.000000000 -08:00
+date: 2014-02-14 22:23:33 -08:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Sometimes, it feels like non-computer technology has kind of stagnated. Then you see</p>
 <p><a href="https://www.youtube.com/watch?v=E3YCACZQ72Q" target="_blank">Laser guns... </a></p>
 <p><a href="http://news.discovery.com/tech/robotics/giant-robot-directs-traffic-in-the-congo-140209.htm" target="_blank">Robot police in Africa...</a></p>

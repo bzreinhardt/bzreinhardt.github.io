@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Use Tuning
-date: 2013-10-14 23:01:36.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-14 23:01:36 -07:00
 tags:
 - efficiency
 - overengineering
 - prototyping
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>To continue the thoughts on prototyping, here’s a really important question you should ask yourself:</p>
 <p>How many times will this be used? How many people will use it?</p>
 <p>This is a really important one because these numbers should heavily influence your approach to the project.</p>

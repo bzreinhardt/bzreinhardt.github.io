@@ -1,9 +1,12 @@
 ---
-layout: math_post 
 title: Air Track Force Analysis
-tags: [analysis,edge_experiments]
+layout: math_post
+tags:
+- analysis
+- edge_experiments
 comments: true
 ---
+
 The goal here is to investigate the correlations between spinning magnets' speed and direction and the resultant forces on an aluminum edge that the induction coupler straddles. 
 
 A [Savitzky-Golay Filter][] [smooths and differentiates][numDif] the numerical position data from the [video analyis](air_track_image_analysis.html) after an interpolation increases the data sample rate.[^1]  The filter finds a second order least-squares polynomial fit to the function over the size of the window as it moves across the data. The filter then evaluates this fit and its derivatives at the point in the middle of the window. 

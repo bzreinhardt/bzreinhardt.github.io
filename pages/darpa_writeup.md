@@ -1,7 +1,7 @@
 ---
-layout: page
 title: D60 Writeup
-permalink: /d60_notes
+permalink: "/d60_notes"
+layout: page
 ---
 _Update_: [DARPA released videos of some of the talks.](https://www.youtube.com/playlist?list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW)
 The ones on [Mosaic Warfare](https://www.youtube.com/watch?v=33VAnIEjDgk&list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW&index=4&t=0s), [Electronics](https://www.youtube.com/watch?v=W_cB8VYunY8&list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW&index=5&t=0s), and [Bio](https://www.youtube.com/watch?v=CdRdkxb3G7w&list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW&index=8&t=0s) are worth watching.

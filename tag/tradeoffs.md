@@ -1,6 +1,7 @@
 ---
+title: 'Tag: tradeoffs'
 layout: tagpage
-title: "Tag: tradeoffs"
 tag: tradeoffs
 robots: noindex
 ---
+

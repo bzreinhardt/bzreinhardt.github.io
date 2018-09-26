@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Columbus vs. ColumBot
-date: 2013-04-06 16:31:53.000000000 -07:00
+date: 2013-04-06 16:31:53 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://www.nasaspaceflight.com/2013/03/esa-roscosmos-sign-exomars-deal-nasa-refocus/" target="_blank">It looks like </a>Russia and the European Union are hopping on the “send robots to putter around Mars looking for life” bandwagon.</p>
 <p>I don’t want to malign the technological advances spurred by these projects. If you have doubts, consider that they actually pulled off <a href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=Ki_Af_o9Q9s" target="_blank">this plan</a> without a hitch.  I would argue that demonstrating similar ideas that live just over the tinfoil hat line (many of my engineer friends were sure the skyhook was doomed to failure) is the sort of thing NASA should be doing.</p>
 <p>However, the motivations behind these Mars life-seeking missions are flawed.</p>

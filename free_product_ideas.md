@@ -1,6 +1,7 @@
 ---
-title: Free Product Ideas 
+title: Free Product Ideas
 ---
+
 Deep learning that turns a profile into tags
 
 Fantasy Football for Startups 

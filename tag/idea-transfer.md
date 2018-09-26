@@ -1,6 +1,7 @@
 ---
+title: 'Tag: idea-transfer'
 layout: tagpage
-title: "Tag: idea-transfer"
 tag: idea-transfer
 robots: noindex
 ---
+

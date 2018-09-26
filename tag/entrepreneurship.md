@@ -1,6 +1,7 @@
 ---
+title: 'Tag: entrepreneurship'
 layout: tagpage
-title: "Tag: entrepreneurship"
 tag: entrepreneurship
 robots: noindex
 ---
+

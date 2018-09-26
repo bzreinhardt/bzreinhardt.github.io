@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Links of the Week 9-7
-date: 2013-09-07 22:27:37.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-09-07 22:27:37 -07:00
 categories:
 - Links of the Week
 tags:
@@ -14,6 +8,11 @@ tags:
 - NASA
 - pictures
 - PR
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -26,6 +25,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li><a href="http://www.nytimes.com/2013/09/01/us/new-moon-probe-raises-questions-about-what-to-do-next-in-space.html?nl=todaysheadlines&amp;emc=edit_th_20130901&amp;_r=0" target="_blank">Maybe NASA should work on playing up the technology rather than the incrementally interesting science.</a></li>

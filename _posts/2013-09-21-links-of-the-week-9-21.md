@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Links of the Week 9-21
-date: 2013-09-21 23:06:37.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-09-21 23:06:37 -07:00
 categories:
 - Links of the Week
 tags:
@@ -14,6 +8,11 @@ tags:
 - computers
 - magnets
 - mars
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <p>Awesome space links of the week 9/15</p>
 <ul>

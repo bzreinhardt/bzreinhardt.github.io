@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Look, no hands!
-date: 2013-11-04 22:49:55.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-11-04 22:49:55 -08:00
 tags:
 - driverless cars
 - robots
 - technology trends
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://www.technologyreview.com/featuredstory/520431/driverless-cars-are-further-away-than-you-think/" target="_blank">The MIT Tech Review recently published a detailed, well-balanced look at the state of driverless cars.</a></p>
 <p>I’ve heard opinions on driverless cars that are extremely optimistic (‘we have all the technology ready to go – any day now!) and pessimistic (‘legal quagmires will keep them off the roads for a VERY long time’.)  I appreciate article manages to avoid falling into either trap.</p>
 <p>A couple of take-away thoughts:</p>

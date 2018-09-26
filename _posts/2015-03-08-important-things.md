@@ -1,10 +1,14 @@
 ---
+title: Important Things
+date: 2015-03-08 00:00:00 -08:00
+categories:
+- Thoughts
+tags:
+- flatulance
+- IA
 layout: post
-title:  "Important Things"
-date:   2015-03-08 
-tags: [flatulance, IA]
-categories: [Thoughts]	
 ---
+
 Smarter, Faster, Stronger, Higher. 
 
 I realized that these four words summarize the most important things for humanity.

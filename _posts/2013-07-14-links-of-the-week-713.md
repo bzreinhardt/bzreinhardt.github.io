@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week 7/13
-date: 2013-07-14 02:06:07.000000000 -07:00
+date: 2013-07-14 02:06:07 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li>People just don't hate the government <a href="http://ancientstandard.com/2013/07/08/cursing-senators-through-the-ages" target="_blank">like they used to </a></li>

@@ -1,9 +1,14 @@
 ---
+title: Networking for Nerds
+date: 2017-12-26 00:00:00 -08:00
+categories:
+- Informational Posts
+tags:
+- networking
+- VC
+- lessons
+- tactics
 layout: post
-title:  "Networking for Nerds"
-date:   2017-12-26
-tags: [networking, VC, lessons, tactics]
-categories: [Informational Posts]
 ---
 
 "Networking." What a word. When I left grad school in 2015, networking was for slick-haired salesmen, former jocks, and social parasites in general. Real heroes built better mousetraps and the world beat a path to their doors. But then I looked at what real successes actually do - they lead a balancing act between connecting and building. Though Edison, Einstein, Musk (and anybody you may have heard of) have done real work, their projects would have been stillborn or failed if they didn’t know the right people: partners, employees, backers, supporters. 

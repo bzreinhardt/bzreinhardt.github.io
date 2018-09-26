@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Last Computer History Museum Rant, Promise!
-date: 2013-08-21 01:18:10.000000000 -07:00
+date: 2013-08-21 01:18:10 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -20,6 +17,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A sobering thought that occurred to me as I walked through the Computer Science Museum:</p>
 <p>Behind each innovation on display, behind each unappreciated advance that made them possible, behind each one of the thousands of failures from which the successes emerged were the blood, sweat, and tears of dozens, hundreds or even thousands of individuals.</p>
 <p>It was almost uncomfortable looking at some obsolete form of computer memory or a behemoth with less computing power than your phone and realizing that hundreds of man-hours went into this thing that now seems so simple and archaic.</p>

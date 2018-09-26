@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Ephemeral Experts
-date: 2013-06-06 23:26:14.000000000 -07:00
+date: 2013-06-06 23:26:14 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://www.space.com/21452-interstellar-spaceflight-starship-congress.html" target="_blank">This article</a> about <a href="http://www.icarusinterstellar.org/">Icarus Interstellar’s</a> attempts to generate excitement about interstellar travel inadvertently brought up something I think is a very serious unaddressed issue in space research, science in general, and elsewhere.</p>
 <p>Specifically, the opening sentence:</p>
 <blockquote><p>“If humanity is serious about traveling to other star star systems in the foreseeable future, it needs to get the ball rolling now, say experts”</p></blockquote>

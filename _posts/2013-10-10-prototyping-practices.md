@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Prototyping Practices
-date: 2013-10-10 23:00:06.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-10 23:00:06 -07:00
 tags:
 - documentation
 - prototyping
 - tinkering
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I wanted to delve a little deeper into practical habits I find useful when you’re tinkering like a madman.</p>
 <p><b>Documentation.</b> One oft cited reason for studying history is that ‘we can’t move forward unless we understand where we’ve been.’ It’s also true in tinkering – a surprisingly hard habit to internalize. If you think planning where you are going is boring, writing down where you’ve been is even worse. If it was a success, huzzah! It works and you just want to make the next thing. If it was a failure you just want to scratch that off the list and try the next option. But if you don’t write down what you tried, why you tried it, and why you think it worked or failed, chances are you will forget at least some details that may be incredibly relevant later – you just don’t know.</p>
 <p>Before I forced this habit on myself, I would sometimes circle back on already-asked questions and failed attempts in design space. Remember that Edison, the tinkerer to end all tinkerers, kept meticulous notes. Do you think without them he would have been able to hone in on a specific type of bamboo from Japan as the correct material for light bulb filaments? I doubt it.</p>

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Ben's Schedule
-
+layout: page
 ---
+
 <div class="span3">
 	
 	<p> Let me know what free 30 min block between 10 am and 6pm Eastern works for you </p>

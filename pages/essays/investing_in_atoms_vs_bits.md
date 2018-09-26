@@ -1,7 +1,9 @@
 ---
-layout: post 
 title: Advancements in bitland vs Atomland
-tags: [bitland, atomland]
+layout: post
+tags:
+- bitland
+- atomland
 comments: true
 ---
 

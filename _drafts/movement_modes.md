@@ -1,7 +1,9 @@
 ---
-layout: post 
 title: Movement modes
+date: 2018-09-12 12:01:08.305000000 -07:00
+layout: post
 ---
+
 An EC servicer will need to use several 'modes' to move around the surface of a target. Each of these modes corresponds to a degree of freedom 
 <!-- can we just assume that the in the plane movement is decoupled? and then address it from there -->
 

@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Papers
+layout: page
 ---
 
 Journal Papers

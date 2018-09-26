@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Projects
-permalink: /projects/
+permalink: "/projects/"
+layout: page
 ---
 
 #### [Robotic Grasp Detection](jarvis_perception.html)

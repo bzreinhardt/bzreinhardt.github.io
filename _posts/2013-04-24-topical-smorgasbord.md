@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Topical Smorgasbord
-date: 2013-04-24 22:53:19.000000000 -07:00
+date: 2013-04-24 22:53:19 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’ve been very busy, so today’s posts is a couple of links following up on previous posts as well as some shameless self-promotion.</p>
 <p>In addition to <a title="Columbus vs. ColumBot" href="http://benjaminreinhardt.wordpress.com/2013/04/06/columbus-vs-columbot/" target="_blank">my thoughts on the matter</a>, <a href="http://www.space.com/20775-mars-life-search-manned-missions.html" target="_blank">here are some further arguments</a> about why we need to be sending people and not robots to mars.</p>
 <p>In the article, even Prof. Steve Squires, a Cornellian and prominent proponent of robotic planetary science missions admits the benefits:</p>

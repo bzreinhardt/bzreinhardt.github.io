@@ -1,9 +1,12 @@
 ---
-layout: math_post 
 title: Air Track Data Acquisition
-tags: [analysis,edge_experiments]
+layout: math_post
+tags:
+- analysis
+- edge_experiments
 comments: true
 ---
+
 The goal of the experiment is to answer the question "what is the relationship between the speed/direction of the motors in an induction coupler and the force on the target?" Directly measuring the force or acceleration is hard,[^1] so a better option[^2] is to simultaneously video the movement of the cart and record the commands to the motors. 
 
 <img src="https://docs.google.com/drawings/d/1fKgC4ga7c6hy0xF-isiNm6vD6HfRGn30neQAYKnst5A/pub?w=774&amp;h=358">

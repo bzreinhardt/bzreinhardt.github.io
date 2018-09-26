@@ -1,7 +1,10 @@
 ---
-layout: math_post 
 title: Air Track Image Analysis
-tags: [analysis,edge_experiments]
+date: 2018-09-12 12:01:08.035000000 -07:00
+tags:
+- analysis
+- edge_experiments
+layout: math_post
 comments: true
 ---
 

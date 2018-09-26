@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Space Links of the Week, June 14
-date: 2013-06-14 23:07:25.000000000 -07:00
+date: 2013-06-14 23:07:25 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I'm headed to California in 6 hours, so I'm going to cheat and give you this weeks</p>
 <p>Saturday Space Stories! - hey, it's Saturday in Europe.</p>
 <ul>

@@ -1,12 +1,6 @@
 ---
-layout: post
 title: What's an actuator?
-date: 2014-02-03 22:30:18.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2014-02-03 22:30:18 -08:00
 categories:
 - Dissertation
 tags:
@@ -14,6 +8,11 @@ tags:
 - basics
 - definitions
 - robotics
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p dir="ltr">Discussing eddy-current actuators is hard without the word ‘actuator.’ It is clunky and reeks of jargon, but the alternatives are worse. “Tractor Beam” is evocative but misleading. “Electromagnetic force generator” is so generic it says almost nothing. “Eddy-current force generator” begins to stray into the land of sleep-inducing engineering names and “contactless eddy-current force generator” definitely does.</p>
 <p dir="ltr">So what is an actuator?</p>
 <p dir="ltr">According to the <a href="http://dictionary.reference.com/browse/actuator" target="_blank">first entry at dictionary.com</a>,  an actuator is</p>

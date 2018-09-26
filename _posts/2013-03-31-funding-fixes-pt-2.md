@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Funding Fixes pt. 2
-date: 2013-03-31 22:51:43.000000000 -07:00
+date: 2013-03-31 22:51:43 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>If you’ll bear with me, I’ll wrap up my rant about changing the grant system in this post.  Picking up <a href="http://http://benjaminreinhardt.wordpress.com/2013/03/27/funding-fixes-pt-1/" target="_blank">where we left off</a>, here are two more changes that could improve government research funding:</p>
 <p><strong>a)    Fund the researcher/lab, not the project</strong></p>
 <p>This change has the same intention as a) and b) from my previous post [link]. Loosening the restrictions on the intellectual focus of funding recipients will open the doors of innovation instead of locking them into dead-end or myopic projects dictated from the top down. Funded researchers would have the freedom to switch tracks away from a project once they know it won’t work, rather than wasting months of research simply because their pay is tied to the project.</p>

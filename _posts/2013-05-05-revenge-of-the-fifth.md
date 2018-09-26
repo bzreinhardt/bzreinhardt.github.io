@@ -1,14 +1,15 @@
 ---
-layout: post
 title: Revenge of the Fifth
-date: 2013-05-05 16:17:41.000000000 -07:00
+date: 2013-05-05 16:17:41 -07:00
+tags:
+- Inspiration
+- Star
+- Wars
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: Inspiration Star Wars
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +19,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Distracted by a could-not-be-more-beautiful day, I forgot to put up a "May the Fourth be with you" post. Like the Jedi, my negligence has given rise to The Revenge of the Fifth!</p>
 <p>If your nerd quotient is not dangerously high enough to have seen these before, here are some <b>very</b> important technological and economic questions raised by the date:</p>
 <p><a href="http://blogs.esa.int/atv/2013/05/01/could-we-use-atv-to-build-and-supply-a-real-death-star/" target="_blank">What would it take</a> to launch the material to build the first Death Star with our current level of technology? (assuming that somehow we have the technology to make a death star…)</p>

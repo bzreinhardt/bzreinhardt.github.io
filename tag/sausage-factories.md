@@ -1,6 +1,7 @@
 ---
+title: 'Tag: sausage-factories'
 layout: tagpage
-title: "Tag: sausage-factories"
 tag: sausage-factories
 robots: noindex
 ---
+

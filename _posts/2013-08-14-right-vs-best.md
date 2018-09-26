@@ -1,17 +1,16 @@
 ---
-layout: post
 title: Right vs Best
-date: 2013-08-14 01:39:19.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-08-14 01:39:19 -07:00
 categories:
 - Best-of
 tags:
 - control loops
 - making
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>In almost any undertaking, there is the ‘right’ way to do it … and a way that works best. The trick to being effective is to realize that the two aren’t always the same, and when that</p>
 <p>Often, knowing when ‘right’ is not best comes from experience. In almost any profession, it seems like there is the old-timer for whom the process is more of an art than a science. Think of the machinist who knows exactly when the machine should be pushed beyond its nominal limits, the teacher who knows which students to motivate through praise and which are driven by criticism, or the plumber who knows that sometimes it just needs a good whack.</p>
 <p>One of the (many) issues I have with bureaucracy is that it dictates a ‘right’ way it demands be followed, regardless of whether it’s the best way.</p>

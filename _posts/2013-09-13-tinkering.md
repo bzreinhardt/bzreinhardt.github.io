@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Tinkering
-date: 2013-09-13 22:32:55.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-13 22:32:55 -07:00
 tags:
 - big questions
 - entrepreneurship
 - inventions
 - themes
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>You know how when you start seeing a theme in one area of life, it starts popping up everywhere? That’s happened this week with success through iteration – the faster the better. Depth-wise, I’m excited because there’s a lot more than a single post’s worth of thoughts. So for today I’m just going to go for breadth and mention all the places that it feels like success comes from iterative tinkering:</p>
 <p><strong>Invention</strong> – can I introduce you to a certain <a href="http://www.fi.edu/learn/sci-tech/edison-lightbulb/edison-lightbulb.php?cts=electricity" target="_blank">Edison and his light bulb</a>? The computer has massively accelerated the speed of possible iteration, which leads us to …</p>
 <p><strong>Entrepreneurship</strong> – few successful companies end up selling what they originally intended, having instead executed the vaunted ‘pivot’ to an alternative.</p>

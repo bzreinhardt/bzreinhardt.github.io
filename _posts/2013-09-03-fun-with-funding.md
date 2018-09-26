@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Fun with Funding
-date: 2013-09-03 22:37:08.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-03 22:37:08 -07:00
 tags:
 - funding
 - inefficiencies
 - NASA
 - research proposals
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Recently, NASA released <a href="http://www.nasa.gov/content/niac-2013-phase-i-and-phase-ii-selections/#.UiaC52TEo7D" target="_blank">the list of NIAC funded research proposals</a>. The NIAC grant is meant to fund <a href="http://www.space.com/22595-nasa-advanced-space-technology-concepts.html" target="_blank">pretty-out-there space tech concepts</a>, which I think is excellent…in principle.</p>
 <p>However, <a href="http://benjaminreinhardt.wordpress.com/2013/03/22/grant-me-some-change/" target="_blank">as I’ve mentioned before</a>, some math and a little thinking exposes a nasty downside to grants like NIAC.</p>
 <p><strong>First, the math:</strong> the stage 1 NIAC grants award $100,000 to twelve projects. That’s $1.2 million towards space tech, right?</p>

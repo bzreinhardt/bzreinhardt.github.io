@@ -1,13 +1,6 @@
 ---
-layout: post
 title: Misleading Models
-date: 2013-10-24 22:43:40.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-24 22:43:40 -07:00
 tags:
 - documentation
 - fallacies
@@ -15,6 +8,11 @@ tags:
 - linearization
 - modeling
 - models
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -25,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>In so many parts of our lives, our focus becomes a tunnel towards just ‘making it work’ at whatever cost. For now, I’m going to avoid the snake filled bog that is the exploration of that idea in the realm of morality.  But in engineering and science, dogged focus on a solution can be incredibly valuable but also very dangerous. Of course, it can lead to rousing success. However, the solution can end up built on hidden assumptions, forgotten in the dash to a solution. If they are undocumented, they are a giant trap for someone who tries to use your result. There are many examples, but I’ll go with a personal one:</p>
 <p>The danger was particularly salient for me today. I’ve been trying to get QuIRK-E (my eddy-current model) to match the measurements of a paper that experimentally investigated eddy-current forces.</p>
 <p>It’s so easy to go down the rabbit hole: ‘well, it should work if I just add this term and tune the constants. Oh, that didn’t work, but got me closer, let’s add this other term.’ If I hadn’t been forcing myself to write down every step I took and why I took it, I could easily have gotten lost in the warren. I had to say to myself ‘stop. You’ve completely removed the model from physical reality, just to exactly replicate this ONE SITUATION.’</p>

@@ -1,14 +1,16 @@
 ---
-layout: post
 title: Links of the Week 8/3
-date: 2013-08-04 01:54:28.000000000 -07:00
+date: 2013-08-04 01:54:28 -07:00
+tags:
+- Ditch-Day
+- Links
+- NASA
+- Videos
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: Ditch-Day Links NASA Videos
 meta:
   _publicize_pending: '1'
   tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"44242401";s:7:"blog_id";s:8:"46163602";s:9:"mod_stamp";s:19:"2013-08-04
@@ -20,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday (sometimes space) stories!</p>
 <ul>
 <li>A housemate from Caltech <a href="http://ilyanep.wordpress.com/2013/07/21/the-vector-chrono-travel-ai-interface-only-for-android/" target="_blank">continues to do an excellently detailed job</a> describing his ditch day stack - I may take a page out of his book.</li>

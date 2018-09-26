@@ -1,14 +1,11 @@
 ---
-layout: post
 title: The Tinfoil Hat Line
-date: 2013-02-10 17:33:48.000000000 -08:00
+date: 2013-02-10 17:33:48 -08:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>You may have wondered at the title of this blog: “The Tinfoil Hat.” Doesn’t that carry strong implications of quackery? Culturally, the tinfoil hat invokes <a href="http://www.timecube.com/" target="_blank">ideas</a> from which most people who consider themselves to be “real” scientists and intellectuals try their utmost to distance themselves.</p>
 <p>While it’s true that there are many concepts that are absurd and infeasible, it is also possible to err in the opposite direction towards the safe and proven.  This contrast is especially true for ideas about space exploration, but is certainly present in any scientific discipline.</p>
 <p>A discussion of these contrasts in continuum of usefulness and feasibility with my advisor, Mason Peck, gave rise to a concept that I like to call “the tinfoil hat line.” It is a very fuzzy conceptual line that separates safe, clearly feasible or proven ideas on one side, and absurd schemes and conjectures on the other.</p>

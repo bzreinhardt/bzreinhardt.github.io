@@ -1,7 +1,9 @@
 ---
-layout: post 
 title: SmallSat Intro
+date: 2018-09-12 12:01:08.395000000 -07:00
+layout: post
 ---
+
 <!--
 	TODO - make 'thesis' layout
 	TODO - figure out how to do references and links

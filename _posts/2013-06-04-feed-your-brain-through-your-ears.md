@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Feed your brain through your ears
-date: 2013-06-04 23:19:28.000000000 -07:00
+date: 2013-06-04 23:19:28 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Following up on yesterdays salute to SMBC, something that I only discovered today:</p>
 <p>It also turns out that Mr. Weiner co-hosts a <a href="http://www.weeklyweinersmith.com/" target="_blank">podcast</a> with his wife. It's cool and worth mentioning here because</p>
 <ul>

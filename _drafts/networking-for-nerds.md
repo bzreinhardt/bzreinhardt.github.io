@@ -1,3 +1,8 @@
+---
+title: Networking For Nerds
+date: 2018-09-12 12:01:08.350000000 -07:00
+---
+
 "Networking." What a word. When I left grad school in 2015, networking was for slick-haired salesmen, former jocks, and social parasites in general. Real heroes built better mousetraps and the world beat a path to their doors. But then I looked at what real successes actually do - they lead a balancing act between connecting and building. Though Edison, Einstein, Musk (and anybody you may have heard of) have done real work, their projects would have been stillborn or failed if they didn’t know the right people: partners, employees, backers, supporters. 
 
 Always the slave to the scientific method, I proceeded with a "networking might be useful" as a hypothesis and did many experiments. Some were successful, some less so. In the process I developed a set of tactics that unleashed many opportunities - a stint as an EIR at Susa Ventures, speaking at conferences in Brazil and SXSW, and getting a company off the ground. (I like to think that) these were all built on a door of real value, but tactical network building provided the key. 

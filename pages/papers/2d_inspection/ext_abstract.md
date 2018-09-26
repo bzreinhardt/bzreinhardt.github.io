@@ -1,9 +1,11 @@
 ---
-layout: math_post 
 title: Original Extended Abstract
-tags: [papers]
+layout: math_post
+tags:
+- papers
 comments: true
 ---
+
 ## Abstract
 
 Small satellites would make excellent inspection vehicles for investigating larger satellites on orbit. However, today’s technology for relative actuation has some glaring gaps - requiring contact or propellant. The forces between a magnetic field and its induced electric currents could control the relative position between a small chaser spacecraft and a larger target without physical contact. A system utilizing these eddy-current forces places relatively few requirements on the target and chaser compared to more exotic EM actuation systems. This paper presents a system overview of a contactless eddy-current actuator, outlines those requirements through the analysis of an inspection mission on the ISS, and compares them to current experimental work.  

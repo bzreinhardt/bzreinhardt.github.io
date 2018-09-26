@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Easy-to-Fix
-date: 2013-10-28 23:11:13.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-28 23:11:13 -07:00
 tags:
 - antifragility
 - easy-to-fix
 - spacecraft
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>The economist <a href="http://econlog.econlib.org/archives/2009/03/my_talk_on_fina.html" target="_blank">Arnold Kling inadvertently did a great job of describing how we need to shift the paradigms of spacecraft design.</a> I’ve replaced only one word in this quote:</p>
 <blockquote><p> “We tend to think of the task of engineering as one of making systems hard to break. An alternative to consider is making systems easy to fix. Think of a computer. You can try to use firewalls and anti-virus software to make your computer hard to break. But it still pays to back up your data to make it easy to fix.“</p></blockquote>
 <p>The substitution changes the meaning entirely, but doesn’t alter the truthiness at all.</p>

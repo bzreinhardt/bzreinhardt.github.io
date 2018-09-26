@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Gut Guidance
-date: 2013-07-31 01:55:56.000000000 -07:00
+date: 2013-07-31 01:55:56 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -20,6 +17,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>The NewSpace 2013 conference gave me a lot to think about, but more than anything, it hammered home the fact that while we would like to think otherwise, humans are driven by their visceral feelings.</p>
 <p>At the conference, I listened to several talks and had many conversations where space exploration was thought of as “the cause.” What is belief in a cause except a visceral feeling of support for its goal?  Now, I happen to believe in this cause but unfortunately (in my mind) most people don’t.  A prevalent thought a the conference held that gaining mass support for space exploration was just a matter of convincing people to believe in the cause.</p>
 <p>Unfortunately, that’s not how it works.</p>

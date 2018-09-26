@@ -1,6 +1,8 @@
 ---
-layout: math_post 
 title: Bibliography
-tags: [papers]
+layout: math_post
+tags:
+- papers
 comments: true
 ---
+

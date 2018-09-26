@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Cable Consumer Consternation
-date: 2013-07-29 01:37:33.000000000 -07:00
+date: 2013-07-29 01:37:33 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Tl;dr: For the most part this post is a ranty consumer advocacy warning about my experience with Time Warner Cable, but I attempt to tie it back to regularly scheduled blog topics with a bigger point about accountability at the end.</p>
 <p> At the end of June, I received an Internet bill that, with no prior warning, was 20 dollars higher than normal. When I spoke to a TWC representative via the seemingly convenient chat option (beforehand checking the button for ‘I would like an email transcript,’ he told me that my ‘promotion’ had ended, BUT that there was another identical one that he could give me, and would apply it to my current bill. He assured me that while it wasn’t showing up in my account, the new promotion would be retroactively applied and I only needed to pay my normal amount. I thanked him, paid the normal amount immediately and didn’t give it another thought, although it seemed weird that I never got a transcript.</p>
 <p> Then I got this month’s bill. Not only was I being charged the increased rate, but it told me that I owed 20 dollars from last month’s bill. Two more representatives who both said that they were putting notes on my account told me that chat representatives didn’t actually have the authority to give promotions or change bill amounts and I would need to call in the morning. (I only got a chat transcript when I explicitly demanded it from one of them after the previous chat wasn’t recorded either.)</p>

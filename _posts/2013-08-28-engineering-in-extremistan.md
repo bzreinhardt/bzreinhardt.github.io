@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Engineering in Extremistan
-date: 2013-08-28 22:08:39.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-28 22:08:39 -07:00
 tags:
 - black swan
 - CS
 - engineering practices
 - technology
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
   tagazine-media: a:7:{s:7:"primary";s:79:"http://benjaminreinhardt.files.wordpress.com/2013/08/high_res_square_teaser.jpg";s:6:"images";a:1:{s:79:"http://benjaminreinhardt.files.wordpress.com/2013/08/high_res_square_teaser.jpg";a:6:{s:8:"file_url";s:79:"http://benjaminreinhardt.files.wordpress.com/2013/08/high_res_square_teaser.jpg";s:5:"width";i:1636;s:6:"height";i:1235;s:4:"type";s:5:"image";s:4:"area";i:2020460;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:1;s:6:"author";s:8:"44242401";s:7:"blog_id";s:8:"46163602";s:9:"mod_stamp";s:19:"2013-08-29
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://benjaminreinhardt.files.wordpress.com/2013/08/high_res_square_teaser.jpg"><img class="size-full wp-image" id="i-636" alt="Image" src="{{ site.baseurl }}/assets/high_res_square_teaser.jpg?w=650" /></a></p>
 <p>What comes to mind when you see the above image? It’s from a <a href="http://graphics.cs.cmu.edu/projects/scene-completion/" target="_blank">CS research paper</a> in which a computer used millions of images to automatically remove the roof from the foreground and fill in the image so that you would never suspect there was a roof in the first place. </p>
 <p>My initial reaction to seeing it during the first computer vision class of the year was of course ‘wow. That’s really freaking impressive. Go computer! (And the people who programmed it.)’</p>

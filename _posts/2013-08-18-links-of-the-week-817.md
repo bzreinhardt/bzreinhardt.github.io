@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Links of the Week 8/17
-date: 2013-08-18 02:17:50.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-18 02:17:50 -07:00
 tags:
 - dinosaurs
 - Europe
 - hyperloop
 - robots
 - space
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li>Sometimes people act like we have Space all figured out – mostly nothing with a few interesting phenomena, but we have<a href="http://spaceref.com/jupiter/jupiters-moon-europa-a-mystery-with-many-questions.html" target="_blank">unknown unknowns in our own backyard!</a></p>

@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Some Quotes
-date: 2013-10-31 17:15:13.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-31 17:15:13 -07:00
 categories:
 - Quotes
 tags:
@@ -14,6 +8,11 @@ tags:
 - Future
 - science fiction
 - technology
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +23,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Due to moving and having my computer locked in my advisor’s office for the evening, a short post consisting mostly of the words of Freeman Dyson from<a href="http://www.amazon.com/Infinite-All-Directions-Lectures-April-November/dp/0060728892" target="_blank"> <i>Infinite in All Directions. </i></a>The book is chock full of ideas that are still relevant today, 25 years after it was first published. In that way, it’s like extremely technical science fiction. Time has rendered some subjects less relevant (nuclear weapons) and others untrue (predictions of an awesome outer-solar-system bound mission launched in 2014) but the core has pivoted to still ring extremely true a quarter century later.</p>
 <p>On space colonization:</p>
 <blockquote><p>“Some of the first questions which come up in any practical discussion of space colonization are questions of economics…How do we make a living? What can we expect to export in order to pay for necessary imports? If space colonization makes any sense at all, these questions must have sensible answers.”</p></blockquote>

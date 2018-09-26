@@ -1,10 +1,14 @@
 ---
+title: What is Innovation?
+date: 2018-09-11 00:00:00 -07:00
+categories:
+- Innovation
+tags:
+- Innovation
+- Drawings
+- Definitions
+- Explorations
 layout: post
-title:  "What is Innovation?"
-date:   2018-09-11
-published: true
-tags: [Innovation, Drawings, Definitions, Explorations]
-categories: [Innovation]
 ---
 
 I've been asking the question "How do you accelerate innovations?"

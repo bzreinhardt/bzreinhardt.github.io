@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Historiography
-date: 2013-07-17 01:25:37.000000000 -07:00
+date: 2013-07-17 01:25:37 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>An aside from historian-hat-wearing Ben:</p>
 <p> Today <a href="http://www.quora.com/History/How-do-we-know-what-history-is-real-history#ans2810659" target="_blank">on Quora</a> I came across a thought-provoking paragraph. My reaction to it went something like this:</p>
 <blockquote><p>“The idea that ‘history is written by the winners’ is a clichéd truism that isn't actually very true.”</p>

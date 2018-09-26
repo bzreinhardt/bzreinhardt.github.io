@@ -1,14 +1,15 @@
 ---
-layout: post
 title: Coolest. Inverted Pendulum. Ever.
-date: 2013-03-10 15:18:14.000000000 -07:00
+date: 2013-03-10 15:18:14 -07:00
+tags:
+- News
+- Rockets
+- SpaceX
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: News Rockets SpaceX
 meta:
   _publicize_pending: '1'
   tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"44242401";s:7:"blog_id";s:8:"46163602";s:9:"mod_stamp";s:19:"2013-03-10
@@ -20,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p><a href="http://www.newspacejournal.com/2013/03/09/more-on-grasshoppers-johnny-cash-hover-slam-test/" title="Coolest. Inverted Pendulum. Ever.">Coolest. Inverted Pendulum. Ever.</a></p>
 <p>SpaceX has been testing a system called the Grasshopper that will allow reusable rockets to perform powered landings. Currently, everything that comes back from space either parachutes in and has to be picked up from the middle of nowhere or glides.</p>
 <p>The link contains a very cool video of a test flight and more information. </p>

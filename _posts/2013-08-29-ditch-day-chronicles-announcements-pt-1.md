@@ -1,18 +1,16 @@
 ---
-layout: post
 title: 'Ditch Day Chronicles: Announcements pt. 1'
-date: 2013-08-29 22:46:01.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-29 22:46:01 -07:00
 tags:
 - blacker house
 - caltech
 - Ditch Day
 - tradition
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>One of my favorite Ditch Day traditions never occurs on Ditch Day.</p>
 <p>You see, on Ditch Day, the seniors arrange dinner for their stacks: taking them to a restaurant, hosting a picnic, etc. Something that never happens is a normal house dinner. Each Caltech house has its own dining hall where the members of the house gather week-nightly, student waiters serve, and the traditions run so thick that you could cut them with a knife (that would then be vibrated and pulled against the edge of the table to display boredom, of course.)</p>
 <p>One of these traditions is after-dinner announcements. Having announcements after dinner seems like a pretty straightforward idea – you conveniently have everybody together at the same place and time. But over the 82 years that the Caltech houses have existed, they have become infused with memes, call-and-returns, taboos, expectations, and rules. One of these rules is that the house president (or acting house president in the president’s class-induced absence) must call on each individual making an announcement. One non-president announcer cannot yield the floor to another under the threat of punishment.</p>

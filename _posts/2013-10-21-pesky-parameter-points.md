@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Pesky Parameter Points
-date: 2013-10-21 22:44:49.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-21 22:44:49 -07:00
 tags:
 - computers
 - documentation
 - human filters
 - models
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’ve been working on the <a href="http://www.spacecraftresearch.com/blog/?p=212" target="_blank">Quirk-E project</a>, in particular, tuning parameters so that it produces numerical results that resemble reality. [link to blog] I plan to share it <a href="https://github.com/bzreinhardt/quirk" target="_blank">on Github</a> soon, but until then, I wanted to bring up some important points about models. I may have made these points before, but I see so few people who actually think about them that I’m going to risk repeating myself.</p>
 <p>The rise of cheap computing has allowed numerical models to explode into basically every domain. Some wonderful discoveries have come of this. It’s just important to remember both that they are only models and not reality and to keep in mind how much human discretion goes into modeling.</p>
 <p>Every model is influenced by the discretion of the modeler, from something as simple as fitting a line to data points to running a <a href="http://en.wikipedia.org/wiki/Genetic_algorithm" target="_blank">genetic algorithm. </a>Even though the genetic algorithm nominally ‘figures it out for itself,’ the human still sets a number of parameters that heavily influence the outcome.  And it’s so tempting to tweak parameters without justification except that they give you the answer you want.</p>

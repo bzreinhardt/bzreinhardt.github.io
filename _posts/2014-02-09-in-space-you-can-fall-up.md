@@ -1,15 +1,13 @@
 ---
-layout: post
 title: In Space You Can Fall Up
-date: 2014-02-09 23:00:50.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2014-02-09 23:00:50 -08:00
 categories:
 - Grad School
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
 author:
@@ -19,6 +17,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Whenever I explain my research, the conversation goes something like</p>
 <p>Me: "I'm working on a concept for a contact-less spacecraft actuator"</p>
 <p>Them: "A what?"</p>

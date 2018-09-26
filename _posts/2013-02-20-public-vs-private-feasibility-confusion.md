@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Public vs. Private Feasibility Confusion
-date: 2013-02-20 10:49:45.000000000 -08:00
+date: 2013-02-20 10:49:45 -08:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>One of the biggest overarching problems in space exploration is a misplaced sense of where the Tinfoil Hat Line should lie relative to different applications.  Specifically, much of NASA’s activity and spending lies far to the safe and plausible side of the TFHL, while many private companies field proposals and businesses plans that are awesome on paper, but don’t have a clear path to success.</p>
 <p>Some recent news that illustrates the division between NASA and industry around the TFHL:</p>
 <p>The private company <a href="http://goldenspikecompany.com/" target="_blank">Golden Spike</a>, proposing commercial flights to the moon by 2020, has launched a <a href="http://www.indiegogo.com/projects/golden-spike-is-sending-nations-and-people-to-the-moon-join-in" target="_blank">crowdfunding campaign</a> to raise “one dollar for each mile to the moon.” This combination of space exploration, private enterprise, and crowdfunding is awesome in concept, and may cause optimists to shout “a new business model!” However, the actual amount of money that would be raised even if the project reached its goal is orders of magnitude below the amount that is actually necessary to do anything useful.  This fact sadly relegates the campaign to a publicity stunt along the lines of the standard <a href="http://www.space.com/18805-golden-spike-private-moon-landing-graphic.html" target="_blank">excellent computer graphics</a> and leaves the whole plan in the realm of “extremely cool, but very likely overambitious and lacking substance.”</p>

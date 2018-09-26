@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Nutritional Shenanigans
-date: 2013-05-23 22:19:36.000000000 -07:00
+date: 2013-05-23 22:19:36 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>And now for something completely different!</p>
 <p>Listen close, and you will hear a tale of an intriguing interplay between consumer choice, government regulation and market competition, the likes of which happen all around us but for the most part go unseen.</p>
 <p>There are two brands of unsweetened almond milk  - let's call them A and B for expediency - at my grocery store. Until recently the nutrition label stated that A had 30 calories per cup and B had 40. A was marginally more expensive, but I really can't tell a difference in taste and the ingredients lists look identical. I got into the habit of buying A because it seemed like getting to drink 33% more for the same number of calories seemed worth the cost.</p>

@@ -1,14 +1,16 @@
 ---
-layout: post
 title: Visceral Video Games
-date: 2013-08-06 00:18:29.000000000 -07:00
+date: 2013-08-06 00:18:29 -07:00
+tags:
+- big-picture
+- musings
+- space
+- video-games
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: big-picture musings space video-games
 meta:
   _publicize_pending: '1'
   tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"44242401";s:7:"blog_id";s:8:"46163602";s:9:"mod_stamp";s:19:"2013-08-06
@@ -20,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Alright – the last post about visceral incentives for a bit, but I have incredibly strong bipolar feelings about <a href="http://www.youtube.com/watch?feature=trueview-instream&amp;v=QOdW1OuZ1U0" target="_blank">this Playstation advertisement. </a></p>
 <p> On the one hand it engages me and makes me really excited! Who doesn’t want to be a classy, fireball-throwing, raging badass.</p>
 <p> On the other hand, it directs that human visceral desire for greatness and awesome towards playing video games.  Video games aren’t necessarily bad – I just wonder: what could be accomplished on the margin if that energy and desire for greatness were targeted towards the physical world *cough cough * space *cough cough * instead?</p>

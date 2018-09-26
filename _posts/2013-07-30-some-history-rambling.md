@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Some History Rambling
-date: 2013-07-30 01:47:30.000000000 -07:00
+date: 2013-07-30 01:47:30 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I find the history of technology fascinating. It’s especially satisfying because more than any other area of history I can see patterns repeated over and over again with relatively little change through time.</p>
 <p> One of these trends is the ability of small, incremental innovations to lead to a discrete technological leap.  When you take a broad perspective, the history of technology is rife with quantum leaps where a completely new technology explodes on the scene: guns completely replaced swords, cars replaced horse-drawn carts, petroleum and electricity replaced whale oil, barrels replaced amphorae, airplanes replace... not being able to fly without a balloon – the list could fill a book. </p>
 <p> But when you zoom in to the past, or just look at current technology trends, it suddenly looks like everything is progressing only incrementally. Clearly, the incremental improvements have to lead to the discrete jumps, but how can that be?</p>

@@ -1,19 +1,17 @@
 ---
-layout: post
 title: HAL the Engineer
-date: 2013-10-30 22:26:06.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-30 22:26:06 -07:00
 tags:
 - computers
 - easy-to-fix
 - hard-to-break
 - musings
 - sci fi
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>SPOILER ALERT. If you haven’t read or watched 2001: A Space Odyssey, you should probably stop now and reconsider your cultural literacy.</p>
 <p>A conversation last weekend ended up focusing on how the character HAL in 2001: ASO took the easy-to-fix spacecraft paradigm to an extreme when he tried to remove the hardest-to-fix parts of the spacecraft: the humans. (Don’t Mechanical Engineers talk about fun things at parties?) In retrospect, I think HAL actually occupies an interesting intersection between the problems of the hard-to-break paradigm and the limits on computer thinking.</p>
 <p>In 2001:ASO, HAL, the ship’s AI comes to the conclusion that the Humans on board the spacecraft are actually the biggest liability to the mission. While you could look at this as making the ship easier to fix (a dead human is very hard to fix indeed) I think that HAL was actually falling into the ‘make it as hard to break as possible’ trap. It’s true that in space, humans are vulnerable, especially since so many other failures have the secondary effect of breaking us – life support failure, a window breaking, etc. Thus, from a hard-to-break perspective, getting rid of the humans makes some morbid sense.</p>

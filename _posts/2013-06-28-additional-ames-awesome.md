@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Additional Ames Awesome
-date: 2013-06-28 02:12:21.000000000 -07:00
+date: 2013-06-28 02:12:21 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A busy day at Ames continued to drive home the point that NASA has too many random cool projects for anybody to actually keep track of.</p>
 <p> Did you know that there are people working on:</p>
 <ul>

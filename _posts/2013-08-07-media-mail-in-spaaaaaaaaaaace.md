@@ -1,14 +1,16 @@
 ---
-layout: post
 title: Media Mail... in Spaaaaaaaaaaace
-date: 2013-08-07 00:40:01.000000000 -07:00
+date: 2013-08-07 00:40:01 -07:00
+tags:
+- efficiency
+- ideas
+- paradigms
+- space
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: efficiency ideas paradigms space
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A cool paradigm idea:</p>
 <p><a href="http://images.spaceref.com/news/2012/JSCDepots.IntegratedRisks.v.pdf" target="_blank">Tiered priority launches.</a></p>
 <p>Think about it – you wouldn’t ship a unique technology prototype the same way you would ship potatoes. There is a spectrum from courier mail (very expensive) to media mail, where they sometimes just lose the package or smash two together and mix up the contents (this has happened to me.) This makes sense because not everything needs the same amount of care - think how expensive things would get if we were as careful when transporting Styrofoam as when we were transporting fissile material.</p>

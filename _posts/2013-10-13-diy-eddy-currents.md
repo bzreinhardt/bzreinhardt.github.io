@@ -1,12 +1,6 @@
 ---
-layout: post
 title: DIY Eddy Currents
-date: 2013-10-13 22:50:18.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-10-13 22:50:18 -07:00
 categories:
 - Grad School
 tags:
@@ -14,6 +8,11 @@ tags:
 - experiments
 - proof-of-concept
 - Shameless Plugs
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,4 +23,5 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>As you may have figured out, I've been trying to put up a weekly blog post on our lab website. This week I talk about how you can create your own nifty eddy-current demonstration for about $20. <a href="http://www.spacecraftresearch.com/blog/?p=224" target="_blank">Check it out! </a></p>

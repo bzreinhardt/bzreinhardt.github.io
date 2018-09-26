@@ -1,7 +1,8 @@
 ---
-layout: page
 title: old_projects_pages
+layout: page
 ---
+
 I've made a lot of things. Some have been successful. Some less so. 
 
 Things in atomland

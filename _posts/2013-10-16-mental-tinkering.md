@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Mental Tinkering
-date: 2013-10-16 23:09:30.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-16 23:09:30 -07:00
 tags:
 - building
 - design
 - prototyping
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I want to draw a distinction between mental tinkering and planning. It’s kind of subtle because to an observer they both look the same – you’re just doing work in your head and maybe on a piece of scratch paper. However, I think the difference is huge. My distinction is that planning locks you onto a path, narrowing options, while mental tinkering expands them.</p>
 <p>I find that many people’s instinct is to spend most of their ‘thinking time’ planning and not much doing some mental tinkering. At first pass this makes sense, because by pruning down the options, you move toward a single path of actions. But if you ask the right questions during mental tinkering (for me, it’s mostly just questions) you can basically cheat and completely bypass steps that originally would have seemed necessary for any plan. Kind of like certain pipes in Mario.</p>
 <p>Two of the most useful questions:</p>

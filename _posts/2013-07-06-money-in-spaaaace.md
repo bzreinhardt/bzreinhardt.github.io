@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Money...in spaaaace?
-date: 2013-07-06 01:49:25.000000000 -07:00
+date: 2013-07-06 01:49:25 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>While I agree that <a href="http://spaceref.com/commercial-space/paypal-launches-paypal-galactic-but-were-not-sure-why.html" target="_blank">Paypal Galactic</a> has me scratching my head a little. My first gut reaction was to dismiss it as just a way-over-the-tinfoil-hat-line publicity stunt. However, I’m keeping my mind and eyes open because honestly I don’t know enough about it to be dismissive – I suspect that the people at PayPal know a lot more about unconventional digital currency than I do.</p>
 <p> The actual announcement of PayPal Galactic is not so much on my mind as <a href="http://www.thespacereview.com/article/2321/1" target="_blank">this reaction</a>, specifically the quote at the end:</p>
 <blockquote><p>“The problem with this particular millennial vision is that private firms do not open new frontiers. States do. Private firms profit from frontiers after they have been opened by states.”</p>

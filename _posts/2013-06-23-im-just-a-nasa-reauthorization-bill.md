@@ -1,14 +1,11 @@
 ---
-layout: post
 title: I’m just a NASA Reauthorization Bill …
-date: 2013-06-23 01:59:22.000000000 -07:00
+date: 2013-06-23 01:59:22 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>In other NASA related news, the agency is at the center of yet another <a href="http://www.spaceref.com/news/viewsr.html?pid=44228" target="_blank">budgetary hearing</a> and <a href="http://www.spacepolicyonline.com/news/nelson-pessimitic-about-nasa-authorization-bill-implores-aerospace-commmunity-to-help" target="_blank">subsequent congressional debate</a>.  This happens so frequently that each individual instance has begun to meld into the next in my mind.  </p>
 <p>While I agree with <a href="http://josephshoer.com/blog/2013/06/a-difficult-question-for-space-advocates/" target="_blank">Joe Shoer</a> that NASA’s lack of an overarching goal provides fodder to the paralyzing funding conflicts, I think that much deeper there is something rotten in the state of NASA.  This problem is highlighted by this quote from the SpacePolicyOnline article:</p>
 <blockquote><p>“He (Senator Bill Nelson (D-FL) [Ben’s Note: Florida has many jobs and businesses bankrolled by NASA funding] tried to rally those in the room -- mostly aerospace industry representatives --  to fight for a higher NASA budget. “</p>

@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week 1
-date: 2013-05-25 23:01:23.000000000 -07:00
+date: 2013-05-25 23:01:23 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p> Saturday Space Stories!</p>
 <p> Ordered from least to most probable:</p>
 <p>Through some <a href="http://www.space.com/21311-battlestar-galactica-flight-simulator-can-spin-any-direction-video.html" target="_blank">excellent mechanical design</a>, you can now imagine that you’re in a <a href="http://en.wikipedia.org/wiki/Battlestar_Galactica" target="_blank">Battlestar Galactica</a> <a href="http://www.youtube.com/watch?v=eCwQTkr-ZBk" target="_blank">space battle</a> with your stomach as well as your brain.</p>

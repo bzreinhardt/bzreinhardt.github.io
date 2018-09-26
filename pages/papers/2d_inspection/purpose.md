@@ -1,7 +1,8 @@
 ---
-layout: math_post 
 title: Purpose
-tags: [papers]
+layout: math_post
+tags:
+- papers
 comments: true
 linear: true
 linear_name: 2d_inspection
@@ -9,6 +10,7 @@ linear_num: 1
 next_page: alt_tech_background.html
 prev_page: 
 ---
+
 <!-- What is an induction coupler -->
 An induction coupler uses magnetic eddy currents to create forces between itself and a conductive target. The coupler doesn't require direct contact with a target or cooperation from the target. The coupler can also operate on electricity alone, rather than requiring fuel or propellant. If you note that most satellites are skinned in aluminum, this makes induction couplers the closest thing we have to science fiction's tractor beam - a device that can produce contactless forces on an uncooperative target. 
 

@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Congressional Conundrum
-date: 2013-05-22 23:17:31.000000000 -07:00
+date: 2013-05-22 23:17:31 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’m a little confused.</p>
 <p>Maybe there’s something I’m missing, but I’m not sure why having the single common trait of being good at winning elections makes <a href="http://en.wikipedia.org/wiki/United_States_House_Science_Subcommittee_on_Space_and_Aeronautics" target="_blank">a group of accountants, lawyers, economists, MDs, real estate agents, jet pilots, and reporters</a> suddenly qualified to <a href="http://www.spacepolitics.com/2013/05/21/moon-versus-asteroids-on-the-path-to-mars/" target="_blank">determine the validity of space missions.</a></p>
 <p>Sarcasm aside, I realize that congress (and thus elected congressmen/women) is in charge of government spending and thus should have oversight over where that money is spent, and this includes NASA (a thorny issue for another time in and of itself.)</p>

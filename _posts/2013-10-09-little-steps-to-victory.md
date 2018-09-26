@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Little Steps to Victory
-date: 2013-10-09 22:55:58.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-10-09 22:55:58 -07:00
 tags:
 - baby steps
 - prototyping
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -21,6 +19,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>When the goal is to create something entirely new in a land where there is no established ‘best practice’ (which is what prototyping is after all) I’m a really big advocate of figuring out the end point and then taking many small steps in that general direction. This is counterintuitive to many people (myself included for a long time): I plan out the roads for the whole trip, rather than just saying ‘well, I know my destination is south, so I’m just going to take each South bound road I find.’</p>

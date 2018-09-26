@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Space Links of the Week, June 1
-date: 2013-06-01 21:51:21.000000000 -07:00
+date: 2013-06-01 21:51:21 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li><a href="http://www.floridatoday.com/article/20130523/SPACE/130523026/NASA-Bigelow-partner-study-opportunities-space-exploration?nclick_check=1" target="_blank">Public-private partnership</a> between NASA and Bigelow - cool, but always danger of picking winners/losers</li>

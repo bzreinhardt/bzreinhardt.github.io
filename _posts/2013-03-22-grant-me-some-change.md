@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Grant Me Some Change
-date: 2013-03-22 22:42:57.000000000 -07:00
+date: 2013-03-22 22:42:57 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>This week, the journal <i>Nature </i>published a short article with the headline: “Funding: Australia’s grant system wastes time.” <a href="http://www.nature.com/nature/journal/v495/n7441/full/495314d.html" target="_blank">Here is a link</a> for those with access. Scientific journals aren’t known for their sense of humor, but the understatement of the title is so extreme that it must be an attempt at a joke. From the article:</p>
 <blockquote>
 <p style="text-align:justify;"> “We found that scientists in Australia spent <strong><i>more than five centuries'</i></strong> worth of time preparing research-grant proposals for consideration by the largest funding scheme of 2012. Because just 20.5% of these applications were successful, the equivalent of some four centuries of effort returned no immediate benefit to researchers and wasted valuable research time.” (emphasis mine)</p>

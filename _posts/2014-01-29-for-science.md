@@ -1,15 +1,13 @@
 ---
-layout: post
 title: For Science!
-date: 2014-01-29 22:58:50.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2014-01-29 22:58:50 -08:00
 categories:
 - Dissertation
-tags: []
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -20,6 +18,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I’m going to try an experiment. The goal? A steady stream of posts that will be like dissertation Legos. Little discrete blocks of thought that can stand on their own, but snap together to form something far more awesome.</p>
 <p>Clearly posts will always be far less polished than a complete dissertation. Many technical details will probably be glossed over. Breaking a dissertation into blog posts is pretty unorthodox and perhaps heretical.</p>
 <p>But what is a dissertation? <a href="http://en.wikipedia.org/wiki/Thesis" target="_blank">From Wikipedia: </a></p>

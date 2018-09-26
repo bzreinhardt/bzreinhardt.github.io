@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Funding Fixes pt. 1
-date: 2013-03-27 23:01:40.000000000 -07:00
+date: 2013-03-27 23:01:40 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>This post is a follow-up to points I made about the absurd inefficiency of the grant system that funds most public research. While there is some value in just shedding light on a problem, it is far more valuable to point out the problem <b>and</b> propose some solutions.  Most of my proposed fixes stem from a conversation I had with Duke Economist Mike Munger, so he deserves the lion’s share of the credit.</p>
 <p>These ideas apply primarily to government money aimed at research with very limited or nonexistent near-term applications. The government shouldn’t be funding research that has obvious near term benefits.  I argue that these projects should be left to the private sector for a number of reasons including efficiency disparity and the simple fact that there is only so much the government should spend on research, so it shouldn’t fund things that would be funded through other means.</p>
 <p>However, plenty of research without obvious near term value will benefit humanity down the line in completely unexpected ways. Take pure mathematics for example – it doesn’t seem to benefit anybody, but given a few dozen to hundreds of years, theories that mathematicians are coming up with now will percolate into physics, chemistry and biology, generating new discoveries there that will be taken by engineers and used to benefit millions of people.</p>

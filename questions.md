@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Questions
-permalink: /questions/
+permalink: "/questions/"
+layout: page
 ---
 
 #Podcasting

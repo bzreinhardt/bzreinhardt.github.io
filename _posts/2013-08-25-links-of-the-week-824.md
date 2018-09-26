@@ -1,12 +1,6 @@
 ---
-layout: post
 title: Links of the Week 8/24
-date: 2013-08-25 02:04:20.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2013-08-25 02:04:20 -07:00
 categories:
 - Links of the Week
 tags:
@@ -15,6 +9,11 @@ tags:
 - metrics
 - NASA
 - SpaceX
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -25,6 +24,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Stories!</p>
 <ul>
 <li><a href="http://www.nasaspaceflight.com/2013/08/spacex-bothering-bovines-revolutionizing-rockets/" target="_blank">A pretty detailed overview of SpaceX</a> – a good read, if a bit long</li>

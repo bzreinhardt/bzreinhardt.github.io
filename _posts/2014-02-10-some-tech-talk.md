@@ -1,18 +1,17 @@
 ---
-layout: post
 title: Some Tech Talk
-date: 2014-02-10 22:25:04.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
+date: 2014-02-10 22:25:04 -08:00
 categories:
 - Dissertation
 tags:
 - Eddy-currents
 - ISS
 - Todo
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p dir="ltr">A snippet from an abstract I'm working on - further details about 'falling up':</p>
 <p dir="ltr">Although they have many advantages over present technology, eddy-current actuators are not a killer app for generating 6-degree-of-freedom forces. Eddy-current forces are small and drop off quickly with distance. The necessary electromagnets and motors both generate thermal loads. While possible, it is difficult for an eddy-current actuator to generate a force that pulls the target and inspection vehicle closer together.</p>
 <p>Despite these flaws, there are a number of applications which can take advantage of this technology’s strengths (electric-only, propellantless, contactless forces with an uncooperative target) and minimizes its weaknesses.</p>

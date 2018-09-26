@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Jobs For Humanity
-date: 2013-09-02 22:54:42.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-02 22:54:42 -07:00
 tags:
 - jobs
 - productivity
 - robots
 - the future
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
 author:
@@ -22,6 +20,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>A recent article in the NYT <a href="http://opinionator.blogs.nytimes.com/2013/08/24/how-technology-wrecks-the-middle-class/?nl=todaysheadlines&amp;emc=edit_th_20130826" target="_blank">gave a pretty well-thought-out perspective on the consequences</a> of the ever expanding capabilities of computers and robots on the labor force. (That is, it wasn’t on the extreme of ‘robots will make everything awesome!’ or ‘robots will kill ALL THE JOBS’ that I find pervades a lot of this conversation.</p>
 <p>Some quotes:</p>
 <blockquote><p>"A starting point for discussion is the observation that although computers are ubiquitous, they cannot do everything."</p>

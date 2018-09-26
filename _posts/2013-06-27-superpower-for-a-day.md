@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Superpower for a Day
-date: 2013-06-27 01:20:19.000000000 -07:00
+date: 2013-06-27 01:20:19 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>In completely unrelated news, I wrote a quick essay for a contest at work on the prompt "If you could have a superpower for a day, what would it be?" Since it ate my blog-post-writing-time, I thought I would offer it up as sacrifice instead: </p>
 <p>Full essay below the break.</p>
 <p>The superpower I would choose for a day would be the ability to ‘see’ physics.</p>

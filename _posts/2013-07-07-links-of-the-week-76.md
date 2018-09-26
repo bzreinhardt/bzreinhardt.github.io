@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week 7/6
-date: 2013-07-07 02:55:22.000000000 -07:00
+date: 2013-07-07 02:55:22 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
 author:
@@ -18,6 +15,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li>*Historian Engineer Hat* Did you know they had <a href="http://www.thehistoryblog.com/archives/25773" target="_blank">Mechanical Semaphore Telegraphs?!?</a></p>

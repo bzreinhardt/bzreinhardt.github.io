@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Out of Left Field
-date: 2013-07-19 02:06:04.000000000 -07:00
+date: 2013-07-19 02:06:04 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -20,6 +17,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Space flight needs a paradigm shift.</p>
 <p>Pessimists on the extent of our ability to become a spacefaring species point to how even with the best rockets that could theoretically exist, it would still be prohibitively expensive to go to space.  I don’t disagree with their math or their conclusions…given their assumptions.</p>
 <p>That’s the trick – those who put limits on our ability to solve problems are usually right … given no unknown unknowns.  But then someone comes at the problem completely sideways, slipping in the side door rather than ramming their head against the gate. It’s almost impossible to predict the tricky solution that finally defeats the problem.  This phenomenon can be seen in how absurd past visions of the future are in retrospect.</p>

@@ -1,15 +1,16 @@
 ---
-layout: math_post 
 title: Other Technologies
-tags: [papers]
+layout: math_post
+tags:
+- papers
 comments: true
 linear: true
 linear_name: 2d_inspection
 linear_num: 2
-
 next_page: physics_background.html
 prev_page: purpose.html
 ---
+
 <!-- Other technologies -->
 <!--### Contactless Actuatoion-->
 

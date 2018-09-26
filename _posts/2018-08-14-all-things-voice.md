@@ -1,9 +1,14 @@
 ---
+title: All Things Voice
+date: 2018-08-14 00:00:00 -07:00
+categories:
+- Informational Posts
+tags:
+- AI
+- UX
+- Speech Tech
+- Explanations
 layout: post
-title:  "All Things Voice"
-date:   2018-8-14
-tags: [AI, UX, Speech Tech, Explanations]
-categories: [Informational Posts]
 crosspost_to_medium: true
 ---
 

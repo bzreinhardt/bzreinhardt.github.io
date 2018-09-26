@@ -1,18 +1,16 @@
 ---
-layout: post
 title: More Communication Conundrums
-date: 2013-11-06 22:54:14.000000000 -08:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-11-06 22:54:14 -08:00
 tags:
 - blogging
 - research proposals
 - science communication
 - twitter
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>&nbsp;</p>
 <p>The National Research Council inadvertently illustrated the bipolarity in how we talk about science and communicate ideas in general (especially on the internet.)</p>
 <p><a href="http://www.spacepolicyonline.com/news/a-last-chance-to-tell-the-nrc-your-ideas-for-human-spaceflight-via-twitter" target="_blank">The NRC solicited ideas for the future of human space flight</a> in one of two ways: <a href="http://www8.nationalacademies.org/aseboutreach/publicviewhumanspaceflight.aspx" target="_blank">white papers</a> and<a href="https://twitter.com/search?q=%23HumansInSpace&amp;src=typd" target="_blank"> tweets.</a>  That seems to be the no-win trap that most communication falls into - the choice between long, dry, technical artifacts of the 19<sup>th</sup> century that no non-specialist wants to read and a bite sized blurb with zero substance.</p>

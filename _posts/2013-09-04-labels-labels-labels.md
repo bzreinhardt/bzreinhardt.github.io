@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Labels Labels Labels
-date: 2013-09-04 22:54:52.000000000 -07:00
+date: 2013-09-04 22:54:52 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Three experiences today all drove home the point two people in different fields can both nominally ‘know’ about the same subject or technique, but when you line up the details of that knowledge, it’s actually amazingly different.</p>
 <p>This morning, my computer vision professor put a 3x3 grid of numbers on the projector and nonchalantly referred to it as a filter. It took me a bit to figure out how it related to my concept of a filter – either a physical circuit or a computer program that took a signal and modified components of it in phase space (usually cutting out the high frequency component.) It turns out that grid took as its ‘signal’ the pixels in the grid and gave an output that applied to the center pixel. So if you squint very hard both ‘filters’ do the same thing, but in <b>very</b> different ways.</p>
 <p>I spent this afternoon struggling with the fact that there are different conventions for what different components of <a href="http://en.wikipedia.org/wiki/Quaternion" target="_blank">quaternions</a> mean based on whether you are in aerospace or computer science it also depends on where you are in time – the convention has changed over the years. Since doing the same operations on two quaternions written with different conventions in mind yields very different results, this was rather frustrating.</p>

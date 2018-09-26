@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Colloquium Considerations
-date: 2013-09-17 22:59:17.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-17 22:59:17 -07:00
 tags:
 - computers
 - extremistan
 - mediocristan
 - robots
 - sensors
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -24,6 +22,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>I saw a great talk today from Nisar Ahmed as part of the weekly MAE colloquium.  He gave an overview of<a href="http://www.cohrint.info/" target="_blank"> his research </a>that focuses on fusing information from humans and robots. It’s extremely cool – providing robust frameworks for humans to use their insight or pattern recognition and tell the robot “hey, you should probably look over there” without directly controlling the robot. This ideally combines the best parts of both human and robotic perception.</p>
 <p>The talk piqued my interest because it is directly related to two big topics I find fascinating at the moment:</p>
 <ol>

@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Ditch Day Chronicle - Prehistory
-date: 2013-08-10 00:17:25.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-08-10 00:17:25 -07:00
 tags:
 - asides
 - Ditch Day
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -21,6 +19,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p> “Wake up frosh! It’s Ditch Day!”</p>
 <p> That cry, combined with the pounding of fists upon doors as seniors run down the halls, still elicits excitement in me now – 3 years after I graduated. It signals the beginning of Ditch Day, the most magical day of the year at Caltech. </p>
 <p> I’ve written a <a href="http://benjaminreinhardt.wordpress.com/2013/05/24/wake-up-frosh-its-ditch-day/" target="_blank">short description of Ditch Day</a>, but I’ve been inspired by <a href="http://ilyanep.wordpress.com/2013/07/05/what-is-caltechs-ditch-day/" target="_blank">Ilya’s detailed chronicle of his stack </a>(still ongoing.) This diversion will be part story and part ‘look at these cool things!’</p>

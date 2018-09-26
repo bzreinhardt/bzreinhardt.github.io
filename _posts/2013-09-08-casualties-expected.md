@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Casualties Expected!
-date: 2013-09-08 22:37:50.000000000 -07:00
-type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories: []
+date: 2013-09-08 22:37:50 -07:00
 tags:
 - engineering follies
 - engineering practices
 - probability
 - SpaceX
+layout: post
+type: post
+parent_id: '0'
+password: ''
+status: publish
 meta:
   _edit_last: '44242401'
   _publicize_pending: '1'
@@ -23,6 +21,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Did you know that the FAA measures the riskiness of private space operations in units of Expected Casualties?</p>
 <p>Yes, that morbid unit is exactly what it sounds like. <a href="http://www.faa.gov/about/office_org/headquarters_offices/ast/licenses_permits/media/Ac4311fn.pdf" target="_blank">From the FAA document that shouldn’t be read unless you’re writing a blog post about it or love the potent boredom inducing combination of legal and engineering parlance:</a></p>
 <blockquote><p> "Risk is defined by the safety community as the product of the probability of occurrence of an event and the consequences of that event."</p></blockquote>

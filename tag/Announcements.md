@@ -1,6 +1,7 @@
 ---
+title: 'Tag: Announcements'
 layout: tagpage
-title: "Tag: Announcements"
 tag: Announcements
 robots: noindex
 ---
+

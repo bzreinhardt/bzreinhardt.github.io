@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Links of the Week, June 29
-date: 2013-06-30 02:09:22.000000000 -07:00
+date: 2013-06-30 02:09:22 -07:00
+layout: post
 type: post
 parent_id: '0'
-published: true
 password: ''
 status: publish
-categories: []
-tags: []
 meta:
   _publicize_pending: '1'
   _edit_last: '44242401'
@@ -19,6 +16,7 @@ author:
   first_name: Ben
   last_name: Reinhardt
 ---
+
 <p>Saturday Space Stories!</p>
 <ul>
 <li><a href="http://www.americaspace.com/?p=37488" target="_blank">Submarines in spaaaaace</a></li>
