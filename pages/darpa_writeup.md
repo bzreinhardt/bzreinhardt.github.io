@@ -3,6 +3,9 @@ layout: page
 title: D60 Writeup
 permalink: /d60_notes
 ---
+_Update_: [DARPA released videos of some of the talks.](https://www.youtube.com/playlist?list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW)
+The ones on [Mosaic Warfare](https://www.youtube.com/watch?v=33VAnIEjDgk&list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW&index=4&t=0s), [Electronics](https://www.youtube.com/watch?v=W_cB8VYunY8&list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW&index=5&t=0s), and [Bio](https://www.youtube.com/watch?v=CdRdkxb3G7w&list=PL6wMum5UsYvbLCUdhDjA_j0cXhlBI0jnW&index=8&t=0s) are worth watching.
+
 
 These are my initial takeaways from the DARPA D60 Conference. Anything particularly interesting? Places I should go into more depth? <ben@benjaminreinhardt.com>
 
@@ -92,3 +95,4 @@ Obviously, DARPA is a technology organization at the end of the day. Here's a li
 
 # Remaining Questions
 - Is there a list of DARPA programs that were killed and why? Seems like it would be valuable for civilization.
+-
