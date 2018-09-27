@@ -1,23 +1,5 @@
 ---
-title: Inktober
-date: 2017-12-12 00:00:00 -08:00
-categories:
-- Drawings
-tags:
-- AI
-- complex-systems
-- models
-- frameworks
-- robots
-- explanations
-layout: post
-<<<<<<< HEAD
-title:  "Inktober"
-date:   2017-12-12
-tags: [AI, complex-systems, models, frameworks, robots, explanations]
-categories: [Drawings]
-=======
->>>>>>> 897229b9ef0732ff72fe271bbcb5f4f848c61495
+title: 2017 12 12 Inktober
 ---
 
 <p><img src="https://s3-us-west-1.amazonaws.com/zaaron-personal/Inktober/AI_1.jpg"/></p>
