@@ -34,10 +34,11 @@ navbar-links:
   - Seminal Paper Club: seminal_paper_club
   - Old Projects: projects
   - Research: research
+  Questions: questions
 title-img: "/img/dragon2flipped.gif"
 author:
   name: Ben Reinhardt
-  email: bzreinhardt@gmail.com
+  email: ben@benjaminreinhardt.com
   github: bzreinhardt
   twitter: Ben_Reinhardt
 footer-links-active:

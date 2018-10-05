@@ -2,8 +2,8 @@
 title: 'Ditch Day: Battle Plans'
 date: 2013-09-20 23:15:56 -07:00
 tags:
-- caltech
-- Ditch Day
+- Caltech
+- Ditch-Day
 - planning
 - time
 layout: post

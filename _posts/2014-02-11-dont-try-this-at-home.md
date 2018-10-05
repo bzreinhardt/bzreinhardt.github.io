@@ -2,7 +2,7 @@
 title: Don't Try This at Home
 date: 2014-02-11 22:39:00 -08:00
 tags:
-- black pepper
+- black-pepper
 - experiments
 - health
 layout: post

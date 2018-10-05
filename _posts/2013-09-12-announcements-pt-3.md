@@ -4,9 +4,9 @@ date: 2013-09-12 22:49:03 -07:00
 tags:
 - Acting
 - Announcements
-- Ditch Day
-- Lord of the Rings
-- Will it blend
+- Ditch-Day
+- Lord-of-the-Rings
+- Will-it-Blend
 layout: post
 type: post
 parent_id: '0'

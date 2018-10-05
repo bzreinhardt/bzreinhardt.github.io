@@ -4,9 +4,10 @@ date: 2013-11-10 23:09:11 -08:00
 categories:
 - Grad School
 tags:
+- grad-school
 - feedback
 - research
-- sausage factories
+- sausage-factories
 layout: post
 type: post
 parent_id: '0'

@@ -5,7 +5,7 @@ categories:
 - Grad School
 tags:
 - compliance
-- EC actuators
+- EC-actuators
 - stiffness
 layout: post
 type: post

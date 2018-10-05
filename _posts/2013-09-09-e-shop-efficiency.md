@@ -4,8 +4,8 @@ date: 2013-09-09 22:26:44 -07:00
 tags:
 - bureaucracies
 - efficiency
-- political correctness
-- Rants
+- political-correctness
+- rants
 - university
 layout: post
 type: post

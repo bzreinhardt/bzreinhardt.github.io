@@ -3,7 +3,7 @@ title: Yawns as a sign of Progress
 date: 2013-11-07 23:01:00 -08:00
 tags:
 - curiosity
-- human filters
+- human-filters
 - progress
 - space
 layout: post

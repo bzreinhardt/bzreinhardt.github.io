@@ -4,10 +4,11 @@ date: 2013-09-28 22:10:59 -07:00
 categories:
 - Links of the Week
 tags:
+- links-of-the-week
 - academia
 - fantasy
 - OOS
-- sci fi
+- sci-fi
 - Tolkien
 layout: post
 type: post

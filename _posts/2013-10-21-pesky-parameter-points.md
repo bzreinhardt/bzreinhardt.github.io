@@ -4,7 +4,7 @@ date: 2013-10-21 22:44:49 -07:00
 tags:
 - computers
 - documentation
-- human filters
+- human-filters
 - models
 layout: post
 type: post

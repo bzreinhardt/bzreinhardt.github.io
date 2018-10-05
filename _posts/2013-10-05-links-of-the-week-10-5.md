@@ -4,7 +4,8 @@ date: 2013-10-05 22:07:23 -07:00
 categories:
 - Links of the Week
 tags:
-- 3-D printing
+- links-of-the-week
+- 3D-printing
 - legos
 - science
 - space

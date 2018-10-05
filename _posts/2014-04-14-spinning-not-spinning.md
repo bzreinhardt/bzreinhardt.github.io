@@ -5,10 +5,11 @@ categories:
 - Dissertation
 - Grad School
 tags:
+- grad-school
 - demos
 - research
-- spinning magnets
-- Videos
+- spinning-magnets
+- videos
 layout: post
 type: post
 parent_id: '0'

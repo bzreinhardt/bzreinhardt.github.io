@@ -5,10 +5,11 @@ categories:
 - Dissertation
 - Grad School
 tags:
+- grad-school
 - abstract
-- EC actuators
+- EC-actuators
 - planning
-- science writing
+- science-writing
 - tradition
 layout: post
 type: post

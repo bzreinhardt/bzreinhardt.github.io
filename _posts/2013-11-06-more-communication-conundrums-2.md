@@ -3,8 +3,8 @@ title: More Communication Conundrums
 date: 2013-11-06 22:54:14 -08:00
 tags:
 - blogging
-- research proposals
-- science communication
+- research-proposals
+- science-communication
 - twitter
 layout: post
 type: post

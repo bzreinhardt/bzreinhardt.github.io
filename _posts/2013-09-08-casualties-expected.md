@@ -2,9 +2,10 @@
 title: Casualties Expected!
 date: 2013-09-08 22:37:50 -07:00
 tags:
-- engineering follies
-- engineering practices
+- engineering-follies
+- engineering-practices
 - probability
+- engineering
 - SpaceX
 layout: post
 type: post

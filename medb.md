@@ -1,10 +1,8 @@
-[to_read](/to_read)
+[darpa_notes](/darpa_notes)
 
 [questions](/questions)
 
 [Tools](/Tools)
-
-[to_read (Benjamin’s MacBook Pro's conflicted copy 2018-03-07)](/to_read (Benjamin’s MacBook Pro's conflicted copy 2018-03-07))
 
 [drafts](/drafts)
 
@@ -18,11 +16,17 @@
 
 [quests](/quests)
 
+[people-tags](/people-tags)
+
 [epithets](/epithets)
 
 [Bucketlist](/Bucketlist)
 
+[Untitled](/Untitled)
+
 [books-you-should-read-if-youre-a-human](/books-you-should-read-if-youre-a-human)
+
+[uncomfortable_truths](/uncomfortable_truths)
 
 [have_read](/have_read)
 
@@ -37,4 +41,8 @@
 [Stuff_questionmark](/Stuff_questionmark)
 
 [free_product_ideas](/free_product_ideas)
+
+[repeated_problems](/repeated_problems)
+
+[third_thursday_july](/third_thursday_july)
 

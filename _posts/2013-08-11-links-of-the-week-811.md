@@ -2,10 +2,10 @@
 title: Links of the Week 8/11
 date: 2013-08-11 21:28:25 -07:00
 tags:
-- Links
+- links
 - medicine
 - space
-- space politics
+- space-politics
 layout: post
 type: post
 parent_id: '0'

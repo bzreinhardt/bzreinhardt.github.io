@@ -1,10 +1,9 @@
 ---
 title: Ditch Day Chronicles - All About the People
 date: 2013-10-18 23:22:16 -07:00
-categories:
-- Ditch Day
 tags:
-- human filters
+- Ditch-Day
+- human-filters
 layout: post
 type: post
 parent_id: '0'

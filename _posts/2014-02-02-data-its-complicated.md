@@ -4,10 +4,11 @@ date: 2014-02-02 22:52:35 -08:00
 categories:
 - Grad School
 tags:
+- grad-school
 - experiments
 - feedback
 - harderThanYouThink
-- Shameless Plugs
+- shameless-plugs
 layout: post
 type: post
 parent_id: '0'

@@ -2,8 +2,8 @@
 title: 'Ditch Day Chronicles: Themes'
 date: 2013-08-23 02:19:30 -07:00
 tags:
-- Ditch Day
-- Lord of the Rings
+- Ditch-Day
+- Lord-of-the-Rings
 - Swords
 layout: post
 type: post

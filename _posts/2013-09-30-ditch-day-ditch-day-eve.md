@@ -1,12 +1,11 @@
 ---
 title: 'Ditch Day: Ditch Day Eve'
 date: 2013-09-30 22:44:49 -07:00
-categories:
-- Ditch Day
 tags:
-- black plastic
-- caltech
-- ice wall
+- Ditch-Day
+- black-plastic
+- Caltech
+- ice-wall
 layout: post
 type: post
 parent_id: '0'

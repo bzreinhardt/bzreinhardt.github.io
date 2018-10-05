@@ -3,7 +3,7 @@ title: Sci-fi  Startup
 date: 2013-10-29 22:56:25 -07:00
 tags:
 - musings
-- science fiction
+- science-fiction
 - startups
 layout: post
 type: post

@@ -4,10 +4,11 @@ date: 2018-09-11 00:00:00 -07:00
 categories:
 - Innovation
 tags:
-- Innovation
-- Drawings
-- Definitions
-- Explorations
+- innovation
+- drawings
+- definitions
+- explorations
+- explanations
 layout: post
 ---
 

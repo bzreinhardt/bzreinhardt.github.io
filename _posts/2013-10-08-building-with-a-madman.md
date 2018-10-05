@@ -4,7 +4,7 @@ date: 2013-10-08 22:55:44 -07:00
 tags:
 - design
 - prototyping
-- the creative process
+- the-creative-process
 layout: post
 type: post
 parent_id: '0'

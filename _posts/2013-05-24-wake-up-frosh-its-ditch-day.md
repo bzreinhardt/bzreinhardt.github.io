@@ -2,8 +2,7 @@
 title: Wake up frosh! It's Ditch day!
 date: 2013-05-24 23:27:07 -07:00
 categories:
-- Ditch
-- Day
+- Ditch-Day
 layout: post
 type: post
 parent_id: '0'

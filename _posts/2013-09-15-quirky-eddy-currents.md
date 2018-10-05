@@ -4,10 +4,11 @@ date: 2013-09-15 22:56:29 -07:00
 categories:
 - Grad School
 tags:
-- Eddy-currents
-- open source
-- pretty pictures
+- eddy-currents
+- open-source
+- pretty-pictures
 - tools
+- grad-school
 layout: post
 type: post
 parent_id: '0'

@@ -3,7 +3,7 @@ title: Useful Questions?
 date: 2013-11-13 23:04:07 -08:00
 tags:
 - education
-- people vs robots
+- people-vs-robots
 - prediction
 - questions
 layout: post

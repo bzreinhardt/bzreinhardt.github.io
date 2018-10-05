@@ -1,8 +1,6 @@
 ---
 title: Shameless SSDS Sharing
 date: 2013-05-31 23:34:30 -07:00
-categories:
-- Best-of
 layout: post
 type: post
 parent_id: '0'

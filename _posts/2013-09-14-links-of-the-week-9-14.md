@@ -6,7 +6,7 @@ categories:
 tags:
 - comics
 - NASA
-- Videos
+- videos
 layout: post
 type: post
 parent_id: '0'

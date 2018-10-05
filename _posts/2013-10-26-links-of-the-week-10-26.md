@@ -3,6 +3,8 @@ title: Links of the Week 10-26
 date: 2013-10-26 22:50:32 -07:00
 categories:
 - Links of the Week
+tags:
+- links-of-the-week
 layout: post
 type: post
 parent_id: '0'

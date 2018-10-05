@@ -5,6 +5,8 @@ categories:
 - Dissertation
 - Grad School
 tags:
+- grad-school
+- dissertation
 - experiments
 layout: post
 type: post

@@ -2,9 +2,9 @@
 title: Look, no hands!
 date: 2013-11-04 22:49:55 -08:00
 tags:
-- driverless cars
+- driverless-cars
 - robots
-- technology trends
+- technology-trends
 layout: post
 type: post
 parent_id: '0'

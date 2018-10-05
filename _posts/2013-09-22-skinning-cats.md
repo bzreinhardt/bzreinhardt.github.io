@@ -5,8 +5,9 @@ categories:
 - Grad School
 tags:
 - alternatives
-- Shameless Plugs
-- thought lock
+- shameless-plugs
+- thought-lock
+- grad-school
 layout: post
 type: post
 parent_id: '0'

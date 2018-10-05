@@ -4,7 +4,7 @@ date: 2013-09-10 22:48:14 -07:00
 tags:
 - blackboxification
 - plumbing
-- tech trends
+- tech-trends
 - technology
 - tradeoffs
 layout: post

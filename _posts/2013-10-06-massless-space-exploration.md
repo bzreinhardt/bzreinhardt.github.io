@@ -4,9 +4,9 @@ date: 2013-10-06 22:57:36 -07:00
 categories:
 - Grad School
 tags:
-- massless space exploration
+- massless-space=exploration
 - paradigms
-- Shameless Plugs
+- shameless-plugs
 - space
 layout: post
 type: post

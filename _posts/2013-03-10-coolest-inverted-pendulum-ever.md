@@ -2,8 +2,8 @@
 title: Coolest. Inverted Pendulum. Ever.
 date: 2013-03-10 15:18:14 -07:00
 tags:
-- News
-- Rockets
+- news
+- rockets
 - SpaceX
 layout: post
 type: post

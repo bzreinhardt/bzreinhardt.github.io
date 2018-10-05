@@ -2,7 +2,7 @@
 title: Little Steps to Victory
 date: 2013-10-09 22:55:58 -07:00
 tags:
-- baby steps
+- baby-steps
 - prototyping
 layout: post
 type: post

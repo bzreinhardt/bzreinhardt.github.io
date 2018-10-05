@@ -4,7 +4,7 @@ date: 2013-08-20 01:32:37 -07:00
 tags:
 - computers
 - entrepreneurship
-- history of technology
+- history-of-technology
 - technology
 layout: post
 type: post

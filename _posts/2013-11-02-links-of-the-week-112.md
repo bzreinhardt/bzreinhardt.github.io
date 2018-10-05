@@ -6,7 +6,7 @@ categories:
 tags:
 - education
 - robots
-- space politics
+- space-politics
 layout: post
 type: post
 parent_id: '0'

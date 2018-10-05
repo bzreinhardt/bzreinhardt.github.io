@@ -6,7 +6,7 @@ categories:
 tags:
 - economics
 - EconTalk
-- technology trends
+- technology-trends
 layout: post
 type: post
 parent_id: '0'

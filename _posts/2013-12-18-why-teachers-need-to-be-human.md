@@ -2,7 +2,7 @@
 title: Why Teachers Need to Be Human
 date: 2013-12-18 22:18:38 -08:00
 tags:
-- humans vs robots
+- humans-vs-robots
 - Matlab
 - questions
 - teaching

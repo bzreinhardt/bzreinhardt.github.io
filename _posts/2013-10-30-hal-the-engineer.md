@@ -6,7 +6,7 @@ tags:
 - easy-to-fix
 - hard-to-break
 - musings
-- sci fi
+- sci-fi
 layout: post
 type: post
 parent_id: '0'

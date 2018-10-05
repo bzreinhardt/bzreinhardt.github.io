@@ -3,7 +3,7 @@ title: Ditch Day Chronicle - Prehistory
 date: 2013-08-10 00:17:25 -07:00
 tags:
 - asides
-- Ditch Day
+- Ditch-Day
 layout: post
 type: post
 parent_id: '0'

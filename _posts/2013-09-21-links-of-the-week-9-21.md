@@ -4,7 +4,8 @@ date: 2013-09-21 23:06:37 -07:00
 categories:
 - Links of the Week
 tags:
-- big data
+- Links-of-the-Week
+- big-data
 - computers
 - magnets
 - mars

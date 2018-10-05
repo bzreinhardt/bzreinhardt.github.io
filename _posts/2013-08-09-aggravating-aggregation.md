@@ -4,7 +4,7 @@ date: 2013-08-09 00:35:06 -07:00
 tags:
 - language
 - musings
-- Rants
+- rants
 - space
 layout: post
 type: post

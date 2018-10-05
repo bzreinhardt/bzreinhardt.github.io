@@ -4,7 +4,10 @@ date: 2014-02-10 22:25:04 -08:00
 categories:
 - Dissertation
 tags:
-- Eddy-currents
+- dissertation
+- grad-school
+- eddy-currents
+- EC-actuators
 - ISS
 - Todo
 layout: post

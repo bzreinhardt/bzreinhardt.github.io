@@ -2,9 +2,9 @@
 title: 'Ditch Day Chronicles: Announcements Pt. 2'
 date: 2013-09-05 22:35:37 -07:00
 tags:
-- blacker
-- caltech
-- Ditch Day
+- Blacker-House
+- Caltech
+- Ditch-Day
 - storytelling
 layout: post
 type: post

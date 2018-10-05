@@ -3,8 +3,8 @@ title: Why are Rockets like Amphorae? Pt 1.
 date: 2014-04-19 23:06:03 -07:00
 tags:
 - history
-- history of technology
-- Rants
+- history-of-technology
+- rants
 layout: post
 type: post
 parent_id: '0'

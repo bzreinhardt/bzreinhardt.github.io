@@ -2,7 +2,7 @@
 title: Tinkering
 date: 2013-09-13 22:32:55 -07:00
 tags:
-- big questions
+- big-questions
 - entrepreneurship
 - inventions
 - themes

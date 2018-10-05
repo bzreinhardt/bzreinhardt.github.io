@@ -5,8 +5,8 @@ tags:
 - analogies
 - brains
 - engineering
-- human filters
-- kalman filters
+- human-filters
+- kalman-filters
 layout: post
 type: post
 parent_id: '0'

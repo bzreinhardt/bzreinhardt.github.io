@@ -4,7 +4,7 @@ date: 2013-11-11 22:46:43 -08:00
 tags:
 - comics
 - humanity
-- humans vs robots
+- humans-vs-robots
 - musings
 - technology
 layout: post

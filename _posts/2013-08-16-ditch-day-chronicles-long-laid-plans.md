@@ -2,8 +2,8 @@
 title: 'Ditch Day Chronicles: Long Laid Plans'
 date: 2013-08-16 01:50:12 -07:00
 tags:
-- Ditch Day
-- Indiana Jones
+- Ditch-Day
+- Indiana-Jones
 - schemes
 layout: post
 type: post

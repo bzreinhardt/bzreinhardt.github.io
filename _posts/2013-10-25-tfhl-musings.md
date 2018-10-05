@@ -2,8 +2,8 @@
 title: TFHL Musings
 date: 2013-10-25 23:14:11 -07:00
 tags:
-- big picture
-- massless space exploration
+- big-picture
+- massless-space-exploration
 - musings
 - space
 - TFHL

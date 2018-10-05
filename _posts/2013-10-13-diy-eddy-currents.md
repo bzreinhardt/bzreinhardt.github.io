@@ -4,10 +4,11 @@ date: 2013-10-13 22:50:18 -07:00
 categories:
 - Grad School
 tags:
+- grad-school
 - do-it-yourself
 - experiments
 - proof-of-concept
-- Shameless Plugs
+- shameless-plugs
 layout: post
 type: post
 parent_id: '0'

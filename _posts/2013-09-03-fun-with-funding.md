@@ -5,7 +5,7 @@ tags:
 - funding
 - inefficiencies
 - NASA
-- research proposals
+- research-proposals
 layout: post
 type: post
 parent_id: '0'

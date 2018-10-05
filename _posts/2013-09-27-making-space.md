@@ -2,8 +2,8 @@
 title: Making Space
 date: 2013-09-27 22:47:24 -07:00
 tags:
-- 3D printing
-- distributed systems
+- 3D-printing
+- distributed-systems
 - NASA
 - space
 layout: post

@@ -4,7 +4,8 @@ date: 2013-10-20 22:37:44 -07:00
 categories:
 - Grad School
 tags:
-- history of technology
+- grad-school
+- history-of-technology
 layout: post
 type: post
 parent_id: '0'

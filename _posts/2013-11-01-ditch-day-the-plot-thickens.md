@@ -1,10 +1,9 @@
 ---
 title: 'Ditch Day: The Plot Thickens'
 date: 2013-11-01 23:39:51 -07:00
-categories:
-- Ditch Day
 tags:
-- Lord of the Rings
+- Ditch-Day
+- Lord-of-the-Rings
 - Mario
 - storytelling
 layout: post

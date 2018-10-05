@@ -5,6 +5,8 @@ categories:
 - Dissertation
 - Grad School
 tags:
+- grad-school
+- dissertation
 - LaTeX
 - math
 - space

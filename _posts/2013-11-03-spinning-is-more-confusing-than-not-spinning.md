@@ -5,7 +5,7 @@ categories:
 - Grad School
 tags:
 - intuition
-- reference frames
+- reference-frames
 layout: post
 type: post
 parent_id: '0'

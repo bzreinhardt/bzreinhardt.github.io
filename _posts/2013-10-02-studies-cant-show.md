@@ -2,9 +2,9 @@
 title: Studies Can't Show
 date: 2013-10-02 21:40:50 -07:00
 tags:
-- expert opinions
+- expert-opinions
 - fallacies
-- human nature
+- human-nature
 - stories
 - studies
 layout: post

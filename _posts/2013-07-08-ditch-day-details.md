@@ -1,9 +1,8 @@
 ---
 title: Ditch Day Details
 date: 2013-07-08 01:25:03 -07:00
-categories:
-- Ditch
-- Day
+tags:
+- Ditch-Day
 layout: post
 type: post
 parent_id: '0'

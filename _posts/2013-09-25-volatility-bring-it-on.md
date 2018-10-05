@@ -3,8 +3,8 @@ title: Volatility? Bring it on.
 date: 2013-09-25 22:26:35 -07:00
 tags:
 - antifragility
-- asteroid mining
-- crazy ideas
+- asteroid-mining
+- crazy-ideas
 layout: post
 type: post
 parent_id: '0'

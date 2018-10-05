@@ -3,6 +3,8 @@ title: Closed Loop Considerations
 date: 2013-09-29 22:35:51 -07:00
 categories:
 - Grad School
+tags:
+- grad-school
 layout: post
 type: post
 parent_id: '0'

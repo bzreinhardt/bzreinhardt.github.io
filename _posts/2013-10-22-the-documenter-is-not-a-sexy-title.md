@@ -2,7 +2,7 @@
 title: "'The Documenter' is Not a Sexy Title"
 date: 2013-10-22 19:26:27 -07:00
 tags:
-- crazy ideas
+- crazy-ideas
 - documentation
 - ideas
 layout: post

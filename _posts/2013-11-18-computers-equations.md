@@ -4,10 +4,11 @@ date: 2013-11-18 23:20:54 -08:00
 categories:
 - Grad School
 tags:
+- grad-school
 - LaTeX
 - LyX
 - math
-- MS Word
+- MS-Word
 layout: post
 type: post
 parent_id: '0'

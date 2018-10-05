@@ -3,9 +3,9 @@ title: Links of the Week 8/3
 date: 2013-08-04 01:54:28 -07:00
 tags:
 - Ditch-Day
-- Links
+- links
 - NASA
-- Videos
+- videos
 layout: post
 type: post
 parent_id: '0'

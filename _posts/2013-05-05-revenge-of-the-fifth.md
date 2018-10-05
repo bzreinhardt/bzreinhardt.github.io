@@ -2,9 +2,8 @@
 title: Revenge of the Fifth
 date: 2013-05-05 16:17:41 -07:00
 tags:
-- Inspiration
-- Star
-- Wars
+- inspiration
+- Star-Wars
 layout: post
 type: post
 parent_id: '0'

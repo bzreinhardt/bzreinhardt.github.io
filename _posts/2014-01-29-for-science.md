@@ -3,6 +3,8 @@ title: For Science!
 date: 2014-01-29 22:58:50 -08:00
 categories:
 - Dissertation
+tags:
+- grad-school
 layout: post
 type: post
 parent_id: '0'

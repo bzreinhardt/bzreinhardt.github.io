@@ -2,7 +2,7 @@
 title: Penguins ... in Spaaaace
 date: 2013-08-24 02:14:25 -07:00
 tags:
-- antarctica
+- Antarctica
 - motivations
 - space
 layout: post

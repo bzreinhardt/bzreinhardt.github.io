@@ -2,9 +2,9 @@
 title: Polished vs. Pliable
 date: 2013-09-18 22:38:19 -07:00
 tags:
-- best practices
-- open source
-- tech trends
+- best-practices
+- open-source
+- tech-trends
 - technology
 layout: post
 type: post

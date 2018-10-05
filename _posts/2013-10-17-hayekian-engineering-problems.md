@@ -3,7 +3,7 @@ title: Hayekian Engineering Problems
 date: 2013-10-17 22:57:29 -07:00
 tags:
 - documentation
-- hayek
+- Hayek
 - implementation
 - lab
 - theory

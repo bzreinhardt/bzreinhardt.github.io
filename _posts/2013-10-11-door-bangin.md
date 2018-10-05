@@ -1,8 +1,8 @@
 ---
 title: Door Bangin'
 date: 2013-10-11 23:06:57 -07:00
-categories:
-- Ditch Day
+tags:
+- Ditch-Day
 layout: post
 type: post
 parent_id: '0'

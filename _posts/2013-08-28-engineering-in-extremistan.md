@@ -2,9 +2,9 @@
 title: Engineering in Extremistan
 date: 2013-08-28 22:08:39 -07:00
 tags:
-- black swan
+- black-swan
 - CS
-- engineering practices
+- engineering-practices
 - technology
 layout: post
 type: post

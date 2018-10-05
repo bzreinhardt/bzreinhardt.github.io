@@ -2,11 +2,11 @@
 title: Fragile Five
 date: 2013-10-15 23:00:44 -07:00
 tags:
-- freedman dyson
+- Freedman-Dyson
 - fusion power
-- moore's law
+- Moores-Law
 - musings
-- technology predictions
+- predictions
 layout: post
 type: post
 parent_id: '0'

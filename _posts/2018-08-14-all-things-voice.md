@@ -6,8 +6,8 @@ categories:
 tags:
 - AI
 - UX
-- Speech Tech
-- Explanations
+- speech-tech
+- explanations
 layout: post
 crosspost_to_medium: true
 ---

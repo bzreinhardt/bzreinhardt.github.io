@@ -3,11 +3,11 @@ title: More Communication Conundrums
 date: 2013-10-01 22:48:46 -07:00
 tags:
 - communication
-- idea transfer
+- idea-transfer
 - science
-- science communication
-- science papers
-- search algorithms
+- science-communication
+- science-papers
+- search-algorithms
 layout: post
 type: post
 parent_id: '0'

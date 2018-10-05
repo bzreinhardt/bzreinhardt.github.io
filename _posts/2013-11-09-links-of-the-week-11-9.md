@@ -4,9 +4,10 @@ date: 2013-11-09 22:33:32 -08:00
 categories:
 - Links of the Week
 tags:
+- links-of-the-week
 - cubesats
 - mars
-- scientific communication
+- scientific-communication
 - smallsats
 layout: post
 type: post

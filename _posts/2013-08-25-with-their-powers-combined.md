@@ -4,7 +4,7 @@ date: 2013-08-25 22:33:06 -07:00
 tags:
 - mechanisms
 - robotics
-- sleep deprivation
+- sleep-deprivation
 - space
 layout: post
 type: post

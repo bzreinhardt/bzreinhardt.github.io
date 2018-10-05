@@ -1,6 +1,8 @@
 ---
 title: Nutritional Shenanigans
 date: 2013-05-23 22:19:36 -07:00
+tags:
+- nutrition
 layout: post
 type: post
 parent_id: '0'

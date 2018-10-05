@@ -4,9 +4,9 @@ date: 2013-10-31 17:15:13 -07:00
 categories:
 - Quotes
 tags:
-- Dyson
-- Future
-- science fiction
+- Freedman-Dyson
+- future
+- sci-fi
 - technology
 layout: post
 type: post

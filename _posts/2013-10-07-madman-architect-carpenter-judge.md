@@ -2,7 +2,7 @@
 title: Madman, Architect, Carpenter, Judge
 date: 2013-10-07 23:13:24 -07:00
 tags:
-- creative process
+- creative-process
 - making
 - proof-of-concept
 - prototypes

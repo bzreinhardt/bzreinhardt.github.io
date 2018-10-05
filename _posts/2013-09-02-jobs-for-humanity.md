@@ -5,7 +5,7 @@ tags:
 - jobs
 - productivity
 - robots
-- the future
+- the-future
 layout: post
 type: post
 parent_id: '0'
