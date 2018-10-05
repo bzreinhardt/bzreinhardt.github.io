@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Tolkien'
 layout: tagpage
+title: "Tag: Tolkien"
 tag: Tolkien
 robots: noindex
 ---
-

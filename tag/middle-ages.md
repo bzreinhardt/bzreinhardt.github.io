@@ -1,7 +1,6 @@
 ---
-title: 'Tag: middle-ages'
 layout: tagpage
+title: "Tag: middle-ages"
 tag: middle-ages
 robots: noindex
 ---
-

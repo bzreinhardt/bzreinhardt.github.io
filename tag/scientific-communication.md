@@ -1,7 +1,6 @@
 ---
-title: 'Tag: scientific-communication'
 layout: tagpage
+title: "Tag: scientific-communication"
 tag: scientific-communication
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: tradition'
 layout: tagpage
+title: "Tag: tradition"
 tag: tradition
 robots: noindex
 ---
-

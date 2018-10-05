@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Eddy-currents'
 layout: tagpage
-tag: Eddy-currents
+title: "Tag: eddy-currents"
+tag: eddy-currents
 robots: noindex
 ---
-

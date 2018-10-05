@@ -1,7 +1,6 @@
 ---
-title: 'Tag: economics'
 layout: tagpage
+title: "Tag: economics"
 tag: economics
 robots: noindex
 ---
-

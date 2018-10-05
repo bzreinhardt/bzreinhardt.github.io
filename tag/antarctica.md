@@ -1,7 +1,6 @@
 ---
-title: 'Tag: antarctica'
 layout: tagpage
-tag: antarctica
+title: "Tag: Antarctica"
+tag: Antarctica
 robots: noindex
 ---
-

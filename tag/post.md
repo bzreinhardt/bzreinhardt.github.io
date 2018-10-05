@@ -1,7 +1,6 @@
 ---
-title: 'Tag: blacker'
 layout: tagpage
-tag: blacker
+title: "Tag: post"
+tag: post
 robots: noindex
 ---
-

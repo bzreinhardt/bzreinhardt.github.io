@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Videos'
 layout: tagpage
-tag: Videos
+title: "Tag: videos"
+tag: videos
 robots: noindex
 ---
-

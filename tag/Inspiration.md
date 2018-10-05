@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Inspiration'
 layout: tagpage
-tag: Inspiration
+title: "Tag: inspiration"
+tag: inspiration
 robots: noindex
 ---
-

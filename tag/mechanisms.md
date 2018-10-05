@@ -1,7 +1,6 @@
 ---
-title: 'Tag: mechanisms'
 layout: tagpage
+title: "Tag: mechanisms"
 tag: mechanisms
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: distributed-systems'
 layout: tagpage
+title: "Tag: distributed-systems"
 tag: distributed-systems
 robots: noindex
 ---
-

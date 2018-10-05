@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Mario'
 layout: tagpage
+title: "Tag: Mario"
 tag: Mario
 robots: noindex
 ---
-

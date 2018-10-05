@@ -1,7 +1,6 @@
 ---
-title: 'Tag: ambitious-plans'
 layout: tagpage
+title: "Tag: ambitious-plans"
 tag: ambitious-plans
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Shameless-Plugs'
 layout: tagpage
-tag: Shameless-Plugs
+title: "Tag: shameless-plugs"
+tag: shameless-plugs
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: whatsInAName'
 layout: tagpage
+title: "Tag: whatsInAName"
 tag: whatsInAName
 robots: noindex
 ---
-

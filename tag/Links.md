@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Links'
 layout: tagpage
-tag: Links
+title: "Tag: links"
+tag: links
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: freedman-dyson'
 layout: tagpage
-tag: freedman-dyson
+title: "Tag: Freedman-Dyson"
+tag: Freedman-Dyson
 robots: noindex
 ---
-

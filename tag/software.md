@@ -1,7 +1,6 @@
 ---
-title: 'Tag: software'
 layout: tagpage
+title: "Tag: software"
 tag: software
 robots: noindex
 ---
-

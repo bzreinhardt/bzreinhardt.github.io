@@ -1,7 +1,6 @@
 ---
-title: 'Tag: heuristics'
 layout: tagpage
+title: "Tag: heuristics"
 tag: heuristics
 robots: noindex
 ---
-

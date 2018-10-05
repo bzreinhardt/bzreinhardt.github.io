@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Wars'
 layout: tagpage
-tag: Wars
+title: "Tag: publish"
+tag: publish
 robots: noindex
 ---
-

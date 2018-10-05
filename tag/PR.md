@@ -1,7 +1,6 @@
 ---
-title: 'Tag: PR'
 layout: tagpage
+title: "Tag: PR"
 tag: PR
 robots: noindex
 ---
-

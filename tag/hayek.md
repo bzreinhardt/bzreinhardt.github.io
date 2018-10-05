@@ -1,7 +1,6 @@
 ---
-title: 'Tag: hayek'
 layout: tagpage
-tag: hayek
+title: "Tag: Hayek"
+tag: Hayek
 robots: noindex
 ---
-

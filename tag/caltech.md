@@ -1,7 +1,6 @@
 ---
-title: 'Tag: caltech'
 layout: tagpage
-tag: caltech
+title: "Tag: Caltech"
+tag: Caltech
 robots: noindex
 ---
-

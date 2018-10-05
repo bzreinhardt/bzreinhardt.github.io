@@ -1,7 +1,6 @@
 ---
-title: 'Tag: mediocristan'
 layout: tagpage
+title: "Tag: mediocristan"
 tag: mediocristan
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: Will-it-blend'
 layout: tagpage
-tag: Will-it-blend
+title: "Tag: Will-it-Blend"
+tag: Will-it-Blend
 robots: noindex
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: 'Tag: inventions'
 layout: tagpage
+title: "Tag: inventions"
 tag: inventions
 robots: noindex
 ---
-
