@@ -61,3 +61,7 @@ The goal of the money factory isn't whatever mission statement they've made up f
 
 ### Next Steps
 I want to backtest these principles against other innovation organizations over the past century or so. Ideally, you can go through the principles like a checklist and correctly predict whether an organization will be effective at producing innovation. If the principles prove predictive, we can start applying them to organizations that want to produce innovation today and possibly create new organizations around them.
+
+If you're interested, let me know:
+1) The top innovations of the past 150 years (don't focus just on computer things - your life would be pretty miserable without LEDs)
+2) Your top examples of innovation organizations today
