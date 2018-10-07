@@ -1,5 +1,6 @@
 ---
 title: Seminal Paper Club
+permalink:'/seminal-paper-club'
 layout: page
 ---
 
@@ -57,5 +58,3 @@ Every week, a friend and I read a seminal paper and discuss it. There are so man
 7/1/2017 - [McCullough and Pitts](https://www.dropbox.com/s/ceag4m5ue59mqki/mcullough-and-pitts-neurons.pdf?dl=0)
 
 6/24/2017 - [Shannon’s Mathematical Theory of Communication](https://www.dropbox.com/s/tcsp3dwhmltop21/entropy.pdf?dl=0)
-
-

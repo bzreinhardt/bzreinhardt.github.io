@@ -74,7 +74,7 @@ permalink: "/:title/"
 paginate: 5
 kramdown:
   input: GFM
-link-tags: false
+link-tags: true
 exclude:
 - CHANGELOG.md
 - CNAME

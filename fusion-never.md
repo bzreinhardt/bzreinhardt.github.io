@@ -1,6 +1,6 @@
 ---
 title: Fusion Never
-permalink: "/fusion_never/"
+permalink: "/fusion-never/"
 layout: page
 tags:
 - Fusion

@@ -43,8 +43,11 @@ How does DARPA maintain continuity between people and administrations? NASA has 
 
 
 ### Interdisciplinary Teams
-DARPA is on of the few organizations I've seen that walks the walk when it comes to Interdisciplinary teams. One of the researchers unprompted said "They actually manage to make the Interdisciplinary thing work!"  
+DARPA is on of the few organizations I've seen that walks the walk when it comes to Interdisciplinary teams. One of the researchers unprompted said "They actually manage to make the Interdisciplinary thing work!"
+
 One actionable strategy was that they brought everybody together for two weeks and forced them to spend a lot of time talking about their particular concerns and ways of thinking.
+
+
 
 One project was actually set up explicitly to test collaboration quality. The program revolves around fast design and prototyping which would need to be done in a distributed way so each discipline was explicitly separated geographically.
 
