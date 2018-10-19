@@ -10,6 +10,21 @@ permalink: /questions/
 ---
 *I have many questions. If you have good answers to any of these, please let me know!*
 
+## Big Questions
+
+How do people bootstrap creditability in the 21st century? The most mainstream way seems to be building a successful company or lab or being promoted to an important position in an existing org.
+
+## Numbers
+*HINT: any of these would be a great research project if you're in high school or college* 
+- How much market cap of new businesses (<3yo) are debt-funded or cash flow positive?
+- How much market cap of new businesses (<3yo) are equity-funded?
+- How much money is put into grant funded research?
+- How many hours are spent on open-source projects?
+- How much money do companies spend on R&D?
+
+## Random Little Questions
+
+
 How do you effectively incorporate edits from a set of different viewpoints? Same question applies to advice.
 
 Is a lagging indicator of research vs. development that pouring more money into research won't necessarily make it faster
@@ -20,7 +35,7 @@ Popups vs. Footnotes with links. Is one always better than the other? Does it de
 
 Are there examples of things outside of therapeutics that have long time scales and high risk, but a very clear $$ ROI if they succeed?
 
-What are your top conference in your discipline? 
+What are your top conferences in your discipline? 
 
 Has anybody ever looked at the relationship between waves of successful technologies and government (NIH, DARPA, etc.) research priorities ~10-20 years earlier?
 
@@ -42,29 +57,29 @@ Is there a fundamental lower limit on how cheap energy can be?
 
 ---
 
-# Podcasting
+## Podcasting
 
-## Editing
+### Editing
 - Is there an optimal time gap between question and answer?
 - How much do you cut out umms, errs, likes, and other verbal ticks.
 - Intro strategy
 	- Bio
 
-## Other
+### Other
 
--How much communication do you have with a guest before the podcast? Do you ever interview people you've never met before? Do you send questions to the guests beforehand? 
--How did you bootstrap the podcast in the beginning? I'm sure once you have a large audience it's straightforward to convince people to do an interview - what did you do before you had the reputation?  
--How much do you stick to a set of questions vs. go down rabbit holes? 
--How do you handle off-the-record information? I know some podcasters give the guest final edit rights - do you do that or
--How much content do you cut out? 
+- How much communication do you have with a guest before the podcast? Do you ever interview people you've never met before? Do you send questions to the guests beforehand?
+- How did you bootstrap the podcast in the beginning? I'm sure once you have a large audience it's straightforward to convince people to do an interview - what did you do before you had the reputation?  
+- How much do you stick to a set of questions/script vs. go down rabbit holes/have a free form discussion? 
+- How do you handle off-the-record information? I know some podcasters give the guest final edit rights - do you do that or
+- How much content do you cut out? 
 
-All of this would make an amazing article or podcast on its own 
 
 ---
-How do you get help with something that you yourself want to be better at? As soon as you have someone who is better than you, you get pushed further out of that role.
+How do you get help with something that you yourself want to be better at? As soon as someone in an organization is better at it than you, generally they are over that role?
 
 ---
 Are there any VCs who used to be economists?
+
 ---
 
 How do you catch up with someone when you want 

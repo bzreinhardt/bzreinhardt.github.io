@@ -1,11 +1,10 @@
 ---
 layout: page
-title: learning
-permalink: /learning/
+title: to-learn
+permalink: /to-learn/
 ---
----
-Title: Learning Docket
----
+DAOs
+https://www.one-tab.com/page/Ohy2AxK7TheOG7RG_sE2lA
 
 Watch These:
 https://www.coursera.org/learn/prototyping-design/lecture/ySFy1/prototyping-what-why-and-how
