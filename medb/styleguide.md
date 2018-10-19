@@ -3,9 +3,11 @@ layout: page
 title: styleguide
 permalink: /styleguide/
 ---
----
-Title: Styleguide
----
+
+- Do not say "we should catch up." Say "Would you like to catch up? <insert proposal for what catching up would entail here>" The latter invites a negotiation. The former places the true burden of initiation on the other person.
+
+- If someone has headphones on, send them an asynchronous message instead of interrupting them.
+
 - Any time you are working on a project, big or small, create a blurb about it. Should be able to recite it from memory and copy it in text w/in 5 seconds. #Networking
 
 - Separating pieces of info is a sin. It forces people to context switch to try to understand. (Ex. Diagrams with labels and long description referencing them)

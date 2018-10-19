@@ -1,3 +1,5 @@
+[to_read](/to_read)
+
 [darpa_notes](/darpa_notes)
 
 [questions](/questions)
@@ -5,8 +7,6 @@
 [Tools](/Tools)
 
 [drafts](/drafts)
-
-[learning](/learning)
 
 [seminal_paper_club](/seminal_paper_club)
 
@@ -17,6 +17,8 @@
 [quests](/quests)
 
 [people-tags](/people-tags)
+
+[to_meet](/to_meet)
 
 [epithets](/epithets)
 
@@ -31,6 +33,8 @@
 [have_read](/have_read)
 
 [universal_topics](/universal_topics)
+
+[to-learn](/to-learn)
 
 [request_for_visualizations](/request_for_visualizations)
 
