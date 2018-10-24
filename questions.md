@@ -19,6 +19,10 @@ How do people bootstrap creditability in the 21st century? The most mainstream w
 
 ## Random Little Questions
 
+### For VCs
+Is it true that you can't lead two rounds in a row for a company?
+
+----
 
 How do you effectively incorporate edits from a set of different viewpoints? Same question applies to advice.
 
