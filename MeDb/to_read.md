@@ -6,6 +6,13 @@ permalink: /to_read/
 ---
 title: Things to Read.
 ---
+
+Bird by Bird: Some Instructions on Writing and Life - Patrick OSHA’s
+
+The clock of the long now - Phil Liben
+
+Introduction to the Theory of Complex Systems - https://global.oup.com/academic/product/introduction-to-the-theory-of-complex-systems-9780198821939?cc=us&lang=en&
+
 Master Switch - Adrienne Tran
 
 Tips for Convivality - Andy M
