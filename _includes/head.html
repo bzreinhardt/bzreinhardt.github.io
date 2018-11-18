@@ -109,6 +109,8 @@
   <meta name="twitter:description" content="{{ page.meta-description }}">
   {% elsif page.subtitle %}
   <meta name="twitter:description" content="{{ page.subtitle }}">
+  {% elsif page.title == "Home" %}
+  <meta property="twitter:description" content="Benjamin Reinhardt's Homepage">
   {% else %}
   <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
   {% endif %}
