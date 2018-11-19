@@ -3,12 +3,18 @@ layout: page
 title: seminal_paper_club
 permalink: /seminal_paper_club/
 ---
----
-title: Seminal Paper Club
-layout: page
----
 
-Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
+(Approximately) Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
+
+9/16/2018 - [ A Symbolic Analysis of Relay and Swiching Circuits (Claud Shannon's Master's Thesis - The Most Cited Master's Thesis Ever)](https://www.dropbox.com/s/aofvjlhg55sh2o8/shannon1938.pdf?dl=0)
+
+9/9/2018 - [On Problem Solving](https://www.dropbox.com/s/i4trkcab9gm2uc1/On%20Problem%20Solving.pdf?dl=0)
+
+9/2/2018 - [A Devonian Tretrapod-Like Fish and the Evolution of the Tetrapod Body](https://www.dropbox.com/s/i2kqbehm5vx0umm/A%20Devonian%20tetrapod-like%20fish%20and%20the%20evolution%20of%20the%20tetrapod%20body%20plan.pdf?dl=0)
+
+8/19/2018 - [The Magic Number 7 Plus or Minus 2](https://www.dropbox.com/s/j8qjta3v3mwwfre/Miller%20-%20The%20Magic%20Number%20of%20Seven%20or%20Minus%20Two%20%281956%29.pdf?dl=0)
+
+8/5/2018 - [What the Frog's Eye Told the Frog's Brain](https://www.dropbox.com/s/9vmpfdr61e3uaxx/Levin-What_The_Frogs_Eye_Told_The_Frogs_Brain.pdf?dl=0)
 
 7/8/2018 - [THE ACTUAL CONTENT OF QUANTUM THEORETICAL KINEMATICS AND MECHANICS. Heisenberg.](https://www.dropbox.com/s/fc5d63tbvcrj2c4/heisenberg.pdf?dl=0)
 
@@ -61,7 +67,7 @@ NOTE: if you or someone you know can explain why this paper is heavily cited, le
 
 2/4/2018 - [Intro to Material Science](https://www.dropbox.com/sh/seo7ys2cvf38gum/AABWsxKJVLuS7lw8ilI_aihDa?dl=0) - NOTE: If you have a good seminal paper in material science, let me know.
 
-1/27/2018 - [EQUILIBRIUM POINTS IN N-PERSON GAMES](https://www.dropbox.com/s/v91evewdaq58kgb/48.full.pdf?dl=0) 
+1/27/2018 - [EQUILIBRIUM POINTS IN N-PERSON GAMES](https://www.dropbox.com/s/v91evewdaq58kgb/48.full.pdf?dl=0)
 
 1/20/2018 - [Flocks, Herds, and Schools: A Distributed Behavioral Model]()
 
@@ -117,5 +123,3 @@ NOTE: if you or someone you know can explain why this paper is heavily cited, le
 7/1/2017 - [McCullough and Pitts](https://www.dropbox.com/s/ceag4m5ue59mqki/mcullough-and-pitts-neurons.pdf?dl=0)
 
 6/24/2017 - [Shannon’s Mathematical Theory of Communication](https://www.dropbox.com/s/tcsp3dwhmltop21/entropy.pdf?dl=0)
-
-
