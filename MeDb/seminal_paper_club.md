@@ -6,6 +6,12 @@ permalink: /seminal_paper_club/
 
 (Approximately) Every week, a friend and I read a seminal paper and discuss it. There are so many pieces of writing that become part of our culture - we reference them, but how many people know what they actually say?
 
+12/16/2018 - [Space-Time Appxoach to Quantum Electxotiynamics](https://www.dropbox.com/s/vw910yku95vwz96/feynman-quantum-electrodynamics.pdf?dl=0)
+
+12/9/2018 - [Small World Networks - Watts and Strogatz](https://www.dropbox.com/s/ufx3ow1b5tjw20y/watts-collective_dynamics-nature_1998.pdf?dl=0)
+
+11/25/2018 - [THE  ISOLATION  OF  AN  ION,  A  PRECISION  MEASURE-MENT  OF  ITS  CHARGE,  AND  THE  CORRECTION  OF  STOKES'S  LAW. RA Millikan](https://www.dropbox.com/s/al6f1u5x0ip3780/millikan-first-oil-1911.pdf?dl=0)
+
 9/16/2018 - [ A Symbolic Analysis of Relay and Swiching Circuits (Claud Shannon's Master's Thesis - The Most Cited Master's Thesis Ever)](https://www.dropbox.com/s/aofvjlhg55sh2o8/shannon1938.pdf?dl=0)
 
 9/9/2018 - [On Problem Solving](https://www.dropbox.com/s/i4trkcab9gm2uc1/On%20Problem%20Solving.pdf?dl=0)
