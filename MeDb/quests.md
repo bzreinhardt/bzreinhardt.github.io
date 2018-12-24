@@ -1,6 +1,6 @@
 ---
 layout: page
-title: quests
+title: Quests
 permalink: /quests/
 ---
 Quests

@@ -22,13 +22,19 @@
 
 [epithets](/epithets)
 
+[styleguide-writing](/styleguide-writing)
+
 [Bucketlist](/Bucketlist)
 
 [Untitled](/Untitled)
 
 [books-you-should-read-if-youre-a-human](/books-you-should-read-if-youre-a-human)
 
+[podcast-topics](/podcast-topics)
+
 [uncomfortable_truths](/uncomfortable_truths)
+
+[solutions](/solutions)
 
 [have_read](/have_read)
 

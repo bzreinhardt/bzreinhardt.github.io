@@ -1,6 +1,6 @@
 ---
 layout: page
-title: quotes
+title: Quotes
 permalink: /quotes/
 ---
 ---
@@ -8,11 +8,17 @@ layout: page
 title: quotes
 ---
 
+Claude Shannon would have failed out of YC
+- JB
+
+---
 
 Journalism is printing what someone else does not want printed; everything else is public relations.
 
 -George Orwell
+
 ---
+
 Modo liceat vivere, est spes.
 ---
 

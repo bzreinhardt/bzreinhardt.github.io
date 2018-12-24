@@ -1,6 +1,6 @@
 ---
 layout: page
-title: books-you-should-read-if-youre-a-human
+title: Books You Should Read If Youre A Human
 permalink: /books-you-should-read-if-youre-a-human/
 ---
 ---

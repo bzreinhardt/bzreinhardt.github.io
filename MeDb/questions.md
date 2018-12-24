@@ -1,6 +1,6 @@
 ---
 layout: page
-title: questions
+title: Questions
 permalink: /questions/
 ---
 ---

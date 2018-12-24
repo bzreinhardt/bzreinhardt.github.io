@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Stuff_questionmark
-permalink: /Stuff_questionmark/
+title: Stuff Questionmark
+permalink: /Stuff-questionmark/
 ---
 Zielger Telehealth Whitepaper
 

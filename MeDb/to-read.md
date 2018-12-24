@@ -1,13 +1,84 @@
 ---
 layout: page
-title: to_read
-permalink: /to_read/
----
----
-title: Things to Read.
+title: To Read
+permalink: /to-read/
 ---
 
-Bird by Bird: Some Instructions on Writing and Life - Patrick OSHA’s
+The Messy Middle - Lisa Donschak
+
+Rhetoric by Aristotle 
+
+Complexity Textbook
+
+The Gene - Peter Attia
+
+Deep Work - Andy Spark
+
+Why We Fund the Wrong Thing - Andy Spark
+
+Accelerando by Charles Stross - Andy Spark
+
+Draft No. Four by John McPee  - Andy Spark
+
+Zen and the Art of Motorcycle Maintenance - Andy Spark
+
+
+Charles Pierce - Paul Romer
+
+1. The Outsiders by William Thorndike. - Tren Griffin
+
+2. Shoe Dog by Phil Knight - Tren Griffin
+
+3. Competitive Strategy by Michael Porter- Tren Griffin
+
+4. The Misbehavior of Markets: A Fractal View of Financial Turbulence by Benoit Mandelbrot - Tren Griffin
+
+5. Influence by Robert Cialdini- Tren Griffin
+
+6-9, The Success Equation, Expectations Investing, Think Twice and More than you  Know by Michael Mauboussin.- Tren Griffin
+
+10. Poor Charlie's Almanack by Peter Kaufman- Tren Griffin
+
+11. Deep Simplicity by John Gribbin- Tren Griffin
+ 
+12. The Black Swan by Nassim Taleb- Tren Griffin
+  
+13. Andrew Carnegie by Joseph Wall- Tren Griffin
+
+14. A Man for All Markets by Ed Thorp- Tren Griffin
+
+15. Models of My Life by Hebert Simon- Tren Griffin
+ 
+16. Einstein by Walter Isaacson- Tren Griffin
+ 
+17. Steve Jobs by Isaacson- Tren Griffin
+
+18. Surely You're Joking, Mr. Feynman! by Feynman- Tren Griffin
+
+19. When Genius Failed by Lowenstein- Tren Griffin
+
+20. The Essays of Warren Buffett by Cunningham- Tren Griffin
+
+21. Complexity, Melanie Mitchell- Tren Griffin
+
+22. Grit, Angela Duckworth- Tren Griffin
+
+23. Mindset by Carol Dweck- Tren Griffin
+
+24.  Getting to Yes, Fisher and Ury- Tren Griffin
+
+25. Thinking in Bets, Annie Duke- Tren Griffin
+
+Doing Capitalism in the Innovation Economy -https://www.amazon.com/Doing-Capitalism-Innovation-Economy-Speculation/dp/1107031257 - Luke Constople  
+
+From counterculture to cyberculture - Sam Arbesman
+
+The Way of Kings: Book One of The Stormlight Archive -- Patrick Oshag
+
+Millikan's School - Mark McGonahan
+
+Diffusion of Innovations - Patrick Oshag
+
 
 The clock of the long now - Phil Liben
 

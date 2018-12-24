@@ -1,6 +1,6 @@
 ---
 layout: page
-title: drafts
+title: Drafts
 permalink: /drafts/
 ---
 I deeply appreciate your enthusiasm and 

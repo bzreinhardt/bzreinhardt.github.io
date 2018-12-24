@@ -1,7 +1,7 @@
 ---
 layout: page
-title: request_for_visualizations
-permalink: /request_for_visualizations/
+title: Request For Visualizations
+permalink: /request-for-visualizations/
 ---
 ---
 Title: Request for Visualizations (RfV)

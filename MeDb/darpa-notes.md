@@ -1,7 +1,7 @@
 ---
 layout: page
-title: darpa_notes
-permalink: /darpa_notes/
+title: Darpa Notes
+permalink: /darpa-notes/
 ---
 Darpa founded with tiny charter
 

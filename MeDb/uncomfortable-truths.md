@@ -1,7 +1,7 @@
 ---
 layout: page
-title: uncomfortable_truths
-permalink: /uncomfortable_truths/
+title: Uncomfortable Truths
+permalink: /uncomfortable-truths/
 ---
 If you want to be success you need to do the hard work, but you need to get visibility while you're doing it. 
 

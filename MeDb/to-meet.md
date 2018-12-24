@@ -1,7 +1,7 @@
 ---
 layout: page
-title: to_meet
-permalink: /to_meet/
+title: To Meet
+permalink: /to-meet/
 ---
 ---
 People I would like to meet

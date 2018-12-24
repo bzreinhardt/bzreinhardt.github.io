@@ -1,7 +1,7 @@
 ---
 layout: page
-title: third_thursday_july
-permalink: /third_thursday_july/
+title: Third Thursday July
+permalink: /third-thursday-july/
 ---
 ---
 title: third thursday July Simulations

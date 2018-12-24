@@ -1,10 +1,7 @@
 ---
 layout: page
-title: free_product_ideas
-permalink: /free_product_ideas/
----
----
-title: Free Product Ideas 
+title: Free Product Ideas
+permalink: /free-product-ideas/
 ---
 
 ##These need to exist!

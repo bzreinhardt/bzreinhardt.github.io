@@ -1,18 +1,30 @@
 ---
 layout: page
-title: have_read
-permalink: /have_read/
+title: Have Read
+permalink: /have-read/
 ---
 ---
 title: Books I have Read
 ---
 
 ##In Progress
-Founders Dilemmas 
+ 
 High Impact Management
+Skunk Works
+Elephant on the Brain
+Doing Capitalism in the Innovation Economy
+
+
 
 
 ##Read
+- Creative Capital - 11/21/2018. Terrible writing but fascinating story. Doriot was truly a man who passed on his Memes and not his Genes. Need creditability to push risk and timescales. Big point that human incentives always matter and at the end of the day brought down ARD.
+- Superforecasters (Audio) - 11/20/2018. A bit repetitive. Amazing that he steel mans his own arguments especially near the end. People should write books about their own research.
+- Bird by Bird (Audio) - 11/12/2018. Good writing, need to figure out how it is applicable to non fiction. Reminds me of my mom.
+
+
+- Founders Dilemmas- ? 
+
 
 The Three Body Problem (Audio) - 4/5/2018 - really bothers me because it violates reality with *no explanation*
 ---

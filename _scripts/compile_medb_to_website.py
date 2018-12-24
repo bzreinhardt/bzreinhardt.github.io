@@ -17,15 +17,17 @@ if __name__=="__main__":
         if "IGNORE" in name:
             print("ingoring " + name)
             continue
-        newname = name + ".md"
-        newpath = os.path.join(os.path.join(WEBSITE_DIR,'MeDb'), newname)
+        filename = name.replace("_","-") + ".md"
+        title=" ".join(name.replace("_","-").split("-")).title()
+        urlname = name.replace("_","-")
+        newpath = os.path.join(os.path.join(WEBSITE_DIR,'MeDb'), filename)
         copyfile(os.path.join(MEDB_DIR,file), newpath)
         print("copying from " + file + " to " + newpath)
 
         header = '---\n' + \
                 'layout: page\n'+\
-                'title: %s\n'%name + \
-                'permalink: /%s/\n'%name + \
+                'title: %s\n'%title + \
+                'permalink: /%s/\n'%urlname + \
                 '---\n'
 
         with open(newpath, 'r') as original:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: tweets
+title: Tweets
 permalink: /tweets/
 ---
 --

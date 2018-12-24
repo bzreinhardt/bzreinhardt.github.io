@@ -1,7 +1,7 @@
 ---
 layout: page
-title: request_for_weekend_projects
-permalink: /request_for_weekend_projects/
+title: Request For Weekend Projects
+permalink: /request-for-weekend-projects/
 ---
 ---
 Title: Request for Weekend Projects

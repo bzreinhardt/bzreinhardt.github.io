@@ -1,6 +1,6 @@
 ---
 layout: page
-title: epithets
+title: Epithets
 permalink: /epithets/
 ---
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: to-learn
+title: To Learn
 permalink: /to-learn/
 ---
 DAOs

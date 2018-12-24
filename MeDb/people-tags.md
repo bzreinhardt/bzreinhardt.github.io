@@ -1,6 +1,6 @@
 ---
 layout: page
-title: people-tags
+title: People Tags
 permalink: /people-tags/
 ---
 ---

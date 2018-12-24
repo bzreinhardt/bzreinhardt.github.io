@@ -1,7 +1,7 @@
 ---
 layout: page
-title: universal_topics
-permalink: /universal_topics/
+title: Universal Topics
+permalink: /universal-topics/
 ---
 ---
 title:universal_topics
