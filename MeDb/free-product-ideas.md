@@ -4,10 +4,12 @@ title: Free Product Ideas
 permalink: /free-product-ideas/
 ---
 
-##These need to exist!
+## These need to exist!
 I'm happy to collaborate on them or you can just take the idea and run with it. All I ask is that you tell me when you do, so I can use it.
 
 ---
+
+A tool that parses websites for names, creates pop-up info overlays for the people, and draws your attention to the people who are in your network or relevant to your interests.
 
 Sträva for climbers
 

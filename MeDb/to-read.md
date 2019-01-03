@@ -4,6 +4,8 @@ title: To Read
 permalink: /to-read/
 ---
 
+The Economies of Cities by Jane Jacobs - Joe Antognini
+
 The Messy Middle - Lisa Donschak
 
 Rhetoric by Aristotle 

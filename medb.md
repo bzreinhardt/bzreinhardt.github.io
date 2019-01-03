@@ -1,5 +1,7 @@
 [to_read](/to_read)
 
+[things-i-fear-to-say-in-public](/things-i-fear-to-say-in-public)
+
 [darpa_notes](/darpa_notes)
 
 [questions](/questions)
@@ -40,11 +42,15 @@
 
 [universal_topics](/universal_topics)
 
+[systems](/systems)
+
 [to-learn](/to-learn)
 
 [request_for_visualizations](/request_for_visualizations)
 
 [styleguide](/styleguide)
+
+[ways-to-organize-things](/ways-to-organize-things)
 
 [quotes](/quotes)
 
