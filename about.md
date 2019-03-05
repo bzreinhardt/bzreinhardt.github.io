@@ -4,21 +4,23 @@ permalink: "/about/"
 layout: page
 ---
 
-Currently I'm an EIR at [Susa Ventures][Susa] and am using robotics to empower elders at [Fern][fern]. In the past, I [taught computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm  one of the few people in the world with a Bachelor of Science in History. 
+Currently, I'm an EIR at [Entrepreneur First][EF] in Singapore where I help ambitious people build teams and companies.
+
+I also host the [Idea Machines Podcast][ideamachines] where I have long form conversations with experts in different [innovation systems][systems].  
+
+ In the past I was an EIR at [Susa Ventures][susa] and tried to use robots to help older adults stay at home longer. Deeper in the past, I [taught computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm one of the few people in the world with a Bachelor of Science in History.
 
 Multi-Class Fighter/Mage with some levels in Bard.
 
+**How to get in Touch**
+[Twitter](http://www.twitter.com/ben_reinhardt)
+[LinkedIn](http://linkedin.com/in/benjaminzreinhardt) 
 
-ALL THE INFORMATION:
 
-[Resume][resume]
 
-[Calendar][cal]
-
-<a href="mailto:{{ site.author.email }}">Email</a>
-
-[LinkedIn](http://linkedin.com/in/benjaminzreinhardt)
-
+[systems]:https://en.wikipedia.org/wiki/Innovation_system
+[ideamachines]:http://www.ideamachinespodcast.com
+[ef]:http://www.joinef.com
 [fern]:http://www.carebyfern.com
 [lab]:http://www.spacecraftresearch.com/
 [cal]:/calendar/
