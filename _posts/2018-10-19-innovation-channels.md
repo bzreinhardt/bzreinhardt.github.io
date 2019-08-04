@@ -16,7 +16,7 @@ tags:
 layout: post
 ---
 
-There are roughly<sup name="a1">[1](#f1)</sup> eight channels that enable innovations in the modern world.  Each imposes a set of constraints on the projects they support. Why should we think about innovation channels? The channels’ constraints shape the sorts of innovations which can successfully impact the world. If a project doesn’t meet the constraints imposed by each channel, it will die. Projects often need to jump between channels to become full-blown innovations. Like salmon swimming upstream these leaps are full of danger and resistance.
+There are roughly<sup id="a1">[1](#f1)</sup> eight channels that enable innovations in the modern world.  Each imposes a set of constraints on the projects they support. Why should we think about innovation channels? The channels’ constraints shape the sorts of innovations which can successfully impact the world. If a project doesn’t meet the constraints imposed by each channel, it will die. Projects often need to jump between channels to become full-blown innovations. Like salmon swimming upstream these leaps are full of danger and resistance.
 
 #### Overview
 ![](https://s3-us-west-1.amazonaws.com/zaaron-personal/innovation-channel-table.png)
@@ -92,4 +92,4 @@ I'm always looking to fill out notable examples on
 
 Thanks to Josh Tobin and Luke Constable for amazing feedback.
 ----
-<b name="f1">1</b> The lines between the channels are fuzzy, as with most human things.[↩](#a1)
+<b id="f1">1</b> The lines between the channels are fuzzy, as with most human things.[↩](#a1)
