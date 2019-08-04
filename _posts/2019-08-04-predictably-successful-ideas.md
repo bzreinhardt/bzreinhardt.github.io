@@ -24,7 +24,7 @@ When dealing with a predictably successful idea, you should be able to say with 
 
 Another way to think about predictably successful ideas are those that fall into the definite optimistic quadrant in the [Peter Thielien](https://blakemasters.com/post/23435743973/peter-thiels-cs183-startup-class-13-notes) sense.
 
-The concept of predictably successful ideas was introduced to me by Matt Clifford in our conversation on the Idea Machines Podcast. While it's meant to be a framework for thinking about startup companies, I think it can be extended to many other ideas as well.
+The concept of predictably successful ideas was introduced to me by [Matt Clifford](https://twitter.com/matthewclifford) in [our conversation on the Idea Machines Podcast](http://ideamachinespodcast.com/matt-clifford). While it's meant to be a framework for thinking about startup companies, I think it can be extended to many other ideas as well.
 
 ----
 <b id="f1">1</b> Known unknowns are probabilistic variables with known distributions while unknown unknowns have unknown distributions.[↩](#a1)
