@@ -19,10 +19,7 @@ How do people bootstrap creditability in the 21st century? The most mainstream w
 
 ## Random Little Questions
 
-### For VCs
 Is it true that you can't lead two rounds in a row for a company?
-
-----
 
 How do you effectively incorporate edits from a set of different viewpoints? Same question applies to advice.
 
@@ -95,21 +92,21 @@ Example #1: NVIDIA's gaming chips turned out to be a great fit for ML and crypto
 Example #2: Unity's game engine turned out to be great for creating AR apps.
 
 What are other examples?
-
 ---
+
 What is the history of boards of directors? #history/
+
 Why isn't there a markdown editor with an interface like Medium?
 
 What's the best way to get people to collaborate online? It seems like there's always a tradeoff between ease (open google doc) and quality/curation/work by the organizer (GitHub repo, or "send me an email and I'll include it") 
 
----
-
 How does acquiring a firm work? Why would you do that instead of building your own? What are the advantages?
-
----
 
 Is there a way of measuring hype? How hype-y are robotics? Are there actually valuable robotics companies?
 
 # Personal 
 - What value can I offer to people outside of my world so that I can build bridges? 
 - How do I make strong connections in people outside of my disciplines?
+
+# Asks
+If you know anybody who started or runs any [org on this list](https://www.notion.so/4d2a5178ce924796a9ba5d5b3e829f5d?v=64c4dd6dd3ae48459a97efa770d67874), would you please put us in touch?
