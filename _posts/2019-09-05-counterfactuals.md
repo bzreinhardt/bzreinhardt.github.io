@@ -1,6 +1,6 @@
 ---
 title: Counterfactuals
-date: 2019-09-06
+date: 2019-09-05
 categories:
 - Progress
 - Systems
@@ -40,5 +40,5 @@ The point is not that we should do any of these things. The point is that there 
 *Thanks to Andy Matuschak and Luke Constable for reading versions of this essay.*
 
 ----
-<b id="f1">1</b> Singapore is contemplating building this and I hope that the intellectual residue will still make this future a possibility.[↩](#a1)
+<b id="f1">1</b> Singapore is contemplating building this and I hope that the intellectual residue will still make this future a possibility.[↩](#a1)  
 <b id="f2">2</b> Faring, for my space peeps.[↩](#a2)
