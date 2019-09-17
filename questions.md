@@ -19,7 +19,9 @@ How do people bootstrap creditability in the 21st century? The most mainstream w
 
 ## Random Little Questions
 
-Is it true that you can't lead two rounds in a row for a company?
+**Is it true that you can't lead two rounds in a row for a company?**
+**A:** False. You can lead as many rounds as you want.The disincentive is that if you price the round you can't rely on that price as readily, and so you can't mark up your returns... so your returns look worse than they should for longer.
+<Answered Thanks to [@nickcrocker](http://www.twitter.com/nickcrocker)]>
 
 How do you effectively incorporate edits from a set of different viewpoints? Same question applies to advice.
 
@@ -92,6 +94,7 @@ Example #1: NVIDIA's gaming chips turned out to be a great fit for ML and crypto
 Example #2: Unity's game engine turned out to be great for creating AR apps.
 
 What are other examples?
+
 ---
 
 What is the history of boards of directors? #history/
