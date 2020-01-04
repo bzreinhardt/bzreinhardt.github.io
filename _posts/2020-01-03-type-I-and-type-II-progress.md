@@ -13,6 +13,8 @@ tags:
 layout: post
 ---
 
+####(Or: the tale of why we can both go to Mars and save the world) 
+
 Imagine human capability as a high dimensional blob.[^1]  There are some people who live on the surface of the blob (let’s call it the capability frontier ) - they have access to the best of the knowledge and resources humanity has to offer. *Pushing this frontier and expanding maximum possible capabilities is Type I Progress*.
 
 <div>
