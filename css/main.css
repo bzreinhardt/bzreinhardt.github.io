@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 @import url("pygment_highlights.css");
@@ -708,6 +708,10 @@ td.code pre {
 }
 td.gutter {
   padding-top: 3px;
+}
+
+.footnotes {
+  font-size:75%;
 }
 
 /* --- Social media sharing section --- */
