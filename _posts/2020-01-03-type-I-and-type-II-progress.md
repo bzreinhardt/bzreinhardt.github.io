@@ -13,7 +13,7 @@ tags:
 layout: post
 ---
 
-#### (Or: the tale of why we can both go to Mars and save the world) 
+#### (Or: the tale of why we can both go to Mars and save the world)
 
 Imagine human capability as a high dimensional blob.[^1]  There are some people who live on the surface of the blob (let’s call it the capability frontier ) - they have access to the best of the knowledge and resources humanity has to offer. *Pushing this frontier and expanding maximum possible capabilities is Type I Progress*.
 
@@ -95,7 +95,7 @@ Many people point to China and countries in Africa “technologically leapfroggi
 
 However, this evidence is not a sign that those places will soon eclipse the US technologically. Precision is essential when we’re talking about the technological frontier. These places can push the frontier *on those dimensions* - mobile payments and mobile phones as the computing center.
 
-It might ruffle some feathers but this argument suggests that developed nations should prioritize Type I progress while developed nations should prioritize Type II progress.
+It might ruffle some feathers but this argument suggests that developed nations should prioritize Type I progress while developing nations should prioritize Type II progress.
 
 
 ## Disentangling Type I and Type II
