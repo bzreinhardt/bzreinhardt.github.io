@@ -122,7 +122,7 @@ However, even if you reject "more cool sci-fi stuff" as an intrinsic argument, T
 #### Arguments for focusing on Type II progress
 The arguments for focusing on Type II progress are 80% eliminating bad things and 20% enabling great things.
 
-In the eliminating-bad-things category, Type II progress dominates. Type II progress is is a clear way to relieve human suffering in the short term which makes a strong moral argument for Type II focus.  
+In the eliminating-bad-things category, Type II progress dominates. Type II progress is a clear way to relieve human suffering in the short term which makes a strong moral argument for Type II focus.  
 
 The arguments for Type II progress in the enabling great things category are more subtle. Over a long enough timescale, if you focus on Type II progress, you will have more frontier-dwellers simply because Type II progress pushes people up to the frontier. Since you can only push the frontier on dimensions where you are at the frontier, more people pushing the frontier will lead to more frontier expansion.
 
