@@ -111,5 +111,3 @@ Is there a way of measuring hype? How hype-y are robotics? Are there actually va
 - What value can I offer to people outside of my world so that I can build bridges? 
 - How do I make strong connections in people outside of my disciplines?
 
-# Asks
-If you know anybody who started or runs any [org on this list](https://www.notion.so/4d2a5178ce924796a9ba5d5b3e829f5d?v=64c4dd6dd3ae48459a97efa770d67874), would you please put us in touch?
