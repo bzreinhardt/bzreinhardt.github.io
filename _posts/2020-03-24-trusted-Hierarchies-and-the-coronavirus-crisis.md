@@ -10,17 +10,17 @@ layout: post
 **tl;dr:** Trusted hierarchies are important for solving problems under constrained time and resources. Governments have historically provided large-scale trusted hierarchy but the US government has completely botched that role in the coronavirus crisis. We need to ignore the false dichotomy of "government vs decentralized coordination" and create a new temporary trusted hierarchy to coordinate response to the crisis.
 <div class="row">
 <div class="column">
-  <img style="border-radius:10%;width:100%;" src="https://lh3.googleusercontent.com/GJMbxyyQ3CeNQOs9hi1EUySud0g1Dd6Yrsx3VBZDvonhae-su2Ojw-Zppq7RUZK5XrCvyZBSXIKBCTFAFHstm4SansEGUQsnId7CVOi76ueYvUNu6c0Y4bH7Gn8cgJg7GWD9SW_ZTR21HflXThZ0EvPnfDjN_ZiCsOx4D6jxjDCcFD-pGHfa-uZu3HhF26su37fjCDKmJP6altoRIa471qf1CVLNVjB6k_W-9qqHgs1JND2ET_1XnRjaVVSczyVuADNjtXtMQYFHus8faot33Hy7jT4P8Y2B91wzdqTMy5NI2wPWg-tyghDK8sXizu71Er1U_Bx3K0VNoz0SSWh3pZ3-Oj43B40V5hhjrKBoIRFW_fMwKRTJxervrZLf8U1FqWyWgQWlExZC8myASQVvcWyvgp5seHgbWtveEJ9_XLpf6GavJuY4YMXxqU9ybzAmfjrbWsf-Vfl1MA82XAM_dYVI9flCpL0v-ybSMyJVWFjlRkbvUDbmw9RILysRHMuvxJuAe1y6XS18FFSPYHrmDhsKrt3OwMFAuiY3c4rx31lowOd9uXHen2QKCrlc7lzZDpfMWg2FrF4YECwT4UUPSNAJyi4wjrrZ1wQ1JsJH4K6C-2pLE7HsvWiN8tKgPjGE27rOmRoNMokkiT-4lBZnWP4OskW_0w2b5v1ZKgqnbmh-DxPKFci552jBSLKQUfU=w2623-h1533-no" />
+  <img style="border-radius:10%;width:100%;" src="https://storage.cloud.google.com/bzreinhardt-images/hierarchy_based_collaboration.jpg" />
   <figcaption style="text-align:center;text-size:small;"> A hierarchy (hopefully trustworthy) </figcaption>
 </div>
 
 <div class="column">
-  <img style="border-radius:10%;width:100%;" src="https://lh3.googleusercontent.com/Jirncpjkks4nKP0VJXs5j7O0_9k1Gan8jk2lASI8lJCFu0edRYAXU7-9gKsm5BM6rJQz0uCC6b90dejzfwE1gqXVbLv3lgGqAiY09LSQ1wrqW56ttMdK7MkrBycocvDOwcA-KN0fUdAkFZtWvE4WgQlTEWekbY4iqJXzgZWfZp6uPUfl10gpi0TjIlxScOHidAIUnh4ZbiwgQerJXagvpbCrdwEQIVyh2-LrJTuw1F-iSk6R10m6Sf7pIjmPGtAkvSFkrPQcFpOLW6IVZDIUswOm3l4bpj2qGgyz-ExaM3_-CNwN8KBA_uW5PqyeLeMF8UOTvLPllV3ccje9gA-z254qkribZpWmlJPvVNeBCsaupUfhSmYEDoRLgvAFSs9PsrinCHjD33j5t4xZFI3uPkyKlLMwGJOtDT3dTC6eYfv8OzAlAMtZ-pv67J4UiTdZuyjtK4nuJKdlxPVcoidxAC9XrF64bFpy9vH_v2T3ybFG_kKbVTKYuYVWy15a8kK_7hTZulVotCf4iEwXYpF4ETbJnwg9j07F42nKTd6FbXf6H0qjdkHFso6Q3ix58WKuCOmUUFFdhgBJIWhkvgtcv_pITY7yhLtaNeQpJTAhlDF1dtlm761gzJB2lFC_A60Gr4D_30puEnh5FAhD1HYx2Bl5nc05w1X54l1a9wKqQhb7BsDIqZcGMknQDMi8e6s=w1748-h1533-no" />
+  <img style="border-radius:10%;width:100%;" src="https://storage.cloud.google.com/bzreinhardt-images/distributed_system.jpg" />
   <figcaption style="text-align:center;text-size:small;"> A decentralized system - it's very hard for yellow to coordinate with green </figcaption>
 </div>
 
 <div class="column">
-  <img style="border-radius:10%;width:100%;" src="https://lh3.googleusercontent.com/Ny7ooRckSJfXWkfN5XX4VhC1IFYWLbrX43So_4rEZb3iqSUIrHeZCEcH_iwWhnH_P7hYtDFqjeHAK1JkOYxIuB9_O_LkYyRw-dsQ-8xbotB8bHpXwFqbf7u1cF75LoE9FHXelwLa8dUD8q_uDiDMCShjlv3VSx3jk_sRIe4k3I9CA9CJJ8VSgsmsNsR_KFBCkq0zPBoBVnRjl7C6uYW5N5nBW5BJw2NbrRGi9o1G6vpGfGPODgeQ-Fq53PUDYCu3aIyHWeO3-WamZVopnBWX23_w0A1zjdsWmi5TVvhZo7dQqUtAI9lGWGJahsyG56kI_QjliAGxhKFG6MM1gHzhv8mHPwcEBvqBt7-QadS3FNBbdjM0SbFhZF3hHU3xuOXHwp2LjebH6woG1ndb3m0QqHLIZBjm9M-b7UWU6x4wDVEr0Ea3hhW7quCrXfehOluMdtxPHS3_uqmVIoMXvre8NDdytRUEGO88gb9KpjtLN_fFfZGF22K4sXzLpFUDdO8YPuVJcSuJCidvlG-OKvO34k-eAUq11rXiLR4BoDsKNn3gePTr4mve3kr4v6nMsakXj7nvZ07sIWHb9RMyEnUH_dm2AQfktLKTqLrfzahXySKGT6jMSRDTcK_XrlTcra7y6VofiysSWyNM8zrgtjGDY70LAR2maCaUDVBDm6HQIqRTSO6zLQ6oQ7iw9YLI688=w2050-h1533-no" />
+  <img style="border-radius:10%;width:100%;" src="https://storage.cloud.google.com/bzreinhardt-images/committee_based_centralization.jpg" />
   <figcaption style="text-align:center;text-size:small;"> Committees can also centralize coordination </figcaption>
 </div>
 </div>
@@ -74,6 +74,8 @@ In the US, there is still no clear plan or way to focus effort around the corona
 * Figuring out how the virus actually works.
 
 * Helping people recover from the economic shock.
+
+* Creating an antigen test to identify people who have had the virus and are now immune.
 
 There are dozens and in some cases hundreds of separate efforts towards each item on the list and no good way to figure out the global status of each or where to effectively direct your own effort. You simultaneously have people not working on something they should because of the ‘someone is working on that’ problem and at the same time there’s a lot of effort duplication.
 
