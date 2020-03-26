@@ -10,17 +10,17 @@ layout: post
 **tl;dr:** Trusted hierarchies are important for solving problems under constrained time and resources. Governments have historically provided large-scale trusted hierarchy but the US government has completely botched that role in the coronavirus crisis. We need to ignore the false dichotomy of "government vs decentralized coordination" and create a new temporary trusted hierarchy to coordinate response to the crisis.
 <div class="row">
 <div class="column">
-  <img style="border-radius:10%;width:100%;" src="https://storage.cloud.google.com/bzreinhardt-images/hierarchy_based_collaboration.jpg" />
+  <img style="border-radius:10%;width:100%;" src="https://storage.googleapis.com/bzreinhardt-images/hierarchy_based_collaboration.jpg" />
   <figcaption style="text-align:center;text-size:small;"> A hierarchy (hopefully trustworthy) </figcaption>
 </div>
 
 <div class="column">
-  <img style="border-radius:10%;width:100%;" src="https://storage.cloud.google.com/bzreinhardt-images/distributed_system.jpg" />
+  <img style="border-radius:10%;width:100%;" src="https://storage.googleapis.com/bzreinhardt-images/distributed_system.jpg" />
   <figcaption style="text-align:center;text-size:small;"> A decentralized system - it's very hard for yellow to coordinate with green </figcaption>
 </div>
 
 <div class="column">
-  <img style="border-radius:10%;width:100%;" src="https://storage.cloud.google.com/bzreinhardt-images/committee_based_centralization.jpg" />
+  <img style="border-radius:10%;width:100%;" src="https://storage.googleapis.com/bzreinhardt-images/committee_based_centralization.jpg" />
   <figcaption style="text-align:center;text-size:small;"> Committees can also centralize coordination </figcaption>
 </div>
 </div>
