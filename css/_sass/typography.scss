@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("assets/fonts/CrimsonPro-Light.ttf");
+  font-weight: 300;
+};
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("assets/fonts/CrimsonPro-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+};
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("assets/fonts/CrimsonPro-Medium.ttf");
+  font-weight: 500;
+};
+
+@mixin labelStyle {
+  font-family: $UIFont;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.003em;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin labelSmallStyle {
+  font-family: $UIFont;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 15px;
+  letter-spacing: 0.007em;
+  // -webkit-font-smoothing: antialiased;  
+}
+
+@mixin labelExtraSmallStyle {
+  font-family: $UIFont;
+  font-size: 9px;
+  font-weight: normal;
+  line-height: 12px;
+  letter-spacing: 0.008em;
+  // -webkit-font-smoothing: antialiased;  
+}
+
+@mixin interfaceCopyStyle {
+  font-family: $UIFont;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  --paragraphSpacing: 12px;
+  letter-spacing: -0.007em;
+}
+
+@mixin captionStyle {
+  font-family: $UIFont;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 19px;
+  letter-spacing: 0.010em;
+}
+
+@mixin captionSmallStyle {
+  font-family: $UIFont;
+  font-size: 9px;
+  font-weight: normal;
+  line-height: 13px;
+  letter-spacing: 0.013em;
+}

@@ -1,0 +1,80 @@
+$sizeBase: 16px;
+
+@function scaleUnit($multiple) {
+  @return $sizeBase * $multiple;
+}
+
+@mixin margin($sides, $multiple) {
+  @each $side in $sides {
+    @if $side=="top" {
+      margin-top: $sizeBase * $multiple;
+    }
+
+    @else if $side=="left" {
+      margin-left: $sizeBase * $multiple;
+    }
+
+    @else if $side=="right" {
+      margin-right: $sizeBase * $multiple;
+    }
+
+    @else if $side=="bottom" {
+      margin-bottom: $sizeBase * $multiple;
+    }
+  }
+}
+
+@mixin padding($sides, $multiple) {
+  @each $side in $sides {
+    @if $side=="top" {
+      padding-top: $sizeBase * $multiple;
+    }
+
+    @else if $side=="left" {
+      padding-left: $sizeBase * $multiple;
+    }
+
+    @else if $side=="right" {
+      padding-right: $sizeBase * $multiple;
+    }
+
+    @else if $side=="bottom" {
+      padding-bottom: $sizeBase * $multiple;
+    }
+  }
+}
+
+$desktopBodyColumnWidth: 700px;
+$desktopNavColumnWidth: 304px;
+$narrowNavColumnWidth: 250px;
+
+@mixin essayBodyColumnLayout {
+
+  @include respond-to(non-handhelds) {
+    box-sizing: content-box;
+    --navColumnWidth: #{$desktopNavColumnWidth};
+    --bodyWidth: calc(100% - var(--navColumnWidth) - #{scaleUnit(4)});
+    --leftShift: calc(-1 * (var(--navColumnWidth) + #{scaleUnit(0)}) / 2.0);
+    width: var(--bodyWidth);
+    --maxBodyWidth: #{$desktopBodyColumnWidth};
+    max-width: var(--maxBodyWidth);
+    @include respond-to(narrow) {
+      --navColumnWidth: #{$narrowNavColumnWidth};
+      --maxBodyWidth: 550px;
+      --bodyWidth: calc(100% - var(--navColumnWidth) - #{scaleUnit(3)});
+      --leftShift: calc(-1 * (var(--navColumnWidth) + #{scaleUnit(-4)}) / 2.0 - 100vw * 0.03);
+    }
+    position: relative;
+    @media screen and (min-width: 1350px) {
+      left: calc((100vw - var(--navColumnWidth) - var(--maxBodyWidth) - 250px) / 2);
+      --leftShift: calc(-1 * (var(--navColumnWidth) + #{scaleUnit(1)}) / 2.0 - 30px - 100vw * 0.045);
+    }
+    @include padding(left, 2);
+    @include padding(right, 2);
+    --leftMargin: calc((100vw - var(--bodyWidth) - var(--navColumnWidth)) / 2.0 - #{scaleUnit(2)} + var(--leftShift));
+  }
+
+  @include respond-to(handhelds) {
+    @include pagePadding;
+  }
+}

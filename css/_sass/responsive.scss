@@ -1,0 +1,13 @@
+@import "./essay.scss";
+
+@mixin hideOnNonHandhelds {
+  @include respond-to(non-handhelds) {
+    display: none;
+  }
+}
+
+@mixin hideOnHandhelds {
+  @include respond-to(handhelds) {
+    display: none;
+  }
+}

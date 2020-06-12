@@ -1,0 +1,33 @@
+@import "./colors.scss";
+
+$hairlineColor: $gray10;
+
+// Requires that the client is a positioning container.
+@mixin hairline($sides, $color: $hairlineColor, $left: 0px, $right: 0px) {
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: $left;
+    width: calc(200% - (#{$left} + #{$right}) * 2);
+    @if $sides == "all" {
+      border: solid 1px $color;
+    } @else {
+      @each $side in $sides {
+        border-#{$side}: solid 1px $color;
+      }
+    }
+    transform: scale(.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@mixin cancelHairline {
+  &::after {
+    display: none;
+  }
+}
