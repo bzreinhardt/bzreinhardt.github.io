@@ -1,6 +1,6 @@
 ---
 title: Seminal Paper Club
-permalink:'/seminal-paper-club'
+permalink: "/seminal-paper-club"
 layout: page
 ---
 

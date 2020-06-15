@@ -26,6 +26,8 @@ defaults:
     show-avatar: true
 url: http://benjaminreinhardt.com
 baseurl: ''
+sass:
+    sass_dir: css/_sass
 description: Permittre dragonis adsurgo
 navbar-links:
   Home: http://benjaminreinhardt.com
@@ -73,6 +75,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: "/:title/"
 paginate: 5
+exclude: [node_modules]
 kramdown:
   input: GFM
 link-tags: true

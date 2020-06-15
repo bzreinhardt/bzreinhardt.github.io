@@ -1,4 +1,4 @@
-@import "./essay.scss";
+@import "essay.scss";
 
 @mixin hideOnNonHandhelds {
   @include respond-to(non-handhelds) {
