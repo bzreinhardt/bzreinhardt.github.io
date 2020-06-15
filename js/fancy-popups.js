@@ -269,13 +269,6 @@ Popup.prototype.sendGAevent = function(action,href,value)
     }
 
     var constructorname = typeof this.constructor.name !== 'undefined' ? this.constructor.name : functionName(this.constructor);
-
-    _sendGAevent(
-        constructorname.replace(/(Highpop|Refpop)/,""),
-        action,
-        filename + shref,
-        value.toFixed(0)
-    );
 }
 
 /************ POPUP HIGHPOP SUBCLASS ************/
@@ -591,31 +584,6 @@ HighpopFootnote.prototype.scrollto = function()
 registeredPopups.push(new HighpopFootnote());
 
 
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-43056719-2', 'caltech.edu');
-    ga('create', 'UA-43056719-4', 'caltech.edu','inactivityTracker');
-
-    function _sendGAevent(category, action, label, value) { ga('send', 'event', category, action, label, value); }
-
-    try {
-         $.get('debug', function(data) {
-            if (data.indexOf("enable")>=0)
-            {
-                window.onerror = function (msg, url, lineNo, colNo)
-                {
-                    var label = url.split('/').pop().split('.')[0] + ":" + lineNo;
-                    if (typeof colNo != 'undefined') label += ("," + colNo);
-                    _sendGAevent('Error', msg, label, 0);
-                    return false;
-                }
-            }
-        })
-    } catch(e) {}
-
     var hidden, visibilityChange; //Visibility API compatibility
     if (typeof document.hidden !== "undefined") {
         hidden = "hidden";
@@ -646,47 +614,7 @@ registeredPopups.push(new HighpopFootnote());
     }
 
     var intervalsSinceLastInteraction;
-    function pageviewTimerHandler()
-    {
-        if (interactionHappened)
-        {
-            interactionHappened = false;
-            $(window).one(INTERACTION_EVENTS,handleInteraction);
-            intervalsSinceLastInteraction = 0;
-         }
-        else
-            intervalsSinceLastInteraction++;
-
-        if ((visibilityChanged || !document[hidden]) && intervalsSinceLastInteraction < 6)
-            ga('send', 'pageview');
-        else
-            ga('inactivityTracker.send', 'pageview');
-
-        if (visibilityChanged)
-        {
-            visibilityChanged = false;
-            document.addEventListener(visibilityChange, handleVisibilityChange, false);
-        }
-    }
-
-    function _GAStart()
-    {
-        if (!document[hidden])
-        {
-            intervalsSinceLastInteraction = 0;
-            ga('send', 'pageview');
-        }
-        else
-        {
-            intervalsSinceLastInteraction = 6;
-            ga('inactivityTracker.send', 'pageview');
-        }
-
-        setInterval(pageviewTimerHandler, 300000); //every 5 minutes
-        $(window).one(INTERACTION_EVENTS,handleInteraction);
-        document.addEventListener(visibilityChange, handleVisibilityChange, false);
-    }
-
+    
 
 
 function RestoreView()
@@ -705,8 +633,8 @@ function RestoreFromURL()
     var fragindex = url.lastIndexOf("#");
     if (fragindex != -1 && url.substr(fragindex+1) == "restore")
         RestoreView();
-    else
-        _GAStart();
+    //else
+    //    _GAStart();
 }
 RestoreFromURL();
 
