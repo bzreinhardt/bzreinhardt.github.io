@@ -1,0 +1,102 @@
+@import "common.scss";
+
+button.Button {
+  @include padding(left, 0.5);
+  @include padding(right, 0.5);
+  flex-shrink: 0;
+  user-select: none;
+  border-radius: $borderRadius;
+  display: flex;
+  align-items: center;
+
+  transition: box-shadow 100ms, background-color 80ms, opacity 100ms;
+
+  &.Disabled {
+    cursor: unset;
+  }
+  &:not(.Disabled) {
+    cursor: pointer;
+  }
+
+  svg {
+    @include margin(left, -0.25); // nudge glyphs into the padding
+    margin-right: auto; // right align text
+  }
+
+  &.primary {
+    background-color: $primaryDark;
+    color: $primaryLight;
+
+    box-shadow: inset 0 1px 0 0 $key60, 0 1px 0 0 #{rgba($key90, 0.1)}, 0 1px 3px 0 transparent;
+
+    svg {
+      fill: $primaryLight;
+      stroke: $primaryLight;
+    }
+
+    &.Disabled {
+      opacity: 0.1;
+      box-shadow: none;
+      svg {
+        fill: white;
+        stroke: white;
+      }
+      color: white;
+    }
+
+    &:not(.Disabled) {
+    @include onHover {
+      background-color: $key60;
+      box-shadow: inset 0 1px 0 0 $key50, 0 1px 1px 0 #{rgba($key90, 0.1), 0 1px 3px 0 #{rgba($primaryDark, 0.7)}};
+    }
+
+    &.Active {
+      background-color: $key50;
+      box-shadow: inset 0 1px 0 0 $key40, 0 1px 2px 0 #{rgba($key90, 0.1), 0 1px 5px 0 #{rgba($primaryDark, 0.7)}};
+    }
+  }
+  }
+
+  &.secondary {
+    background-color: $key00;
+    color: $primaryExtraDark;
+    transition: background-color 0.05s linear;
+
+    box-shadow: 0 1px 0 0 #{rgba($key90, 0.05)}, 0 1px 3px 0 transparent;
+
+    @include onHover {
+      transition: background-color 0s linear;
+      background-color: $key10;
+
+      box-shadow: 0 1px 0 0 #{rgba($key90, 0.05)}, 0 1px 3px 0 #{rgba($primaryDark, 0.2)};
+    }
+
+    &.Active {
+      background-color: $key20;
+      box-shadow: 0 1px 0 0 #{rgba($key90, 0.05)}, 0 1px 5px 0 #{rgba($primaryDark, 0.2)};
+    }
+  }
+
+  &.tertiary {
+    color: $primaryExtraDark;
+
+    @include onHover {
+      color: $primaryExtraDark;
+      text-decoration: underline;
+    }
+
+    &.Active {
+      color: $primaryKey;
+    }
+  }
+
+  &.regular {
+    @include labelStyle;
+    height: 37px;
+  }
+
+  &.small {
+    @include labelSmallStyle;
+    height: 31px;
+  }
+}

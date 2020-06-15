@@ -1,0 +1,187 @@
+---
+
+---
+@import "common.scss";
+
+.MobileNav {
+  @include hideOnNonHandhelds;
+  @include pagePadding;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 53px;
+
+  display: flex;
+  align-items: center;
+
+  @include hairline(bottom);
+  background-color: white;
+  opacity: 1;
+  transition: opacity 0.15s linear;
+  justify-content: center;
+
+  &:not(.Scrolled) {
+    opacity: 0;
+  }
+
+  .Logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .LeftItems,
+  .RightItems {
+    display: flex;
+    align-items: center;
+  }
+
+  .LeftItems {
+    flex-grow: 1;
+    max-width: $desktopBodyColumnWidth;
+  }
+
+  .RightItems {
+    flex-grow: 0;
+    justify-content: flex-end;
+
+    &>* {
+      margin-right: scaleUnit(0);
+      button {
+        display: block;
+      }
+    }
+  }
+
+  .CurrentSectionLabel {
+    @include margin(right, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .Section,
+    .Subsection {
+      @include captionStyle;
+      margin: 0;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    .Section {
+      color: $gray90;
+      -webkit-line-clamp: 2;
+    }
+
+    &.WithSubsection {
+      .Section {
+        -webkit-line-clamp: 1;
+      }
+    }
+
+    .Subsection {
+      color: $gray60;
+      -webkit-line-clamp: 1;
+    }
+  }
+}
+
+.MobileSideMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+
+  .MobileSideMenuContents {
+    .EssayList {
+      @include margin(top, 0.25);
+
+      li:first-of-type {
+        width: calc(100% - 60px); // dodge the close button
+      }
+    }
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: $desktopNavColumnWidth;
+    background-color: white;
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + #{scaleUnit(0.5)});
+    overflow: scroll;
+
+    .CloseButton {
+      position: absolute;
+      top: 10px;
+      right: 17px; // Ungraceful: manually aligning with the center of the radial progress indicators below.
+    }
+  }
+
+  .Scrim {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($gray90, 0.7);
+  }
+
+  @mixin out {
+    .MobileSideMenuContents {
+      transform: translateX(100%);
+    }
+
+    .Scrim {
+      opacity: 0;
+    }
+  }
+  @mixin in {
+    .MobileSideMenuContents {
+      transform: translateX(0);
+    }
+
+    .Scrim {
+      opacity: 1;
+    }
+  }
+
+  &-enter {
+    @include out;
+  }
+  &-enter-active {
+    @include in;
+  }
+
+  &-exit {
+    @include in;
+  }
+  &-exit-active {
+    @include out;
+  }
+
+
+  &-enter-active,
+  &-exit-active {
+    .MobileSideMenuContents {
+      transition: transform 400ms 200ms 0ms;
+    }
+
+    .Scrim {
+      transition: opacity 400ms 200ms 0ms;
+    }
+  }
+
+  &-enter-active {
+    .MobileSideMenuContents {
+      transition-delay: 50ms;
+    }
+  }
+  &-exit-active {
+    .Scrim {
+      transition-delay: 50ms;
+    }
+  }
+}

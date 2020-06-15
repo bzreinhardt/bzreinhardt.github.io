@@ -1,0 +1,923 @@
+@import "layout.scss";
+@import "colors.scss";
+
+// DEBUG
+$showBaselineGrid: false;
+// Base font size and ratio
+$base: 23.5px;
+$mobileBase: 20px;
+$lineHeight: 35px;
+$mobileLineHeight: 27px;
+$printLineHeight: 15px;
+$ratio: 1.5; // Perfect Fifth
+$borderRadius: 8px;
+$bodyFont: "Crimson Pro",
+serif;
+$headingFont: "Archivo",
+sans;
+$UIFont: "IBM Plex Sans",
+sans-serif;
+
+$cardLineHeightFactor: 1.625;
+
+$grayBGBorder: hsl(265, 100%, 97%);
+
+// Grid
+$largeLayoutMaxWidth: 1440px;
+$largeColumnCount: 12;
+$largeColumnGutter: 16px;
+$largeColumnMargin: 32px;
+$largeBodyColumnCount: 7;
+// $largeContentWidth: calc(
+// 100% - #{$largeColumnGutter} * (#{$largeColumnCount} - 1)
+// );
+$largeContentWidth: 796px;
+$largeColumnSize: calc(#{$largeContentWidth} / #{$largeColumnCount});
+
+$handheldLayoutMaxWidth: 1440px;
+$handheldColumnCount: 4;
+$handheldColumnGutter: 16px;
+$handheldColumnMargin: 16px;
+$handheldBodyColumnCount: 4;
+$handheldContentWidth: calc(100% - #{$handheldColumnGutter} * (#{$handheldColumnCount} - 1));
+$handheldColumnSize: calc(#{$largeContentWidth} / #{$handheldColumnCount});
+
+$break-xsmall: 700px;
+$break-small: 700px;
+$break-large: 1000px;
+
+$shorty-threshold: 767px;
+
+@mixin respond-to($media) {
+  @if $media==handhelds {
+    @media only screen and (max-width: $break-xsmall) {
+      @content;
+    }
+  }
+
+  @else if $media==narrow {
+    @media only screen and (max-width: $break-large - 1) {
+      @content;
+    }
+  }
+
+  @else if $media==shorties {
+    @media only screen and (max-height: $shorty-threshold) {
+      @content;
+    }
+  }
+
+  @else if $media==handhelds-or-shorties {
+
+    @media only screen and (max-width: $break-small),
+    only screen and (max-height: $shorty-threshold) {
+      @content;
+    }
+  }
+
+  @else if $media==non-handhelds-or-shorties {
+    @media only screen and (min-width: $break-small + 1) and (min-height: $shorty-threshold + 1) {
+      @content;
+    }
+  }
+
+  @else if $media==non-handhelds {
+    @media only screen and (min-width: $break-xsmall + 1) {
+      @content;
+    }
+  }
+
+  @else if $media==medium-screens {
+    @media only screen and (min-width: $break-xsmall + 1) and (max-width: $break-large - 1) {
+      @content;
+    }
+  }
+
+  @else if $media==wide-screens {
+    @media only screen and (min-width: $break-large) {
+      @content;
+    }
+  }
+}
+
+
+$gray2: #243b53;
+$gray3: #334e68;
+$gray5: #627d98;
+$gray6: #829ab1;
+$gray7: #9fb3c8;
+
+@function sectionWidth($sectionColumnCount, $columnSize, $columnGutter) {
+  @return calc(#{$columnSize} * #{$sectionColumnCount} + #{$columnGutter} * (#{$sectionColumnCount} - 1));
+}
+
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent>0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }
+
+  @else if $exponent < 0 {
+    @for $i from 1 through -$exponent {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}
+
+@function ms($value, $ms-ratio: $ratio, $ms-base: 1) {
+  $size: pow($ms-ratio, $value) * $ms-base;
+  @return #{$size + "rem"};
+}
+
+@mixin study-font-size($value) {
+  font-size: ms($value);
+
+  @include respond-to(handhelds) {
+    font-size: ms($value, $ratio, $base / $mobileBase);
+  }
+}
+
+@mixin margin-top($multiple) {
+  margin-top: #{$multiple * $lineHeight};
+
+  @include respond-to(narrow) {
+    margin-top: #{$multiple * $mobileLineHeight};
+  }
+
+  @media print {
+    margin-top: #{$multiple * $printLineHeight};
+  }
+}
+
+$paragraphSpacing: 22px;
+$mobileParagraphSpacing: 16px;
+$printParagraphSpacing: 0.75em;
+
+@mixin margin-bottom($multiple) {
+  margin-bottom: #{$multiple * $lineHeight};
+
+  @include respond-to(narrow) {
+    margin-bottom: #{$multiple * $mobileLineHeight};
+  }
+
+  @media print {
+    margin-bottom: #{$multiple * $printLineHeight};
+  }
+}
+
+@mixin line-height($multiple) {
+  line-height: #{$multiple * $lineHeight};
+
+  @include respond-to(narrow) {
+    line-height: #{$multiple * $mobileLineHeight};
+  }
+
+  @media print {
+    line-height: #{$multiple * $printLineHeight}
+  }
+}
+
+@mixin pagePadding() {
+  @include respond-to(handhelds) {
+    padding-left: $handheldColumnMargin;
+    padding-right: $handheldColumnMargin;
+  }
+
+  @include respond-to(non-handhelds) {
+    padding-left: $largeColumnMargin;
+    padding-right: $largeColumnMargin;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  @if ($showBaselineGrid) {
+    background-image: linear-gradient(to bottom,
+        rgba(0, 170, 255, 0.3) 1px,
+        transparent 1px);
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: 100% $lineHeight;
+  }
+}
+
+// Keep our anchors from headbutting the top of the viewport.
+$anchorOffset: 64px;
+
+.BodyColumn h1 {
+  @include margin-top(2);
+  @include margin-bottom(1);
+  @include line-height(1.25);
+
+  font-family: $headingFont;
+  font-size: ms(2);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  position: relative;
+  color: $primaryExtraDark;
+
+  @media print {
+    @include margin-top(2);
+    @include margin-bottom(0.5);
+    font-size: 150%;
+  }
+
+  &::after {
+    position: absolute;
+    background-color: $primaryDark;
+    width: 6px;
+    top: $anchorOffset;
+    bottom: 0px;
+    border-radius: 3px;
+    left: -26px;
+    content: '';
+
+    @include respond-to(medium-screens) {
+      left: -16px;
+      width: 4px;
+      border-radius: 2px;
+    }
+
+    @include respond-to(handhelds) {
+      left: -$handheldColumnMargin + 4px;
+      width: 4px;
+    }
+  }
+}
+
+h2 {
+  @include margin-top(2);
+  @include margin-bottom(0.5);
+  @include line-height(1);
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 130%;
+  font-weight: normal;
+  color: $gray70;
+
+  @media print {
+    @include margin-top(1);
+    @include margin-bottom(0.5);
+    font-size: 125%;
+    line-height: 110%;
+    font-weight: 600;
+  }
+}
+
+.BodyColumn {
+  font-family: $bodyFont;
+  font-size: $base;
+  font-weight: 300;
+  color: $gray80;
+  font-feature-settings: "onum"1;
+
+  @include respond-to(narrow) {
+    font-size: $mobileBase;
+  }
+
+  @media print {
+    font-size: 11px;
+    &>p {
+      text-indent: 1em;
+    }
+    &>h1+p, &>h2+p, &>h3+p, &>p:first-child, .marginnote, ul+p {
+      text-indent: 0px;
+    }
+    p+p {
+      margin-top: -1 * $printParagraphSpacing;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  @media print {
+    columns: 30em;
+    column-gap: 0.25in;
+  }
+
+
+  h1,
+  h2 {
+    &::before {
+      display: block;
+      content: " ";
+      margin-top: -$anchorOffset;
+      height: $anchorOffset;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+
+  h3 {
+    font-family: "Archivo Narrow", sans-serif;
+    font-weight: normal;
+    color: $gray90;
+    font-size: 100%;
+    @include line-height(0.9);
+    @include margin-top(1);
+    @include margin-bottom(0.25);
+
+    @media print {
+      font-size: 105%;
+      line-height: 105%;
+    }
+  }
+}
+
+h1+h2 {
+  @include margin-top(1);
+}
+
+
+.BodyColumn {
+  p,
+  li {
+    @include margin-top(0);
+    margin-bottom: $paragraphSpacing;
+    @include line-height(1);
+
+    @include respond-to(narrow) {
+      margin-bottom: $mobileParagraphSpacing;
+    }
+
+    @media print {
+      margin-bottom: $printParagraphSpacing;
+    }
+  }
+
+  li {
+    blockquote {
+      margin-top: $paragraphSpacing;
+
+      @include respond-to(narrow) {
+        margin-top: $mobileParagraphSpacing;
+      }
+
+      @media print {
+        margin-top: $printParagraphSpacing;
+      }
+    }
+  }
+
+  ul,
+  ol {
+    margin-bottom: $paragraphSpacing;
+
+    padding-left: 1em;
+
+    @include respond-to(non-handhelds) {
+      li {
+        padding-left: 0.5em;
+      }
+    }
+
+    @include respond-to(narrow) {
+      margin-bottom: $mobileParagraphSpacing;
+    }
+
+    @media print {
+      margin-bottom: $printParagraphSpacing;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $primaryExtraDark;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  @include margin-bottom(1);
+}
+
+#EssayContents {
+  counter-reset: MarginNote;
+  @include essayBodyColumnLayout;
+}
+
+#EssayContentsInner {
+  // We want the positioning basis to be exclusive of padding.
+  position: relative;
+}
+
+.BodyColumn,
+.Footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $desktopBodyColumnWidth;
+  position: relative;
+
+  @media print {
+    max-width: unset;
+  }
+}
+
+.BodyColumn {
+
+  @include respond-to(handhelds) {
+    margin-left: auto;
+    margin-right: auto;
+    width: unset;
+  }
+
+  img.PullRight {
+    float: right;
+    @include margin(left bottom top, 1);
+  }
+
+  &>img,
+  &>p>img:not(.PullRight),
+  &>video,
+  .EmbeddedMedia,
+  .ExtraWide {
+    max-width: 100%;
+    margin-bottom: $paragraphSpacing;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    --width: 100%;
+
+    @include respond-to(handhelds) {
+      width: 100%;
+      margin-bottom: $mobileParagraphSpacing;
+    }
+    @media print {
+      margin-bottom: $printParagraphSpacing;
+    }
+
+    &.Bordered {
+      border: 1px solid #{$gray10};
+      border-radius: 16px;
+      padding: 16px;
+
+      @include respond-to(handhelds) {
+        border-radius: 0px;
+        border-left-width: 0;
+        border-right-width: 0;
+      }
+    }
+
+    @media screen {
+      &.FullBleed {
+        max-width: unset;
+        --width: calc(#{$desktopBodyColumnWidth} + 2 * 3/4 * #{$largeColumnMargin});
+
+        margin-left: -$largeColumnMargin * 3/4;
+        margin-bottom: 0;
+        width: calc(100% + 2 * #{$largeColumnMargin} * 3/4);
+
+        @include respond-to(handhelds) {
+          margin-left: -$handheldColumnMargin;
+          --width: calc(100% + 2 * #{$handheldColumnMargin});
+          width: var(--width);
+        }
+
+        &+p {
+          @include margin-top(1);
+
+          &.ImageCaption {
+            @include margin-top(0);
+            @include margin-bottom(0.5);
+            @include line-height(1);
+            font-size: ms(-1);
+            color: $gray5;
+
+            a {
+              color: inherit;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    &.CropToPortrait {
+      @media screen and (max-width: 800px) {
+        height: 70vh;
+        max-height: 550px;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+
+  --extraWideImageWidth: 935px;
+
+  @media screen {
+    .ExtraWide {
+      @media screen and (min-width: 800px) {
+        width: var(--extraWideImageWidth);
+        max-width: calc(100vw - 128px);
+        position: relative;
+        // left: calc(-1 * var(--leftMargin) + #{$largeColumnMargin} / 2);
+        background-color: white;
+        z-index: 1;
+
+        @media screen and (min-width: 1500px) {
+          left: calc((var(--maxBodyWidth) - var(--extraWideImageWidth)) / 2);
+        }
+
+        @media screen and (max-width: 1240px) {
+          &:before {
+            position: absolute;
+            left: #{-1 * $largeColumnMargin};
+            width: 100vw;
+            height: 100%;
+            content: "";
+            background-color: white;
+            z-index: -1;
+            box-shadow: 0px 0px 15px 5px white;
+          }
+        }
+      }
+    }
+  }
+
+  .ExtraWide {
+    position: relative;
+
+    picture {
+      position: relative;
+    }
+
+    img,
+    picture {
+      @media screen and (min-width: 800px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 799px) {
+        max-width: calc(375px - 2 * #{$handheldColumnMargin});
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+
+      @media print {
+        max-width: calc(375px - 2 * #{$handheldColumnMargin});
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+  }
+
+  .EmbeddedMedia {
+    padding-top: calc(1 / var(--aspect-ratio));
+    position: relative;
+
+    iframe {
+      width: 100%;
+      height: calc(var(--width) / var(--aspect-ratio));
+
+      @include respond-to(handhelds) {
+        height: calc(100vw / var(--aspect-ratio));
+        max-height: calc((#{desktopBodyColumnWidth} + 2 * #{$handheldColumnMargin}) / var(--aspect-ratio));
+      }
+    }
+  }
+
+  img.RetinaImage {
+    max-width: 100%;
+  }
+
+  img.CropToCenter {
+    object-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: max-content;
+    max-height: max-content;
+  }
+}
+
+.BodyColumn blockquote {
+  @include margin-top(0);
+  margin-bottom: $paragraphSpacing;
+  font-size: 96%;
+  line-height: 150%;
+
+  margin-left: 32px;
+  margin-right: 32px;
+
+  @include respond-to(narrow) {
+    border-left: 1px solid $gray7;
+    margin-left: unset;
+    padding-left: 16px;
+    margin-right: unset;
+    font-size: $mobileBase;
+    line-height: $mobileLineHeight;
+  }
+
+  @media print {
+    // border-left: 1px solid $gray7;
+    margin-left: unset;
+    padding-left: 0.25in;
+    padding-right: 0.25in;
+    margin-right: unset;
+    font-size: inherit;
+    line-height: $printLineHeight;
+  }
+
+  &.Flavor {
+    font-style: italic;
+    color: $gray2;
+
+    @media screen {
+      font-size: 110%;
+      line-height: 140%;
+
+      @include margin-top(1);
+      margin-left: 96px;
+      margin-right: 96px;
+
+      @include respond-to(handhelds) {
+        font-size: inherit;
+        line-height: 30px;
+        margin-top: unset;
+        margin-left: unset;
+        margin-right: unset;
+        border-left: none;
+      }
+
+      .Attribution {
+        @include margin-top(1);
+        @include respond-to(handhelds) {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .Attribution {
+      font-style: normal;
+      float: right;
+    }
+  }
+}
+
+@media screen {
+
+  h1+.Flavor,
+  h2+.Flavor {
+    @include margin-bottom(2);
+  }
+
+}
+
+.katex-display {
+  @include respond-to(handhelds) {
+    overflow-x: scroll;
+    overflow-y: visible;
+  }
+}
+
+.MarginNoteMarker {
+  &::after {
+    counter-increment: MarginNote;
+    content: counter(MarginNote);
+    vertical-align: super;
+    line-height: 0;
+    font-size: 70%;
+    font-feature-settings: "onum" 0;
+
+    @include respond-to(handhelds) {
+      color: $key90;
+      font-size: 85%;
+      background-color: $key00;
+      border-radius: 4px;
+      cursor: pointer;
+      padding: 2px 4px;
+      margin-left: 2px;
+    }
+
+    @media print {
+      font-size: 80%;
+    }
+
+    @include respond-to(non-handhelds) {
+      padding: 0 2px;
+      pointer-events: none;
+      margin-left: 0.5px;
+      margin-right: -2.5px;
+    }
+  }
+}
+
+span.marginnote {
+  font-feature-settings: "onum"0;
+
+  @include respond-to(non-handhelds) {
+    clear: both;
+    /* Hack for early margin notes which would abut sticky sidebar */
+    @at-root .BodyColumn>p:first-of-type .marginnote, .BodyColumn>p:nth-of-type(5) .marginnote, .BodyColumn>p:nth-of-type(6) .marginnote {
+      clear: none;
+    }
+    position: relative;
+    float: right;
+    display: block;
+    --marginNoteWidth: 325px;
+    --marginNoteShiftBasis: 1200px;
+    --leftPadding: calc(2.5 * #{$base});
+
+    @media screen and (max-width: 1349px) {
+      --marginNoteShiftBasis: 1075px;
+    }
+
+    @media screen and (max-width: 1249px) {
+      --marginNoteShiftBasis: 1020px;
+      --marginNoteWidth: 275px;
+      --leftPadding: calc(2.5 * #{$base});
+    }
+
+    @include respond-to(narrow) {
+      --marginNoteShiftBasis: 840px;
+      --marginNoteWidth: 220px;
+      line-height: $lineHeight * 0.6;
+      --leftPadding: calc(2 * #{$base});
+      font-size: 75%;
+    }
+
+    --marginNoteMargin: 32px;
+    overflow: hidden;
+    width: var(--marginNoteWidth);
+    font-size: 70%;
+    line-height: $lineHeight * 0.66;
+    color: $gray50;
+    box-sizing: content-box;
+
+    margin: 0;
+    padding-left: var(--leftPadding);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0;
+    margin-right: calc(-1 * (var(--marginNoteWidth) + var(--marginNoteMargin)) - (100vw - var(--bodyWidth) - var(--marginNoteShiftBasis)));
+
+    @media screen and (min-width: 1500px) {
+      margin-right: calc(-1 * (var(--marginNoteWidth) + var(--marginNoteMargin)));
+    }
+
+    @media screen and (max-width: 800px) {
+      margin-right: -8px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: $gray20;
+
+      &:hover {
+        color: #333;
+      }
+
+    }
+
+    &:before {
+      content: counter(MarginNote) ".";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: calc(var(--leftPadding) - 1.66em);
+      text-align: right;
+      top: 0.5rem;
+      color: inherit;
+    }
+
+    &:after {
+      clear: both;
+      height: 0;
+      width: 100%;
+      content: "";
+      display: block;
+    }
+  }
+
+  @media screen {
+    @include respond-to(handhelds) {
+      left: 0px;
+      right: 0px;
+      padding: 16px;
+      background-color: white;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.05);
+      border-radius: 8px;
+      position: absolute;
+      font-size: 90%;
+      line-height: 130%;
+      padding: 16px;
+      left: 8px;
+      right: 8px;
+      @include margin-top(1);
+      opacity: 0;
+      transition: opacity 0.15s linear;
+      z-index: 10;
+      pointer-events: none;
+
+      &.Displayed {
+        opacity: 1;
+        pointer-events: unset;
+      }
+    }
+  }
+
+  @media print {
+    float: right;
+    font-size: 80%;
+    line-height: 140%;
+    width: 45%;
+    position: relative;
+    padding-top: 0.05in;
+    padding-bottom: 0.05in;
+    margin-left: 0.25in;
+    opacity: 0.8;
+
+    &:before {
+      content: counter(MarginNote) ".";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: -2.75em;
+      text-align: right;
+      color: inherit;
+    }
+
+    &:after {
+      clear: both;
+      height: 0;
+      width: 100%;
+      content: "";
+      display: block;
+    }
+  }
+}
+
+
+
+/* Footer */
+
+.Footer {
+  border-top: 1px solid $grayBGBorder;
+  @include margin-top(2);
+  @include margin-bottom(2);
+  padding-top: $lineHeight*2;
+
+  @include respond-to(handhelds) {
+    @include margin-top(2);
+    padding-top: $lineHeight;
+  }
+
+  .CitationPreamble {
+    margin-bottom: 0;
+  }
+
+  blockquote {
+    line-height: 1.5;
+    font-size: 75%;
+    font-family: $UIFont;
+
+    @include respond-to(handhelds) {
+      border-left: none;
+    }
+  }
+
+  @media print {
+    padding-top: 0;
+  }
+}
+
+@include respond-to(handhelds) {
+  .DesktopOnly {
+    display: none !important;
+  }
+}
+
+@media print {
+  .DesktopOnly {
+    display: none !important;
+  }
+}
+
+@include respond-to(non-handhelds) {
+  .HandheldsOnly {
+    display: none !important;
+  }
+}
