@@ -26,8 +26,8 @@
 .blockquote {
 
   line-height: 1.5;
-  font-size: 75%;
-  font-family: $UIFont;
+  font-size: 85%;
+  font-family: "Crimson-Pro";
 
   @include respond-to(handhelds) {
     border-left: none;
@@ -45,9 +45,9 @@
   font-family: Arial, Tahoma, sans-serif;}
 
 .quote {
-  font-family: $UIFont;
+  //font-family: "Crimson-Pro";
   font-style: italic;
-  font-size:85%;
+  //font-size:85%;
 }
 
 .TableOfContents a {
@@ -90,7 +90,7 @@ a sup.mark {
 div.popup {
     position: fixed;
     margin: 0;
-    transform: translateY(-100%) translateY(-30px);
+    transform: translateY(-100%) translateY(-$lineHeight);
     background: #ffffff;
     font-size: 50%;
     border: 1px solid #A0A090;

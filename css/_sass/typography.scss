@@ -1,20 +1,34 @@
 @font-face {
-  font-family: "Crimson Pro";
-  src: url("assets/fonts/CrimsonPro-Light.ttf");
+  font-family: "Spectral";
+  src: url("assets/fonts/Spectral/Spectral-Light.ttf");
   font-weight: 300;
 };
 
 @font-face {
-  font-family: "Crimson Pro";
-  src: url("assets/fonts/CrimsonPro-LightItalic.ttf");
+  font-family: "Spectral";
+  src: url("assets/fonts/Spectral/Spectral-LightItalic.ttf");
   font-weight: 300;
   font-style: italic;
 };
 
 @font-face {
-  font-family: "Crimson Pro";
-  src: url("assets/fonts/CrimsonPro-Medium.ttf");
+  font-family: "Spectral";
+  src: url("assets/fonts/Spectral/Spectral-Medium.ttf");
   font-weight: 500;
+};
+
+@font-face {
+  font-family: "Spectral";
+  src: url("assets/fonts/Spectral/Spectral-SemiBoldItalic.ttf");
+  font-weight: 500;
+  font-style:italic;
+};
+
+@font-face {
+  font-family: "Crimson-Pro";
+  src: url("assets/fonts/CrimsonPro-LightItalic.ttf");
+  font-weight: 300;
+  font-style:italic;
 };
 
 @mixin labelStyle {
