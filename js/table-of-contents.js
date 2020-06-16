@@ -22,20 +22,11 @@ window.addEventListener('DOMContentLoaded', () => {
 				document.querySelector(`li a[href="#${active_section}"]`).parentElement.classList.add('active');
 			}
 		}
-		/*
-
-				//if active_section still in
-				document.querySelector(`li a[href="#${active_section}"]`).parentElement.classList.remove('active');
-				active_section = id;
-				document.querySelector(`li a[href="#${id}"]`).parentElement.classList.add('active');
-			} else {
-				document.querySelector(`li a[href="#${id}"]`).parentElement.classList.remove('active');
-			}
-			*/
 
 	});
 
 	// Track all sections that have an `id` applied
+	observer.observe(document.getElementById('abstract-ish'));
 	document.querySelectorAll('h1[id]').forEach((section) => {
 		observer.observe(section);
 	});

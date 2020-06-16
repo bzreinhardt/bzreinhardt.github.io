@@ -78,7 +78,7 @@ $blueHighlight: #f5fcff;
 
   .HeroContents {
     // position: relative;
-    background-color: #295729;
+    background-color: #2e3e2e;
 
     --width: 900px;
     max-width: var(--width);
@@ -137,7 +137,8 @@ $blueHighlight: #f5fcff;
     }
 
     @media screen and (max-width: 700px) {
-      @include padding(top bottom, 1.25);
+      @include padding(top, 1.25);
+      @include padding(bottom, 2);
       width: 300px;
       padding-left: var(--titleBoxPadding);
       padding-right: var(--titleBoxPadding);

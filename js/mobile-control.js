@@ -11,3 +11,12 @@ const toggleVisibility = () => {
     document.getElementsByClassName("IconButton")[0].innerHTML = x_svg;
   }
 }
+
+$(window).scroll(function() {
+    var scroll = $(top).scrollTop();
+    if (scroll > 50) {
+      $(".MobileNav").addClass("Scrolled");
+    } else {
+      $(".MobileNav").removeClass("Scrolled");
+    }
+});
