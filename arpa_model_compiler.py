@@ -398,7 +398,7 @@ def main_old():
     with open("arpa_model.html", 'w') as f:
         f.write("\n".join(out))
 
-def updgrad_headers(lines):
+def updgrade_headers(lines):
     out = []
     for line in lines:
         if line.strip().startswith('<h2 '):
@@ -407,12 +407,14 @@ def updgrad_headers(lines):
             line=line.replace('<h3','<h2')
         if line.strip().startswith('<h4 '):
             line=line.replace('<h4','<h2')
+        '''
         if 'class="H2' in line:
             line=line.replace('H2','H1')
         if 'class="H3' in line:
             line=line.replace('H3','H2')
         if 'class="H4' in line:
             line=line.replace('H4','H3')
+        '''
         out.append(line)
     return out
 
@@ -422,7 +424,7 @@ def main():
     with open("arpa_model.html.backup") as f:
         content = f.read()
     lines = content.split("\n")
-    out = updgrad_headers(lines)
+    out = updgrade_headers(lines)
     with open("arpa_model.html", 'w') as f:
         f.write("\n".join(out))
 
