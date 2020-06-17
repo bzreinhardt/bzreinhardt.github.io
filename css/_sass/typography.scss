@@ -1,41 +1,43 @@
+/*
 @font-face {
   font-family: "Spectral";
-  src: url("assets/fonts/Spectral/Spectral-Light.ttf");
+  src: url("/css/assets/fonts/Spectral/Spectral-Light.ttf");
   font-weight: 300;
 };
 
 @font-face {
   font-family: "Spectral";
-  src: url("assets/fonts/Spectral/Spectral-LightItalic.ttf");
+  src: url("/css/assets/fonts/Spectral/Spectral-LightItalic.ttf");
   font-weight: 300;
   font-style: italic;
 };
 
 @font-face {
   font-family: "Spectral";
-  src: url("assets/fonts/Spectral/Spectral-Regular.ttf");
+  src: url("/css/assets/fonts/Spectral/Spectral-Regular.ttf");
   font-weight: 500;
 };
 
 @font-face {
   font-family: "Spectral";
-  src: url("assets/fonts/Spectral/Spectral-SemiBoldItalic.ttf");
+  src: url("/css/assets/fonts/Spectral/Spectral-SemiBoldItalic.ttf");
   font-weight: 500;
   font-style:italic;
 };
 
 @font-face {
   font-family: "Lato";
-  src: url("assets/fonts/Lato/Lato-Regular.ttf");
+  src: url("/css/assets/fonts/Lato/Lato-Regular.ttf");
   font-weight: 500;
 };
 
 @font-face {
   font-family: "Lato";
-  src: url("assets/fonts/Lato/Lato-LightItalic.ttf");
+  src: url("/css/assets/fonts/Lato/Lato-LightItalic.ttf");
   font-weight: 300;
   font-style:italic;
 };
+*/
 
 @mixin labelStyle {
   font-family: $UIFont;
