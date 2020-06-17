@@ -29,7 +29,8 @@ $blueHighlight: #f5fcff;
   background-position: left calc(50vw - var(--slantSize)) center;
   background-repeat: no-repeat;
   --verticalPadding: #{scaleUnit(4)};
-  --slantSize: 120px;
+  //changed
+  --slantSize: 0px;
   @include margin(bottom, 3);
   position: relative;
 
@@ -127,18 +128,18 @@ $blueHighlight: #f5fcff;
     }
 
     @include respond-to(medium-screens) {
-      --slantSize: 100px;
+      --slantSize: 0px;
       --width: 800px;
     }
 
     @media screen and (max-width: 850px) {
-      --slantSize: 85px;
+      --slantSize: 0px;
       --width: 625px;
     }
 
     @media screen and (max-width: 700px) {
       @include padding(top, 1.25);
-      @include padding(bottom, 2);
+      @include padding(bottom, 1.5);
       width: 300px;
       padding-left: var(--titleBoxPadding);
       padding-right: var(--titleBoxPadding);
