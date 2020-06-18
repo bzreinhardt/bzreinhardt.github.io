@@ -16,7 +16,6 @@
 sup{vertical-align:super; line-height:0.5em;}
 
 .definition {
-  font-style: italic;
   font-weight:bold;
 }
 
@@ -29,7 +28,7 @@ sup{vertical-align:super; line-height:0.5em;}
 
   line-height: 1.5;
   font-size: 85%;
-  font-family: "Crimson-Pro";
+  font-family: "Spectral";
 
   @include respond-to(handhelds) {
     border-left: none;
@@ -76,8 +75,9 @@ sup{vertical-align:super; line-height:0.5em;}
 }
 
 .internal-link {
-  color: $gray60;
-   box-shadow: inset 0 -2px 0 white, inset 0 -3px 0 $gray60;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #aaaaaa
 }
 
 .distillationHeader {
