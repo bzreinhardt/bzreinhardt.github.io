@@ -133,7 +133,7 @@ $blueHighlight: #f5fcff;
     }
 
     @media screen and (max-width: 850px) {
-      --slantSize: 0px;
+      --slantSize: px;
       --width: 625px;
     }
 
@@ -203,6 +203,11 @@ $blueHighlight: #f5fcff;
       @include respond-to(handhelds) {
         @include margin(top, 1);
       }
+
+      @media screen and (max-width: 700px) {
+        @include margin(bottom, 1.25);
+      }
+
 
       // TODO: factor font if possible
       p {
