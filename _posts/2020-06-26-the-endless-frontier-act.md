@@ -1,0 +1,88 @@
+This is going to be a painfully cliched, but imagine that the American science and technology system is an engine. It’s just not performing as well as it used to. It’s making a lot of noise and when we push the accelerator it’s sluggish. This bill assumes the solution is STEP ON THE ACCELERATOR HARDER. That is, it wants to slam more money through a system shot through with friction and bad incentives. Slamming on the accelerator when your engine has problems doesn’t often fix the problem. I’ve tried it, and it ended up with my car ‘[throwing a rod](https://www.cartalk.com/content/what-does-it-mean-throw-rod#:~:text=The%20motion%20of%20that%20piston,one%20of%20two%20things%20occurs.).’
+
+Senator Todd Young (R-Ind.), Senate Democratic Leader Chuck Schumer (D-N.Y.), Congressman Ro Khanna (D-Calif.), and Congressman Mike Gallagher (R-Wis.) introduced “The Endless Frontier Act” a bipartisan bill to spend $100B to super-charge the National Science Foundation at the end of May. You can read an official announcement [here](https://www.young.senate.gov/newsroom/press-releases/young-schumer-unveil-endless-frontier-act-to-bolster-us-tech-leadership-and-combat-china) and Noah Smith’s summary on Bloomberg [here](https://www.bloomberg.com/opinion/articles/2020-06-01/the-u-s-gets-serious-about-catching-up-to-china-in-r-d).
+
+Some thoughts after reading through the actual text of the bill. (My eyes will bleed so yours don’t need to.)
+
+This bill is proposing to give money with risk-averse restrictions to a risk-averse organization (the NSF) to be dispersed among other risk-averse organizations (Universities) into a system with increasingly risk-averse incentives.  Note that I’m not saying “it’s all fubar’d lets burn it to the ground!” but I am suggesting that instead of slamming on the accelerator, we should be asking “what would a tune-up and an oil change look like instead? “
+
+### The Bill
+The bill comes back to its  `Key Technology Focus Areas` throughout the document:
+
+(i) artificial intelligence and machine learning;
+(ii) high performance computing, semiconductors, and advanced computer hardware
+(iii) quantum computing and information systems
+(iv) robotics, automation, and advanced manufacturing
+(v) natural or anthropogenic disaster prevention
+(vi) advanced communications technology
+(vii) biotechnology, genomics, and synthetic biology
+(viii) cybersecurity, data storage, and data management technologies;
+(ix) advanced energy
+(x) materials science, engineering, and exploration relevant to the other key technology focus areas described in this subparagraph.
+
+That list is pretty uncontroversial.[^1] And that should raise a flag. In other words, this is a list of “what are the top 10 hot technologies right now?” What if there is suddenly a huge opportunity in airship technology? Or underground construction? Or wormholes? It wouldn’t be too much of a problem but this list can only be changed *every four years*.  You could make the argument that these definitions are so broad that anything could fit in them - ok, then what’s the point of having the list in the first place?  
+
+The bill is heavy on bureaucratic requirements and light on science or organizational structure (“we’ll figure that out later.”)  Which reports need to be given to whom and when, how money can and can’t be spent, etc. I agree that this is the job of lawmakers, but it doesn’t feel like opening up an endless frontier, it feels like “here are the walls of your sandbox.”
+
+We are very clear that the grant awards are going to happen on a competitive basis. The bill is shot through with the term `award grants, on a competitive basis` . This is code for “to get this money, amazing scientist, are going to need to spend a good chunk of your life writing grants” and interacting with websites that look like [this.](https://www.research.gov/research-web/) or [this](https://www.grants.gov/).  Competition is good *when the output is valuable no matter who wins.* Failed grants are basically worthless except as the basis for other grant applications. Economist [Mike Munger does a great job explaining how grants can often end up burning more value than they create](https://www.youtube.com/watch?feature=player_embedded&v=XwBP_pqkGJA).  Months of grant writing is one of the things that makes people think twice about academia.
+
+The bill specifies exactly what the money can be used for `may be used for the purchase of equipment, the support of graduate students and postdoctoral researchers, and the salaries of staff. ` Like the key areas, this sounds eminently reasonable. However, it means that grant money, unlike normal money, is not fully fungible. You need to track all of it and where it goes in case you are audited. It also means that if the project runs into an expense that doesn’t fall into one of these buckets - say you need a specialized service from a company to do an experiment - you’re stuck. Chilling effects are hard to measure, but my research experience has been shot through with being forced to pay more for an inferior product through a web portal that made your eyes bleed because we had to prioritize “approved vendors” for accounting reasons tied to restrictions like these.
+
+I don’t think it matters for this discussion but `$20B/year` is misleading - the actual bill specifies that the $100B will be backloaded: $2B in 2021, $8B in 2022, $20B in 2023, and $35B in 2024 and 2025.
+
+### NS(T?)F
+`“I share your feeling about this point,” I said with the fervor of conviction, “but then why not do something about the retardation of scientific progress?”`
+
+`“That I would very much like to do,” Mark Gable said, “but how do I go about it?”`
+
+`“Well,” I said, “I think that shouldn’t be very difficult. As a matter of fact, I think it would be quite easy. You could set up a foundation, with an annual endowment of thirty million dollars. Research workers in need of funds could apply for grants, if they could make out a convincing case. Have ten committees, each composed of twelve scientists, appointed to pass on these applications. Take the most active scientists out of the laboratory and make them members of these committees. And the very best men in the field should be appointed as chairmen at salaries of fifty thousand dollars each. Also have about twenty prizes of one hundred thousand dollars each for the best scientific papers of the year. This is just about all you would have to do. Your lawyers could easily prepare a charter for the foundation. As a matter of fact, any of the National Science Foundation bills which were introduced in the Seventy-ninth and Eightieth Congresses could perfectly well serve as a model.”`
+
+`“I think you had better explain to Mr. Gable why this foundation would in fact retard the progress of science,” said a bespectacled young man sitting at the far end of the table, whose name I didn’t get at the time of introduction. It should be obvious,” I said. “First of all, the best scientists would be removed from their laboratories and kept busy on committees passing on applications for funds. Secondly, the scientific workers in need of funds would concentrate on problems which were considered promising and were pretty certain to lead to publishable results. For a few years there might be a great increase in scientific output; but by going after the obvious, pretty soon science would dry out. Science would become something like a parlor game. Some things would be considered interesting, others not. There would be fashions. Those who followed the fashion would get grants. Those who wouldn’t would not, and pretty soon they would learn to follow the fashion, too.”`
+From [The Marla Gable Foundation](https://judgestarling.tumblr.com/post/619829573132107776/a-short-story-by-martian-physicist-le%C3%B3-szil%C3%A1rd) by Nobel Prize winning Physicist Leo Szilard, published in 1948.
+
+The core idea of the bill is to increase the National Science Foundation’s funding and expand its mandate to include technology development as well as science.
+
+Roughly, the National Science Foundation - NSF (and the NIH) decide what to work on by getting some of the ‘top people’ in a field together in a room and asking them “what programs should we pursue?” This process depends first on being able to identify the top people in a field and convincing them to stay in a shitty hotel in Washington. So the agenda is being set by ‘the top people in a field who are willing to come to Washington and stay in a shitty hotel.’ Additionally, who entails the ‘top people’ is up to the program officers and since professors have long term relationships with their NSF program officers, chances are that the professors who have put the work into those relationships are going to be the most salient.
+
+All the incentives are set up so people probably push for their lines of research. Even if they are being completely intellectually honest, researchers probably think that their area of research is the most important thing to fund. If they are slightly less intellectually honest, they realize that they’re more likely to be funded if their priorities line up with the NSF’s.
+
+The process is inherently conservative because if you’re consulting the top people in a field on what to fund, the chances they’ll suggest the weird new thing are low.  
+
+#### But will be like DARPA!
+
+DARPA has a great track record of enabling paradigm shifting technology - it had its fingers in the creation of personal computing, the internet, modern robotics, gps, and autonomous cars, to name a few. Riffing on DARPA’s model to emulate its success is a worthy goal. However, there is only one section in the entire bill that gives a head nod to the DARPA model:
+
+`The Director shall have the authority to carry out a program of personnel management authority for the Directorate in the same manner, and subject to the same requirements, as the program of personnel management authority authorized for the Director of the Defense Advanced Research Projects Agency under section 1599h of title 10, United States Code, for the Defense Advanced Research Projects Agency.`
+`(B) PROGRAM MANAGERS.—The employees of the Directorate may include program managers for the key technology focus areas, who shall perform a role similar to programs managers employed by the Defense Advanced Research Projects Agency for the oversight and selection of programs supported by the Directorate. `
+
+DARPA’s program managers work because they are embedded in an organizational structure and culture that is tuned to empower them to explore high-risk opportunities. DARPA has ~125 staff and three layers of hierarchy while the NSF has 1400 staff. DARPA PMs are able to spend and shift money without much overhead. There’s nothing in this bill suggesting that NSF PMs would be delegated the power needed to run effective high-risk high-reward programs. I’m pretty sure that you can’t just bolt people called ‘program managers’ onto an existing organization and hope to get results like DARPA.
+
+### Universities and the system as a whole
+
+The bill is designed to funnel money through the system of universities, peer review, and ‘academia’ in general. The ways in which this system piles on friction and conservative incentives are legion, but to name a few: Universities can take more than half of grant money as administrative overhead[^2]; universities are incentivized to prioritize research that brings in big grants that are given for research that requires lots of grad students and equipment, so high quality theoretical and low-equipment work is marginalized; academics are incentivized to work on publishable work[^3] over groundbreaking work; there’s a big gap between labs and useful technology; the winners tend to win more, even though amazing discoveries consistently come from upstarts; tech transfer offices; the most successful professors are not necessarily the best professors; grad student labor shenanigans; and more.
+
+For more, see Patrick Collison and Michael Nielsen’s [Science is getting less bang for its buck](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/) Tyler Cowen and Ben Southwood’s [Is the rate of scientific progress slowing down?](https://www.brown.edu/academics/political-theory-project/sites/brown.edu.academics.political-theory-project/files/uploads/Innovation%20%26%20scientific%20progress.pdf),  Bloom, Jones, Van Reenen and Webb’s [Are ideas getting harder to find?](https://web.stanford.edu/~chadj/IdeaPF.pdf), and Bhattacharya and Packalen’s [Stagnation and Scientific Incentives](https://www.nber.org/papers/w26752).
+
+
+![](https://storage.googleapis.com/bzreinhardt-images/bhattacharya-packalen-diagram.png)
+
+Image from Stagnation and Scientific Incentives
+
+To reiterate: this isn’t necessarily to say “we shouldn’t put any more money into the system until we fix it” or “burn it all down!” But ignoring the systemic issues entirely and slamming on the accelerator seems like the waste of a good opportunity.
+
+Young and Schumer could the energy to fund a slew of small experiments into new institutional structures and ways to fix incentives and remove friction in the system we have today.
+
+What could these experiments look like?  
+- **Long term funding for people, not projects.** The Howard Hughes Medical Institute selects fellows to receive ~$1m/year over seven years to be spent on whatever they see fit as opposed to constantly writing grant applications and focusing on project deliverables. This allows researchers to focus on long-term projects and to quickly discard dead-ends. HHMI’s entire budget is ~1/20th of the proposed NSF expansion but has yielded 17 Nobel prizes and created massive respect among the scientific community.  
+- **Funding medium science.** There is a gap in science funding for ‘medium science’ - projects that cost dozens, but not hundreds of millions of dollars to complete. There are many grants for projects that cost <$10m. Big Science’ projects that cost >$100m like the LHC and ITER do tend to happen albeit slowly. Scientist [Adam Marblestone](http://web.mit.edu/amarbles/www/index.html) has pointed out that there are many projects in this gap that could potentially have huge payoffs, but do not get funded because there aren’t many systems in place to fund projects of that size besides maybe DARPA programs.
+- **Give riffing on DARPA  a real shot.**.The proposed ‘DARPA-like program managers’ won’t work unless they are embedded in an organization set up to empower them to work on high risk, non consensus programs. The NSF is not set up this way, but it could create a ‘wholly owned subsidiary’ from scratch to riff on DARPA. DARPA’s entire budget is $3B: 3/20th of the proposed expansion.
+- **Try faster grants.** The grant application process can take months and approaches a full-time job.  Formed in the face of the COVID crisis, the philanthropic [Fast Grants](https://fastgrants.org/) showed that this doesn’t need to be the case. The Infinite Frontier Bill could run an experiment with an initially small pool of money for grants that require short applications and make decisions in days. You can literally science the science by rigorously measure the science quality that comes out of them compared to a control group.
+- **Don’t shackle research to universities.** The university is at the core of the system Bush set up after WWII. The Infinite Frontier Bill continues that tradition by planning to channel the money through Universities and University-led consortia. However, America has a long tradition of research done outside of universities, whether it is at corporate labs or in people’s
+- **Play around with prizes.** Several economists have suggested that prizes could provide an alternative to grants with much less overhead on both sides of the table. Prizes have a storied history in spurring innovation - from transatlantic airplane travel to navigational instruments.
+- **Poke at IP.** Vannevar Bush realized that scientists would be incentivized to commercialize their inventions if they could make money off of them. This (correct) sense was codified in the Bayh-Dole act in 1980, which gave universities default ownership of any IP created by federal research. Good-intentioned results can lead to bad results. Anybody who wants to commercialize research has to negotiate with dreaded tech transfer offices. [The litany of problems is long](https://researchenterprise.org/), but  consider the example of a complex product that depends on inventions at two different universities. Each will want a large enough chunk that it would be totally unprofitable. There are possible alternatives to the current system that preserve the profit motive while addressing the poor incentives that have become baked into the system. These include consulting-based IP transfer in which professors make *more* money when multiple companies use their invention and government patent purchases.
+
+Thanks to Luke Constable and Jason Crawford for feedback on this piece.
+
+[^1]:Although it is missing anything around transportation, space, nanotechnology.
+[^2]:While some of the administrative overhead does help with research by maintaining buildings, much of it does not.
+[^3]:Published papers (especially ones that are highly cited soon after they are published) are by definition papers that other people think are interesting. Therefore if you want to maximize publications, maverick work is a poor decision. Other documented problems with peer review are legion.
