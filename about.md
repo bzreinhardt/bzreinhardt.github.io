@@ -4,17 +4,17 @@ permalink: "/about/"
 layout: page
 ---
 
-Currently, I'm an EIR at [Entrepreneur First][EF] in Singapore where I help ambitious people build teams and companies.
+Currently I'm exploring how to enable more amazing sci-fi things to become reality. 
 
 I also host the [Idea Machines Podcast][ideamachines] where I have long form conversations with experts in different [innovation systems][systems].  
 
- In the past I was an EIR at [Susa Ventures][susa] and tried to use robots to help older adults stay at home longer. Deeper in the past, I [taught computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm one of the few people in the world with a Bachelor of Science in History.
+ In the past I was an EIR at [Entrepreneur First][EF] in Singapore where I helped ambitious people build teams and companies. Before that I was a different kind of EIR [Susa Ventures][susa] and tried to use robots to help older adults stay at home longer. Deeper in the past, I [taught computers to understand the world][deeplearning] at [Magic Leap][magicleap]. I used to build [tractor][tractor] [beams][beams] for space robotics at [Cornell][lab]. I've, been a plumber, an archer, a waiter, a nazgul, and an oregano salesman. I'm one of the few people in the world with a Bachelor of Science in History.
 
 Multi-Class Fighter/Mage with some levels in Bard.
 
 **How to get in Touch**
 [Twitter](http://www.twitter.com/ben_reinhardt)
-[LinkedIn](http://linkedin.com/in/benjaminzreinhardt) 
+[LinkedIn](http://linkedin.com/in/benjaminzreinhardt)
 
 
 
