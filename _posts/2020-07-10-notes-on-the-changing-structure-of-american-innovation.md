@@ -1,5 +1,5 @@
 ---
-title: Notes on The changing structure of American innovation - Some cautionary remarks for economic growth
+title: Notes on The changing structure of American innovation
 date: 2020-07-10
 permalink: /notes-on-the-changing-structure-of-american-innovation
 tags:
