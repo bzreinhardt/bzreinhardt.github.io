@@ -12,7 +12,7 @@ layout: post
 
 Spoiler alert: Yes.
 
-The paper also asks “Are scientists becoming less productive?” To which the answer is also yes. *For a very specific and non-intuitive definition of ideas.* Understanding this paper is all about grokking definitions and the context of its arguments.
+The paper also asks “Are scientists becoming less productive?” To which the answer is also yes. *For a very specific and non-intuitive definition of ideas.* Understanding this paper is all about grokking definitions and the context of its arguments. At the end of the day the paper is pushing back against the endogenous growth model of economics that assumes that a fixed number of scientists should be able to generate a constant rate of exponential growth.
 
 In all fairness, the authors do note in the middle of page five that a more accurate title might have been `Is exponential growth getting harder to achieve?` Unfortunately it is buried so deep that it doesn’t absolve the suggestions of graphs like the one below, which unless you understand the embedded assumptions about ideas, amounts to “wow, scientists today suck compared to the 1930’s. I mean, Einstein and Bohr were pretty badass, but all the 1930’s scientists taken together were 30x better than 2000’s scientists?”
 ![](https://storage.googleapis.com/bzreinhardt-images/F6EC6C10-4FAD-4766-B7AC-C76D2C11C259.png)
