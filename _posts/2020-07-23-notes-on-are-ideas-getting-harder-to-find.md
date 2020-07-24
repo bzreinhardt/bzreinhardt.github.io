@@ -23,7 +23,7 @@ According to the paper, in growth economics an *idea* is defined as a thing that
 
 “Hey couple hundred folks doing science at the end of the 19th century - y’know if you don’t keep the economy growing at the same rate you’re slacking on the job.”
 
-I have very little understanding of traditional endogenous growth economics so I wonder if this is a gross misinterpretation of its null hypothesis.
+I have very little understanding of traditional endogenous growth economics so I wonder if this is a gross misinterpretation of its null hypothesis. There are several other important points that are important for thinking about this area that aren't part of the paper and thus I won't dig into here. One is the usefulness of GDP and the TFP derived from it as metrics for progress - especially in research. Another is the assumption that the equilibrium state of GDP is to increase at a constant rate, which underlies the definition of ideas. But these are other discussions for other times (and frankly I don't understand them well enough to weigh in.)
 
 The rest of the paper makes a lot of sense if you view it through the lens of providing evidence that throughout the economy, a constant number of researchers are unable to discover and invent enough to maintain a constant exponential growth rate. That isn’t to say that most areas haven’t been able to maintain a constant exponential growth rate, though. In my mind, "ideas getting harder to find" leads to “there are fewer ideas to be found” which would imply slowing or stagnant growth. This is the case in a few areas that the authors examined, but in many areas there’s been a lot of progress! It feels unfair to compare constant growth *rates* to absolute numbers of researchers.
 
@@ -59,6 +59,8 @@ At the same time, it’s also worth asking "what are implications of those diffe
 - Jason Crawford’s[Teasing Apart S-Curves](https://rootsofprogress.org/teasing-apart-the-s-curves)
 
 (Very open to other suggestions to add to this list!)
+
+Thanks to Martin Permin, Luke Constable, and Cheryl Reinhardt for feedback and suggestions.
 
 [^1]: There has been some cool work on this subject, but it feels underdeveloped compared to the brunt of AI research.
 [^2]: Full disclosure: I do think science-driven growth is important. My reasoning follows the lines of Tyler Cowen’s arguments in [Stubborn Attachments](https://www.amazon.com/Stubborn-Attachments-Prosperous-Responsible-Individuals/dp/1732265135/ref=sr_1_2?dchild=1&keywords=tyler+cowen&qid=1595524269&sr=8-2) and [Peter Thiel’s arguments around the relationship between growth and violence](https://medium.com/@arnoldkling/peter-thiel-and-eric-weinstein-annotated-bd1de574d4bd#:~:text=At%20an%20hour%20and%2032,among%20humans%20is%20very%20high.).
