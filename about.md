@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-Currently I'm exploring how to enable more amazing sci-fi things to become reality. 
+Currently I'm exploring how to enable more amazing sci-fi things to become reality.
 
 I also host the [Idea Machines Podcast][ideamachines] where I have long form conversations with experts in different [innovation systems][systems].  
 
@@ -13,9 +13,11 @@ I also host the [Idea Machines Podcast][ideamachines] where I have long form con
 Multi-Class Fighter/Mage with some levels in Bard.
 
 **How to get in Touch**
-[Twitter](http://www.twitter.com/ben_reinhardt)
-[LinkedIn](http://linkedin.com/in/benjaminzreinhardt)
+[Twitter](http://www.twitter.com/ben_reinhardt) DMs are great!
 
+[Email is also good](mailto:ben@benjaminreinhardt.com).
+
+[I'm experimenting with doing digital office hours](https://ben-reinhardt.youcanbook.me/)
 
 
 [systems]:https://en.wikipedia.org/wiki/Innovation_system
