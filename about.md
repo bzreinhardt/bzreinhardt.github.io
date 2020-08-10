@@ -4,7 +4,9 @@ permalink: "/about/"
 layout: page
 ---
 
-Currently I'm exploring how to enable more amazing sci-fi things to become reality.
+I'm working on how to enable more amazing sci-fi things to become reality.
+
+[Here are ~monthly updated details about what's top of mind and what I'm working on currently.](https://notes.benjaminreinhardt.com/Top_of_mind)
 
 I also host the [Idea Machines Podcast][ideamachines] where I have long form conversations with experts in different [innovation systems][systems].  
 
