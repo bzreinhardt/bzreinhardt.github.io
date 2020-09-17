@@ -1,8 +1,9 @@
 ---
 title: Science Fiction's Untapped Potential
-date: 2020-07-23
-permalink: /science-fictions-upntapped-potential
+date: 2020-09-17
+permalink: /science-fictions-untapped-potential
 tags:
+-
 layout: post
 ---
 *When an elder preeminent scientist says that something is impossible, he’s probably wrong. When a elder preeminent scientist says something might be possible, he’s probably right.*
