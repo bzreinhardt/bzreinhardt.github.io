@@ -7,6 +7,7 @@ tags:
 layout: post
 ---
 *When an elder preeminent scientist says that something is impossible, he’s probably wrong. When a elder preeminent scientist says something might be possible, he’s probably right.*
+
 — Clarke’s Law, Arthur C. Clarke
 
 Most efforts to create better predictions today focus on maximizing accuracy. What if instead, predictions attempted to maximize agency by highlighting possible non-obvious actions? These predictions usually go by another name: science fiction.  However people don’t treat science fiction as a serious predictive tool. As a consequence the people best equipped to write predictive science fiction - scientists, engineers, and economists - do not.
