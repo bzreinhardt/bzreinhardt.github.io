@@ -24,7 +24,7 @@ Imagine financial science fiction written by economists exploring funding mechan
 
  Writing science fiction could enable experts to create predictions that explore the consequences of changes in a way that non-experts can engage with, instead of being forced into a binary agree/disagree.  Good science fiction creates a self-consistent world. Self-consistent worlds have rules. Rules allow you to apply *logic* to extend the world beyond the parts that you can explicitly see.  This logic enable your mind to “play” around with that world. In a way the self-consistency of the story is supporting evidence as powerful as precise arguments. People are incredible at noticing when something is ‘off’ so suspension of disbelief is quickly shattered inconsistencies in a fictional world.
 
-To some extent, people already treat science fiction as a prediction and act accordingly. In part, science fiction put rockets as the key to space into the heads of Werner von Braun and other driving forces behind the space race both in the US and the USSR.  How many engineers now say that they’re trying to build The Young Lady’s Illustrated Primer from Diamond Age, or The Multiverse from Ready Player One? You can argue which way the causal arrow points, but surely Black Mirror has given some people a negative outlook on the future.
+To some extent, people already treat science fiction as a prediction and act accordingly. In part, science fiction put rockets as the key to space into the heads of Werner von Braun and other driving forces behind the space race both in the US and the USSR.  How many engineers now say that they’re trying to build The Young Lady’s Illustrated Primer from Diamond Age, or OASIS from Ready Player One? You can argue which way the causal arrow points, but surely Black Mirror has given some people a negative outlook on the future.
 
 You could go so far as to analyze science fiction as case studies from a future world. Good science fiction creates a self-consistent world that can enable you to draw off the edge of the map. If the sci-fi world is consistent with the real world, you could conceivably fill in the space between the two and end up with a roadmap for building the future.
 
@@ -32,4 +32,6 @@ Case study analysis entails picking apart a story into structured knowledge and 
 
 Would people ever take predictive science fiction seriously? Policy proposals and future predictions are Very Serious™ and science fiction is entertainment. On a short timeline, people will probably not take ideas from science fiction as seriously as a policy proposal or a paper. The mechanism of action for ideas embedded in science fiction is different. They’re meant to percolate through people’s heads over time.  I realize I haven’t taken my own advice by writing this as an essay - let’s let that expectation change over time.
 
-Thanks to Martin Permin for reading drafts of this piece.
+Thanks to Martin Permin and Rohit Jha for reading drafts of this piece.
+
+*Updated 2020-09-18 - Ready Player One doesn't actually call OASIS a multiverse*
