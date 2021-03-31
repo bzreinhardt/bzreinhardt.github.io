@@ -1,0 +1,313 @@
+---
+---
+@import "essay.scss";
+@import "common.scss";
+@import "Nav.scss";
+
+$redHighlight: #fffafa;
+$blueHighlight: #f5fcff;
+
+.HeroContainer {
+  --titleBoxPadding: #{scaleUnit(2)};
+
+  @media screen and (max-width: 700px) {
+    background-image: url("assets/parpa-hero-mobile.png");
+    background-position: center center;
+    background-size: cover;
+    --titleBoxPadding: #{scaleUnit(1.5)};
+    padding-top: calc(var(--verticalPadding) + var(--titleBoxPadding));
+    padding-bottom: calc(var(--verticalPadding) + var(--titleBoxPadding));
+    background-size: 105%;
+    @include margin(bottom, 1.5);
+    --verticalPadding: 8px;
+    --slantSize: 0px;
+
+    border-bottom: 1px solid darken(saturate($blueHighlight, 20%), 15%);
+  }
+
+  background-image: url("assets/parpa-hero-option-dyson.png");
+  background-position: left calc(50vw - var(--slantSize)) center;
+  background-repeat: no-repeat;
+  --verticalPadding: #{scaleUnit(4)};
+  //changed
+  --slantSize: 0px;
+  @include margin(bottom, 3);
+  position: relative;
+
+  @media print, screen and (min-width: 701px) {
+    background-size: 70%;
+    @media screen and (max-width: 1500px) {
+      background-size: 90%;
+    }
+
+    &::before {
+      // z-index: 0;
+      position: absolute;
+      content: "";
+      left: 0;
+      right: calc(50% - var(--slantSize) / 2);
+      top: 0;
+      bottom: -1px;
+      background-image: url("assets/parpa-hero-option-ship.png");
+      // background-position: right calc(50vw - var(--slantSize) / 2) top -20px;
+      background-repeat: no-repeat;
+      background-color: $redHighlight;
+      background-size: 180%;
+      border-bottom: 1px solid darken(saturate($redHighlight, 30%), 10%);
+      clip-path: polygon(calc(100% - var(--slantSize)) 100%, 100% 0%, 100% 100%);
+      -webkit-clip-path: polygon(0% 0%, 100% 0%, calc(100% - var(--slantSize)) 100%, 0% 100%);
+
+      @media screen and (max-width: 1000px) {
+        background-size: 230%;
+      }
+
+    }
+
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      left: calc(50% - var(--slantSize) / 2);
+      right: 0;
+      top: 0;
+      bottom: -1px;
+      // background: $blueHighlight;
+      border-bottom: 1px solid darken(saturate($blueHighlight, 30%), 10%);
+    }
+  }
+
+
+  .HeroContents {
+    // position: relative;
+    background-color: #2e3e2e;
+
+    --width: 900px;
+    max-width: var(--width);
+    padding-left: calc(var(--titleBoxPadding) + #{scaleUnit(1)});
+    padding-right: calc(var(--slantSize) + #{scaleUnit(1.5)});
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    @mixin big-devices {
+      padding-top: calc(var(--verticalPadding) + var(--titleBoxPadding));
+      padding-bottom: calc(var(--verticalPadding) + var(--titleBoxPadding));
+      clip-path: polygon(calc(50% - var(--width) / 2) calc(100% - var(--verticalPadding)),
+                         calc(50% - var(--width) / 2 + var(--slantSize)) var(--verticalPadding),
+                         calc(50% + var(--width) / 2) var(--verticalPadding),
+                         calc(50% + var(--width) / 2 - var(--slantSize)) calc(100% - var(--verticalPadding)));
+      -webkit-clip-path: polygon(calc(50% - var(--width) / 2) calc(100% - var(--verticalPadding)), calc(50% - var(--width) / 2 + var(--slantSize)) var(--verticalPadding), calc(50% + var(--width) / 2) var(--verticalPadding), calc(50% + var(--width) / 2 - var(--slantSize)) calc(100% - var(--verticalPadding)));
+
+      &::before {
+        content: "";
+        float: left;
+        width: var(--slantSize);
+        height: 300px;
+        --slantScaleFactor: 0.8;
+
+        @include respond-to(medium-screens) {
+          height: 250px;
+          --slantScaleFactor: 0.75;
+        }
+
+        @media screen and (max-width: 850px) {
+          height: 200px;
+          --slantScaleFactor: 0.75;
+        }
+
+        shape-outside: polygon(0% 100%, calc(var(--slantSize) * var(--slantScaleFactor)) 0%, 0% 0%);
+      }
+    }
+
+    @media screen and (min-width: 701px) {
+      @include big-devices;
+    }
+    @media print {
+      @include big-devices;
+    }
+
+    @include respond-to(medium-screens) {
+      --slantSize: 0px;
+      --width: 800px;
+    }
+
+    @media screen and (max-width: 850px) {
+      --slantSize: px;
+      --width: 625px;
+    }
+
+    @media screen and (max-width: 700px) {
+      @include padding(top, 1.25);
+      @include padding(bottom, 1.5);
+      width: 300px;
+      padding-left: var(--titleBoxPadding);
+      padding-right: var(--titleBoxPadding);
+    }
+
+
+    h1 {
+      color: $primaryExtraDark;
+      font-family: Archivo, sans-serif;
+      font-weight: 700;
+      -webkit-font-smoothing: antialiased;
+      background: linear-gradient(to right, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 48px;
+      letter-spacing: -0.03em;
+      line-height: 100%;
+
+      @include respond-to(non-handhelds) {
+        margin-right: -1em;
+      }
+
+      @include respond-to(medium-screens) {
+        font-size: 30px;
+        letter-spacing: -0.02em;
+        line-height: 31px;
+        --width: 13.25em;
+      }
+
+      @media screen and (max-width: 850px) {
+        font-size: 22px;
+        letter-spacing: -0.025em;
+        line-height: 23px;
+      }
+
+      @media print {
+        font-size: 48px;
+        letter-spacing: -0.02em;
+        line-height: 52px;
+      }
+
+      @media screen and (max-width: 700px) {
+        font-size: 26px;
+        line-height: 28.5px;
+        letter-spacing: -0.006em;
+        background: linear-gradient(to bottom, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%) 170%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    h2 {
+      color: $primaryExtraDark;
+      font-family: Archivo, sans-serif;
+      font-weight: 600;
+      -webkit-font-smoothing: antialiased;
+      background: linear-gradient(to right, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 36px;
+      letter-spacing: -0.03em;
+      line-height: 100%;
+
+      @include respond-to(non-handhelds) {
+        margin-right: -1em;
+      }
+
+      @include respond-to(medium-screens) {
+        font-size: 24px;
+        letter-spacing: -0.02em;
+        line-height: 25px;
+        --width: 13.25em;
+      }
+
+      @media screen and (max-width: 850px) {
+        font-size: 18px;
+        letter-spacing: -0.025em;
+        line-height: 19px;
+      }
+
+      @media print {
+        font-size: 48px;
+        letter-spacing: -0.02em;
+        line-height: 52px;
+      }
+
+      @media screen and (max-width: 700px) {
+        font-size: 17px;
+        line-height: 18px;
+        letter-spacing: -0.006em;
+        background: linear-gradient(to bottom, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%) 170%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .Subtitle {
+      @include margin(top, 2);
+
+      justify-content: space-between;
+      align-items: baseline;
+
+      @include respond-to(handhelds) {
+        @include margin(top, 1);
+      }
+
+      @media screen and (max-width: 700px) {
+        @include margin(bottom, 1.25);
+      }
+
+
+      // TODO: factor font if possible
+      p {
+        font-family: $UIFont;
+        font-size: 22px;
+        line-height: 100%;
+        letter-spacing: 0.005em;
+
+        @media screen and (max-width: 850px) {
+          font-size: 18px;
+          letter-spacing: 0;
+        }
+
+        background: linear-gradient(to right, #ffdcdc, #eaf7fc);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include respond-to(handhelds) {
+          font-size: 15px;
+          line-height: 135%;
+          width: 100%;
+          background: none;
+          -webkit-text-fill-color: currentcolor;
+          color: $blueHighlight;
+        }
+      }
+
+      .Authors {
+        flex-grow: 1;
+
+        margin-bottom: 0;
+
+        a {
+          color: inherit;
+
+          &:hover {
+            border-bottom: 1px solid rgba(#fff, 0.5);
+          }
+        }
+      }
+
+      .Date {
+        font-family: $UIFont;
+        opacity: 0.5;
+        mix-blend-mode: screen;
+
+        @include respond-to(non-handhelds) {
+          float: right;
+          margin-top: -1em;
+        }
+      }
+    }
+  }
+}

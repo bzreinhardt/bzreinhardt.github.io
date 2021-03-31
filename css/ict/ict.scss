@@ -1,0 +1,162 @@
+---
+
+---
+@import "essay.scss";
+@import "Button.scss";
+
+.emphasis {
+  font-style: italic;
+}
+
+.date {
+  float:right;
+  font-weight: bolder;
+}
+
+sup{vertical-align:super; line-height:0.5em;}
+
+.definition {
+  font-weight:bold;
+}
+
+.noteToReader {
+  text-size:smaller;
+  font-style:italic;
+}
+
+.blockquote {
+
+  line-height: 1.5;
+  font-size: 85%;
+  font-family: "Spectral";
+
+  @include respond-to(handhelds) {
+    border-left: none;
+  }
+}
+
+.bq1 {
+  padding-left: 16px;
+  border-left: 5px solid #577da4;
+  width: 75%; }
+.bq1 p {
+  font-style: italic;
+  font-size: 75%;
+  color: #8c8785;
+  font-family: Arial, Tahoma, sans-serif;}
+
+.quote {
+  //font-family: "Crimson-Pro";
+  font-style: italic;
+  //font-size:85%;
+}
+
+.TableOfContents a {
+    transition: all 100ms ease-in-out;
+}
+
+.TableOfContents li.active > a {
+    color: #333;
+    font-weight: bolder;
+}
+
+.MobileSiteList {
+  visibility:hidden;
+  background: white;
+  height: 100%;
+  top: 60px;
+  right:0px;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+.MobileSiteList.active {
+  visibility: visible;
+}
+
+.internal-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #aaaaaa
+}
+
+.image-paragraph {
+  text-align: center;
+  font-size: 80%;
+}
+
+.toc_persona {
+  border-left-style:solid;
+  border-left-color:#ff0000;
+  border-left-width: medium;
+  padding-left: 4px;
+}
+
+
+.distillationHeader {
+  font-weight: bolder;
+}
+// CSS for pop up footnotes
+a sup.mark {
+    font-size: 75%;
+    //font-weight: bold;
+}
+
+
+div.popup {
+    position: fixed;
+    margin: 0;
+    transform: translateY(-100%) translateY(-$lineHeight);
+    background: #ffffff;
+    font-size: 50%;
+    font-family: $UIFont;
+    border: 1px solid #A0A090;
+    overflow-y: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+div.revealed {
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 200;
+    opacity: 1;
+}
+
+div.concealed {
+    visibility: hidden;
+    pointer-events: none;
+    z-index: -99999;
+    opacity: 0;
+    top:  -99999px;
+    left: -99999px;
+}
+
+
+
+div#popupsumdiv {
+    color: #fff;
+    background: #000 !important;
+    padding: 6px 0px;
+ }
+
+div#popupsumdiv p {
+    padding: 1em 0.6em 0.6em 0.6em;
+}
+
+div#popupeqdiv {
+    padding: 0.65em 3px;
+}
+
+div#footnotediv {
+    padding: 2px 3px 2px 7px;
+}
+
+div#popupfigdiv {
+    padding: 0 3px;
+}
+
+
+div.popup.mobile a {
+    font-size: 120%;
+}

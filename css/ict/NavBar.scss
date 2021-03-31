@@ -1,0 +1,114 @@
+---
+
+---
+@import "common.scss";
+
+@mixin NavList {
+  padding-left: 0;
+
+  li {
+    @include labelStyle;
+    list-style: none;
+  }
+
+  a {
+    color: $gray60;
+  }
+
+  &.Active,
+  .Active {
+    &>a {
+      color: $primaryExtraDark !important;
+    }
+  }
+
+  &.Disabled,
+  .Disabled {
+    color: $gray50;
+    cursor: not-allowed;
+  }
+}
+
+@mixin Sidebar {
+  @include hideOnHandhelds;
+
+  width: $desktopNavColumnWidth;
+
+  @include respond-to(narrow) {
+    width: $narrowNavColumnWidth;
+    // margin-left: -1 * $narrowNavColumnWidth;
+  }
+}
+
+#NavContainer {
+
+  @include respond-to(handhelds) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+  }
+
+  @include respond-to(non-handhelds) {
+    margin-top: scaleUnit(-1);
+    top: 2px;
+    padding-bottom: scaleUnit(1);
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    height: calc(100vh - 0px); // patreon section
+    // @media screen and (max-height: 830px) {
+      margin-right: 3px;
+      // height: 100vh;
+      overflow: scroll;
+    // }
+    z-index: 1;
+    display: flex;
+  }
+
+  &>* {
+    pointer-events: auto;
+  }
+
+  .DesktopSidebarContainer {
+    @include Sidebar;
+    padding-top: scaleUnit(1);
+
+    .SiteMenu {
+      padding-top: 0;
+
+      .EssayList {
+        margin-top: 0;
+        padding-bottom: 120px;
+      }
+
+      .BottomMaterial {
+        flex-grow: 1;
+        flex-shrink: 0;
+        padding-bottom: scaleUnit(0);
+      }
+
+      .PatreonSection {
+        @include margin(top, 2);
+        height: auto;
+        box-shadow: 0px -5px 20px 5px white;
+        @media screen and (min-height: 831px) {
+          margin-top: 0;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+         }
+        background-color: white;
+      }
+    }
+
+    display: flex;
+  }
+
+  @media print {
+    display: none;
+  }
+}

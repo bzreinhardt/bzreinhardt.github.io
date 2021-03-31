@@ -1,0 +1,120 @@
+<html>
+{{HEAD}}
+<body>
+<div id="top"></div>
+<div class="HeroContainer">
+  <div class="HeroContents">
+    <h1>
+      {{TITLE}}
+    </h1>
+    <h2>
+      {{SUBTITLE}}
+    </h2>
+    <div class="Subtitle">
+      <p class="Authors">
+        <a href="https://benjaminreinhardt.com">Ben Reinhardt</a>
+      </p>
+      <p class="Date">{{PUBLISH_DATE}}</p>
+    </div>
+  </div>
+</div>
+<div id="NavContainer">
+  <!-- desktop nav stuff-->
+  <div class="DesktopSidebarContainer">
+    <div class="SiteMenu">
+      <ul class="EssayList">
+        <ul class="TableOfContents">
+          {{TABLE_OF_CONTENTS}}
+        </ul>
+      </ul>
+      <div class="BottomMaterial">
+        <div class="PatreonSection">
+
+          <p class="PatreonExplanation"> </p>
+          <p class="SponsorThanks">Thank you to <a href="https://www.astera.org/">The Astera Institute</a> for sponsoring this work!</p>
+          <p> <a href="">Download PDF </a></p>
+          <button class="Button secondary small loop_button" touch-action="manipulation" type="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfGZXNVaTaA4Oce8TrgfOBOftFrhmaqx_M7bAWvoUlxZ82bUw/viewform?usp%3Dsf_link';">Stay in the
+            Loop</button>
+
+
+
+        </div>
+          </div>
+      </div>
+  </div>
+
+    <!--Mobile Stuff -->
+    <div class="MobileNav">
+      <div class="LeftItems">
+        <div class="CurrentSectionLabel">
+          <p class="Section">
+            <span id="current_section_label"><!--First section header-->PLACEHOLDER</span>
+          </p>
+        </div>
+      </div>
+      <div class="RightItems">
+        <div id="toc" class="MobileSiteList">
+          <div class="SiteMenu">
+            <ul class="EssayList">
+              <ul class="TableOfContents">
+                <ul class="TableOfContents">
+                  {{TABLE_OF_CONTENTS}}
+                </ul>
+              </ul>
+            </ul>
+          </div>
+        </div>
+          <div class="MenuButton">
+            <button class="IconButton" onclick="toggleVisibility()">
+              <svg width="25" height="23" viewBox="0 0 25 23" fill="none">
+                <title></title>
+                <line x1="5.5" y1="1.5" x2="24.5" y2="1.5" stroke="#BBBBBB" stroke-linecap="round"></line>
+                <circle cx="1.5" cy="1.5" r="1.5" fill="#BBBBBB"></circle>
+                <line x1="5.5" y1="16.5" x2="24.5" y2="16.5" stroke="#BBBBBB" stroke-linecap="round"></line>
+                <circle cx="1.5" cy="16.5" r="1.5" fill="#BBBBBB"></circle>
+                <line x1="9.5" y1="6.5" x2="24.5" y2="6.5" stroke="#BBBBBB" stroke-linecap="round"></line>
+                <circle cx="5.5" cy="6.5" r="1.5" fill="#BBBBBB"></circle>
+                <line x1="9.5" y1="21.5" x2="24.5" y2="21.5" stroke="#BBBBBB" stroke-linecap="round"></line>
+                <circle cx="5.5" cy="21.5" r="1.5" fill="#BBBBBB"></circle>
+                <line x1="9.5" y1="11.5" x2="24.5" y2="11.5" stroke="#BBBBBB" stroke-linecap="round"></line>
+                <path d="M7 11.5C7 12.3284 6.32843 13 5.5 13C4.67157 13 4 12.3284 4 11.5C4 10.6716 4.67157 10 5.5 10C6.32843 10 7 10.6716 7 11.5Z" fill="#BBBBBB"></path>
+              </svg>
+            </button>
+          </div>
+      </div>
+    </div>
+    <!-- end of nav container -->
+  </div>
+
+  <div id="EssayContents">
+    <div id="EssayContentsInner">
+      <div class="BodyColumn">
+        {{ESSAY_BODY}}
+        <h3>License</h3>
+        <p>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+        Commons Attribution 4.0 International License</a>.  This
+        means you’re free to copy, share, and build on the work,
+        provided you attribute it appropriately.  Please click on
+        the following license link for details: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative
+        Commons License" style="border-width: 0; height: 21px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="footnotediv" class="concealed popup"></div>
+</body>
+  <script type="text/javascript" src="/js/ict-table-of-contents.js"></script>
+  <script type="text/javascript" src="/js/mobile-control.js"></script>
+  <script type="text/javascript" src="/js/bigfoot.js"></script>
+  <script type="text/javascript" src="/js/persona-switcher.js"></script>
+  <script type="text/javascript">
+    console.log("calling bigfoot");
+    $.bigfoot(
+    {
+      positionContent: true
+    }
+    );
+  </script>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js">
+</script>
+<link rel="stylesheet" href="/css/bigfoot-default.css">
+</head>
+<body>
+<div>
+  <h1 id="this_is_the_second_h2">
+   This is the second h2
+  </h1>
+   When I asked for sons?
+   <sup id="fnref:1">
+         <a href="#fn:1" rel="footnote"></a>
+     </sup>
+</div>
+  <div class="footnotes"><ol>
+      <li class="footnote" id="fn:1">
+          <p>footnote.<a href="#fnref:1" title="return to article"> ↩</a><p>
+      </li>
+  </ol></div>
+
+</body>
+<script type="text/javascript" src="/js/bigfoot.js"></script>
+<script type="text/javascript">
+  console.log("calling bigfoot");
+  $.bigfoot(
+  {
+    positionContent: true
+  }
+  );
+</script>
+</html>

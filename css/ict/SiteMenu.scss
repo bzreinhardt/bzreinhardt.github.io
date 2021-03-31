@@ -1,0 +1,177 @@
+---
+
+---
+@import "common.scss";
+@import "Nav.scss";
+
+.SiteMenu {
+  display: flex;
+  flex-direction: column;
+
+  // backdrop-filter: blur(5px);
+
+  @include padding(top, 1);
+  @include padding(left, 1);
+  @include padding(right, 1);
+
+  .Download {
+    @include margin(left, -0.5);
+    @include margin(bottom, 1.5);
+    button {width: 100%};
+  }
+
+  ul.EssayList {
+    @include NavList;
+    @include margin(top, 1);
+    margin-left: 0;
+    flex-grow: 1;
+
+    &>li {
+      @include margin(top, 1.5);
+      @include margin(bottom, 1.5);
+
+      display: flex;
+      flex-wrap: wrap;
+
+      &>a,
+      &>span {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+      }
+
+      .Progress {
+        @include margin(left, 5);
+      }
+    }
+
+    .TableOfContents {
+      flex-basis: 100%;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        @include labelStyle;
+        font-weight: normal;
+        a {
+          color: $gray90;
+        }
+        @include margin(top, 0);
+        @include margin(bottom, 2);
+        ul {
+          padding-left: 0;
+          @include margin(bottom, 0.5);
+
+          li {
+            @include margin(top, 0.5);
+            @include margin(bottom, 0.5);
+            @include labelStyle;
+            font-weight: normal;
+
+            a {
+              color: $gray60;
+            }
+            &.H1 {
+              font-weight: bolder;
+            }
+
+            &.H3 {
+              @include labelSmallStyle;
+              padding-left: scaleUnit(0.75);
+            }
+          }
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .BottomMaterial {
+    flex-grow: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    button {
+      @include margin(left, -0.5);
+      margin-top: 0;
+      margin-bottom: 0;
+      width:100%;
+    }
+
+    .ReviewRow {
+      @include NavList;
+      @include padding(bottom, 0.5);
+
+      a,
+      span {
+        @include labelStyle;
+      }
+
+      span.ReviewStatus {
+        @include captionSmallStyle;
+        @include margin(left, 0.5);
+      }
+
+      &.Disabled {
+        user-select: none;
+        cursor: not-allowed;
+
+        span {
+          color: $gray40;
+        }
+      }
+    }
+
+    .PatreonSection {
+      position: relative;
+      @include hairline(top, $hairlineColor, 0px, -$handheldColumnMargin);
+      @include padding(top, 1);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+
+      button {
+        margin-right:2px;
+        @include margin(right, 1);
+        flex-grow: 0;
+        @include respond-to(medium-screens) {
+          margin-right: 0;
+          flex-grow: 1;
+        }
+        margin-bottom: 4px;
+      }
+
+      .PatreonExplanation,
+      .SponsorThanks {
+        margin-bottom: 0;
+        @include captionSmallStyle;
+        color: $gray70;
+      }
+
+      .PatreonExplanation {
+        @include respond-to(medium-screens) {
+          display: none;
+        }
+        flex-shrink: 1;
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+
+      .SponsorThanks {
+        @include margin(top, 1);
+        @include margin(bottom, 1);
+        display: block;
+        flex-grow: 1;
+
+        a {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
