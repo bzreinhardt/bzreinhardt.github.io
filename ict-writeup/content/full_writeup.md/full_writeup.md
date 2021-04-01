@@ -201,9 +201,9 @@ Of course, you can always **chart your own adventure**.
 
 ## Housekeeping ##
 
-Whenever I lean on an argument I make elsewhere in the piece, I try to use[ internal links that look like this ][Housekeeping](which will take you right back to this section). You shouldn't worry about losing your place because clicking an internal link will make a link back to the section you jumped from appear in the upper right.
+Whenever I lean on an argument I make elsewhere in the piece, I try to use [internal links that look like this][Housekeeping] (which will take you right back to this section). You shouldn't worry about losing your place because clicking an internal link will make a link back to the section you jumped from appear in the upper right.
 
-External links [look like this one that actually links back to this piece](http://benjaminreinhardt.com/parpa). I try to only use them when it's painfully obvious what they link to, usually the name of a piece I'm referencing directly in the text.
+External links [look like this one that actually links back to this piece.](http://benjaminreinhardt.com/parpa) I try to only use them when it's painfully obvious what they link to, usually the name of a piece I'm referencing directly in the text.
 
 This piece is long and everybody will get more or less value from different sections. Selecting a persona in the section above will highlight the headings of some sections in the table of contents and grey-out the headings of others in a 'recommended path' for that persona. It won't make anything disappear. You can get rid of the highlighting by choosing "chart your own adventure."
 
@@ -498,7 +498,7 @@ In the past, industrial labs filled a particular niche in the innovation ecosyst
 
 I'll proceed by both looking at outputs and inputs. Industrial labs are no longer producing the real-world outcomes they once did. However, that argument has a causality problem --- it could be that labs are actually filling the same niche and a confounder is causing decreased output. This confounder could be the same thing driving stagnation in general. For example, if we really have picked a finite number of low hanging fruit and Robert Gordon is right that the explosion of growth between the late 19th and mid 20th century was a one-off event. I want to argue that instead, [the conditions that enabled industrial labs][Healthy industrial labs require a trifecta of conditions] in particular to [do great work ][In the past, industrial Labs filled a particular niche in the innovation ecosystem]no longer exist.  
 
-There are many exceptions! AI research in particular is a glaring exception to the decline of industrial labs but there are many potentially amazing corporate R&D projects happening around the world.[^fn45] One might argue that the exceptions *are* the rule --- that there are just fewer technologies that would benefit from healthy industrial Labs (remember, the Low Hanging fruit confounder.) It's impossible to prove definitively, but I want to argue that[ the niche industrial Labs once occupied still needs to be filled][The niche industrial Labs once occupied still needs to be filled].
+There are many exceptions! AI research in particular is a glaring exception to the decline of industrial labs but there are many potentially amazing corporate R&D projects happening around the world.[^fn45] One might argue that the exceptions *are* the rule --- that there are just fewer technologies that would benefit from healthy industrial Labs (remember, the Low Hanging fruit confounder.) It's impossible to prove definitively, but I want to argue that [the niche industrial Labs once occupied still needs to be filled][The niche industrial Labs once occupied still needs to be filled].
 
 Going through the [characteristics of the niche we discussed previously][Healthy industrial labs require a trifecta of conditions]:
 
@@ -1165,11 +1165,11 @@ I am not confident about any of the many possible experiments a DARPA-riff can d
 
 If we've established anything so far, it's that a DARPA-riff will need to fill at least part of [the niche once filled by industrial labs][In the past, industrial Labs filled a particular niche in the innovation ecosystem]. Embracing that role, it's important to ask: which aspects of the niche is a DARPA-riff well-suited to fill? Where will it be weak? What can it structurally do to maximize strengths and minimize weaknesses?
 
-**1\.** [**Industrial labs enabled work on a general purpose technology before it's specialized**][]**.**
+**1\. Industrial labs enabled work on a general purpose technology before it's specialized.**
 
 Working on general-purpose technology will require a DARPA-riff to explicitly and uncomfortably push back against the (accurate) common startup wisdom to "focus on a niche."[^fn142] At the same time, any technology *does* need to find an initial niche eventually so programs should have some precise hypotheses about an eventual application. Counterintuitively, this tension between considering how a technology will be used and potential local-optimum traps may be one of the barometers for a healthy organization, ensuring that it doesn't lean too far one way or another. Maintaining this unstable balance will require a lot of work to frame goals correctly. It's perhaps a cliche at this point, but the development of the transistor is a good example of walking the general-specific line --- it had a precise goal: "find a solid-state replacement for the vacuum tube that we think will be useful in telephone repeaters and switches" but nobody constrained the work to only "make more efficient repeaters and switches."
 
-**2\.** [**Industrial labs enabled targeted piddling around**][]**.** 
+**2\. Industrial labs enabled targeted piddling around.** 
 
 A DARPA-riff can enable targeted piddling around through low-stakes seedling programs, using a single organizational umbrella to quickly spin up and close down programs, and having some number of 'free radicals.'
 
@@ -1563,7 +1563,7 @@ The question of whether we've become worse at program design is an important pre
 
 One reason program design is under-theorized is that the people who are good at it are too busy applying it to spend time and effort making it legible.[^fn223] There are no research coaches. Program design also suffers acutely from siloization --- each organization (or individual!) seems to reinvent the wheel. This isn't to say that we should aim for standardization; program design will always be very context-dependent. However, it seems possible to shoot for a baseline of best practices and frameworks for building on top of those best practices.
 
-There are many inspirations that the discipline might be able to draw on. A big part of a program design discipline will be trying to make legible the process that skilled practitioners already use to create things like [Adam Marblestone's Climate Technology Primer ](https://longitudinal.blog/co2-series-part-1-review-of-basics/)or [José Luis Rincon's Longevity FAQ](https://nintil.com/longevity/?utm_campaign=Matt's%20Thoughts%20In%20Between&utm_medium=email&utm_source=Revue%20newsletter). José does a good job unpacking his process in [Longevity FAQ: Making Of](https://nintil.com/longevity-making-of/); one could imagine a line of research that focuses on understanding why some people are good at this process and some are not. Adam and Ed Boyden hinted at the possibility of more structured discovery in their article [Architecting Discovery](https://www.sciencedirect.com/science/article/pii/S0896627319302867). 
+There are many inspirations that the discipline might be able to draw on. A big part of a program design discipline will be trying to make legible the process that skilled practitioners already use to create things like [Adam Marblestone's Climate Technology Primer ](https://longitudinal.blog/co2-series-part-1-review-of-basics/)or [José Luis Ricón's Longevity FAQ](https://nintil.com/longevity/?utm_campaign=Matt's%20Thoughts%20In%20Between&utm_medium=email&utm_source=Revue%20newsletter). José does a good job unpacking his process in [Longevity FAQ: Making Of](https://nintil.com/longevity-making-of/); one could imagine a line of research that focuses on understanding why some people are good at this process and some are not. Adam and Ed Boyden hinted at the possibility of more structured discovery in their article [Architecting Discovery](https://www.sciencedirect.com/science/article/pii/S0896627319302867). 
 
 History is another place to dig --- how did people manage research-adjacent projects that had [shockingly fast results](https://patrickcollison.com/fast)? While some of the results were contingent on the individuals involved, I can't shake the hunch that there is transferrable knowledge in the tools developed to manage early space programs.[^fn224] How did the creators of the [Fusion Power By Magnetic Confinement report](https://fire.pppl.gov/us_fusion_plan_1976.pdf) think about the different possibilities and tradeoffs?[^fn225] Of course, the value of historical study depends on the aforementioned question of whether we've become worse or not. 
 
@@ -1985,7 +1985,7 @@ The overarching hypothesis is that we'll be able to avoid these known pitfalls, 
 
 Coordination is hard. Research is hard. Coordinating research is going to be extra hard. Dealing with dependencies between projects will be a challenge both on the technical front and the human front. Technical coordination will require figuring out how to keep each project going despite hiccups in other projects. Human coordination will require making sure people communicate and get along. These are normal management management problems but they will be turned up to 11. The distributed nature of early programs will compound with the fact that doing anything new (especially with atoms) makes it harder to have shared context. At the same time, shared context will be critical! 
 
-To illustrate what the coordination problems might look like, let's look at an imaginary program to use molecular machines in metal-oxide frameworks to do one shot molecular synthesis. There might be one project to create better simulations for a molecular process, one project to design a series of molecular machines that could potentially turn a multi-step synthesis process into a single-shot process, and one project to synthesize the system. Friction can pop up all over the place: benchmarks for the simulation need to be processes that are actually relevant for the second group; the design group and the implementation group need to avoid both designing something that is actually impossible to create and also avoid limiting themselves to conservative designs that would be straightforward to create. 
+To illustrate what the coordination problems might look like, let's look at an imaginary program to use molecular machines in metal-organic frameworks to do one shot molecular synthesis. There might be one project to create better simulations for a molecular process, one project to design a series of molecular machines that could potentially turn a multi-step synthesis process into a single-shot process, and one project to synthesize the system. Friction can pop up all over the place: benchmarks for the simulation need to be processes that are actually relevant for the second group; the design group and the implementation group need to avoid both designing something that is actually impossible to create and also avoid limiting themselves to conservative designs that would be straightforward to create. 
 
 There are many ways to potentially address these coordination problems, all of which need experimental de-fuzzifification. PMs can check in regularly with each group, not to crack the whip about progress but to check on what each group needs from the others and whether they're getting it. One of the PM's roles will be keeping the bigger program goal front and center and figuring out when an individual group needs to do something 'suboptimal' in order to maximize the entire system. Another tactic is to regularly bring together the people actually doing the work on each project (as opposed to just the PIs) *before* they have results so that people across the program can build rapport talking about real research problems instead of defending results.  
 
@@ -2203,7 +2203,7 @@ A caveat: you are probably going to think that most of these examples are object
 * Multi-purpose farming robotics is could change the way we grow food, especially indoors. 
 * New simulation paradigms --- especially hierarchical systems of simulations --- could enable 
 * 'General purpose' telerobotics is a systems engineer problem that could both address global problems and enable people to do things they never could before.
-* "Deterministic chemical reactions" driven by some combination of protein 3D printers, nanomachines embedded in metal-oxide frameworks, and other tools could begin to deliver on the vision of atomically precise manufacturing. 
+* "Positional chemistry" driven by some combination of protein 3D printers, nanomachines embedded in metal-organic frameworks, and other tools could begin to deliver on the vision of atomically precise manufacturing. 
 
 ## General Purpose Telerobotics ##
 
@@ -2279,7 +2279,7 @@ And how do you know that your simulations were accurate? Observability is a chal
 
 You also need to tell the printer what to do! Unlike a macro scale printer, you can't just hook up some wires to a stepper motor or turn a crank on a mill. Instead the current toolkit is limited to some combination of light, chemical gradients, and 'preprogrammed' cascading reactions. 
 
-A meta-challenge is that there isn't a clear 'best system' for achieving positional chemistry. I've been using a DNA-based 3D printer as an example but maybe the printer should be built out of proteins, DNA-cast metal, or implosion fabricated materials. Or the 3D-printer approach might be the incorrect first step. An entirely different, but potentially exciting approach is to embed molecular motors and switches in a metal-oxide framework scaffolding with the whole system acting as a tiny 'assembly line' with each step adding or changing the ultimate product. Each approach has its own specialists and advocates. Maybe the most effective approach involves some of all of them. It's a complex systems-engineering question that doesn't yet allow you to abstract things into black boxes in the way that systems engineers like to operate.
+A meta-challenge is that there isn't a clear 'best system' for achieving positional chemistry. I've been using a DNA-based 3D printer as an example but maybe the printer should be built out of proteins, DNA-cast metal, or implosion fabricated materials. Or the 3D-printer approach might be the incorrect first step. An entirely different, but potentially exciting approach is to embed molecular motors and switches in a metal-organic framework scaffolding with the whole system acting as a tiny 'assembly line' with each step adding or changing the ultimate product. Each approach has its own specialists and advocates. Maybe the most effective approach involves some of all of them. It's a complex systems-engineering question that doesn't yet allow you to abstract things into black boxes in the way that systems engineers like to operate.
 
 Arguably, the biggest meta-challenge is the human one. Everything that I've mentioned so far is primarily in the domain of people who are part of academic chemistry or biology departments. Novelty and papers are strong incentive for them. The answer to the question "this work is excellent --- how do you think it could be integrated into a bigger system?" is often "No clue. Not my department." As we've discussed, novelty and papers are not bad but they can be at odds with engineering design. In addition to being fragmented across different academic disciplines, this entire area is heavily stained with what I would call 'hype-fallout.' During the 90's people became very excited about the possibilities of 'nanotechnology.' As a result, the government started pouring money into the area in part by pulling funding from other areas. This funding shift pushed anybody who was doing anything remotely related to processes that occurred on the scale of \~1nm to relabel their work as nanotechnology, diluting the term, and blunting progress towards 'atomically precise manufacturing' --- another radioactive term. Combine discipline dilution with overpromises and a healthy dose of crankery and the modern hesitance to take the positional chemistry as an engineering problem seriously is entirely reasonable.  
 
@@ -2295,7 +2295,7 @@ A non-exclusive list of parallel efforts might look like:
 * A project to simulate what could be built *with* the protein building blocks.
 * A project to develop different "tooling" for the 3D printer --- perhaps structures derived from antibodies that have a similar ability to bind to specific sites on the protein building blocks.
 * A project to develop artificial amino acids that could be part of the building blocks and bring non-organic molecules into the system's output.
-* A project to poke at how Metal Oxide Frameworks [^fn283]might play with the other projects.
+* A project to poke at how Metal-Organic Frameworks [^fn283]might play with the other projects.
 * A project to look at how DNA/protein metal 'casting' [^fn284]might play with the other projects.
 
 # Reasons why an PARPA  would succeed or fail #
@@ -2516,13 +2516,16 @@ Together we can *shift technology from impossible to inevitable*.
 
 Ideas don't spring out of a single brain, and this piece is no different. 
 
-Many excellent people read and helped refine early drafts: Adam Marblestone, Jed McCaleb, Pamela Vegata, Andy Matuschak, Mark McGranaghan, Cheryl Reinhardt, Sam Arbesman, Michael Nielsen, Nathan Ihara, Martin Permin.
+Many excellent people read and helped refine early drafts: Adam Marblestone, Jed McCaleb, Pamela Vagata, Andy Matuschak, Mark McGranaghan, José Luis Ricón, Cheryl Reinhardt, Sam Arbesman, Michael Nielsen, Nathan Ihara, Martin Permin, Luke Constable.
 
 We stand on the shoulders of too many giants to give them all credit, but to list a few who helped me grope through the idea maze: Marissa Weichman, Ilan Gur, Semon Rezchikov, Tim Hwang, Jeff Graham, Arathi Prabyankar, Patrick Collison, Malcolm Handley, Olivia Wang, Noah Tye, Rebecca Li, Steven Glinert, Keegan McNamara, Adrienne Little, Josh Tobin, Cameron Kelly, Evan Myazono, Jeff Lipton, Lee Ricketson, Adit Swarup, Alexey Guzey, Sebastian Winther.
+
+The styling and interface of this website is mostly derived from Andy Matuschak and Michael Nielsen, "How can we develop transformative tools for thought?", <https://numinous.productions/ttft>, San Francisco (2019)
 
 This work was graciously sponsored by The Astera Institute. 
 
 If you want to support PARPA with either your time or money, [please reach out](mailto:ben@benjaminreinhardt.com)!
+
 
 
 

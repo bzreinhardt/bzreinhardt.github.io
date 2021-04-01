@@ -136,11 +136,15 @@ def generate_section_list(html):
 def generate_internal_links(html):
     ''' Find back-to-back-single-bracket parts and link them to the appropriate section'''
     # This assumes that all internal link text have a space in front of them.
-    links = re.finditer(r' \[.*?\]\[.*?\]', html)
+    links = re.finditer(r'.\[.*?\]\[.*?\]', html)
     position = 0
     new_html = ''
     section_list = generate_section_list(html)
+    #pdb.set_trace()
     for link in links:
+        #ignore image links
+        if html[link.start():link.start()+1] == '!':
+            continue
         all_text = html[link.start():link.end()]
         middle = all_text.find('][')
         # This is the text that you want to see

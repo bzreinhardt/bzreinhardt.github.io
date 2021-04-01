@@ -25,7 +25,7 @@ $blueHighlight: #f5fcff;
     border-bottom: 1px solid darken(saturate($blueHighlight, 20%), 15%);
   }
 
-  background-image: url("assets/parpa-hero-option-dyson.png");
+  background-image: url("assets/parpa-hero-dyson-2.png");
   background-position: left calc(50vw - var(--slantSize)) center;
   background-repeat: no-repeat;
   --verticalPadding: #{scaleUnit(4)};
@@ -48,11 +48,11 @@ $blueHighlight: #f5fcff;
       right: calc(50% - var(--slantSize) / 2);
       top: 0;
       bottom: -1px;
-      background-image: url("assets/parpa-hero-option-ship.png");
+      background-image: url("assets/parpa-hero-ship-small.png");
       // background-position: right calc(50vw - var(--slantSize) / 2) top -20px;
       background-repeat: no-repeat;
       background-color: $redHighlight;
-      background-size: 180%;
+      background-size: 100%;
       border-bottom: 1px solid darken(saturate($redHighlight, 30%), 10%);
       clip-path: polygon(calc(100% - var(--slantSize)) 100%, 100% 0%, 100% 100%);
       -webkit-clip-path: polygon(0% 0%, 100% 0%, calc(100% - var(--slantSize)) 100%, 0% 100%);
@@ -81,7 +81,7 @@ $blueHighlight: #f5fcff;
     // position: relative;
     background-color: #2e3e2e;
 
-    --width: 900px;
+    --width: 920px;
     max-width: var(--width);
     padding-left: calc(var(--titleBoxPadding) + #{scaleUnit(1)});
     padding-right: calc(var(--slantSize) + #{scaleUnit(1.5)});
@@ -210,6 +210,7 @@ $blueHighlight: #f5fcff;
 
       @include respond-to(non-handhelds) {
         margin-right: -1em;
+        margin-top:20px;
       }
 
       @include respond-to(medium-screens) {
