@@ -362,6 +362,9 @@ h1+h2 {
       margin-bottom: $printParagraphSpacing;
     }
   }
+  .inactive {
+    color: #c1c1c1;
+  }
 
   li {
     blockquote {
@@ -869,7 +872,6 @@ span.marginnote {
     }
   }
 }
-
 
 
 /* Footer */

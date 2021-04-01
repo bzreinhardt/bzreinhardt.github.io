@@ -35,6 +35,16 @@ sup{vertical-align:super; line-height:0.5em;}
   }
 }
 
+ol {
+  ol {
+    list-style-type: lower-alpha;
+  }
+}
+
+img {
+  max-height: 300px;
+}
+
 .bq1 {
   padding-left: 16px;
   border-left: 5px solid #577da4;
