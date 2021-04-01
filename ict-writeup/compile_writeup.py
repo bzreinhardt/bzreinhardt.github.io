@@ -26,7 +26,7 @@ HEADER_IMG_ALT_DESCRIPTION = "foobar"
 INDENT = "  "
 VARIABLE_ONE = "a lovely bunch"
 VARIABLE_TWO = "coconuts"
-PUBLISH_DATE = "April 2020"
+PUBLISH_DATE = "April 2021"
 
 
 def generate_id_from_section_title(title):

@@ -159,6 +159,7 @@ $blueHighlight: #f5fcff;
       font-size: 48px;
       letter-spacing: -0.03em;
       line-height: 100%;
+      padding-bottom:10px;
 
       @include respond-to(non-handhelds) {
         margin-right: -1em;
@@ -210,7 +211,7 @@ $blueHighlight: #f5fcff;
 
       @include respond-to(non-handhelds) {
         margin-right: -1em;
-        margin-top:20px;
+        margin-top:15px;
       }
 
       @include respond-to(medium-screens) {
