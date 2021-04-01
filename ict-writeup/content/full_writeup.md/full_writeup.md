@@ -346,7 +346,7 @@ Disciplines where targeted piddling around can happen seem to be healthier. This
 
 It's important to call attention to the 'targeted' part of 'targeted piddling around.' Contrary to common perception, Bell Labs and PARC *didn't* give researchers free rein to work on whatever they wanted. There were relatively few milestones and researchers had enough slack from management to explore adjacencies. However, people were explicitly asked to work on high level goals that would benefit AT&T's continent-spanning communication system. 
 
-This targeting stands in contrast to accounts extolling how much freedom researchers had. It's almost impossible to confirm, but I suspect that researchers who portray themselves as having completely free rein in industrial labs are unreliable narrators. My hunch is that they felt like they had entirely free rein because the lab managers were good at hiring people whose interests were sufficiently aligned with the lab's goals that anything they chose to do was within some window. Another alternative is that they gave a *few* people free rein and the personal accounts are from the wunderkinds. Claude Shannon illustrates both of these possibilities --- he was absolutely a wunderkind who was given free reign. That is, up until he started working on projects like a 'mechanical mouse' that Bell Labs management couldn't possibly justify to regulators as being related to communication. 
+This targeting stands in contrast to accounts extolling how much freedom researchers had. It's almost impossible to confirm, but I suspect that researchers who portray themselves as having completely free rein in industrial labs are unreliable narrators. My hunch is that they felt like they had entirely free rein because the lab managers were good at hiring people whose interests were sufficiently aligned with the lab's goals that anything they chose to do was within some window. Another alternative is that they gave a *few* people free rein and the personal accounts are from the wunderkinds. Claude Shannon illustrates both of these possibilities --- he was absolutely a wunderkind who was given free rein. That is, up until he started working on projects like a 'mechanical mouse' that Bell Labs management couldn't possibly justify to regulators as being related to communication. 
 
 Today, many people implicitly assume that targeted piddling around happens in universities. Academics certainly do piddle around with *ideas* but they're less incentivized to do it with technology applications. You can't really write a paper about how you spent a year modifying your novel technology to 100 specific applications. Even when academic labs do piddle around with technology applications, the targeting systems are often suboptimal. Often academics are working on a specific application for a specific industrial partner or they've effectively made up a use-case out of whole cloth. This isn't to cast shade on academics but to point out that academia is not set up to enable the sorts of feedback loops to enable just the right amount of targeting. 
 
@@ -468,7 +468,7 @@ I wish this section's header could be "research organizations[^fn40] need to add
 
 However! There are many examples of effective research organizations that did not address existential threats. In fact, most great scientists were not actually out to address existential threats --- Galileo, Newton, Rutherford, Einstein, etc. They just managed to cobble together enough money from patrons or side hustles to keep going. Patreon-sponsored contemporaries are similar --- I give some money in support of a few researchers but they aren't addressing any existential threat for me. The notable pattern is that these examples are all individuals or small groups. Aha! It suggests that perhaps there is a nebulous threshold below which effective research can work off of 'throw away' money and above which people start looking at money spent on research as 'buying' something --- we could call this point "expensive."
 
-Another potential Achilles heel in this idea is the fact that often the work that convinces us outsiders that a research organization is effective is often some of the *least* existential-problem-addressing work that the organization does: transistors at Bell Labs, interactive computing at DARPA, etc. However, at the same time that it was inventing the transistor, Bell Labs was discovering better wire sheathings that saved AT&T billions of dollars and DARPA was working out ways to detect nuclear explosions anywhere in the world at the same time that Licklider was seeding interactive computing groups across the US. This tension is worth noting because while the organization needs to adres.
+Another potential Achilles heel in this idea is the fact that often the work that convinces us outsiders that a research organization is effective is often some of the *least* existential-problem-addressing work that the organization does: transistors at Bell Labs, interactive computing at DARPA, etc. However, at the same time that it was inventing the transistor, Bell Labs was discovering better wire sheathings that saved AT&T billions of dollars and DARPA was working out ways to detect nuclear explosions anywhere in the world at the same time that Licklider was seeding interactive computing groups across the US. This tension is worth noting because it's important to not lash any single project too tightly to the importance of addressing existential threats at an organizational level.
 
 So, the correct statement is perhaps that *expensive* research needs to address an existential threat *eventually* *at an organizational level* to maintain support. This quite the mashup of nebulous words isn't it? It's important enough that it's worthwhile to dig into each piece. 
 
@@ -505,7 +505,7 @@ Going through the [characteristics of the niche we discussed previously][Healthy
 * **Most industrial labs no longer work on general-purpose technology.** The trend, as embodied by the 'founding memo' Nathan Myhrvold wrote about  Microsoft Research.[^fn46] In it, he explicitly focused Microsoft Research on advanced product development and not cutting edge research. This trend is also seen at the-organization-formerly-known-as-Google X where they pride themselves on killing ideas quickly and then focusing on a specific product. The trend towards product development pushes corporate R&D more towards the same niche filled by startups.
 * **Industrial labs no longer enable smooth transitions from crazy proofs-of-concept to manufactured products**. Either the labs are so incredibly separate from the main organization that they have no advantage over a startup or are so tightly integrated that anything new is quashed. In the first case, there is no systematic way for projects to move from the lab to the main organization. Instead, they are forced to go through the same process of 'finding a champion' and fighting a bespoke uphill that any product going to market faces. These barriers create the same valley of death that the academic project spinning out into a startup path faces. In the second case, labs are so joined at the hip to the main org that they can't work on anything besides incremental improvements. [^fn47]
 * Echoing the previous point, **industrial labs often no longer work on potentially game-changing technologies with tight feedback loops**. They're either doing "show-off" work that leads to nifty demos and papers or grungy incremental work. To posit a reason why: technology improvement is no longer an existential imperative for most corporations. Today it's much easier for corporations to acquire new technology through M&A because of relaxed antitrust and a vibrant startup ecosystem. Modern corporations also face very different pressures from AT&T in the mid 20th century. AT&T benefitted significantly from creating better technology both because it was the key blocker to their expansion and the anti-trust hammer was always waiting to drop if it didn't appear to be benefitting the public.[^fn48]
-* **Industrial labs no longer provide a first-class alternative to academia**. With the exception of the big AI labs and maybe IBM research on superconductors, there are few areas where working at a industrial lab is as academically prestigious as being a professor. Like the shift away from game changing technologies, I attribute the declining prestige to the fact that cutting-edge science and technology are no longer an existential concern for companies. The absence of an existential threat gives them little reason to hire and keep the best and most ambitious researchers, creating a downward spiral where there are no A players and the labs become susceptible to the fact that A players hire A players and B players hire C players. [^fn49]Additionally, the incentive shift to focus more on product development has created a cultural shift away from participating in the scientific enterprise. [^fn50]
+* **Industrial labs no longer provide a first-class alternative to academia**. With the exception of the big AI labs and maybe IBM research on superconductors, there are few areas where working at an industrial lab is as academically prestigious as being a professor. Like the shift away from game changing technologies, I attribute the declining prestige to the fact that cutting-edge science and technology are no longer an existential concern for companies. The absence of an existential threat gives them little reason to hire and keep the best and most ambitious researchers, creating a downward spiral where there are no A players and the labs become susceptible to the fact that A players hire A players and B players hire C players. [^fn49]Additionally, the incentive shift to focus more on product development has created a cultural shift away from participating in the scientific enterprise. [^fn50]
 * **Industrial Labs no longer enable continuous work on 5+ year timescales**. There is a lot of literature on corporate short-termism that I won't dig into. In short, most companies that have the resources to do research on a 5+ year timeline are disincentivized from speculative 5-10 year projects through a combination of focusing on quarterly earnings, competition and shareholders pushing companies to stick to their knitting, and the availability of M&A opportunities. Companies fail to support long-term research not just in the obvious sense that the projects get cancelled or never started in the first place. The more insidious and common failure is that there's no level of planning for how promising projects eventually become part of the core company so even if they're not cancelled they putter along forever.
 * In most cases, **industrial labs no longer probe deeply into natural phenomena and try to exploit them**. Industrial Labs just don't do as much *science.* This isn't to say that industrial labs ever pursued scientific discovery for its own sake, but in the past they perceived a direct line between scientific discoveries and the health of the company. I suspect that this perception is accurate in most cases! The move away from Pasteur's quadrant could simply be because we've exhausted exploitable phenomena and everything left is either too big, too small, or too obscure to make a difference at human time-and-size scales. Alternately, the move could be chalked up to a change in the nature of the companies and their products to be more specialized and less dependent on exploiting new phenomena.
 
@@ -621,7 +621,7 @@ The coupling between startups and growth raises the reasonable question: "what a
 
 Similarly to the constraints on academia, this list deserves its own piece! This list is meant to enumerate the constraints on startups specifically in the context of solutions R&D.
 
-**Startups need a convincing story for how the project's output produce a massive and competitive return on investment over a reasonable timescale.** The long-tailed nature of startup investing means that venture capitalists need to believe that any investment in their portfolio could potentially return the fund. But it's not even enough to have great returns --- you need to have the best returns! That is, VCs don't need to hit an absolute benchmark but instead need to compete against other assets like the stock market for LP (ie. *Their* investors) dollars. If the stock market is absolutely crushing it, LPs have less incentive to invest in higher-risk assets like tech startups. As a result, VCs need to do everything in their power to maximize their ROI, which includes not just how much they grew the principle but how long that growth took. As a result, the same dynamic plays out 'one level lower' with VCs now in the role the LPs once held. Many atom-based technologies have the same or higher risk than a software startup but require more capital and have longer timelines. The cold hard numbers often make SaaS businesses a better investment.
+**Startups need a convincing story for how the project's output produce a massive and competitive return on investment over a reasonable timescale.** The long-tailed nature of startup investing means that venture capitalists need to believe that any investment in their portfolio could potentially return the fund. But it's not even enough to have great returns --- you need to have the best returns! That is, VCs don't need to hit an absolute benchmark but instead need to compete against other assets like the stock market for LP (ie. *their* investors) dollars. If the stock market is absolutely crushing it, LPs have less incentive to invest in higher-risk assets like tech startups. As a result, VCs need to do everything in their power to maximize their ROI, which includes not just how much they grew the principle but how long that growth took. As a result, the same dynamic plays out 'one level lower' with VCs now in the role the LPs once held. Many atom-based technologies have the same or higher risk than a software startup but require more capital and have longer timelines. The cold hard numbers often make SaaS businesses a better investment.
 
 **Startups need to move fast.** J.C.R. Licklider kicked off work on the ARPA program that would go on to build what we would consider "modern computing" in 1962. Perhaps the first real 'value capture' event it led to was Apple's IPO in 1980. This trajectory would have been untenable as a startup. While there is flexibility if a project's valuation continues going through the roof, VC fund structure pushes for returns on 5-7 time horizons. Venture timescales often lead to projects being pushed to focus on a specific application or being acquired before achieving the technical goals they set out to hit. There is nothing wrong with focus or acquisition per se, but they can lead to technologies failing to live up to their potential.
 
@@ -823,7 +823,7 @@ The first reason products are a crude way to capture value from research is that
 
 Second, products are inherently coupled to companies, so the success of a product (from a value capture standpoint) is inherently tied to the success of a company. This coupling means that there are many other factors that affect the product's success besides the product itself (let alone the research-based piece of it). Markets, sales channels, margins, fundraising, perception, etc. all make or break companies independent of their products. "The best technologies don't always win" is an adage for a reason.
 
-"But unique new technology creates a moat that will make the company successful!" Jerry Neuman's [Productive Uncertainty](http://reactionwheel.net/2020/11/productive-uncertainty.html) argues convincingly against pure-technology with the idea of "excess value" an invention would produce for a startup.
+"But unique new technology creates a moat that will make the company successful!" Jerry Neumann's [Productive Uncertainty](http://reactionwheel.net/2020/11/productive-uncertainty.html) argues convincingly against pure-technology with the idea of "excess value" an invention would produce for a startup.
 
 > If a moat exists prior to the startup being founded (say, a patent) then, absent uncertainty, this patent could be sold for at least as much as the startup could garner from it.
 
@@ -842,7 +842,7 @@ What about a non-exclusive license? If it's under a non-exclusive license that e
 
 ## Value capture can hamstring impact ##
 
-We often talk about individuals or organizations [capturing the value that they create][Profit is important for both practical and ideological reasons]. However, conversations about value capture can shift from an instrumental goal in service of encouraging more innovation to a intrinsic goal: that people should be justly rewarded for the value that they create. I want to argue that from a practical perspective, value capture as an intrinsic goal is a chimera and point out its significant downsides.
+We often talk about individuals or organizations [capturing the value that they create][Profit is important for both practical and ideological reasons]. However, conversations about value capture can shift from an instrumental goal in service of encouraging more innovation to an intrinsic goal: that people should be justly rewarded for the value that they create. I want to argue that from a practical perspective, value capture as an intrinsic goal is a chimera and point out its significant downsides.
 
 Value capture as an intrinsic goal requires that you (or at least a market) can put a price on everything, and that just isn't true. Norman Borlaug arguably saved a billion lives. What is the value of those lives? The people who benefitted most from his work were some of the poorest people in the world, so their contribution to GDP is negligible. And yet, their lives have value. What is the value of knowledge about how the universe started, or the weird blob-fish that live at the bottom of the ocean? One could make an argument that perhaps in the far future our studies of the Big Bang will lead to warp drives, or the blob fish will lead to a cure for aging. I can't shake the belief that this knowledge is important even without contributing one cent to GDP and any mechanism to find a "dollar equivalent" would be absurd. Markets are amazing, but they require certain conditions to work and it's not clear that those conditions can be met for everything.
 
@@ -897,7 +897,7 @@ The Haber---Bosch Process is one of the most charismatic chemical processes. It 
 
 It would be an entire (worthy!) research project to discern the licensing practices around other chemical processes. However, skimming through the history of the heavy hitters there seem to be repeated references to multiple companies bringing them to market.[^fn111] Additionally, a significant chunk of the work still ended up in academic papers instead of patents, whether it was being done in universities or industrial labs.[^fn112] The number of papers that industrial labs published suggests that at least more of the steps leading up to an innovation were public than today.
 
-It's worth noting that before the relationship of government, academia, and technology fundamentally changed in 1980 with the Bayh-Dole act, it was hard to have exclusive license rights on federally funded research. The situation flipped after 1980 to a world where research institutions by default had exclusive rights to the output of federally funded research. This shift coincides roughly with the distinct absence of new general-purpose physical technologies. Obviously any direct causal link is speculation at best. At the same time, ignoring it feels dishonest as well. Counterfactuals are hard.
+It's worth noting that before the relationship of government, academia, and technology fundamentally changed in 1980 with the Bayh---Dole act, it was hard to have exclusive license rights on federally funded research. The situation flipped after 1980 to a world where research institutions by default had exclusive rights to the output of federally funded research. This shift coincides roughly with the distinct absence of new general-purpose physical technologies. Obviously any direct causal link is speculation at best. At the same time, ignoring it feels dishonest as well. Counterfactuals are hard.
 
 The computer age is littered with anecdotes of technology that was only impactful because its creators failed to capture its value. Alan Kay argues that the technologies created in Xerox PARC have created trillions of dollars in value.[^fn113] Imagine a world where Xerox sued the living daylights out of any product that used a mouse or a GUI. I suspect the mouse and GUI would have been much less impactful in that world.
 
@@ -1001,7 +1001,7 @@ Luckily, evidence suggests this isn't the case. It's perhaps a cheap analogy, bu
 
 One piece of evidence is simply testimony from former PMs that they had program ideas rejected because they were insufficiently applicable in a defense setting. It would be lovely to have a list of "good ideas DARPA rejected" , but DARPA is still a part of the US DoD so it's hard to just ask about those proposals directly.[^fn126]
 
-Another piece of evidence are stories of how many of the programs eked into existence by the skin of their teeth. Their stories often involve a dedicated PM doggedly arguing for them through several rejections or impending budget cuts[^fn127]. It *could* be that DARPA's selection process is actually amazing at supporting almost every eventually-viable idea but puts them all through the ringer first. This seems unlikely. Instead, if many of the DARPA programs, especially those that are especially exciting outside of the military, barely made it over a line, there are as many or more that didn't make it over that line.
+Another piece of evidence are stories of how many of the programs eked into existence by the skin of their teeth. Their stories often involve a dedicated PM doggedly arguing for them through several rejections or impending budget cuts[^fn127]. It *could* be that DARPA's selection process is actually amazing at supporting almost every eventually-viable idea but puts them all through the wringer first. This seems unlikely. Instead, if many of the DARPA programs, especially those that are especially exciting outside of the military, barely made it over a line, there are as many or more that didn't make it over that line.
 
 While it famously has fewer constraints than other government agencies, DARPA is still part of the US government bureaucracy. As such, DARPA still has a number of constraints that could rule out otherwise viable programs. DARPA doesn't do any research in house, so it cannot pursue programs that would require spinning up an entirely new organization. It still needs to use government procurement, hiring, and salary practices, all of which could sabotage potential programs.
 
@@ -1111,7 +1111,7 @@ People in the startup world often pride themselves on their timescales --- ten y
 
 Adding to the uncertainty is the fact that a big part of solutions R&D is to get the ball rolling, not get it to the goal. This role is important but muddles attribution. You see this historically in how DARPA seeded some of the best CS departments in the country; DARPA doesn't get credit for everything that has come out of the University of Utah CS department [^fn136](nor arguably should it!) DARPA money often plays a role of derisking research to the point that the NSF is willing to fund it. Almost by design there will be arguments about who deserves credit for things a DARPA-riff helped with. 
 
-On top of excruciating timelines and attribution uncertainty, riffing on DARPA will entail working on *weird shit*. You've heard of the successes, but DARPA regularly funds wacky things that go nowhere. Things that make you think "they're wasting my tax dollars on *that?"* Warp drives. Remote control insects. Creating fusion through sound waves. Supersolider serum. Though it should be noted that DARPA had nothing to do with telepathic goat murder research. Over time, DARPA directors have needed to fight to keep DARPA from being toned down and turned into a normal R&D org.
+On top of excruciating timelines and attribution uncertainty, riffing on DARPA will entail working on *weird shit*. You've heard of the successes, but DARPA regularly funds wacky things that go nowhere. Things that make you think "they're wasting my tax dollars on *that?"* Warp drives. Remote control insects. Creating fusion through sound waves. Super-soldier serum. Though it should be noted that DARPA had nothing to do with telepathic goat murder research. Over time, DARPA directors have needed to fight to keep DARPA from being toned down and turned into a normal R&D org.
 
 A big part of the unavoidable discomfort for supporters of a good DARPA-riff is that any of these attributes can also be used as an excuse for poor performance. "We're not showing clear results because we need more time to resolve uncertainty" can be true or false and even the person saying it might not know the difference. The line between a program that just takes time and is going nowhere is often illegible to everybody but the people working on it. Ditto for attribution and weirdness. Here lies yet another Scylla and Charybdis that we must navigate; there is no compass here besides trust. 
 
@@ -1131,7 +1131,7 @@ The momentum-related costs of changing direction come in several forms. Directio
 
 Starting small enables you to build up trust. In large part, building trust is a process of verifying that someone or something is both competent and reliable. To some extent it's just about "getting in the reps." The same quick, small actions you use to course correct can (if done competently) create many trust-verify loops. A history of reliable and competent small actions provide a strong foundation for bigger leaps of faith. On the other hand, asking people to take a big leap of faith up front often leads to second-guessing or sandbagging, which in turn can bring even the largest organization to its knees. 
 
-In the context of a private DARPA, this is warning about the dangers of coming out of the gate yelling "we're going to change the world!" And raising a massive warchest commensurate with that statement without first working out kinks and building trust. It's *not* an injunction against massive ambition! Soberingly, the admonition to start small creates a tension in conjunction with the 'portfolio' nature of the DARPA model, which we'll address later. 
+In the context of a private DARPA, this is warning about the dangers of coming out of the gate yelling "we're going to change the world!" And raising a massive war-chest commensurate with that statement without first working out kinks and building trust. It's *not* an injunction against massive ambition! Soberingly, the admonition to start small creates a tension in conjunction with the 'portfolio' nature of the DARPA model, which we'll address later. 
 
 ## The boon and bane of institutional missions ##
 
@@ -1173,7 +1173,7 @@ Working on general-purpose technology will require a DARPA-riff to explicitly an
 
 A DARPA-riff can enable targeted piddling around through low-stakes seedling programs, using a single organizational umbrella to quickly spin up and close down programs, and having some number of 'free radicals.'
 
-DARPA uses low-stakes seedling programs to 'acid test' the riskiest part of a program idea. [^fn143]There's no reason that a DARPA-riff can't shamelessly copy that strategy directly.  The trick is to go into them with the explicit attitude "let's see what will happen." It's important to acknowledge that while everyone would rather seedlings lead to a promising program than be a nothingburger, reality might have different plans. The way to prevent that preference from morphing into pressure is to explicitly make sure that negative results don't have lasting effects. Specifically, negative results absolutely cannot affect a program manager's ability to run other experiments or affect an external researcher's relationship with the organization as a whole.[^fn144]
+DARPA uses low-stakes seedling programs to 'acid test' the riskiest part of a program idea. [^fn143]There's no reason that a DARPA-riff can't shamelessly copy that strategy directly.  The trick is to go into them with the explicit attitude "let's see what will happen." It's important to acknowledge that while everyone would rather seedlings lead to a promising program than be a nothing-burger, reality might have different plans. The way to prevent that preference from morphing into pressure is to explicitly make sure that negative results don't have lasting effects. Specifically, negative results absolutely cannot affect a program manager's ability to run other experiments or affect an external researcher's relationship with the organization as a whole.[^fn144]
 
 It's tempting to ask "why do you need a DARPA-like organization at all? Just run each program separately." An organizational umbrella over programs can turn targeted piddling around into a compounding long-term benefit.[^fn145] The results of piddling around often come in the form of informative failures or tacit knowledge. It's easy for these results of piddling around to evaporate. If each program was a separate organization, pursuing any serendipitous discovery that didn't help the program move towards its goals would be a distraction. Someone might keep track of those discoveries but there would be relatively little incentive to do so.[^fn146] An umbrella structure can enable serendipitous potential side-quests discovered during the main body of a program to be fed back to the beginning of the "pipeline" and possibly become its own program.
 
@@ -1434,7 +1434,7 @@ Government grants also tend to either fall into the under $1m or over $100m rang
 
 Government contracts are like grants with more clearly defined deliverables. Unlike selling products, the payment is upfront and the 'deliverable' doesn't necessarily need to be as polished and standalone as a product. The deliverable could be the output of a piece of research or a proof of concept.
 
-[SRI International](https://www.sri.com/) is a great case study of an innovation organization whose income is primarily based on contracts. Arguably, SRI is co-responsible for many of DARPA's triumphs --- Douglas Englebart did the work that resulted in the Mother of All Demos at SRI --- and has spun off many valuable and well-regarded organizations.[^fn202] At the same time, they're also the prime example for the constraints below.
+[SRI International](https://www.sri.com/) is a great case study of an innovation organization whose income is primarily based on contracts. Arguably, SRI is co-responsible for many of DARPA's triumphs --- Douglas Engelbart did the work that resulted in the Mother of All Demos at SRI --- and has spun off many valuable and well-regarded organizations.[^fn202] At the same time, they're also the prime example for the constraints below.
 
 Contracts have advantages over both grants and equity funding. Research contracts can be much larger than grants while still enabling work that might not result in a product. There are fewer restrictions on how you can deploy money from contracts and at least part of that money comes in before doing the work so you can hire necessary people and buy equipment. 
 
@@ -1468,7 +1468,7 @@ Arguably, [DeepMind](https://deepmind.com/) is a great example of the mitochondr
 
 While they're under the same constraints in the long run, a key difference between a mitochondrial organization and a home-grown lab may be the ability to skate where the puck is going. A 'normal' industrial lab needs to justify its existence from day one --- 'stakeholder buy-in' and all that. By contrast, a mitochondrial organization only needs that justification *eventually.* DeepMind officially started in 2010 --- two years before AlexNet acted like lightning to AI hype's thunder. It's hard to put yourself in the mindset of pre-2012 attitudes towards AI research, but the term 'AI winter' exists for a reason. Suffice to say, it seems unlikely that any corporation would have created a full-fledged AI-focused lab in 2010. [^fn206]This framework suggests that a key requirement for the mitochondria maneuver to work is a strong thesis about how your DARPA-riff's focus will align with a high-margin corporation's priorities in the future.
 
-A private DARPA cannot count on the mitochondria maneuver from day one. During its Odyssean wanderings, it will still need to depend on one of the other income sources. However, some income streams might be more conducive to eventually getting absorbed than others --- a membership model or programmatic consulting could both become more and more serious until two organizations decide to go steady and consumate the relationship. 
+A private DARPA cannot count on the mitochondria maneuver from day one. During its Odyssean wanderings, it will still need to depend on one of the other income sources. However, some income streams might be more conducive to eventually getting absorbed than others --- a membership model or programmatic consulting could both become more and more serious until two organizations decide to go steady and consummate the relationship. 
 
 Attempting the mitochondria maneuver seems fraught with failure modes. It basically requires predicting the future, which is hard. (Though easier if you're doing that by inventing it.) [^fn207]The steps an organization might need to take to survive might make it unpalatable for a corporation. The opposite could also happen! And while DeepMind has done well, history is littered with organizations that thought they were going to become their acquirer's R&D arm but the fates had other things in store for them. 
 
@@ -1527,13 +1527,13 @@ Many EPOs will not work out. That is ok because of the continuously varied commi
 
 EPOs could give PMs incentives that DARPA programs cannot --- the ability to become the leader of an organization devoted to making a vision into a reality. In a way, the PM to EPO leader would systematize Robert Taylor's role in the personal computer; After running the Information Processing Technology Office at ARPA, Taylor spun up the interactive computing group at PARC and recruited the people who had been working on the ARPA program to work there.
 
-EPOs could bridge the valley of death. A big 'failure' mode of both DARPA and ARPA-E is that nobody takes the technology football when a program successfully wraps up. It's especially insidious because that handoff falls into the cracks between job descriptions so often someone has to go above and beyond to make it happen. In the book Loonshots[^fn216], Safi Bahcall uses the pithy aphorism "Manage the Transfer not the Technology" to emphasize the point that this handoff, not the technological development itself, is where many promising technologies go to die. Although ARPA-E has a commercialization team, they only try to get the individual pieces of a program commercialized, but do not coordinate them into a single entity. The nature of an EPO removes that gap entirely; the program *becomes* a new organization that takes the football. A continuous slider from modularized external research to coordinated internalized research also enables people from disciplines farther down the 'pipeline' to be involved in the process. For example, prototypes are much more likely to be manufactured if people from manufacturing are in the room during the prototype design. 
+EPOs could bridge the valley of death. A big 'failure' mode of both DARPA and ARPA-E is that nobody takes the technology football when a program successfully wraps up. It's especially insidious because that handoff falls into the cracks between job descriptions so often someone has to go above and beyond to make it happen. In the book [Loonshots](https://www.goodreads.com/book/show/39863447-loonshots), Safi Bahcall uses the pithy aphorism "Manage the Transfer not the Technology" to emphasize the point that this handoff, not the technological development itself, is where many promising technologies go to die. Although ARPA-E has a commercialization team, they only try to get the individual pieces of a program commercialized, but do not coordinate them into a single entity. The nature of an EPO removes that gap entirely; the program *becomes* a new organization that takes the football. A continuous slider from modularized external research to coordinated internalized research also enables people from disciplines farther down the 'pipeline' to be involved in the process. For example, prototypes are much more likely to be manufactured if people from manufacturing are in the room during the prototype design. 
 
 EPOs probably need a novel legal structure. 
 
 **A parent organization for the EPOs**
 
-You could imagine EPOs acting as stand-alone organizations; something akin Focused Research Organizations[^fn217] that initially have a distributed structure. However, EPOs will be drastically more effective with an umbrella organization that can spin them up, and maintain things the nebulous things that benefit from institutional consistency like intra-organizational relationships and tacit knowledge. In other words, EPO's are a complement to a DARPA-riff, not a replacement for it.
+You could imagine EPOs acting as stand-alone organizations; something akin Focused Research Organizations[^fn216] that initially have a distributed structure. However, EPOs will be drastically more effective with an umbrella organization that can spin them up, and maintain things the nebulous things that benefit from institutional consistency like intra-organizational relationships and tacit knowledge. In other words, EPO's are a complement to a DARPA-riff, not a replacement for it.
 
 A DARPA-riff is important for getting EPOs off the ground. Starting EPOs probably involves an involved program design process and scattered experiments to show that it's worthwhile to start. You need another organization to do that work. Additionally, DARPA PMs often work on multiple programs at once, which would be harder to do without a DARPA-riff acting as an umbrella organization. Culture, process knowledge, extra-organizational relationships, and organizational trust that a parent organization could build are intangible but could ultimately make each individual EPO more likely to succeed both in terms of know-how and money.
 
@@ -1549,27 +1549,27 @@ Intellectual property ownership will also be an issue. Companies and universitie
 
 There is a lot of literature about how to manage research programs, but very little thinking about how to design them in the first place. 
 
-Program design is inextricably tied up with research planning. The idea of planning research might make some people throw up up in their mouths a little bit[^fn218], but bear with me. I'm going to put on my Wittgenstein hat[^fn219] and suggest that words matter; what people are actually objecting to is *scheduling* research around *deliverables*, which is very different from *planning* research around *goals*.
+Program design is inextricably tied up with research planning. The idea of planning research might make some people throw up up in their mouths a little bit[^fn217], but bear with me. I'm going to put on my Wittgenstein hat[^fn218] and suggest that words matter; what people are actually objecting to is *scheduling* research around *deliverables*, which is very different from *planning* research around *goals*.
 
 All research is planned around goals to some extent. Even "I'm going to put this liquid in this other liquid and see what happens" is a plan. In this situation your goal is to see and report on what happens you mix those two liquids. It's a silly example but it provides a base case to build off of. The chemist mixing the chemicals probably has a bigger plan than simply seeing what happens; the plan probably involves mixing many combinations of chemicals in order to chase a bigger goal of eg. understanding which combination produces the most heat or perhaps why exothermic reactions exist at all.
 
-Our chemist friend doesn't necessarily have or need a specific deliverable to do good work. It might literally be impossible for her to, for example, find a mixture that produces as much heat as she wants. Even if she could, it might involve testing an order of magnitude more mixtures or even needing to invent an entirely new synthesis technique to do it. Requiring her to work on a specific schedule would be inane. I suspect that deliverables and schedules are artifacts of the commoditization process that happened to research during the 20th century as a byproduct of the expansion and institutionalization of science.[^fn220]
+Our chemist friend doesn't necessarily have or need a specific deliverable to do good work. It might literally be impossible for her to, for example, find a mixture that produces as much heat as she wants. Even if she could, it might involve testing an order of magnitude more mixtures or even needing to invent an entirely new synthesis technique to do it. Requiring her to work on a specific schedule would be inane. I suspect that deliverables and schedules are artifacts of the commoditization process that happened to research during the 20th century as a byproduct of the expansion and institutionalization of science.[^fn219]
 
 If planning and goal setting (separate from schedules and deliverables) are necessary for any kind of R&D work, it raises several questions. What kind of goals should be set and what timescales should be planned for what sort of work? Should you parallelize work or serialize it? In what contexts? What are the key constraints keeping you from a breakthrough? What level of fidelity will stifle creativity and what will provide the focus to make breakthroughs? Which tools will maximize the focus and minimize stifling and which frameworks can make the difference between good work and bad? I would posit that these questions and their ilk, what I might refer to as 'program design', are woefully under-theorized.
 
-In addition to the big-headed questions, the objective truth seems to be that we kind of suck at designing research-y programs. Most programs feel like a grab-bag of vaguely related projects that are incremental extensions of whatever researchers were already working on but nudged slightly towards a central theme. Most technology roadmaps feel like the penultimate committee output; bland documents seem to both say everything but are useless for making hard decisions.[^fn221] Whether or not we've actually become *worse* at program design is an open question. To stake a firm position, I will say yes, we have become worse --- anecdotally compare F-35 or SLS development to Apollo. This disciplinary decay would due to reasonable incentives --- there are fewer areas that need program design to function. Arguably software has become the dominant 'innovation-based industry' and, unlike science-based manufacturing, it doesn't benefit significantly from (and can even be harmed by) long-time-horizon program design. 
+In addition to the big-headed questions, the objective truth seems to be that we kind of suck at designing research-y programs. Most programs feel like a grab-bag of vaguely related projects that are incremental extensions of whatever researchers were already working on but nudged slightly towards a central theme. Most technology roadmaps feel like the penultimate committee output; bland documents seem to both say everything but are useless for making hard decisions.[^fn220] Whether or not we've actually become *worse* at program design is an open question. To stake a firm position, I will say yes, we have become worse --- anecdotally compare F-35 or SLS development to Apollo. This disciplinary decay would due to reasonable incentives --- there are fewer areas that need program design to function. Arguably software has become the dominant 'innovation-based industry' and, unlike science-based manufacturing, it doesn't benefit significantly from (and can even be harmed by) long-time-horizon program design. 
 
-The question of whether we've become worse at program design is an important preliminary for the more important question: "could we do program design better?"[^fn222] If we've gotten worse, it's strong evidence that we could do better. However, I suspect that we can do better regardless of whether we've always sucked at it (or are secretly good at it? 🤔) 
+The question of whether we've become worse at program design is an important preliminary for the more important question: "could we do program design better?"[^fn221] If we've gotten worse, it's strong evidence that we could do better. However, I suspect that we can do better regardless of whether we've always sucked at it (or are secretly good at it? 🤔) 
 
-One reason program design is under-theorized is that the people who are good at it are too busy applying it to spend time and effort making it legible.[^fn223] There are no research coaches. Program design also suffers acutely from siloization --- each organization (or individual!) seems to reinvent the wheel. This isn't to say that we should aim for standardization; program design will always be very context-dependent. However, it seems possible to shoot for a baseline of best practices and frameworks for building on top of those best practices.
+One reason program design is under-theorized is that the people who are good at it are too busy applying it to spend time and effort making it legible.[^fn222] There are no research coaches. Program design also suffers acutely from siloization --- each organization (or individual!) seems to reinvent the wheel. This isn't to say that we should aim for standardization; program design will always be very context-dependent. However, it seems possible to shoot for a baseline of best practices and frameworks for building on top of those best practices.
 
 There are many inspirations that the discipline might be able to draw on. A big part of a program design discipline will be trying to make legible the process that skilled practitioners already use to create things like [Adam Marblestone's Climate Technology Primer ](https://longitudinal.blog/co2-series-part-1-review-of-basics/)or [José Luis Ricón's Longevity FAQ](https://nintil.com/longevity/?utm_campaign=Matt's%20Thoughts%20In%20Between&utm_medium=email&utm_source=Revue%20newsletter). José does a good job unpacking his process in [Longevity FAQ: Making Of](https://nintil.com/longevity-making-of/); one could imagine a line of research that focuses on understanding why some people are good at this process and some are not. Adam and Ed Boyden hinted at the possibility of more structured discovery in their article [Architecting Discovery](https://www.sciencedirect.com/science/article/pii/S0896627319302867). 
 
-History is another place to dig --- how did people manage research-adjacent projects that had [shockingly fast results](https://patrickcollison.com/fast)? While some of the results were contingent on the individuals involved, I can't shake the hunch that there is transferrable knowledge in the tools developed to manage early space programs.[^fn224] How did the creators of the [Fusion Power By Magnetic Confinement report](https://fire.pppl.gov/us_fusion_plan_1976.pdf) think about the different possibilities and tradeoffs?[^fn225] Of course, the value of historical study depends on the aforementioned question of whether we've become worse or not. 
+History is another place to dig --- how did people manage research-adjacent projects that had [shockingly fast results](https://patrickcollison.com/fast)? While some of the results were contingent on the individuals involved, I can't shake the hunch that there is transferrable knowledge in the tools developed to manage early space programs.[^fn223] How did the creators of the [Fusion Power By Magnetic Confinement report](https://fire.pppl.gov/us_fusion_plan_1976.pdf) think about the different possibilities and tradeoffs?[^fn224] Of course, the value of historical study depends on the aforementioned question of whether we've become worse or not. 
 
 ![][old_school_gantt]You don't often see this kind of program design any more. Was it never useful, now outdated, or a lost art?
 
-There has been a lot of work on how to do better project (as opposed to program) management, which is incredibly relevant. One could even argue that researchy program design is just part of project management. I would argue that standard project management techniques (Six Sigma[^fn226], Matrix Management[^fn227], etc.) need so much modification to deal with the uncertainty, timescales, and fractured expertise inherent in research programs that we're talking about something beyond a simple extension of project management. There is a whole range of methodologies like TRIZ[^fn228], [Wigmore Charts](https://en.wikipedia.org/wiki/Wigmore_chart), or [Wardley Maps](https://en.wikipedia.org/wiki/Wardley_map) that feel like they have nuggets of truth but are, for the most part, post-hoc explanations of success used to get consulting gigs in areas with loose feedback loops like big companies or law schools. So, like any good discipline, program design would start strongly adjacent to crackpots and mysticism\![^fn229]
+There has been a lot of work on how to do better project (as opposed to program) management, which is incredibly relevant. One could even argue that researchy program design is just part of project management. I would argue that standard project management techniques (Six Sigma[^fn225], Matrix Management[^fn226], etc.) need so much modification to deal with the uncertainty, timescales, and fractured expertise inherent in research programs that we're talking about something beyond a simple extension of project management. There is a whole range of methodologies like TRIZ[^fn227], [Wigmore Charts](https://en.wikipedia.org/wiki/Wigmore_chart), or [Wardley Maps](https://en.wikipedia.org/wiki/Wardley_map) that feel like they have nuggets of truth but are, for the most part, post-hoc explanations of success used to get consulting gigs in areas with loose feedback loops like big companies or law schools. So, like any good discipline, program design would start strongly adjacent to crackpots and mysticism\![^fn228]
 
 ![][connectomics_map]What might a Wardley-inspired roadmap for describing the complete structural connectivity of the human brain look like?
 
@@ -1583,7 +1583,7 @@ Another strong argument against the formalization of program design is that the 
 
 The possible upsides of a healthy program design discipline seem like they could be huge. So if you go in explicitly acknowledging the potential failure modes, the potential upsides are worth it. Program design could potentially help programs exist that would not exist otherwise, prevent wild goose chases, and unlock unintuitive possibilities! 
 
-The trick is that to do risky experiments[^fn230], program design as a discipline needs to be embedded in an organization running programs. Enabling technologies must be developed while doing serious work[^fn231] and without an organizational home, program design would be severed from a serious context of use. It would suffer the same fate as other academic or consultant-driven disciplines of practice. These disciplines tend to sound great on paper so that someone wants to implement them, but that implementation often has so many restrictions, imperfect information, and strung-out feedback loops that it's unclear how much of the success or failure of the project is attributable to the discipline. Developing better program design is one of the reasons why despite running multiple organizational experiments flies in the face of common wisdom, a [DARPA-riff both can and must do multiple experiments at once][A DARPA-riff both can and must do multiple experiments at once].
+The trick is that to do risky experiments[^fn229], program design as a discipline needs to be embedded in an organization running programs. Enabling technologies must be developed while doing serious work[^fn230] and without an organizational home, program design would be severed from a serious context of use. It would suffer the same fate as other academic or consultant-driven disciplines of practice. These disciplines tend to sound great on paper so that someone wants to implement them, but that implementation often has so many restrictions, imperfect information, and strung-out feedback loops that it's unclear how much of the success or failure of the project is attributable to the discipline. Developing better program design is one of the reasons why despite running multiple organizational experiments flies in the face of common wisdom, a [DARPA-riff both can and must do multiple experiments at once][A DARPA-riff both can and must do multiple experiments at once].
 
 ## Program design is like creating the lego instruction book ##
 
@@ -1601,7 +1601,7 @@ Ideally, as many steps as possible are relatively self-contained 'modules': the 
 
 Obviously, this analogy can only be pushed so far: research-heavy programs will inevitably have gaps between steps that would make any lego-assembler tear her hair out; the picture on the front of the box might be fuzzy or wrong; in real life, pieces don't just snap together; technology doesn't exist independent of people, so you need to deal with incentives, politics, and egos; and more.
 
-You could reasonably object to this analogy with a counter-analogy that the pieces of a research program are less like legos and more like biological components. Separate components in a biological process have much more 'agency' --- if you create the right environment and shake it or apply a jolt of electricity, they will self-assemble[^fn232]. The biological analogy would be much more apt than a lego analogy if paradigm-shifting work cannot be planned or the innovation ecosystem is 'directionally' correct and just needs more funding and work along existing channels.
+You could reasonably object to this analogy with a counter-analogy that the pieces of a research program are less like legos and more like biological components. Separate components in a biological process have much more 'agency' --- if you create the right environment and shake it or apply a jolt of electricity, they will self-assemble[^fn231]. The biological analogy would be much more apt than a lego analogy if paradigm-shifting work cannot be planned or the innovation ecosystem is 'directionally' correct and just needs more funding and work along existing channels.
 
 I suspect the reality is a mix of both analogies --- in research programs, unlike lego construction, you can't lay out every single step so 'biological' self-assembly between steps will be essential. Keep in mind that these analogies are meant as thinking tools, not evidence or predictive descriptions of the world. Hopefully, though, the Lego analogy is provocative. Playing with it is a more tangible way to describe the need for program design overall and suggests extensions, like the the the possible role of simulations and legible intermediate steps.
 
@@ -1609,11 +1609,11 @@ I suspect the reality is a mix of both analogies --- in research programs, unlik
 
 New technologies and disciplines are often 'good ideas' in theory but infeasible in practice because they're built on top of other technologies that aren't up to snuff. Electric cars that are comparable to gasoline-powered cars weren't really feasible until the electronics industry caused leaps in lithium-ion batteries. "Why now?" a good question to ask whenever someone proposes a new technology or discipline. A good answer can hint at eventual success. Of course, the many examples of successful creations that didn't have a particular "why now" means that while a bad answer to the question doesn't predict failure. Simulations may be an answer to the "why now" question for a new program design discipline: our capability to simulate everything from proteins to cities has exploded in the 21st century and they have unique ability to precisely illustrate possibilities that do not yet exist in a way that is both internally consistent and externally consistent. 
 
-Simulations have continuously improved over the late 20th century and early 21st century thanks to improvements in both software and hardware.[^fn233] Games and movies have pushed the edge of the possible, encouraging better algorithms, processes, and tools. Improvement in Graphics Processing Units (GPUs) both directly enable better simulations (the world is massively parallel!) and have fueled improvements in machine learning which has recently started unlocking simulation capabilities like AlphaFold and FermiNet.[^fn234]
+Simulations have continuously improved over the late 20th century and early 21st century thanks to improvements in both software and hardware.[^fn232] Games and movies have pushed the edge of the possible, encouraging better algorithms, processes, and tools. Improvement in Graphics Processing Units (GPUs) both directly enable better simulations (the world is massively parallel!) and have fueled improvements in machine learning which has recently started unlocking simulation capabilities like AlphaFold and FermiNet.[^fn233]
 
 With simulations, you can *precisely* work backwards from a long-term goal technology. This "backwards propagation" can then be used to inform what you build starting with what is possible today. In a way, this role is similar the one fulfilled by science fiction when you use it as a case study, or simply a precise vision of where a technology can go. However, simulations are much more precise than visions and can be not only a compass but a map as well. They can surface obstacles and make non-intuitive suggestions about which routes might be productive and which might be traps.
 
-Take 'atomically precise manufacturing', for example. There is one camp that says "there's no reason it shouldn't work" but doesn't give clear examples of what "working" would actually look like. There is another camp that says "that's not how molecules work!" but like the proponents, can't be any more grounded. With that level of discourse the two groups inevitably just talk past one another which makes it hard for even a technically trained outsider to evaluate their arguments. In a way it resembles the post-consensus political discourse. If both groups could agree to the assumptions and methods behind a simulation, it would be possible to create more-or-less objective evidence for or against the feasibility of one plan or another. The simulations could then enable researchers[^fn235] to iterate on precise challenges. 
+Take 'atomically precise manufacturing', for example. There is one camp that says "there's no reason it shouldn't work" but doesn't give clear examples of what "working" would actually look like. There is another camp that says "that's not how molecules work!" but like the proponents, can't be any more grounded. With that level of discourse the two groups inevitably just talk past one another which makes it hard for even a technically trained outsider to evaluate their arguments. In a way it resembles the post-consensus political discourse. If both groups could agree to the assumptions and methods behind a simulation, it would be possible to create more-or-less objective evidence for or against the feasibility of one plan or another. The simulations could then enable researchers[^fn234] to iterate on precise challenges. 
 
 Even more optimistically, simulations could enable non-researchers to contribute as well! If you squint, video games are simply simulations optimized for fun instead of accuracy. One could imagine many \<games? Tools?\> somewhere between [Foldit](https://fold.it/portal/) and [Kerbal Space Program](https://www.kerbalspaceprogram.com/) that enable non-experts to explore possibility space and surface approaches orthogonal to expert thinking. 
 
@@ -1623,7 +1623,7 @@ Of course there are challenges. To name a few: it is hard to interface different
 
 The DARPA model is an unbuffered system. In chemistry, an unbuffered system changes its overall pH rapidly in response to acids or bases. At DARPA, individual contributions easily have a huge effect on outcomes. An unbuffered system has many advantages --- most notably it enables high agency individuals to act quickly with minimal friction. At the same time, an unbuffered system seems likely to run into a catastrophic failure that kills the whole thing. In order to do effective solutions R&D, a DARPA-riff needs to be a long-term institution. Is it possible to build in checks and balances that could sustain a long-term institution without ruining the possibility of high variance outputs?
 
-Looking far outside the realm of research organizations, it's worth noting that there are some core elements to the American constitution that have made the United States a rather robust institution.[^fn236] The US founders thought a lot about institutional longevity and it's worth drawing from their experience. As a thought experiment, let's go back to 6th grade civics class  (for those readers who didn't go to school in the US, you really didn't miss much). We can examine the roles of different branches of government and play with them through the lens of the different building blocks we have in corporate governance and DARPA's structure. I'll pay special attention to the Buxton Index (the length of the period over which an entity makes its plans) of each role to explicitly call out where there will be incentive mismatches. Ideally, you can use those tensions as a productive set of checks and balances instead of generating wasteful friction.
+Looking far outside the realm of research organizations, it's worth noting that there are some core elements to the American constitution that have made the United States a rather robust institution.[^fn235] The US founders thought a lot about institutional longevity and it's worth drawing from their experience. As a thought experiment, let's go back to 6th grade civics class  (for those readers who didn't go to school in the US, you really didn't miss much). We can examine the roles of different branches of government and play with them through the lens of the different building blocks we have in corporate governance and DARPA's structure. I'll pay special attention to the Buxton Index (the length of the period over which an entity makes its plans) of each role to explicitly call out where there will be incentive mismatches. Ideally, you can use those tensions as a productive set of checks and balances instead of generating wasteful friction.
 
 **Different Roles as Different Branches of Government**
 
@@ -1679,13 +1679,13 @@ Regardless of how it's done, it's important that any employee value capture mech
 
 There will be unavoidable inequality between the amount of value different PMs capture. Some programs will probably lead to successful companies; the people who do the work to get the company off the ground will inevitably reap the lions share of the rewards. There is so much more to starting a successful company than the technology it's built around, so it seems reasonable that significant chunk of its value should be captured by people who build the company instead of just doing the research. Some programs will yield complete duds. Some PMs will do work that leads to highly-paid consulting gigs or nifty jobs. Some programs will create massive value that is impossible to capture. It's impossible for an employee value capture mechanism to eliminate these inequalities (nor should it) but it should attempt to *buffer* them.
 
-My model of monetary compensation is that for most people[^fn237] it's not a strict matter of "more is better" but that there is a threshold that feels "fair" above which other incentives matter much more.
+My model of monetary compensation is that for most people[^fn236] it's not a strict matter of "more is better" but that there is a threshold that feels "fair" above which other incentives matter much more.
 
 **Employee ownership via control**
 
 In addition to economic stakes, people tend to feel more invested in the long-term success of an institution if they have a voice in its direction.
 
-The most prominent way that organizations implement employee ownership is through the co-op model.[^fn238] As gross oversimplification: instead of a co-op having a management team who answers to a board, co-op employees *are* the management team and elect representatives who liase with the board. There's something emotionally appealing in the idea of a private DARPA as a 'research collective.' 
+The most prominent way that organizations implement employee ownership is through the co-op model.[^fn237] As gross oversimplification: instead of a co-op having a management team who answers to a board, co-op employees *are* the management team and elect representatives who liaise with the board. There's something emotionally appealing in the idea of a private DARPA as a 'research collective.' 
 
 A DARPA-riff likely can't adopt a co-op model full-cloth; co-ops tend to be organizations sell concrete outputs on relatively short timescales like farms and retail stores. However, the idea of PMs comprising the executive branch in a constitutional system is shockingly similar to a co-op. In both cases the 'members' select who will be on the board. The difference is that the constitutional model has three separate branches while co-ops have two. I suspect this third branch (the director/legislative branch) is important for dealing with longer timescales and more nebulosity than normal co-ops. 
 
@@ -1696,6 +1696,10 @@ If PMs don't feel a long-term connection with the DARPA-riff their level of auto
 Universities are a good case study in creating a connection between an institution and short-tenured individuals. Despite being primarily composed of students who will be there for \~5 years (with high variance), universities both manage to maintain a stable intergenerational culture and convince alumni to care about the institution's long-term health after they graduate. This example makes it worthwhile to ask "how are Universities so institutionally and culturally stable?"  One possibility to create long-term buy in is to have a board member who is explicitly a representative for 'graduated' PMs, in the same way that universities often have an alumni representative as part of their governance.  
 
 ## A DARPA-Riff could establish sales channels for frontier tech ##
+
+> There is nothing more difficult to take in hand, more perilous to conduct or more uncertain in its success, than to take the lead in the new order of things; because the innovator has for enemies all those who have done well under the old conditions, and lukewarm defenders in those who may do well under the new. 
+
+--- Machiavelli, *The Prince* 
 
 Another important organizational experiment is to figure out better ways to get new types of technology out into the world.
 
@@ -1715,7 +1719,7 @@ Creditability matters in technology diffusion. People (and thus organizations to
 
 **Ongoing relationships**. 
 
-Technology diffusion inevitably depends on many other organizations: manufacturers, regulators, resellers, advertisers ... the list goes on. And people like to work with people they've worked with before. One big reason people tend to bet on industry insiders launching new ventures is because of the assumption that their existing relationships will reduce friction and make them more likely to succeed. At the same time, new technological paradigms often come from outsiders. What might look like a nefarious plot to suppress change[^fn239] can also be explained by outsiders not having the right relationships. 
+Technology diffusion inevitably depends on many other organizations: manufacturers, regulators, resellers, advertisers ... the list goes on. And people like to work with people they've worked with before. One big reason people tend to bet on industry insiders launching new ventures is because of the assumption that their existing relationships will reduce friction and make them more likely to succeed. At the same time, new technological paradigms often come from outsiders. What might look like a nefarious plot to suppress change[^fn238] can also be explained by outsiders not having the right relationships. 
 
 It might be possible to circumvent this problem by maintaining relationships with people in a wide array of other organizations at the umbrella-organization level. The alternative would be to force each program to develop new relationships or finding someone who has them on top of technical work. Even more speculatively, these relationships could be codified in actual contracts where external organizations (manufacturers or distributors) are part of a consortium that gets first crack at program outputs, similar to the MIT Media Lab's model.
 
@@ -1723,15 +1727,15 @@ This is one of those ideas that can sound good on paper but will be incredibly h
 
 ## R+D Incentivization SPAC ##
 
-I'm allowed to have one part of the speculation section that's just pure wild speculation, right? Ok here goes: It might be possible to create a SPAC[^fn240] that is designed to incentivize getting technology past a goalpost. 
+I'm allowed to have one part of the speculation section that's just pure wild speculation, right? Ok here goes: It might be possible to create a SPAC[^fn239] that is designed to incentivize getting technology past a goalpost. 
 
 Normally SPACs either have a fairly broad mandate ("find a high-potential tech company") or are created in order to take a specific company public. What if instead the SPACs mandate was to go after a specific set of technological milestones? Say for example, the ability to create an arbitrary chemical reaction at a specific site faster than a given rate with so many nanometer precision (which would be broadly, the specs for a company on the way towards atomically precise manufacturing).   
 
-In effect, an R&D Incentiviation SPAC (RDISPAC just rolls off the tongue right?) could act like a non-government advanced market commitment for a technology. Advanced market commitments are the government saying in effect "if you create something that meets these specifications, we guarantee we will buy N of them for $X apiece."[^fn241] The most famous advanced market commitment in recent memory is the US government's approach to COVID-19 vaccines. Of course an RDISPAC would differ from an advanced market commitment because investment doesn't automatically translate to customers the way an advanced market commitment does. 
+In effect, an R&D Incentiviation SPAC (RDISPAC just rolls off the tongue right?) could act like a non-government advanced market commitment for a technology. Advanced market commitments are the government saying in effect "if you create something that meets these specifications, we guarantee we will buy N of them for $X apiece."[^fn240] The most famous advanced market commitment in recent memory is the US government's approach to COVID-19 vaccines. Of course an RDISPAC would differ from an advanced market commitment because investment doesn't automatically translate to customers the way an advanced market commitment does. 
 
-The milestones that a SPAC is looking for would need to be very carefully considered. The best technologies don't always win, so there needs to be a strong argument that technical capabilities will translate into a long-term profitable business. Drug companies get around this problem because it's basically guaranteed that if you create a drug that gets FDA approval for a certain set of conditions, insurance companies will pay for it. However in any other case, new technology has bespoke sales channels. Instead of a fairly legible process, creating sales channels for something nobody has seen before requires almost-magical persuasion. One of the reasons why VCs (accurately) care so much about a startups founding team is because much of a company's success has nothing to do with the technology and everything to do with sales and market creation.[^fn242] It seems like an open question how to both argue that a technology-based SPAC is a good investment and have its acquisition conditions be based only on technical milestones. Additionally, the cash injection from the SPAC needs to be able to get the technology to a place where you're seeing fairly continuous business improvement. If the SPAC acquires a technology company and the share price falls, it's unlikely that you'll be able to raise any more money.
+The milestones that a SPAC is looking for would need to be very carefully considered. The best technologies don't always win, so there needs to be a strong argument that technical capabilities will translate into a long-term profitable business. Drug companies get around this problem because it's basically guaranteed that if you create a drug that gets FDA approval for a certain set of conditions, insurance companies will pay for it. However in any other case, new technology has bespoke sales channels. Instead of a fairly legible process, creating sales channels for something nobody has seen before requires almost-magical persuasion. One of the reasons why VCs (accurately) care so much about a startups founding team is because much of a company's success has nothing to do with the technology and everything to do with sales and market creation.[^fn241] It seems like an open question how to both argue that a technology-based SPAC is a good investment and have its acquisition conditions be based only on technical milestones. Additionally, the cash injection from the SPAC needs to be able to get the technology to a place where you're seeing fairly continuous business improvement. If the SPAC acquires a technology company and the share price falls, it's unlikely that you'll be able to raise any more money.
 
-If we talk about it in terms of technology readiness levels[^fn243] (TRLs), an RDISPAC could target either 3 (proof-of-concept), 6 (prototype in a relevant environment), or 8 (production version in a real environment). If the RDISPAC were targeting TRL 3 or 6, the technology would actually skip being a VC funded startup. If the RDSPAC targeted TRL 8, you would still need to raise private funds and build a business but the existence of the SPAC (ie. A clear exit option) would hopefully make it easier to raise funds.
+If we talk about it in terms of technology readiness levels[^fn242] (TRLs), an RDISPAC could target either 3 (proof-of-concept), 6 (prototype in a relevant environment), or 8 (production version in a real environment). If the RDISPAC were targeting TRL 3 or 6, the technology would actually skip being a VC funded startup. If the RDSPAC targeted TRL 8, you would still need to raise private funds and build a business but the existence of the SPAC (ie. A clear exit option) would hopefully make it easier to raise funds.
 
 RDISPACs could help create a healthier technology creation ecosystem. The organization that is doing the work to get technology projects off the ground and help fund them initially (ie. A DARPA-riff) could manage the SPAC was well. We've already seen a few technology-focused VC firms like Lux Capital go down this route. The advantage of a DARPA-riff helping manage a SPAC would be that management fees could go directly towards creating more technology. Running both the beginning and end of the pipeline may enable a 'closed loop' technology development system, where the organization helping germinate the technology can capture some of its value without taking deadweight equity or licensing fees.
 
@@ -1766,13 +1770,13 @@ Most people who enter a labyrinth --- even those with a plan --- don't survive. 
 
 ## Precise visions are more likely to happen ##
 
-A striking through-line that connects ambitious and successful technology programs from SpaceX to PARC (and ARPA computing programs before that) is that they were organized either explicitly or implicitly around a *precise* vision of the future.[^fn244] These precise visions both act like a filter for likely-to-succeed programs and contribute directly to that success.
+A striking through-line that connects ambitious and successful technology programs from SpaceX to PARC (and ARPA computing programs before that) is that they were organized either explicitly or implicitly around a *precise* vision of the future.[^fn243] These precise visions both act like a filter for likely-to-succeed programs and contribute directly to that success.
 
 The causal relationship between precise visions and success is fairly intuitive. A precise vision acts as a coordinating mechanism that enables a large group of people to agree on what things they are working towards and, perhaps more importantly, what they are *not* working towards. Just as mythic rowers are useless without the coordination of a drumbeat, any compelling vision will generate action, but if it's imprecise the energy will quickly dissipate. It's the difference between rocket fuel creating a fireball and delivering a payload to orbit. If people can see the specific actions that they can do *now* in order to move towards the vision, it's comparatively easy for them to start doing them. However, most visions are abstract and fuzzy, which leads to reactions along the lines of "somebody should do something!" "Pass a law!" Or "it sure would be nice if..." Legibility enables action!
 
 I suspect that precise visions are also a filter for programs that are more likely to be successful. You could think of the vision like a test against reality. Do we understand the thing well enough to execute on it? If not, it's less likely to be feasible and may need more work before a program is likely to succeed. Of course, if you can precisely say what that 'prework' is, you've bootstrapped your way to a (different) precise program. Precision produces payoffs! 
 
-This litmus test doesn't limit you to just incremental changes either --- Vannevar Bush's essay As We May Think[^fn245] painted a precise vision of a thinking tool that was a massive paradigm shift away from anything that had existed before and yet precisely described many aspects of computers we'd recognize today. 
+This litmus test doesn't limit you to just incremental changes either --- Vannevar Bush's essay As We May Think[^fn244] painted a precise vision of a thinking tool that was a massive paradigm shift away from anything that had existed before and yet precisely described many aspects of computers we'd recognize today. 
 
 ## Naming things is powerful ##
 
@@ -1826,15 +1830,15 @@ I'll walk through each of these in as much detail as possible. Fair warning: we'
 
 # It's possible to systematically design programs  #
 
-The first big question that any pragmatic person asks about PARPA is "so, what are you working on?"[^fn246] Building a process to consistently and precisely generate answers to that question is PARPA's first major task. 
+The first big question that any pragmatic person asks about PARPA is "so, what are you working on?"[^fn245] Building a process to consistently and precisely generate answers to that question is PARPA's first major task. 
 
-"Figuring out what to work on" (or worse, figuring out how to figure out what to work on) as a first major step may sound a bit silly (and indeed it feels a bit silly to write it). Startups are generally created to go after a specific problem or opportunity so its a big red flag if they don't know what they're working on from day one.[^fn247] Conversely, actively "figuring out what to work on" is also a waste of time for most research funding organizations; once they've settled on a broad area, their modus operandi is to solicit and judge applications. 
+"Figuring out what to work on" (or worse, figuring out how to figure out what to work on) as a first major step may sound a bit silly (and indeed it feels a bit silly to write it). Startups are generally created to go after a specific problem or opportunity so its a big red flag if they don't know what they're working on from day one.[^fn246] Conversely, actively "figuring out what to work on" is also a waste of time for most research funding organizations; once they've settled on a broad area, their modus operandi is to solicit and judge applications. 
 
 In both of these situations though, the 'context' of work is roughly fixed and well-established. People have patterns to match. A key reason for PARPA's existence is to enable work that's not being done because it doesn't fall into those well-established contexts. Good PARPA programs will lurk in the shadows of counterfactuals, and counterfactuals are hard. Our job then is not just figuring out "what to work on" but three coupled questions "what things would be enabled by a new context, what is that context, and can PARPA create it?" Program design will require answering all three in a way that resembles the final step of solving a blacksmith's puzzle --- each answer depends on all the others.
 
 To give you a flavor of some of the questions we'll need to tackle in the process of figuring out what to work on: Is it a matter of coordinating multiple pieces of a system? Creating collaborations between disciplines? Prompting aggressive ideas that researchers aren't even thinking because they wouldn't normally be funded? Or does the thing not exist because it's actually just violating some laws of physics? What experiments could be done to test the answers to these questions? 
 
-Another reason figuring out what to work on is not straightforward: PARPA is especially susceptible to the chicken-and-egg situation facing any new institution: we can't be sure that we can work on something until we know who will be working on it, and people are hesitant to agree to work on something until the organization declares that it's working on it. We can't honestly declare that we're working on something until we at least have strong suspicions about who will be working on it. Unlike most startups that base their plans on hiring fairly fungible roles --- "a software engineer" or "a data scientist"[^fn248], PARPA programs will hinge on working with people who have knowledge and skills that only exist in a few minds around the world. Many ambitious proposals start with "someone should do this crazy ambitious thing" but never actually specify who is both qualified and willing to do it. [Finding those people and building trust-relationships with them will be a project in itself][It's possible to find people who want to do pieces of work that would not happen otherwise]. Who is open to participating will shape the programs PARPA should undertake. 
+Another reason figuring out what to work on is not straightforward: PARPA is especially susceptible to the chicken-and-egg situation facing any new institution: we can't be sure that we can work on something until we know who will be working on it, and people are hesitant to agree to work on something until the organization declares that it's working on it. We can't honestly declare that we're working on something until we at least have strong suspicions about who will be working on it. Unlike most startups that base their plans on hiring fairly fungible roles --- "a software engineer" or "a data scientist"[^fn247], PARPA programs will hinge on working with people who have knowledge and skills that only exist in a few minds around the world. Many ambitious proposals start with "someone should do this crazy ambitious thing" but never actually specify who is both qualified and willing to do it. [Finding those people and building trust-relationships with them will be a project in itself][It's possible to find people who want to do pieces of work that would not happen otherwise]. Who is open to participating will shape the programs PARPA should undertake. 
 
 I've already begun this process for a few possible programs and frankly, it is a full-time-job in and of itself.
 
@@ -1846,9 +1850,9 @@ Finally, the entire process needs to be repeatable. Creating the initial program
 
 ## It's possible to find people who want to do pieces of work that would not happen otherwise ##
 
-Most people don't advertise the fact that they want to go after slightly crazy research that requires resources or collaborators that aren't already at their disposal. This is doubly true if they actually have the skill to pull it off.[^fn249] There are exceptions of course, but most career-focused researchers file overly-ambitious ideas away 'for later.' Often these ideas are buried so deeply that they need prompting and trust to even talk about them out loud.[^fn250] 
+Most people don't advertise the fact that they want to go after slightly crazy research that requires resources or collaborators that aren't already at their disposal. This is doubly true if they actually have the skill to pull it off.[^fn248] There are exceptions of course, but most career-focused researchers file overly-ambitious ideas away 'for later.' Often these ideas are buried so deeply that they need prompting and trust to even talk about them out loud.[^fn249] 
 
-A big part of the ICT's success depends on our ability to find these people. It will be a harder task than it might seem, especially without a track-record. While doing a few pieces of preliminary program design, I've found that the people who are excited about ambitious technical ideas often aren't in a position to execute on those ideas; either they don't have the technical expertise[^fn251] or because they're in a long-term position that precludes them doing the work. Conversely, the people who on paper are at the cutting edge of a field tend to have gotten there by being laser focused on a specific academic research agenda that can proceed methodically using the resources available to a single lab. This self-selected group is often distinctly unexcited by larger jumps that would involve combining their research with other disciplines. 
+A big part of the ICT's success depends on our ability to find these people. It will be a harder task than it might seem, especially without a track-record. While doing a few pieces of preliminary program design, I've found that the people who are excited about ambitious technical ideas often aren't in a position to execute on those ideas; either they don't have the technical expertise[^fn250] or because they're in a long-term position that precludes them doing the work. Conversely, the people who on paper are at the cutting edge of a field tend to have gotten there by being laser focused on a specific academic research agenda that can proceed methodically using the resources available to a single lab. This self-selected group is often distinctly unexcited by larger jumps that would involve combining their research with other disciplines. 
 
 Not all hope is lost! I have come across several people who *do* seem to have a magical blend of technical skills and excitement about ambitious possibilities that might be one step beyond what is consensus possible. These people tend to be post-docs, grad students, and technically trained people who have left academia. So the 'right' people do exist --- the challenge is to figure out how to find them *consistently* and bridge the gap between 'intrigued' and 'on board.'
 
@@ -1870,7 +1874,7 @@ PARPA needs to nail down early the type of work that it's enabling. There are tw
 
 I have a hunch that there are (at least) two heuristics for he type of work that falls into the sweet spot of 'possible but not incentivized': work that people suspect wouldn't be able to get through a grant committee and work would require some sort of weird collaboration. Both of these cases tend to fall into mental blind spots: instead of a nagging pain, they're the sort of thing where you think "that would be nice" but then forget about it. Part of PARPA's role is to tease out those discarded ideas. 
 
-Work might not be able to get through a grant committee for several reasons: it doesn't fit into a neat bucket; it isn't directly related to research that the performer has done before[^fn252]; or it just doesn't have strong evidence that it will succeed. 
+Work might not be able to get through a grant committee for several reasons: it doesn't fit into a neat bucket; it isn't directly related to research that the performer has done before[^fn251]; or it just doesn't have strong evidence that it will succeed. 
 
 The sort of work that might require a non-existent collaboration is hard to generalize. An example might be a molecular-level process that a chemistry group wants to implement, but the time it takes to synthesize and the range of possible outcomes makes trial-and-error experiment infeasible. A machine-learning-driven simulation could narrow down the search space enough to make trial-and-error in the constrained search space feasible but the chemistry group has nobody with the expertise to build the simulation. At the same time, the simulation folks have nobody with the nuanced experience with chemistry to help make the simulations they're building actually useful. PARPA could fund both groups to work tougher and help coordinate between them.  
 
@@ -1880,7 +1884,7 @@ Even if [it's possible to find people who want to do pieces of work that would n
 
 A big part of working with research is the ability to fund the research at all, which is what makes this hypotheses one of those experiments that can only be done in the context of an organization. However, money is necessary but nowhere near sufficient to get people to work with you. People need to be excited about the work; it will inevitably require both creativity and persistence in spades. We can't go all-in on "be excited! Pursue your passion!" though because any single project in the program because eventually the different projects need to converge. Finding this balance consistently will be hard! 
 
-Some tactics that we can test to 'onboard' collaborators include: small workshops of high-potential possible performers; spending a lot of work building trust with individual researchers; [^fn253]working to build a long-term community that will continue to be valuable to researchers after any specific project. 
+Some tactics that we can test to 'onboard' collaborators include: small workshops of high-potential possible performers; spending a lot of work building trust with individual researchers; [^fn252]working to build a long-term community that will continue to be valuable to researchers after any specific project. 
 
 ## There exist several areas that could possibly yield results (defined loosely) in 3-5 years (given steady work) ##
 
@@ -1890,7 +1894,7 @@ This plan rests on the hypothesis that the sweet spot even exists. It could be t
 
 ##  For each potential PARPA program, it's possible to come up with a set of small experiments that could further confirm or deny its feasibility within 12-24 months and ~$1M scale ##
 
-DARPA PMs use seedling projects to 'acid test' the riskiest pieces of a program idea.[^fn254] I'm confident that PARPA will be able to do something similar for our programs but it's still a hypothesis we need to explicitly test. It is extremely hard to call out in advance which pieces of evidence would compellingly suggest that a crazy idea is at least possible. 
+DARPA PMs use seedling projects to 'acid test' the riskiest pieces of a program idea.[^fn253] I'm confident that PARPA will be able to do something similar for our programs but it's still a hypothesis we need to explicitly test. It is extremely hard to call out in advance which pieces of evidence would compellingly suggest that a crazy idea is at least possible. 
 
 Part of derisking this hypothesis is frankly just a learning process about what makes a good seedling project. After studying examples of past DARPA seedling programs, some potential heuristics are:
 
@@ -1899,7 +1903,7 @@ Part of derisking this hypothesis is frankly just a learning process about what 
 
 I suspect the line between success and failure in seedling projects will often be fuzzy. This nebulosity is why developing trust with performers will be critical. Human judgement will be unavoidable in deciding whether the seedling experiments provide enough evidence to launch a full program. Another possible frame for the seedling programs is that they serve as a trust-building 'trial' period. Think of internships or how some companies set it up so that employees and the company can both choose to part ways after a few months. 
 
-Below are some top-of-mind examples[^fn255] of speculative seedling projects to prime your intuition pump. Binding constraints They might not be feasible for many reasons!
+Below are some top-of-mind examples[^fn254] of speculative seedling projects to prime your intuition pump. Binding constraints They might not be feasible for many reasons!
 
 * Showing that it might be possible to get muons to have a higher replication rate in a fusion reaction. 
 * Doing a study on what that design for a broadly-applicable robot specifically designed for telerobotics work might look like. 
@@ -1922,9 +1926,9 @@ Finding people and promising areas, figuring out the experiments they could do t
 
 ## Workshops are a systemized way of people-wrangling ##
 
-DARPA program managers often hold small workshops of experts as part of their program design process.[^fn256] Running a series of these workshops might be a small, actionable place to start PARPA.
+DARPA program managers often hold small workshops of experts as part of their program design process.[^fn255] Running a series of these workshops might be a small, actionable place to start PARPA.
 
-I suspect that big part of starting and testing PARPA's viability is to[ design sufficiently precise programs][It's possible to systematically design programs]: External researchers need to believe the projects in the program are a convincing use of their time time; external funders need to be willing to provide the money to start executing on those programs; and we need to believe that they actually have a chance of unlocking something amazing if they're successful.[^fn257]
+I suspect that big part of starting and testing PARPA's viability is to[ design sufficiently precise programs][It's possible to systematically design programs]: External researchers need to believe the projects in the program are a convincing use of their time time; external funders need to be willing to provide the money to start executing on those programs; and we need to believe that they actually have a chance of unlocking something amazing if they're successful.[^fn256]
 
 One way to start designing programs is to run a series of workshops where a handful people at the edge of a discipline with different backgrounds get together to riff on each other, explore, and argue their way towards a clear picture of the edge of possibility.
 
@@ -1936,12 +1940,12 @@ Admittedly, it's a big ask for people to take a week out of their life. Unfortun
 
 Workshops would ideally produce several concrete outputs
 
-* A list of preliminary seedling projects that could act as go/nogo experiments for a larger program along with who should be doing them.
+* A list of preliminary seedling projects that could act as go/no-go experiments for a larger program along with who should be doing them.
 * Answers to all of the questions in The Heilmeier Catechism or precise reasons why the answer is unknown or nebulous (and the project you would need to do to firm it up).
 * A 'roadmap' of what would happen in a full program if the seedling projects pan out. 
 * A list of key people in an area to loop in on the project.
 
-Optimistically, after running a few workshops, the participants could form the core of a larger community. This group would ideally serve two purposes: it would help help people who want to push the edge of their fields find overlapping and complementary people[^fn258] and be a pool of people in PARPA's orbit who could help generate program ideas, act as contractors, and perhaps become PMs or performers. As a proof point, Ink&Switch seems to have pursued this strategy successfully!
+Optimistically, after running a few workshops, the participants could form the core of a larger community. This group would ideally serve two purposes: it would help help people who want to push the edge of their fields find overlapping and complementary people[^fn257] and be a pool of people in PARPA's orbit who could help generate program ideas, act as contractors, and perhaps become PMs or performers. As a proof point, Ink&Switch seems to have pursued this strategy successfully!
 
 **Pros and cons of hub-and-spoke model of program design**
 
@@ -1965,7 +1969,7 @@ A chunk of this hypothesis is based on confidence that the frustratingly vague '
 * People who are thinking about starting companies (or started and stopped) as the best of bad options for enabling a technology would be good PMs. Some subset of people who start startups are doing it not because they want to build a business but because it seems like the best way to get a technology into the world. In some of those cases, a PARPA program would be far more effective than a startup. 
 * While we won't be able to pay as much as a big tech company, I suspect that the people who would make good PMs aren't out to maximize their income but instead have some income threshold, above which the non-monetary benefits of the work (which is uniquely excellent!) dominate their mental calculus. Without being tied to any government pay scales, we can negotiate this threshold with individuals.
 
-## It's Possible to systemitize the whole program-creating process ##
+## It's Possible to systematize the whole program-creating process ##
 
 Validating this hypothesis looks like getting to a place where after we've created some hopefully-not-too-large number of programs, we (internally at least) feel confidence that it wasn't just a fluke. Ideally, we would also be able to instill that confidence into people outside the organization as well. The ability to repeatedly create good programs is a strong reason to believe that it might be successful in the long run. 
 
@@ -2025,7 +2029,7 @@ Another sub-hypothesis is that in order to successfully 'graduate' a program nee
 
 ## PARPA will eventually spin out companies ##
 
-Spinning out[^fn259] as a company is only one of several ways that programs can 'graduate.' However it's worth talking about them directly because startups dominate so much of the cultural zeitgeist and potentially play a unique role in PARPA's business plans.  
+Spinning out[^fn258] as a company is only one of several ways that programs can 'graduate.' However it's worth talking about them directly because startups dominate so much of the cultural zeitgeist and potentially play a unique role in PARPA's business plans.  
 
 At the end of the day, PARPA's goal is roughly to unlock more technologically enabled wonder in the world. The "In the world" part does a lot of work. It demands technological diffusion, which can happen in one of three (not-mutually-exclusive) ways: you can sell technology directly; you can give it away; or you can build an organization around it.
 
@@ -2049,7 +2053,7 @@ We can divide hypothesis that *PARPA's 'core gameplay loop' can become autocatal
 
 1\. **PAPRA can create a community that generates good inbounds and enables more successful programs.** The first hint that PARPA can become self-sustaining may not be monetary at all. In the early days, we will need to spend significant effort hunting down good performers and programs. If PARPA is doing good, differentiated work this should shift over time and we should be able to become a honeypot for excellent people who want to with us and ideas that couldn't live anywhere else. You can tell a lot about both people and organizations by the company they keep. An autocatalyzing community is of course insufficient for an autocatalyzing organization. However, it may be necessary and will happen more quickly than monetary autocatalyzation, thereby providing an early 'test' of the autocatalyzation hypothesis.
 
-2\. **PARPA can get to a 'Pseudo-autocatalytic' state where the organization is getting enough consistent free cash flow through some combination of donations, spinoffs, and other sources that it feels 'default alive.'** For long while PARPA will be living pretty hand-to-mouth --- we'll be able to raise money here and there but they will be one-off events. At some point after demonstrating promising results (and probably after creating an autocatalyzing community) funding will become dependable and/or large enough to create a small buffer. People will donate regularly or larger amounts; spin-offs might have a few successful exits, encouraging more people to invest; we could establish a consortium or consulting agreements that bring in revenue. At this point we will have flipped from 'default dead' to 'default alive.[^fn260]' This state will still be full of incentive traps and therefore long-term unstable but will nevertheless be a significant step.
+2\. **PARPA can get to a 'Pseudo-autocatalytic' state where the organization is getting enough consistent free cash flow through some combination of donations, spinoffs, and other sources that it feels 'default alive.'** For long while PARPA will be living pretty hand-to-mouth --- we'll be able to raise money here and there but they will be one-off events. At some point after demonstrating promising results (and probably after creating an autocatalyzing community) funding will become dependable and/or large enough to create a small buffer. People will donate regularly or larger amounts; spin-offs might have a few successful exits, encouraging more people to invest; we could establish a consortium or consulting agreements that bring in revenue. At this point we will have flipped from 'default dead' to 'default alive.[^fn259]' This state will still be full of incentive traps and therefore long-term unstable but will nevertheless be a significant step.
 
 3\. **Full autocatalyzation can only happen by building up an endowment, which will be possible by squirreling away excess from the pseudo-self-catalytic process.** [An endowment that funds operations out of the interest on a large principle seems like the ideal funding mechanism for a a private DARPA][] --- the question is whether building one is a chimera. Our working hypothesis is that building an endowment will be extremely hard and likely to fail but isn't impossible. It will take a long time and strong financial discipline; as I noted in the section on endowments, it's a bad idea to try to build it all at once so it will need to be built up slowly over time by limiting expenses to a portion of the organization's revenue. A big assumption here is that funders and investors will be on board with this plan!
 
@@ -2057,11 +2061,11 @@ We can divide hypothesis that *PARPA's 'core gameplay loop' can become autocatal
 
 There are several attributes of solutions R&D and PARPA that suggest that in order to maximize awesome in the world, we should explicitly think about how to create a replicable institutional model while building PARPA. The model is inherently unscalable and institutional models are generally more robust than any individual institution. This final hypothesis is more of a meta-hypothesis that we should be paying attention to throughout every stage of the organization. 
 
-While PARPA will hopefully be able to accomplish many important things, it will be structurally unable to do *all* the important things. Companies can conceivably[^fn261] monopolize an entire market and provide all the search, steel, cat videos, or diapers in the world. By contrast, DARPA's tiny and flat structure likely plays a key role in their success[^fn262] and any organization riffing on its model will see diminishing returns beyond its size.[^fn263] This may be similar to what you see in venture capital firms and many private equity firms --- small firms are able to get crazy returns on outlier results while large ones revert to the mean.
+While PARPA will hopefully be able to accomplish many important things, it will be structurally unable to do *all* the important things. Companies can conceivably[^fn260] monopolize an entire market and provide all the search, steel, cat videos, or diapers in the world. By contrast, DARPA's tiny and flat structure likely plays a key role in their success[^fn261] and any organization riffing on its model will see diminishing returns beyond its size.[^fn262] This may be similar to what you see in venture capital firms and many private equity firms --- small firms are able to get crazy returns on outlier results while large ones revert to the mean.
 
 Blazing the trail for new institutional structures is far more impactful than any given institution. The impressive thing about Sequoia and Don Draper is less the investments they made, but the fact that they created a template for an entire institutional model. 
 
-Contingent factors can always kill a given organization even if it gets the model correct. Or perhaps like ARDC[^fn264], arguably the first VC firm, you get the idea and some pieces correct but screw up others (like legal structures) in an ultimately fatal way.
+Contingent factors can always kill a given organization even if it gets the model correct. Or perhaps like ARDC[^fn263], arguably the first VC firm, you get the idea and some pieces correct but screw up others (like legal structures) in an ultimately fatal way.
 
 What would you differently if you're trying to create a replicable model vs. just building a one-off? One piece is to consciously document decisions and failures --- why you do one thing over another and things you tried that didn't work. Additionally, it means forgoing a level of secrecy and being open to helping people who want to do something similar.
 
@@ -2079,9 +2083,9 @@ The ideal legal structure for the ICT would satisfy three conditions:
 
 On its face, these three conditions seem contradictory. In aggregate we can't expect an organization that seriously tackles solutions R&D to be profitable. Especially if it focuses on the work that the relatively efficient market in for-profit organizations won't touch.
 
-However, while an aggregate of all of PARPA's activities will not be profitable, it's a reasonable (but still risky) hypothesis that a portfolio of companies spun out of PARPA could end up doing well. Regardless of profit, [PARPA will eventually spin out companies][] because companies can be an effective mechanism for technology diffusion. It's an even safer bet that if PARPA is doing something useful, there will end up being many profit-generating organizations that can trace their DNA back to PARPA. But let's ignore the latter for now.[^fn265]
+However, while an aggregate of all of PARPA's activities will not be profitable, it's a reasonable (but still risky) hypothesis that a portfolio of companies spun out of PARPA could end up doing well. Regardless of profit, [PARPA will eventually spin out companies][] because companies can be an effective mechanism for technology diffusion. It's an even safer bet that if PARPA is doing something useful, there will end up being many profit-generating organizations that can trace their DNA back to PARPA. But let's ignore the latter for now.[^fn264]
 
-This will be a sketch of the simplest structure that (I believe) meets all three criteria --- let's call it the platonic structure because implementing it will undoubtedly involve some changes for pragmatic reasons like "not going to prison on a technicality." In a sentence, you have a big N-Nonprofit that owns a c-corp and also has an endowment. For convenience lets name them after the muses Nete, Calliope, and Euterpe because it will make the section much more interesting than saying "The Nonprofit" "The c-corp" and "The Endowment" over and over again. Nete runs all of PARPA's activities. Her operating capital comes from three places: tax-exempt donations from donors, cash from Calliope, and dividends Euterpe. Calliope owns parts of companies that spin out of Nete either as equity in the case of high-growth companies or as profit-share agreements in the case of low-growth companies. People can invest in Calliope in exchange for a claim on future profits. Finally, Euterpe does what endowments do --- she invests money broadly and attempts to generate a steady dividend that she gives to Nete. Euterpe gets money either directly from donors or from the Nete when her revenues exceed her expenses.
+This will be a sketch of the simplest structure that (I believe) meets all three criteria --- let's call it the platonic structure because implementing it will undoubtedly involve some changes for pragmatic reasons like "not going to prison on a technicality." In a sentence, you have a big N-Nonprofit that owns a c-corp and also has an endowment. For convenience let's name them after the muses Nete, Calliope, and Euterpe because it will make the section much more interesting than saying "The Nonprofit" "The c-corp" and "The Endowment" over and over again. Nete runs all of PARPA's activities. Her operating capital comes from three places: tax-exempt donations from donors, cash from Calliope, and dividends Euterpe. Calliope owns parts of companies that spin out of Nete either as equity in the case of high-growth companies or as profit-share agreements in the case of low-growth companies. People can invest in Calliope in exchange for a claim on future profits. Finally, Euterpe does what endowments do --- she invests money broadly and attempts to generate a steady dividend that she gives to Nete. Euterpe gets money either directly from donors or from the Nete when her revenues exceed her expenses.
 
 ![][legal_structure]
 
@@ -2091,9 +2095,9 @@ There are a number of nuances, especially around Calliope, the c-corp. The first
 
 The next nuance is about Calliope's legal status. The two main choices are whether she should be an LLC or a C-corp. The most pertinent differences between the two revolve around taxes and the ability to issue shares. LLCs are 'pass-through' legal structures so only investors would be taxed on income they make from Calliope. As a C-corp both Calliope *and* her investors would be taxed. C-corps have much more legal precedence and people are more comfortable with them, so unless the double-taxation is a significant burden it's generally a good idea to default to a C-corp. The way to navigate this tradeoff is to look at where Calliope's (hypothetical) value is going to come from and which structure would maximize technological diffusion (do not forget our goal!) The majority of Calliope's value will be in holding equity in companies that are high value. The classic trap here is to set up Calliope's incentives so that she is incentivized to lean on those companies to have a liquidity event as soon as possible. Calliope would be incentivized to push for liquidity events if her value were in the cash she would be returning to investors. Instead, it would be better if Calliope's value was based on the long-term value of the equity she held. Aligning those incentives seems to suggest that Calliope should be a C-corp. While this might be an obvious conclusion to you, it was not actually my first assumption. The one other consideration that might tip the balance is that there are more constraints on how ownership works in an LLC than a C-corp.
 
-The next nuance is how ownership of Calliope will work. The ways that you can legally divide up ownership in an organization are heavily regulated so I am going to first describe a platonic system that is probably illegal and then explain how it could be crudely implemented within the constraints of the law. Obviously investors and Nete herself are going to own a good chunk of Calliope, but it's also important to figure out how to enable Nete's PMs to participate as well. Enabling PMs to own a meaningful part of Calliope is actually important to incentives, when you consider that there will be some programs that will naturally lead to valuable companies but many others that will be hugely impactful, but won't make good companies. If the implicit choice for PMs is "if your program becomes a company, you'll get financial upside but if it doesn't you get nothing" you will incentivize PMs to either push programs that shouldn't become companies towards becoming companies or to never start uncommercializable programs in the first place. If instead you give everybody some slice of the value Calliope captures, it will hopefully alleviate that pressure. Of course, this won't stop PMs who are strongly driven by economic incentives from skewing all their work towards companies. Nor will it create totally equal outcomes --- PMs who go on to create successful companies will obviously own far more of those companies; arguably the majority of a technology company's "excess value" is not actually due to its technology.[^fn266]
+The next nuance is how ownership of Calliope will work. The ways that you can legally divide up ownership in an organization are heavily regulated so I am going to first describe a platonic system that is probably illegal and then explain how it could be crudely implemented within the constraints of the law. Obviously investors and Nete herself are going to own a good chunk of Calliope, but it's also important to figure out how to enable Nete's PMs to participate as well. Enabling PMs to own a meaningful part of Calliope is actually important to incentives, when you consider that there will be some programs that will naturally lead to valuable companies but many others that will be hugely impactful, but won't make good companies. If the implicit choice for PMs is "if your program becomes a company, you'll get financial upside but if it doesn't you get nothing" you will incentivize PMs to either push programs that shouldn't become companies towards becoming companies or to never start uncommercializable programs in the first place. If instead you give everybody some slice of the value Calliope captures, it will hopefully alleviate that pressure. Of course, this won't stop PMs who are strongly driven by economic incentives from skewing all their work towards companies. Nor will it create totally equal outcomes --- PMs who go on to create successful companies will obviously own far more of those companies; arguably the majority of a technology company's "excess value" is not actually due to its technology.[^fn265]
 
-Ownership based on an accumulating 'ledger' of points would enable everybody involved in the organization --- both those who put in money and those who put in time --- to participate in upside on roughly equal ground. You could assign different number of points for different activities that help the the enterprise as a whole: "you get N points for the first year of service, 1.2\*N for the next year, etc." "You get M points/$100k." At the end of the day, you end up with a list of people and how many points each of them has --- ownership is just your points divided by the total number of points. The ledger system ultimately has the same outcome as selling and awarding people shares that get progressively diluted as a company increases in value (more points will be created over time so a fixed number of points will represent a decreasing fraction of Calliope). However, a point-system has several positive features that standard shares do not and avoids some of their downsides. One upside to this system is that it gives everybody the same type of ownership - avoiding preferred shares, etc. The ledger can roughly stand as an accounting of who contributed to the organization's success.[^fn267] Combined with 'pseudopoints' for donations to the nonprofit (which can't be financially rewarded) the ledger could be a public source of pride instead of a secret and source of jealousy like company ownership normally is. 
+Ownership based on an accumulating 'ledger' of points would enable everybody involved in the organization --- both those who put in money and those who put in time --- to participate in upside on roughly equal ground. You could assign different number of points for different activities that help the the enterprise as a whole: "you get N points for the first year of service, 1.2\*N for the next year, etc." "You get M points/$100k." At the end of the day, you end up with a list of people and how many points each of them has --- ownership is just your points divided by the total number of points. The ledger system ultimately has the same outcome as selling and awarding people shares that get progressively diluted as a company increases in value (more points will be created over time so a fixed number of points will represent a decreasing fraction of Calliope). However, a point-system has several positive features that standard shares do not and avoids some of their downsides. One upside to this system is that it gives everybody the same type of ownership - avoiding preferred shares, etc. The ledger can roughly stand as an accounting of who contributed to the organization's success.[^fn266] Combined with 'pseudopoints' for donations to the nonprofit (which can't be financially rewarded) the ledger could be a public source of pride instead of a secret and source of jealousy like company ownership normally is. 
 
 The points system would also enable people to participate in multiple ways instead of different types of shares shunting people into different buckets according to their roles; there would be no accounting hassle for an employee who also wanted to invest. There's also a psychological component in the difference between adding a grain to a growing pile of sand and getting a slice of a fixed pie. I realize this all comes with a whiff of utopian faeries and rainbows --- regulatory constraints and investor pressure will undoubtedly make this full system infeasible. It's important to lay it out however, so that we can get as close as possible without going to jail.
 
@@ -2105,7 +2109,7 @@ Calliope's existence won't free Nete from depending on donations to fund operati
 
 # PARPA will Go Through Three Phases of Organizational Growth #
 
-Organizations tend to resemble punctuated equilibri[^fn268]a --- instead of always changing at a continuous rate, they tend to go through periods of relative stability punctuated by 'phase shifts' when they hit a critical level of resources. In other words, organizations evolve more like Pokémon than (growing) people.
+Organizations tend to resemble punctuated equilibri[^fn267]a --- instead of always changing at a continuous rate, they tend to go through periods of relative stability punctuated by 'phase shifts' when they hit a critical level of resources. In other words, organizations evolve more like Pokémon than (growing) people.
 
 Most organizations go through different forms but rarely make them explicit. Instead, the situation resembles the South Park Underpants Gnome's business plan: there's an initial form (collect underpants) and a final form (profit) with a big question mark in between them. It's hard to evaluate how good such a plan is from the outside but perhaps more importantly, it's hard to use a gnomish plan internally --- when should you push to the next phase? When should you exert discipline and remain in the current phase because you haven't met key conditions for a phase shift? Making the different forms explicit can get everybody on the same page. As with so many other things, making forms legible also makes them vulnerable --- both to criticism and to accusations of hypocrisy if they end up not playing out as predicted (which is almost inevitable). In my calculus the clarity and intellectual honesty is worth the risk. 
 
@@ -2117,7 +2121,7 @@ Through this lens, we can think about PARPA as taking on different 'forms' over 
 
 ## PARPA could use tranches to walk the line between long-term funding and step-by-step derisking ##
 
-One pragmatic reason to explicitly divide PARPA's development into discrete forms is to enable tranches for both donors and investors. As I've noted several times, there are many tensions between starting small and the other pieces of the DARPA Model. Tranched donations and funding could be one way to relax this tension. [^fn269]
+One pragmatic reason to explicitly divide PARPA's development into discrete forms is to enable tranches for both donors and investors. As I've noted several times, there are many tensions between starting small and the other pieces of the DARPA Model. Tranched donations and funding could be one way to relax this tension. [^fn268]
 
 Milestone-based funding is common in the pharmaceutical world, where developing a drug takes many years and potentially billions of dollars, yet follows a fairly predictable trajectory through the different stages of FDA approval. The predictability and structure do not reduce the risk associated with the venture, but they do reduce the uncertainty about possible outcomes. 
 
@@ -2141,9 +2145,9 @@ In this form, the organization's primary output will be artifacts --- let's call
 
 Ideally we will evolve out of this form as quickly as possible once we have a good handle on the hypothesis that [it's possible to design programs in a systematic (and therefore repeatable) way][It's possible to systematically design programs]. 
 
-There is no critical mass to get to this stage but the critical mass to get out of it is to have designed around five programs that are worth moving forward with.[^fn270] We need to generate a sufficient number of roadmaps to both show both that the planning process is repeatable and that [there are enough areas in PARPA's early sweet spot to make this whole endeavor worthwhile.][There exist several areas that could possibly yield results (defined loosely) in 3-5 years (given steady work)]
+There is no critical mass to get to this stage but the critical mass to get out of it is to have designed around five programs that are worth moving forward with.[^fn269] We need to generate a sufficient number of roadmaps to both show both that the planning process is repeatable and that [there are enough areas in PARPA's early sweet spot to make this whole endeavor worthwhile.][There exist several areas that could possibly yield results (defined loosely) in 3-5 years (given steady work)]
 
-The budget for this stage is just enough to cover individual salaries and the costs of running workshops --- renting out a cabin in the woods and (hopefully) food and transportation for people, so a few thousand $$. The tricky bit here is that our ability to dig into problems and possibilities deeply enough to do good program design may be coupled to our ability to execute on those programs. In my experience[^fn271] people are much more willing to talk shop about precise potentials when they can see the conversation leading to an actual program.   
+The budget for this stage is just enough to cover individual salaries and the costs of running workshops --- renting out a cabin in the woods and (hopefully) food and transportation for people, so a few thousand $$. The tricky bit here is that our ability to dig into problems and possibilities deeply enough to do good program design may be coupled to our ability to execute on those programs. In my experience[^fn270] people are much more willing to talk shop about precise potentials when they can see the conversation leading to an actual program.   
 
 If other organizations do want to act on the roadmaps, there is perhaps a form 1.5 in which the boundaries between PARPA and the executing organizations becomes fuzzier. We could bring representatives from those organizations into the process to increase the chance that the output becomes reality. Similarly PARPA people could consult with organizations executing on roadmaps to keep the roadmaps alive and make sure nothing is lost in translation. 
 
@@ -2155,15 +2159,15 @@ If other organizations do want to act on the roadmaps, there is perhaps a form 1
 
 ![][charmelion]
 
-In this form PARPA will comprise several program managers working on program design but expanding beyond Form 1's process by running seedling experiments and getting programs off the ground. The organization's primary output will be (semi) independent organizations along the lines of Focused Research Organizations[^fn272] whose mission is to execute on a program. 
+In this form PARPA will comprise several program managers working on program design but expanding beyond Form 1's process by running seedling experiments and getting programs off the ground. The organization's primary output will be (semi) independent organizations along the lines of Focused Research Organizations[^fn271] whose mission is to execute on a program. 
 
-Once PM has driven a program to a point where they have good answers to all the questions in the The Heilmeier Catechism[^fn273] or an equivalent 'gate'  [^fn274]they would need to get all the pieces in place for the full program organization --- funding, incorporation, research contracts, and hiring --- and either move to the program organization full-time or transition leadership to someone else. 
+Once PM has driven a program to a point where they have good answers to all the questions in the The Heilmeier Catechism[^fn272] or an equivalent 'gate'  [^fn273]they would need to get all the pieces in place for the full program organization --- funding, incorporation, research contracts, and hiring --- and either move to the program organization full-time or transition leadership to someone else. 
 
 The funding for these program-executing organizations could come from a myriad of sources --- the government, philanthropists, or investors depending on the nature of work to be done.  Frankly, this transition from a loose set of connected projects to its own organization seems incredibly tricky to do well. There are many disconnected pieces that need to come together. Compromises to get funding or convince people to join could end up derailing the program. PARPA should be able to help the creation of these temporary organizations by maintaining connections to funding sources, labs, and contract research organizations, providing initial space, and generally honing process knowledge. It might be possible to get around these problems by building out the idea of [Exploratory Program Organizations][Exploratory Program Organization] that enable a program to undergo a more continuous transition to an independent entity.
 
-There is a minimum number of programs that PARPA needs to be working on in parallel --- probably in the five to seven range. If the programs are actually high risk, any single one is more likely to fail than not, so if there were only a few programs, the chances that all of them would go nowhere and take down the whole organization with them would be quite high.  If each program has a 5-10% chance of success (as is the case in DARPA[^fn275]) then [you need to run seven programs to get a 50% chance of seeing one of them succeed][Is there a minimum effective budget to generate outlier results].
+There is a minimum number of programs that PARPA needs to be working on in parallel --- probably in the five to seven range. If the programs are actually high risk, any single one is more likely to fail than not, so if there were only a few programs, the chances that all of them would go nowhere and take down the whole organization with them would be quite high.  If each program has a 5-10% chance of success (as is the case in DARPA[^fn274]) then [you need to run seven programs to get a 50% chance of seeing one of them succeed][Is there a minimum effective budget to generate outlier results].
 
-A critical mass of programs needs a critical mass of program managers to run them. In addition to the bare minimum number of people needed to run the programs, there's some number above which the group starts passively generating more ideas than all the individuals on their own. This number is probably around five to seven: a dinner party's worth.[^fn276] 
+A critical mass of programs needs a critical mass of program managers to run them. In addition to the bare minimum number of people needed to run the programs, there's some number above which the group starts passively generating more ideas than all the individuals on their own. This number is probably around five to seven: a dinner party's worth.[^fn275] 
 
 This form is where the director emerges as a separate role to focus on the organization itself. The director wasn't even worth mentioning in Form one because in the beginning the director will be basically a PM with some extra administrative work. 
 
@@ -2191,7 +2195,7 @@ Eventually, we aim to get to the scale of DARPA: \~100 programs with program man
 
 # Potential Programs #
 
-I struggle with how far down the ladder of abstraction to climb when talking about specific programs. On the one hand, I have built a few strong hypotheses and having examples is always helpful for what is otherwise a very abstract proposal. On the other hand, readers (not *you* of course, but other people) tend to overfocus on those examples to the point where questions and disagreements over the examples dominate everything else. ("Forget all the model, forget the plans, why are you on *that*?") Which programs we'll work on is both one of the most important and least fixed piece of the plan. But I've already asserted that precise visions are more likely to happen so I will hold myself to my word. Keep in mind that these are hunches that need a lot of work to even verify that they're worth creating a program around. As it says on open house furniture: for display only (but perhaps available later). In this section, I'll present both a list of hypotheses that may be worth designing programs around and two more detailed descriptions of programs I suspect are particularly promising. 
+I struggle with how far down the ladder of abstraction to climb when talking about specific programs. On the one hand, I have built a few strong hypotheses and having examples is always helpful for what is otherwise a very abstract proposal. On the other hand, readers (not *you* of course, but other people) tend to over-focus on those examples to the point where questions and disagreements over the examples dominate everything else. ("Forget all the model, forget the plans, why are you on *that*?") Which programs we'll work on is both one of the most important and least fixed piece of the plan. But I've already asserted that precise visions are more likely to happen so I will hold myself to my word. Keep in mind that these are hunches that need a lot of work to even verify that they're worth creating a program around. As it says on open house furniture: for display only (but perhaps available later). In this section, I'll present both a list of hypotheses that may be worth designing programs around and two more detailed descriptions of programs I suspect are particularly promising. 
 
 ## Loose Program Hypotheses ##
 
@@ -2223,7 +2227,7 @@ If telerobotics is so great and not just a pipe dream, why are real telerobotics
 
 Without laying down telerobotics-dedicated cable, telerobots will always need to operate over the internet. That means dropped packets and variable lag. While these are slightly annoying during a video call, they can be disastrous for a delicate task. Naïvely implemented, haptic feedback over a laggy connection can create a self-reinforcing loop that could (without force limiters) rip off an arm. There are many potential ways to get around lag: onboard autonomy that can translate 'rotate this', 'pick that up' into lower-level path planning; generating a model of the robot's environment that a controller interacts with and then the system translates into robot movement on the other end; or the less technical approach of cutting a deal with a telecom company. The trick is that how well each of these approaches 'works' depends on other pieces of the system.
 
-Human touch is pretty extraordinary --- pick up a pen if one's handy (any small object will do), read the next sentence, and then close your eyes. Once your eyes are closed, twiddle the pen in a few loops, bring it back to its original position, and then open your eyes again. The extraordinary thing is how *easy* that probably was. Most modern robotics and telerobotics operates primarily through visual sensors --- either passive, like a CCD or active like LIDAR. Compared to gigapixel visual sensors, modern tactile sensors are primitive. Human skin can have neurite densities in the thousands per square mm[^fn277] while the cutting edge BioTac tactile sensor measures forces via the differences between 19 electrodes.[^fn278] The situation isn't much better interfacing with the human hand on the other end. One upshot might be that the binding constraint on telerobotics is haptics technology. Perhaps! But at a system level there may be ways to achieve better performance even with low-quality tactile sensors: multiple cameras, simulated tactile responses, [Project Soli](https://atap.google.com/soli/)-style radar-on-a-chip, or autonomy in the loop. 
+Human touch is pretty extraordinary --- pick up a pen if one's handy (any small object will do), read the next sentence, and then close your eyes. Once your eyes are closed, twiddle the pen in a few loops, bring it back to its original position, and then open your eyes again. The extraordinary thing is how *easy* that probably was. Most modern robotics and telerobotics operates primarily through visual sensors --- either passive, like a CCD or active like LIDAR. Compared to gigapixel visual sensors, modern tactile sensors are primitive. Human skin can have neurite densities in the thousands per square mm[^fn276] while the cutting edge BioTac tactile sensor measures forces via the differences between 19 electrodes.[^fn277] The situation isn't much better interfacing with the human hand on the other end. One upshot might be that the binding constraint on telerobotics is haptics technology. Perhaps! But at a system level there may be ways to achieve better performance even with low-quality tactile sensors: multiple cameras, simulated tactile responses, [Project Soli](https://atap.google.com/soli/)-style radar-on-a-chip, or autonomy in the loop. 
 
  
 
@@ -2269,9 +2273,9 @@ In short, successful positional chemistry would allow us to turn the arrangement
 
 You would need an entire book to do justice to the challenges facing anyone who wants to make the Feynman/Drexler vision a reality. However, it boils down to the fact that atoms aren't just little balls you can stick to each other. The atomic-scale world effectively has a different set of rules and demands almost entirely new engineering paradigms.
 
-The world on the scale of atoms works very differently than our macro-world. (As an intuition pump, a carbon atom is \~0.3nm across, a water molecule is \~0.27nm and DNA is \~2nm wide.) Gravity doesn't matter, everything is floppy and constantly jiggling, and quantum effects are a going concern. Some people argue[^fn279] that these attributes make it impossible to do anything at this scale besides 'stochastic building' --- effectively putting a bunch of ingredients together, shaking, and counting on their properties to direct the process and output. While I'm optimistic that the properties of the nanoscale world don't make positional chemistry impossible, it *will* require drastically new ways of doing engineering. 
+The world on the scale of atoms works very differently than our macro-world. (As an intuition pump, a carbon atom is \~0.3nm across, a water molecule is \~0.27nm and DNA is \~2nm wide.) Gravity doesn't matter, everything is floppy and constantly jiggling, and quantum effects are a going concern. Some people argue[^fn278] that these attributes make it impossible to do anything at this scale besides 'stochastic building' --- effectively putting a bunch of ingredients together, shaking, and counting on their properties to direct the process and output. While I'm optimistic that the properties of the nanoscale world don't make positional chemistry impossible, it *will* require drastically new ways of doing engineering. 
 
-I'll use the example of a a DNA '3D printer' to illustrate some more general challenges in positional chemistry.[^fn280] Imagine a DNA-based protein 3D printer/pick and place machine --- a precisely positioned write head that can pick up and precisely place prefabricated proteins on a work surface. At some point any positional chemistry system need to interface between stochastic processes and more deterministic ones at the same scale. The printer might need to to change 'tools' (antibody-like proteins?) by flowing a high concentration solution of the new tools over the device. These tools will be constrained (for a long time) by the necessity to be fabricate them through traditional methods eg. putting stuff in a tube and shaking. The same goes for the protein 'lego bricks' that the printer is arranging. The bricks will need to fold the good old fashioned way, so they'll be limited by the shapes and capabilities of amino acids (which luckily are provably capable of creating everything from bone to wood to shell). The upshot is that this will in no way be a 'universal matter printer.' 
+I'll use the example of a a DNA '3D printer' to illustrate some more general challenges in positional chemistry.[^fn279] Imagine a DNA-based protein 3D printer/pick and place machine --- a precisely positioned write head that can pick up and precisely place prefabricated proteins on a work surface. At some point any positional chemistry system need to interface between stochastic processes and more deterministic ones at the same scale. The printer might need to to change 'tools' (antibody-like proteins?) by flowing a high concentration solution of the new tools over the device. These tools will be constrained (for a long time) by the necessity to be fabricate them through traditional methods eg. putting stuff in a tube and shaking. The same goes for the protein 'lego bricks' that the printer is arranging. The bricks will need to fold the good old fashioned way, so they'll be limited by the shapes and capabilities of amino acids (which luckily are provably capable of creating everything from bone to wood to shell). The upshot is that this will in no way be a 'universal matter printer.' 
 
 These constraints will cascade up to what you can build and the steps that you need to take to build it in ways that traditional engineering has no good way of wrapping its collective mind around. To make things even harder, the traditional engineering tools of models and simulations basically need to be reinvented for this new world. While the topics themselves still matter just as much (or more!) you would need to throw out your college textbooks on thermodynamics, statics, and dynamics. Great progress has been made on simulating processes on the nanoscale, but there is a lot of work to be done both on making the simulations more versatile and on using them as an engineering tool. 
 
@@ -2289,14 +2293,14 @@ In the near term, a PARPA program could set out to answer the question "is it *p
 
 A non-exclusive list of parallel efforts might look like:
 
-* A project to develop precise actuators for a DNA-based printer. Perhaps an expansion on William Shih's work. [^fn281]
-* A project to develop protein building blocks (probably based on coiled-coil proteins[^fn282]1. that could be used in a DNA-based printer.
+* A project to develop precise actuators for a DNA-based printer. Perhaps an expansion on William Shih's work. [^fn280]
+* A project to develop protein building blocks (probably based on coiled-coil proteins[^fn281]1. that could be used in a DNA-based printer.
 * A project to simulate the protein building blocks using machine learning --- perhaps a system that uses something like [Alphafold](https://deepmind.com/research/case-studies/alphafold) in a reenforcement loop.
 * A project to simulate what could be built *with* the protein building blocks.
 * A project to develop different "tooling" for the 3D printer --- perhaps structures derived from antibodies that have a similar ability to bind to specific sites on the protein building blocks.
 * A project to develop artificial amino acids that could be part of the building blocks and bring non-organic molecules into the system's output.
-* A project to poke at how Metal-Organic Frameworks [^fn283]might play with the other projects.
-* A project to look at how DNA/protein metal 'casting' [^fn284]might play with the other projects.
+* A project to poke at how Metal-Organic Frameworks [^fn282]might play with the other projects.
+* A project to look at how DNA/protein metal 'casting' [^fn283]might play with the other projects.
 
 # Reasons why an PARPA  would succeed or fail #
 
@@ -2314,13 +2318,13 @@ PARPA's long-run success looks like being a contingent cause of humanity becomin
 
 Uncomfortably, any one of these success indicators in isolation probably does not point towards broader success. However, it is important to list them in an attempt to minimize either positive or negative hindsight bias. Looking at organizations in hindsight is generally just narrative-building full of both too much "well this was actually a success because..." and too much "that didn't really do anything..." So while any isolated item on this list doesn't count as success, together they're directionally suggestive: the more boxes the organization can check off, the more it will look like a success.
 
-* *Shift ideas from outlandish to mundane*. Technological paradigm shifts don't come out of the blue. They are usually preceded by shifting Overton windows around what is impossible, what is feasible, and what is expected. These opinion shifts aren't necessarily causal so shifting opinion should not be a goal in and of itself but could be a useful leading indicator of doing good work.[^fn285] 
-* *Produce useful ideas or artifacts that other organizations pick up and run with*. Creating convincing programs, prototypes, or system-seeds that other organizations pick up and run with is absolutely a leading success indicator. Andy Matuschak put it well: the goal is "developing ideas far enough that they become "obvious," the banal fodder for half a dozen companies in a future YC batch."[^fn286] There are traps to be aware of here as well --- in the same way that an acquired company's product is often quietly shut down, it's a real possibility that other organizations can claim to be pushing ideas or technology forward while quietly smothering it or completely mangling it.
+* *Shift ideas from outlandish to mundane*. Technological paradigm shifts don't come out of the blue. They are usually preceded by shifting Overton windows around what is impossible, what is feasible, and what is expected. These opinion shifts aren't necessarily causal so shifting opinion should not be a goal in and of itself but could be a useful leading indicator of doing good work.[^fn284] 
+* *Produce useful ideas or artifacts that other organizations pick up and run with*. Creating convincing programs, prototypes, or system-seeds that other organizations pick up and run with is absolutely a leading success indicator. Andy Matuschak put it well: the goal is "developing ideas far enough that they become "obvious," the banal fodder for half a dozen companies in a future YC batch."[^fn285] There are traps to be aware of here as well --- in the same way that an acquired company's product is often quietly shut down, it's a real possibility that other organizations can claim to be pushing ideas or technology forward while quietly smothering it or completely mangling it.
 * *Create a large impact in a small niche*. On the scale of a few years, it's impossible to create unambiguously impactful innovations. Non-digital dissemination is always slower than you expect. However, it may be feasible to create big outcomes among a small group of people --- perhaps a research domain or a specific set of practitioners. 
 
 The last two success indicators are perhaps not leading indicators but 'alternative win conditions.'
 
-* *Serve as a jumping-off point for eventually extremely impactful people.* History is full of largely-forgotten 'sceniuses'[^fn287] that quietly lie in the past of an uncanny number of impactful individuals. Creating a even a short-lived scenius, like the Rad Lab or Willow Garage would be a worthy result.
+* *Serve as a jumping-off point for eventually extremely impactful people.* History is full of largely-forgotten 'sceniuses'[^fn286] that quietly lie in the past of an uncanny number of impactful individuals. Creating even a short-lived scenius, like the Rad Lab or Willow Garage would be a worthy result.
 * *In death, serve as an inspiration for similar models*. A single organization can't fill all the gaps in the innovation ecosystem so generating lessons and impetus for other organizations is an actual win (as opposed to a bitter consolation prize). Of course, it's hard to be inspirational when you haven't produced anything of note. Shooting for inspiration without more tangible outcomes is the path of people who have 'visionary' on their business cards. So while it's possible for the organization to die prematurely, it still needs other successes.
 
 **Longevity and notoriety are not success indicators**
@@ -2337,7 +2341,7 @@ For PARPA, raw survival is not success. One could imagine us surviving for a mor
 
 The line between success and failure is more nebulous than we'd like to admit. There's an obvious difference between abject failure and clear success but a rich spectrum lies between them. This ambiguity is especially prominent for organizations like PARPA that play intermediate roles in the relay race of turning ideas into impactful things in the world. [We stand on the shoulders of too many giants to give them all credit. ][We stand on the shoulders of too many giants to give them all credit]
 
-Precise visions of failure are important because post-hoc success can be woven into a failure narrative and failure can be woven into a success narrative. Some organizations fail to achieve their explicit goals but should go in the success column. Taylor-Era PARC[^fn288] and Willow Garage were not particularly long lived (12 and 7 years respectively) nor did they live up to the expectations of their creators. However, they ultimately spawned a group of people and projects that had and continue to have a long term effect. ROS provides the backbone for most modern robotics research and you're probably reading this on something that can trace its intellectual lineage back to PARC. On the other side of the coin, there is also a class of organizations that have lasted for decades. You could easily weave them into a success narrative, but they somehow smell 'off', like something that should have been tossed out long ago. And of course there's everything in between.
+Precise visions of failure are important because post-hoc success can be woven into a failure narrative and failure can be woven into a success narrative. Some organizations fail to achieve their explicit goals but should go in the success column. Taylor-Era PARC[^fn287] and Willow Garage were not particularly long lived (12 and 7 years respectively) nor did they live up to the expectations of their creators. However, they ultimately spawned a group of people and projects that had and continue to have a long term effect. ROS provides the backbone for most modern robotics research and you're probably reading this on something that can trace its intellectual lineage back to PARC. On the other side of the coin, there is also a class of organizations that have lasted for decades. You could easily weave them into a success narrative, but they somehow smell 'off', like something that should have been tossed out long ago. And of course there's everything in between.
 
 **Specific Failure Scenarios**
 
@@ -2434,9 +2438,9 @@ Another thought is to focus on the people *creating* the technology and emphasiz
 
 **Possibilities**
 
-**Maximize our civilization's place on a The Culture Index**.[^fn289] This one raises the question "how could you frame this in terms of a mission that wouldn't lose people unnecessarily for being too nerdy?" The problem is that if you reference any single sci-fi concept specifically you get into an argument about it --- should it be the Star Trek Index instead? However, it does suggest a similar, Sci-fi independent mission ...
+**Maximize our civilization's place on a The Culture Index**.[^fn288] This one raises the question "how could you frame this in terms of a mission that wouldn't lose people unnecessarily for being too nerdy?" The problem is that if you reference any single sci-fi concept specifically you get into an argument about it --- should it be the Star Trek Index instead? However, it does suggest a similar, Sci-fi independent mission ...
 
-**Enable paradigm-shifting technology that pushes civilization higher on the Kardashev Scale**.[^fn290] This one might actually cover the things we care about but is both abstract and obscure. It would certainly turn off ergophobes.[^fn291] Perhaps there's an "explain it like I'm five" framing of the Kardashev scale. 🤔
+**Enable paradigm-shifting technology that pushes civilization higher on the Kardashev Scale**.[^fn289] This one might actually cover the things we care about but is both abstract and obscure. It would certainly turn off ergophobes.[^fn290] Perhaps there's an "explain it like I'm five" framing of the Kardashev scale. 🤔
 
 It would be cool do to something to do with the Von Neumann Quote "Scientists discover the world that is. Engineers create the world that has never been." Perhaps **Enable technological paradigm shifts that unlock a world that has never been**? The reference is good but the statement itself is incredibly mushy.
 
@@ -2448,7 +2452,7 @@ It would be cool do to something to do with the Von Neumann Quote "Scientists di
 
 **Organize the best creative technologists to create paradigm shifts that unlock human flourishing** --- I like the focus on the people but the second half is a bit meh. "...Unexpected paradigm shifts" or just "paradigm shifts" doesn't help much. Riffing a bit ...
 
-**Organize the best people to create technologies that make the world unrecognizable (in a good way)** --- I actually like the idea of unrecognizability because it captures the intangibleness of 'science fiction' technology and rules out a lot of the things that PARPA shouldn't work on. Paradigm shifts usually lead to unreognizability. Of course, glassing the surface of the earth is also unrecognizability so we need some caveats.
+**Organize the best people to create technologies that make the world unrecognizable (in a good way)** --- I actually like the idea of unrecognizability because it captures the intangibleness of 'science fiction' technology and rules out a lot of the things that PARPA shouldn't work on. Paradigm shifts usually lead to unrecognizability. Of course, glassing the surface of the earth is also unrecognizability so we need some caveats.
 
 **Enable technologies that make the world unrecognizable (in a good way)** is nice but it's missing a human component.
 
@@ -2460,7 +2464,7 @@ It would be cool do to something to do with the Von Neumann Quote "Scientists di
 
 On an entirely different thought-track, Clark's laws feel like a good place to mine for ideas. Let's riff on them:
 
-**Experimentally verify Clark's First Law**[^fn292] is neat because it implicitly lays out an organizational plan of attack (find out what elder preeminent scientists say is possible and impossible!) But it's super obscure and not a great rallying cry.
+**Experimentally verify Clark's First Law**[^fn291] is neat because it implicitly lays out an organizational plan of attack (find out what elder preeminent scientists say is possible and impossible!) But it's super obscure and not a great rallying cry.
 
 **Discover the limits of the possible by venturing a little way past them into the impossible** (riffing on the second law) is nifty but a bit vague.
 
@@ -2474,7 +2478,7 @@ The maze exists in the first place because constraints on existing institutions 
 
 It's impossible to know the true layout of the idea maze before traversing it, but we can make many hypotheses about its twists and turns. While we could start from absolute scratch, it's worthwhile to pay attention to the solutions R&D heroes of yore --- we can't follow in Bell Labs' footsteps but it might be possible to follow in DARPA's. There are many junctures that anybody building a DARPA-riff will need to consider: experiments, program managers, timescales, sales channels, missions and more. Perhaps the thorniest question we'll all need to face is "How does money work?" Unfortunately, if you draw a box around all the activities in impactful solutions R&D, it's probably not a profitable venture (value creation and value capture are, alas, not always the same). However, there are plenty of strategies that a DARPA-riff can use to get enough money to continue through the maze! 
 
-Finally, I want to propose a specific path through the maze --- PARPA. We can look at PARPA[^fn293]'s potential path through the idea maze as a sequence of hypotheses --- junctures that decrease your risk of failing for each one you successfully pass. Bundled together, PARPA's path through the maze looks like:
+Finally, I want to propose a specific path through the maze --- PARPA. We can look at PARPA[^fn292]'s potential path through the idea maze as a sequence of hypotheses --- junctures that decrease your risk of failing for each one you successfully pass. Bundled together, PARPA's path through the maze looks like:
 
 1\. Create and stress-test unintuitive research programs in a systematic (and therefore repeatable) way.
 
@@ -2516,9 +2520,9 @@ Together we can *shift technology from impossible to inevitable*.
 
 Ideas don't spring out of a single brain, and this piece is no different. 
 
-Many excellent people read and helped refine early drafts: Adam Marblestone, Jed McCaleb, Pamela Vagata, Andy Matuschak, Mark McGranaghan, José Luis Ricón, Cheryl Reinhardt, Sam Arbesman, Michael Nielsen, Nathan Ihara, Martin Permin, Luke Constable.
+Many excellent people read and helped refine early drafts: Adam Marblestone, Jed McCaleb, Pamela Vagata, Andy Matuschak, Mark McGranaghan, José Luis Ricón, Cheryl Reinhardt, Sam Arbesman, Michael Nielsen, Nathan Ihara, Martin Permin, Luke Constable, Arnaud Schenk.
 
-We stand on the shoulders of too many giants to give them all credit, but to list a few who helped me grope through the idea maze: Marissa Weichman, Ilan Gur, Semon Rezchikov, Tim Hwang, Jeff Graham, Arathi Prabyankar, Patrick Collison, Malcolm Handley, Olivia Wang, Noah Tye, Rebecca Li, Steven Glinert, Keegan McNamara, Adrienne Little, Josh Tobin, Cameron Kelly, Evan Myazono, Jeff Lipton, Lee Ricketson, Adit Swarup, Alexey Guzey, Sebastian Winther.
+We stand on the shoulders of too many giants to give them all credit, but to list a few who helped me grope through the idea maze: Marissa Weichman, Ilan Gur, Semon Rezchikov, Tim Hwang, Jeff Graham, Arathi Prabyankar, Patrick Collison, Malcolm Handley, Olivia Wang, Noah Tye, Rebecca Li, Steven Glinert, Keegan McNamara, Michael Filler, Matt Clifford, Adrienne Little, Peter Van Hardenberg, Josh Tobin, Cameron Kelly, Evan Myazono, Jeff Lipton, Lee Ricketson, Adit Swarup, Alexey Guzey, Sebastian Winther.
 
 The styling and interface of this website is mostly derived from Andy Matuschak and Michael Nielsen, "How can we develop transformative tools for thought?", <https://numinous.productions/ttft>, San Francisco (2019)
 
@@ -2625,7 +2629,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn10]: My unsubstantiated personal opinion is that analyses on high-level metrics like total factor productivity contribute to this unhelpful lumping.
 
-[^fn11]: \<sidenote\> See [**The Great Stagnation: How America Ate All The Low-Hanging Fruit of Modern History, Got Sick, and Will (Eventually) Feel Better**](https://www.goodreads.com/book/show/10276354-the-great-stagnation) **and a lot of related literature.**
+[^fn11]: \<sidenote\> See [The Great Stagnation: How America Ate All The Low-Hanging Fruit of Modern History, Got Sick, and Will (Eventually) Feel Better](https://www.goodreads.com/book/show/10276354-the-great-stagnation) and a lot of related literature.
 
 [^fn12]: \<sidenote\> See [Where is My Flying Car?: A Memoir of Future Past](https://www.goodreads.com/book/show/42036377-where-is-my-flying-car?from_search=true&from_srp=true&qid=rTDy22OsIy&rank=1)
 
@@ -2635,7 +2639,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn15]: \<sidenote\> Polavision took ten years and half a billion dolars. In [Loonshots](https://www.goodreads.com/book/show/39863447-loonshots) Safi Bahcall attributes its failure to expensive but amazing features driven by Polaroid's founder.
 
-[^fn16]: \<sidenote\> See [**Pasteur's Quadrant: Basic Science and Technological Innovation**](https://www.goodreads.com/book/show/701167.Pasteur_s_Quadrant)
+[^fn16]: \<sidenote\> See [Pasteur's Quadrant: Basic Science and Technological Innovation](https://www.goodreads.com/book/show/701167.Pasteur_s_Quadrant)
 
 [^fn17]: \<sidenote\> From [In the Realm of the Barely Feasible](https://issues.org/realm-of-the-barely-feasible-innovation-darpa-prabhakar/)
 
@@ -2651,7 +2655,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn23]: There are a number of just-so stories I could tell about why these university spin-offs are different than the list of successes - most of those on the list were not deeply new technology, their founders were brilliant and plotted the exact path to success, it's easier to go into new niches with software and chips, they got lucky, I'm a moron etc. However, the empirical evidence is that so many niche-seeking startups built around new (genuinely cool) technologies fail to help that technology realize its potential.
 
-[^fn24]: I'm *not* trying to say VC and startups suck and are broken! There are many amazing things that *have* come out of the system. What I am asserting is the incorrectness of the idea that "if it wasn't a viable startup it would never have been able to be amazing for the world in the long run"
+[^fn24]: I'm not trying to say VC and startups suck and are broken! There are many amazing things that have come out of the system. What I am asserting is the incorrectness of the idea that "if it wasn't a viable startup it would never have been able to be amazing for the world in the long run"
 
 [^fn25]: \<sidenote\> From [The Idea Factory](https://www.goodreads.com/book/show/11797471-the-idea-factory)
 
@@ -2707,7 +2711,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn50]: \<sidenote\> See [The decline of science in corporate R&D ](https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.2693)for a more in-depth look.
 
-[^fn51]: At this point OpenAI resembles the Bell Labs equivalent for Microsoft
+[^fn51]: At this point OpenAI vaguely resembles the Bell Labs equivalent for Microsoft.
 
 [^fn52]: Yes, Google and Facebook are not technically monopolies in the full AT&T or Standard Oil sense, but the flavor of their profit margin and size is similar.
 
@@ -2723,7 +2727,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn58]: "The Cell! DNA!" You may shout. It's hard to argue that we have benefitted from manipulating DNA as much as we did from manipulating electrons. Biology certainly has that *potential*, but so did nuclear physics ...
 
-[^fn59]: \<sidenote\> See [**DuPont Will Dissolve Central Research**](https://cen.acs.org/articles/93/web/2015/12/DuPont-Dissolve-Central-Research.html)
+[^fn59]: \<sidenote\> See [DuPont Will Dissolve Central Research](https://cen.acs.org/articles/93/web/2015/12/DuPont-Dissolve-Central-Research.html)
 
 [^fn60]: Which, like the DOE itself were originally created for the sole purpose of smoothly transitioning nuclear weapons from proof of concept to manufactured product!
 
@@ -2749,7 +2753,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn71]: \<sidenote\> See [The Structure of Scientific Discoveries](https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions)
 
-[^fn72]: \<sidenote\> See [**Expansion Microscopy**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312537/)
+[^fn72]: \<sidenote\> See [Expansion Microscopy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312537/)
 
 [^fn73]: But they were published and now have many citations! You say. Yes, after years of struggling to publish and get funding. There is a heavy survivorship bias here because there's rarely anything to point to in situations where something wasn't published.
 
@@ -2779,7 +2783,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn86]: \<sidenote\> "[When a measure becomes a target, it ceases to be a good measure](https://en.wikipedia.org/wiki/Goodhart's_law)."
 
-[^fn87]: To complicate things, many small contracting firms *only* work for the US government so they may be part of the government for all intents and purposes.
+[^fn87]: To complicate things, many small contracting firms only work for the US government so they may be part of the government for all intents and purposes.
 
 [^fn88]: My past self included.
 
@@ -2797,7 +2801,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn95]: Yes, you can probably come up with an obscure scenario where studying these things (or anything) is valuable. My point is that justifying research based on the value it creates at all is an incomplete stance.
 
-[^fn96]: Prove me wrong please!
+[^fn96]: Show that I'm wrong please!
 
 [^fn97]: \<sidenote\> See [Tacit Knowledge, Trust, and the Q of Sapphire](https://www.gwern.net/docs/philo/2001-collins.pdf)
 
@@ -2849,7 +2853,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn121]: That is, particle physics before subatomic particles, now it's just a mess all the way down.
 
-[^fn122]: The property that you don't actually know where the line is until you cross it is true in law more broadly. Some legal scholars in common-law countries like the US consider it a *good* thing when laws are challenged because more rulings give a better sense of where the line is.
+[^fn122]: The property that you don't actually know where the line is until you cross it is true in law more broadly. Some legal scholars in common-law countries like the US consider it a good thing when laws are challenged because more rulings give a better sense of where the line is.
 
 [^fn123]: Admittedly, the number of organizations constrained out of existence by people being unwilling to play with legal structures might be zero. But it also might be huge. Counterfactuals are hard!
 
@@ -2865,7 +2869,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn129]: And even then it depends on which government you are part of.
 
-[^fn130]: I want to caveat that the moon landings could not have been accomplished without government funding *in the 60s.* Whether something requires government-level funding is not an inherent property of that thing but instead depends on the nature of the work at the time, the relative wealth of the society, and the concentration of that wealth. In the 1960s, NASA needed to do a *ton* of new things, the US was not as wealthy as it is now, and that wealth was less concentrated (fewer billionaires.)
+[^fn130]: I want to caveat that the moon landings could not have been accomplished without government funding in the 60s. Whether something requires government-level funding is not an inherent property of that thing but instead depends on the nature of the work at the time, the relative wealth of the society, and the concentration of that wealth. In the 1960s, NASA needed to do a ton of new things, the US was not as wealthy as it is now, and that wealth was less concentrated (fewer billionaires).
 
 [^fn131]: \<sidenote\> See [Why Does DARPA Work](https://benjaminreinhardt.com/wddw#opacity_is_important_to_darpa%E2%80%99s_outlier_success)?
 
@@ -2917,7 +2921,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn155]: "I'm busy writing my thesis. Here's my lab computer - it has everything on it. Good luck!"
 
-[^fn156]: \<sidenote\>People absolutely run out of patience even if you set expectations up front. See: <https://twitter.com/Ben_Reinhardt/status/1350507766381744128>
+[^fn156]: People absolutely run out of patience even if you set expectations up front. Based on popular sentiment, if Blue Origin had any funders besides Jeff Bezos, they would have lost funding despite the fact that they literally have tortoises on their coat of arms.
 
 [^fn157]: \<sidenote\> The Buxton Index comes from E.W.Dijkstra in [The Strengths of the Academic Enterprise ](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD11xx/EWD1175.html)
 
@@ -2927,19 +2931,19 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn160]: 'Friendly investment' is what I would call investment from non-professional investors that is some superposition of philanthropy and investment. That is, unlike professional investors who implicitly or explicitly want to see a certain level of growth on a clear timeline, friendly investment is more like an option - if the asset becomes worth something, awesome but if not disappointing but 🤷‍♂️. Of course, friendly investment always runs the risk of becoming unfriendly at any time - the classic example is entrepreneurs who get their first startup money from friends and family who have no experience with startup investing. A lot of angel investing could be considered 'friendly investing.'
 
-[^fn161]: \<sidenote\> See [Department of Defense Fiscal Year (FY) 2020 Budget Estimates](https://www.darpa.mil/attachments/DARPA_FY20_Presidents_Budget_Request.pdf)
+[^fn161]: \<sidenote\> See [Department of Defense Fiscal Year (FY) 2020 Budget Estimates](https://www.darpa.mil/attachments/DARPA_FY20_Presidents_Budget_Request.pdf).
 
 [^fn162]: Of course, individuals within organizations also have their own agendas.
 
 [^fn163]: I only took the top 20 companies because company valuation roughly follows a power law so the bottom 200 will probably add up to be much less than the top 20.
 
-[^fn164]: \<sidenote\>See[ **Running The Numbers on Y Combinator's Best Year Yet**](https://news.crunchbase.com/news/y-combinator-biggest-startups-gone-public-airbnb-doordash/)
+[^fn164]: \<sidenote\>See[ Running The Numbers on Y Combinator's Best Year Yet](https://news.crunchbase.com/news/y-combinator-biggest-startups-gone-public-airbnb-doordash/).
 
 [^fn165]: There are obvious exceptions for extremely expensive or rare equipment
 
 [^fn166]: \<sidenote\> See the section [DARPA doesn't do ay research in house](https://benjaminreinhardt.com/wddw#darpa_doesn%E2%80%99t_do_any_research_in_house) from Why Does DARPA Work?
 
-[^fn167]: \<sidenote\> See [Rethinking the role of the state in technology development: DARPA and the case for embedded network governance points ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id%3D1545155)
+[^fn167]: \<sidenote\> See [Rethinking the role of the state in technology development: DARPA and the case for embedded network governance points](https://papers.ssrn.com/sol3/papers.cfm?abstract_id%3D1545155).
 
 [^fn168]: As suitcase-handle-y as this term can be.
 
@@ -2953,7 +2957,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn173]: \<sidenote\> See [Arpa Does Windows: The Defense Underpinning of the PC Revolution](https://www.researchgate.net/publication/46555488_Arpa_Does_Windows_The_Defense_Underpinning_of_the_PC_Revolution)
 
-[^fn174]: \<sidenote\> See [**If Patents Are So Valuable Why Does IBM's Intellectual Property Revenue Continue To Decline**](https://www.forbes.com/sites/chuckjones/2016/01/19/if-patents-are-so-valuable-why-does-ibms-intellectual-property-revenue-continue-to-decline/?sh=51f1783c1433)
+[^fn174]: \<sidenote\> See [If Patents Are So Valuable Why Does IBM's Intellectual Property Revenue Continue To Decline](https://www.forbes.com/sites/chuckjones/2016/01/19/if-patents-are-so-valuable-why-does-ibms-intellectual-property-revenue-continue-to-decline/?sh=51f1783c1433)
 
 [^fn175]: \<sidenote\> See [Benchmarking of Technology Transfer Offices and What It Means for Developing Countries](http://www.iphandbook.org/handbook/ch03/p05/)
 
@@ -2985,7 +2989,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn189]: Yes, I'm using an absurd number of quotation marks - this is yet another artifact of the fact that There are no first principles for legal structures! All of these words are legal designations, but it's nebulous which things fall in and out of them.
 
-[^fn190]: \<sidenote\> See [**Zombie philanthropy: The rich have stashed billions in donor-advised charities --- but it's not reaching those in need** ](https://www.washingtonpost.com/lifestyle/style/zombie-philanthropy-the-rich-have-stashed-billions-in-donor-advised-charities--but-its-not-reaching-those-in-need/2020/06/23/6a1b397a-af3a-11ea-856d-5054296735e5_story.html)**(paywalled but** *cough* incognito mode *cough*)
+[^fn190]: \<sidenote\> See [Zombie philanthropy: The rich have stashed billions in donor-advised charities --- but it's not reaching those in need ](https://www.washingtonpost.com/lifestyle/style/zombie-philanthropy-the-rich-have-stashed-billions-in-donor-advised-charities--but-its-not-reaching-those-in-need/2020/06/23/6a1b397a-af3a-11ea-856d-5054296735e5_story.html)(paywalled).
 
 [^fn191]: \<sidenote\> See [Donor-Advised Funds: an underutilized philanthropic vehicle to support innovation in science and engineering](https://primecoalition.org/wp-content/uploads/2018/03/MIT-Innovation-Initiative_DAFs.pdf?x48191) for many more details
 
@@ -3001,13 +3005,13 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn197]: \<sidenote\> See <http://catalog.mit.edu/mit/research/mit-media-lab/>
 
-[^fn198]: Beyond reporting requirements which as we'll see are thick strings indeed
+[^fn198]: Beyond reporting requirements which as we'll see are thick strings indeed.
 
 [^fn199]: Of course, the government is composed of individuals who all have their own agendas and geographies.
 
 [^fn200]: \<sidenote\> See [How to access 'America's Seed Fund,' the $3 billion SBIR program](https://techcrunch.com/2020/08/07/how-to-access-americas-seed-fund-the-3-billion-sbir-program/)
 
-[^fn201]: This is why unrestricted money is like gold for professors
+[^fn201]: This is why unrestricted money is like gold for professors.
 
 [^fn202]: \<sidenote\> Including Intuitive Surgical, E-Trade, Symantec, etc. See t[his Wikipedia page ](https://en.wikipedia.org/wiki/List_of_SRI_International_spin-offs)for a full list.
 
@@ -3015,7 +3019,7 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn204]: DeepMind is technically an Alphabet subsidiary with its own leadership, budgets, etc.
 
-[^fn205]: \<sidenote\> See [**DeepMind revenue dwarfed by $649 million loss**](https://www.industryleadersmagazine.com/deepmind-revenue-dwarfed-by-649-million-loss/)
+[^fn205]: \<sidenote\> See [DeepMind revenue dwarfed by $649 million loss](https://www.industryleadersmagazine.com/deepmind-revenue-dwarfed-by-649-million-loss/)
 
 [^fn206]: Google Brain's timeline corroborates this: it started as a small project within Google X in 2011 and only became a full organization around 2013.
 
@@ -3037,158 +3041,156 @@ If you want to support PARPA with either your time or money, [please reach out](
 
 [^fn215]: \<sidenote\> See [this essay by Paul Graham about unrestricted donations](http://paulgraham.com/donate.html)
 
-[^fn216]: \<sidenote\> See [**Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries**](https://www.goodreads.com/book/show/39863447-loonshots)
+[^fn216]: \<sidenote\> See [Focused Research Organizations to Accelerate Science, Technology, and Medicine](https://www.dayoneproject.org/post/focused-research-organizations-to-accelerate-science-technology-and-medicine).
 
-[^fn217]: \<sidenote\> See [Focused Research Organizations to Accelerate Science, Technology, and Medicine](https://www.dayoneproject.org/post/focused-research-organizations-to-accelerate-science-technology-and-medicine).
+[^fn217]: \<sidenote\> See [Fund people, not projects I: The HHMI and the NIH Director's Pioneer Award](https://nintil.com/hhmi-and-nih) and the other parts of the same series for a deep dive on the literature around this.
 
-[^fn218]: \<sidenote\> See [Fund people, not projects I: The HHMI and the NIH Director's Pioneer Award](https://nintil.com/hhmi-and-nih) and the other parts of the same series for a deep dive on the literature around this
+[^fn218]: \<sidenote\> See [Farnam Street --- Wittgenstein: Reality is shaped by the words we use](http://fs.blog/2013/01/reality-is-shaped-by-the-words-we-use/)
 
-[^fn219]: \<sidenote\> See [Farnam Street --- Wittgenstein: Reality is shaped by the words we use](http://fs.blog/2013/01/reality-is-shaped-by-the-words-we-use/)
+[^fn219]: \<sidenote\> See [The decline of unfettered research](http://www.dtc.umn.edu/~odlyzko/doc/decline.txt) for a good description of this process and its consequences.
 
-[^fn220]: \<sidenote\> See [The decline of unfettered research](http://www.dtc.umn.edu/~odlyzko/doc/decline.txt) for a good description of this process and its consequences
+[^fn220]: \<sidenote\> There are some exceptions! [The International Technology Roadmap for Semiconductors](https://en.wikipedia.org/wiki/International_Technology_Roadmap_for_Semiconductors) is quite good, I presume because an entire massive industry *actually* depends on coordinated research.
 
-[^fn221]: \<sidenote\> There are some exceptions! [The International Technology Roadmap for Semiconductors](https://en.wikipedia.org/wiki/International_Technology_Roadmap_for_Semiconductors) is quite good, I presume because an entire massive industry *actually* depends on coordinated research.
+[^fn221]: Yes "better" is a vague word. In the context of program design means some combination of "faster, cheaper, more successfully, enabling programs that wouldn't exist otherwise, and generating more knowledge in both successes and failures."
 
-[^fn222]: Yes "better" is a vague word. In the context of program design means some combination of "faster, cheaper, more successfully, enabling programs that wouldn't exist otherwise, and generating more knowledge in both successes and failures."
+[^fn222]: Many disciplines which are meant to supplement practice suffer the same fate!
 
-[^fn223]: Many disciplines which are meant to supplement practice suffer the same fate!
+[^fn223]: \<sidenote\> See [The Secrets of Apollo](https://www.goodreads.com/book/show/218247.The_Secret_of_Apollo) or the [PERT guide for Management](https://play.google.com/books/reader?id=MojXzaEeWswC&hl=en&pg=GBS.PA16).
 
-[^fn224]: \<sidenote\> See [The Secrets of Apollo](https://www.goodreads.com/book/show/218247.The_Secret_of_Apollo) or the [PERT guide for Management](https://play.google.com/books/reader?id=MojXzaEeWswC&hl=en&pg=GBS.PA16).
+[^fn224]: I have tried to track them down to ask them but they seem to all be unreachable or dead. If you know any of them, please put us in touch!
 
-[^fn225]: I have tried to track them down to ask them but they seem to all be unreachable or dead. If you know any of them, please put us in touch!
+[^fn225]: \<sidenote\> [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Motorola's process-improvement process.
 
-[^fn226]: \<sidenote\> [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Motorola's process-improvement process.
+[^fn226]: \<sidenote\> [Matrix management ](https://en.wikipedia.org/wiki/Matrix_management)is a now-disfavored project management approach created by the aerospace industry in the 1950s.
 
-[^fn227]: \<sidenote\> [Matrix management ](https://en.wikipedia.org/wiki/Matrix_management)is a now-disfavored project management approach created by the aerospace industry in the 1950s
+[^fn227]: \<sidenote\> See [And Suddenly the Inventor Appeared: Triz, the Theory of Inventive Problem Solving](https://www.goodreads.com/book/show/161916.And_Suddenly_the_Inventor_Appeared)
 
-[^fn228]: \<sidenote\> See [**And Suddenly the Inventor Appeared: Triz, the Theory of Inventive Problem Solving**](https://www.goodreads.com/book/show/161916.And_Suddenly_the_Inventor_Appeared)
+[^fn228]: See: alchemy, astrology, humor-based medicine.
 
-[^fn229]: See: alchemy, astrology, humor-based medicine
+[^fn229]: In the Popperian sense.
 
-[^fn230]: In the Popperian sense
+[^fn230]: \<sidenote\> See [How can we develop transformative tools for thought?](https://numinous.productions/ttft/#serious-work)
 
-[^fn231]: \<sidenote\> See [How can we develop transformative tools for thought?](https://numinous.productions/ttft/#serious-work)
+[^fn231]: \<sidenote\> See [the Miller--Urey experiment](https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment).
 
-[^fn232]: \<sidenote\> See [the Miller--Urey experiment](https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment).
+[^fn232]: Simulations, specifically simulating nuclear detonations, were among the first applications of digital computers.
 
-[^fn233]: Simulations, specifically simulating nuclear detonations, were among the first applications of digital computers.
+[^fn233]: \<sidenote\> See [AlphaFold: Using AI for scientific discovery](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery) and [FermiNet: Quantum Physics and Chemistry from First Principles](https://deepmind.com/blog/article/FermiNet)
 
-[^fn234]: \<sidenote\> See [AlphaFold: Using AI for scientific discovery](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery) and [FermiNet: Quantum Physics and Chemistry from First Principles](https://deepmind.com/blog/article/FermiNet)
+[^fn234]: And ideally non-researchers! See: Foldit below.
 
-[^fn235]: And ideally non-researchers! Foldit is an inspiring example of sim
+[^fn235]: I would argue that this is the case despite recent (2021) events.
 
-[^fn236]: I would argue that this is the case despite recent (2021) events.
+[^fn236]: There are of course exceptions and those people go work in finance.
 
-[^fn237]: There are of course exceptions and those people go work in finance.
+[^fn237]: \<sidenote\> I honestly could not find any great resources on how co-ops work. The best I could do is[ this Ohio State University site](https://u.osu.edu/coopmastery/). If you know of any better ones, please let me know!
 
-[^fn238]: \<sidenote\> I honestly could not find any great resources on how co-ops work. The best I could do is[ this Ohio State University site](https://u.osu.edu/coopmastery/). If you know of any better ones, please let me know!
+[^fn238]: Which does happen sometimes!
 
-[^fn239]: Which does happen sometimes! From *The Prince*: "There is nothing more difficult to take in hand, more perilous to conduct or more uncertain in its success, than to take the lead in the new order of things; because the innovator has for enemies all those who have done well under the old conditions, and lukewarm defenders in those who may do well under the new."
+[^fn239]: \<sidenote\> In a grossly oversimplified nutshell, SPACs (Special Purpose Acquisition Companies) are publicly listed shell companies that then merge will a private company, effectively taking it public without an IPO. Wikipedia article [here.](https://en.wikipedia.org/wiki/Special-purpose_acquisition_company)
 
-[^fn240]: \<sidenote\> In a grossly oversimplified nutshell, SPACs (Special Purpose Acquisition Companies) are publicly listed shell companies that then merge will a private company, effectively taking it public without an IPO. Wikipedia article [here.](https://en.wikipedia.org/wiki/Special-purpose_acquisition_company)
+[^fn240]: \<sidenote\> Anton Howes has a good Twitter thread about Advanced Market Commitments [here](https://twitter.com/antonhowes/status/1250431243407069184)
 
-[^fn241]: \<sidenote\> Anton Howes has a good Twitter thread about Advanced Market Commitments [here](https://twitter.com/antonhowes/status/1250431243407069184)
+[^fn241]: \<sidenote\> See [Productive Uncertainty](https://reactionwheel.net/2020/11/productive-uncertainty.html)
 
-[^fn242]: \<sidenote\> See [Productive Uncertainty](https://reactionwheel.net/2020/11/productive-uncertainty.html)
+[^fn242]: \<sidenote\> See a more detailed description of technology readiness levels [here ](https://benjaminreinhardt.com/trl)
 
-[^fn243]: \<sidenote\> See a more detailed description of technology readiness levels [here ](https://benjaminreinhardt.com/trl)
+[^fn243]: I want to acknowledge up-front that 'vision' and 'visionary' has become a grossly overloaded suitcase word. Unfortunately, it is also the correct word for what I'm talking about. I tried 'crisp picture' or 'shared goal' but they just don't work. It's also hard to define in a non-circular manner from the content of this note. Hopefully this excessive note serves to sufficiently discriminate precise visions from the casual use of the word!
 
-[^fn244]: I want to acknowledge up-front that 'vision' and 'visionary' has become a grossly overloaded suitcase word. Unfortunately, it is also the correct word for what I'm talking about. I tried 'crisp picture' or 'shared goal' but they just don't work. It's also hard to define in a non-circular manner from the content of this note. Hopefully this excessive note serves to sufficiently discriminate precise visions from the casual use of the word!
+[^fn244]: \<sidenote\> See [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) (uses up one of three free articles at The Atlantic).
 
-[^fn245]: \<sidenote\> See [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) (uses up one of three free articles at The Atlantic)
+[^fn245]: "What are you working on?" Is an intriguing question. What counts as a legitimate answer to it is slippery. There are answers that are clearly legitimate like "we're working on making webpage load times faster!" Unfortunately, "we're working on a new institutional structure" is generally illegitimate. Perhaps it comes down to whether the questioner can imagine the sorts of day-to-day activities an answer would entail?
 
-[^fn246]: "What are you working on?" Is an intriguing question. What counts as a legitimate answer to it is slippery. There are answers that are clearly legitimate like "we're working on making webpage load times faster!" Unfortunately, "we're working on a new institutional structure" is generally illegitimate. Perhaps it comes down to whether the questioner can imagine the sorts of day-to-day activities an answer would entail?
+[^fn246]: There are of course, many examples of startups drastically shifting what they're working on. At any point in time though, good startups tend to know exactly what they're working on.
 
-[^fn247]: There are of course, many examples of startups drastically shifting what they're working on. At any point in time though, good startups tend to know exactly what they're working on.
+[^fn247]: This isn't to say all software engineers or data scientists are fungible! It is to say that the startup's ability to take even one step forward doesn't hinge on hiring the best software engineer in the world.
 
-[^fn248]: This isn't to say all software engineers or data scientists are fungible! It is to say that the startup's ability to take even one step forward doesn't hinge on hiring the best software engineer in the world.
+[^fn248]: There are plenty of people who have no idea what they're talking with great ideas that would change the world if only they could find someone to implement them.
 
-[^fn249]: There are plenty of people who have no idea what they're talking with great ideas that would change the world if only they could find someone to implement them.
+[^fn249]: The counterexamples that immediately popped into your head are the result of saliency bias. It's easy to recall people who openly want to work on things beyond their reach but obviously hard to recall the people who never talk about.
 
-[^fn250]: The counterexamples that immediately popped into your head are the result of saliency bias. It's easy to recall people who openly want to work on things beyond their reach but obviously hard to recall the people who never talk about.
+[^fn250]: I think credentialism is bad and that most people can retrain to do most things eventually if they try hard. However, success on a technically-hard non-software research project starting from scratch without guidance seems ... unlikely.
 
-[^fn251]: I think credentialism is bad and that most people can retrain to do most things eventually if they try hard. However, success on a technically-hard non-software research project starting from scratch without guidance seems ... unlikely.
+[^fn251]: The tension between expertise and ambition strikes again!
 
-[^fn252]: The tension between expertise and ambition strikes again!
+[^fn252]: \<sidenote\> Warren Weaver, the Rockefeller Foundation program officer who funded early genetics work expands on this point in his [notes for other program officers](https://rockfound.rockarch.org/digital-library-listing/-/asset_publisher/yYxpQfeI4W8N/content/n-s-notes-on-officers-techniques).
 
-[^fn253]: \<sidenote\> Warren Weaver, the Rockefeller Foundation program officer who funded early genetics work expands on this point in his [notes for other program officers](https://rockfound.rockarch.org/digital-library-listing/-/asset_publisher/yYxpQfeI4W8N/content/n-s-notes-on-officers-techniques).
+[^fn253]: \<sidenote\> See the section [DARPA PMs use seedling projects to 'acid test' the riskiest pieces of a program idea](https://benjaminreinhardt.com/wddw#darpa_pms_use_seedling_projects_to_%E2%80%98acid_test%E2%80%99_the_riskiest_pieces_of_a_program_idea) from Why Does DARPA Work?
 
-[^fn254]: \<sidenote\> See the section [DARPA PMs use seedling projects to 'acid test' the riskiest pieces of a program idea](https://benjaminreinhardt.com/wddw#darpa_pms_use_seedling_projects_to_%E2%80%98acid_test%E2%80%99_the_riskiest_pieces_of_a_program_idea) from Why Does DARPA Work?
+[^fn254]: \<sidenote\> The last four are directly from Adam Marblestone.
 
-[^fn255]: \<sidenote\> The last four are directly from Adam Marblestone.
+[^fn255]: \<sidenote\> See  the section [A large part of a DARPA program manager's job is focused network building](https://benjaminreinhardt.com/wddw#a_large_part_of_a_darpa_program_manager%E2%80%99s_job_is_focused_network_building) from Why Does DARPA Work?
 
-[^fn256]: \<sidenote\> See  the section [A large part of a DARPA program manager's job is focused network building](https://benjaminreinhardt.com/wddw#a_large_part_of_a_darpa_program_manager%E2%80%99s_job_is_focused_network_building) from Why Does DARPA Work?
+[^fn256]: See question \#4 of The Heilmeier Catechism: " Who cares? If you are successful, what difference will it make?"
 
-[^fn257]: See question \#4 of The Heilmeier Catechism: " Who cares? If you are successful, what difference will it make?"
+[^fn257]: \<sidenote\> In [Reinventing Discovery](https://www.goodreads.com/book/show/11667578-reinventing-discovery), Michael Nielsen elegantly describes this process as 'designed serendipity'
 
-[^fn258]: \<sidenote\> In [Reinventing Discovery](https://www.goodreads.com/book/show/11667578-reinventing-discovery), Michael Nielsen elegantly describes this process as 'designed serendipity'
+[^fn258]: I prefer the imagery invoked by 'budding off' companies instead of spinning out, but the convention is strong with this one.
 
-[^fn259]: I prefer the imagery invoked by 'budding off' companies instead of spinning out, but the convention is strong with this one.
+[^fn259]: \<sidenote\> See [Default Alive or Default Dead](http://paulgraham.com/aord.html)
 
-[^fn260]: \<sidenote\> See [Default Alive or Default Dead](http://paulgraham.com/aord.html)
+[^fn260]: Though they rarely do in practice.
 
-[^fn261]: Though they rarely do in practice
+[^fn261]: \<sidenote\> See the section [DARPA is relatively tiny and flat](https://benjaminreinhardt.com/wddw#darpa_is_relatively_tiny_and_flat) Why Does DARPA Work?
 
-[^fn262]: \<sidenote\> See the section [DARPA is relatively tiny and flat](https://benjaminreinhardt.com/wddw#darpa_is_relatively_tiny_and_flat) Why Does DARPA Work?
+[^fn262]: 1974 Bell Labs and 2020 DARPA have uncannily similar budgets ($3.6B and $2.8B in 2020 dollars) - there is not clear causal linkage but it is suggestive.
 
-[^fn263]: 1974 Bell Labs and 2020 DARPA have uncannily similar budgets ($3.6B and $2.8B in 2020 dollars) - there is not clear causal linkage but it is suggestive.
+[^fn263]: \<sidenote\> For much more about ARDC see [Creative Capital: Georges Doriot and the Birth of Venture Capital](https://www.goodreads.com/book/show/3176553-creative-capital)
 
-[^fn264]: \<sidenote\> For much more about ARDC see [Creative Capital: Georges Doriot and the Birth of Venture Capital](https://www.goodreads.com/book/show/3176553-creative-capital)
+[^fn264]: If every company whose core business depends on technology that can be traced back to DARPA gave some tiny percent of their revenue to DARPA, it would fund DARPA many times over. (And in a way they do, via taxes in the US.)
 
-[^fn265]: If every company whose core business depends on technology that can be traced back to DARPA gave some tiny percent of their revenue to DARPA, it would fund DARPA many times over. (And in a way they do, via taxes in the US)
+[^fn265]: \<sidenote\> See [Productive Uncertainty](http://reactionwheel.net/2020/11/productive-uncertainty.html), again.
 
-[^fn266]: \<sidenote\> See [Productive Uncertainty](http://reactionwheel.net/2020/11/productive-uncertainty.html), again.
+[^fn266]: As with any metric, it will be imperfect. It's not actually possible to convert between four years of service and $200k. Both are essential and uninterchangable.
 
-[^fn267]: As with any metric, it will be very imperfect. It's not actually possible to convert between four years of service and $200k. Both are essential and uninterchangable.
+[^fn267]: \<sidenote\> Evolutionary systems (may) go through long periods of slow change punctuated by periods of rapid change. See [Punctuated equilibria: an alternative to phyletic gradualism](https://www.blackwellpublishing.com/ridley/classictexts/eldredge.pdf)
 
-[^fn268]: \<sidenote\> Evolutionary systems (may) go through long periods of slow change punctuated by periods of rapid change. See [Punctuated equilibria: an alternative to phyletic gradualism](https://www.blackwellpublishing.com/ridley/classictexts/eldredge.pdf)
+[^fn268]: \<sidenote\> For some more complex and well-thought-out tranched funding schemes, see [Funding Long Shots](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3058472).
 
-[^fn269]: \<sidenote\> For some more complex and well-thought-out tranched funding schemes, see [Funding Long Shots](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3058472).
+[^fn269]: While a DARPA-riff will need at least seven programs to demonstrate viability, we could design the remaining programs once we've moved to Form 2.
 
-[^fn270]: **While a DARPA-riff will need at least seven programs to demonstrate viability, we could design the remaining programs once we've moved to Form 2.**
+[^fn270]: I've received drastically different response rates sending emails with the slightly different wording "potential privately funded research program ..." and just "potential research program ..."
 
-[^fn271]: I've gotten different response rates sending emails with the slightly different wording "potential privately funded research program ..." and just "potential research program ..."
+[^fn271]: \<sidenote\> See[ Focused Research Organizations to Accelerate Science, Technology, and Medicine](https://www.dayoneproject.org/post/focused-research-organizations-to-accelerate-science-technology-and-medicine), Again.
 
-[^fn272]: \<sidenote\> See[ Focused Research Organizations to Accelerate Science, Technology, and Medicine](https://www.dayoneproject.org/post/focused-research-organizations-to-accelerate-science-technology-and-medicine), Again.
+[^fn272]: \<sidenote\> See <https://www.darpa.mil/work-with-us/heilmeier-catechism>
 
-[^fn273]: \<sidenote\> See <https://www.darpa.mil/work-with-us/heilmeier-catechism>
+[^fn273]: Speculatively, it might be possible to improve on the Heilmeier Catechism with something more quantized - similar to Donald Braben's BRAVERI scale.
 
-[^fn274]: Speculatively, it might be possible to improve on the Heilmeier Catechism with something more quantized - similar to Donald Braben's BRAVERI scale.
+[^fn274]: \<sidenote\> See[ DARPA - Enabling Technical Innovation](https://www.openbookpublishers.com/htmlreader/978-1-78374-791-7/ch10.xhtml)
 
-[^fn275]: \<sidenote\> See[ DARPA - Enabling Technical Innovation](https://www.openbookpublishers.com/htmlreader/978-1-78374-791-7/ch10.xhtml)
+[^fn275]: You also need some amount of slack for these benefits to kick in. If everybody is spending 110% of the their time focused on only their own programs any non-program-related interaction is mentally expensive.
 
-[^fn276]: You also need some amount of slack for these benefits to kick in. If everybody is spending 110% of the their time focused on only their own programs any non-program-related interaction is mentally expensive.
+[^fn276]: \<sidenote\> See [The density of remaining nerve endings in human skin with and without postherpetic neuralgia after shingles](https://doi.org/10.1016/S0304-3959(00)00481-4)
 
-[^fn277]: \<sidenote\> See [The density of remaining nerve endings in human skin with and without postherpetic neuralgia after shingles](https://doi.org/10.1016/S0304-3959(00)00481-4)
+[^fn277]: \<sidenote\> See[ The BioTac - Multimodal Tactile Sensor](https://wiki.ros.org/BioTac)
 
-[^fn278]: \<sidenote\> See[ The BioTac - Multimodal Tactile Sensor](https://wiki.ros.org/BioTac)
+[^fn278]: \<sidenote\> See the[ Drexler-Smalley debate](https://en.wikipedia.org/wiki/Drexler%E2%80%93Smalley_debate_on_molecular_nanotechnology) for strong arguments against positional chemistry.
 
-[^fn279]: \<sidenote\> See the[ Drexler-Smalley debate](https://en.wikipedia.org/wiki/Drexler%E2%80%93Smalley_debate_on_molecular_nanotechnology) for strong arguments against positional chemistry.
+[^fn279]: Note that I'm *not* saying this is necessarily the right thing to build, but it does seem promising.
 
-[^fn280]: Note that I'm *not* saying this is necessarily the right thing to build, but it does seem promising.
+[^fn280]: \<sidenote\> See [DNA Strand Displacement-Driven DNA Origami Tools and Materials](https://www.energy.gov/sites/prod/files/2019/09/f66/DNA%20Strand%20Displacement%20Driven%20Molecular%20Additive%20Manufacturing.pdf).
 
-[^fn281]: \<sidenote\> See [DNA Strand Displacement-Driven DNA Origami Tools and Materials](https://www.energy.gov/sites/prod/files/2019/09/f66/DNA%20Strand%20Displacement%20Driven%20Molecular%20Additive%20Manufacturing.pdf).
+[^fn281]: \<sidenote\> See [**Design of a single-chain polypeptide tetrahedron assembled from coiled-coil segments**](https://www.nature.com/articles/nchembio.1248)**.**
 
-[^fn282]: \<sidenote\> See [**Design of a single-chain polypeptide tetrahedron assembled from coiled-coil segments**](https://www.nature.com/articles/nchembio.1248)**.**
+[^fn282]: \<sidenote\> See [Ultrafast rotation in an amphidynamic crystalline metal organic framework](https://www.pnas.org/content/pnas/114/52/13613.full.pdf).
 
-[^fn283]: \<sidenote\> See [Ultrafast rotation in an amphidynamic crystalline metal organic framework](https://www.pnas.org/content/pnas/114/52/13613.full.pdf).
+[^fn283]: \<sidenote\> See [Casting inorganic structures with DNA molds.](https://science.sciencemag.org/content/346/6210/1258361.full)
 
-[^fn284]: \<sidenote\> See [Casting inorganic structures with DNA molds.](https://science.sciencemag.org/content/346/6210/1258361.full)
+[^fn284]: This distinction between leading indicator and goal in of itself is of course the root of Goodhart's law. We can hopefully sidestep the trap of leading indicators becoming goals by having too many indicators to pursue all of them without just pursuing the thing they indicate!
 
-[^fn285]: This distinction between leading indicator and goal in of itself is of course the root of Goodhart's law. We can hopefully sidestep the trap of leading indicators becoming goals by having too many indicators to pursue all of them without just pursuing the thing they indicate!
+[^fn285]: \<sidenote\> See [Reflections on 2020 as an independent researcher](https://andymatuschak.org/2020/)
 
-[^fn286]: \<sidenote\> See [Reflections on 2020 as an independent researcher](https://andymatuschak.org/2020/)
+[^fn286]: \<sidenote\> See [Scenius, or Communal Genius](https://kk.org/thetechnium/scenius-or-comm/)
 
-[^fn287]: \<sidenote\> See [**Scenius, or Communal Genius**](https://kk.org/thetechnium/scenius-or-comm/)
+[^fn287]: While Xerox PARC technically still exists, after a leadership change in 1983 it arguably morphed into a different organization.
 
-[^fn288]: While Xerox PARC technically still exists, after a leadership change in 1983 it arguably morphed into a different organization.
+[^fn288]: This is a yet-to-be-made tracker of how close we are to the technologies in Ian M. Banks Culture Series.
 
-[^fn289]: This is a yet-to-be-made tracker of how close we are to the technologies in Ian M. Banks Culture Series.
+[^fn289]: \<sidenote\> A scale ranking civilizational levels by the amount of energy they can consume - Level 1 is consuming energy at the scale of all the energy incident to the surface of their planet, Level 2 is consuming energy at the scale of their local star, and Level 3 is consuming energy at the scale of their galaxy. See [Kardashev scale - Wikipedia](https://en.wikipedia.org/wiki/Kardashev_scale).
 
-[^fn290]: \<sidenote\> A scale ranking civilizational levels by the amount of energy they can consume - Level 1 is consuming energy at the scale of all the energy incident to the surface of their planet, Level 2 is consuming energy at the scale of their local star, and Level 3 is consuming energy at the scale of their galaxy. See [Kardashev scale - Wikipedia](https://en.wikipedia.org/wiki/Kardashev_scale).
+[^fn290]: \<sidenote\> 'Ergophobia" technically means a neurotic fear of doing work, in an individual. But it comes from the same Greek root as "energy," and you will find that physicists use "work" and "energy" to mean the same thing. So I feel justified in using it to refer to the funk our society has gotten into over energy.' From: [Where Is My Flying Car?: A Memoir of Future Past](https://www.goodreads.com/book/show/42036377-where-is-my-flying-car).
 
-[^fn291]: \<sidenote\>'Ergophobia" technically means a neurotic fear of doing work, in an individual. But it comes from the same Greek root as "energy," and you will find that physicists use "work" and "energy" to mean the same thing. So I feel justified in using it to refer to the funk our society has gotten into over energy.' From: [Where Is My Flying Car?: A Memoir of Future Past](https://www.goodreads.com/book/show/42036377-where-is-my-flying-car)*.*
+[^fn291]: \<sidenote\> "When a elder preeminent scientist says that something is impossible, he's probably wrong. When a elder preeminent scientist says something might be possible, he's probably right."
 
-[^fn292]: \<sidenote\>"When a elder preeminent scientist says that something is impossible, he's probably wrong. When a elder preeminent scientist says something might be possible, he's probably right."
-
-[^fn293]: the P is for private, but you can also imagine that it stands for Phenomenal or Prodigious if you want
+[^fn292]: The P is for private, but you can also imagine that it stands for Phenomenal or Prodigious if you want.
