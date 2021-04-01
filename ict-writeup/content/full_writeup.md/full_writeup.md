@@ -70,7 +70,7 @@ This piece is structured as follows:
 
 ![][maze_exterior]
 
-One way to can reason about the shape of the maze is to interrogate those who have made similar journeys. Specifically, we can sketch the activities that good solutions R&D organizations must enable by highlighting the attributes that distinguish the great industrial labs of the past from other institutions. Work on general-purpose technology before it's specialized is important, as is a sense of playful research that at the same time is oriented towards useful outcomes. 
+One way to reason about the shape of the maze is to interrogate those who have made similar journeys. Specifically, we can sketch the activities that good solutions R&D organizations must enable by highlighting the attributes that distinguish the great industrial labs of the past from other institutions. Work on general-purpose technology before it's specialized is important, as is a sense of playful research that at the same time is oriented towards useful outcomes. 
 
 Great labs also helped projects ramp smoothly from eye-twinkles to mass-manufactured products. It's easy to create a working prototype that is completely unmanufacturable in relevant quantities. Great labs prevented this common pitfall by creating an environment where prototyping happens with manufacturing expertise in the room. More generally, great labs created a uniquely generative environment where people from different disciplines[^fn2] can mix and incentivizes them to work together towards common goals.      
 
@@ -190,10 +190,10 @@ Finally, this piece is meant to build trust. Doing anything new requires trust a
 
 This piece is intended for five types of readers. I'm explicitly calling them out because the whole thing is long and everybody will get more or less value from different sections. You don't need to be a completionist! 
 
-1. **"The builder"**: You're this type of reader if you want to put in the legwork to build an innovation organization, especially one that riffs on the DARPA model. In other words, me. In some ways this piece is a very long memo to myself laying out how to spend the next N years of my life and why I'm doing it. If you're in this category, you already (at least slightly) believe strongly enough in the importance of creating new innovation organizations that you want to take action on that belief.
-2. **"The supporter"**: You're this type of reader if you're in the position to support new innovation organizations --- monetarily or otherwise. Creating new innovation organizations isn't going to be your main thing, but you still would like to put your social or financial capital towards the effort. You could be coming from one of many institutional contexts: as a philanthropist, a member of a government, or a capitalist --- either an investor seeking monetary returns or the representative of a corporation looking for technological returns.
-3. **"The enthusiast"**: You're this type of reader if you are generally interested in the question "how do we enable more creative science and technology in the world?" but perhaps you aren't in a position to be a builder or supporter ... yet.
-4. **"The scholar"**: You're this type of reader if you have an academic interest in innovation and how it works. Maybe you're a historian, economist, or policy person.
+1. **"The builder"**: You're this type of reader if you want to put in the legwork to build an innovation organization, especially one that riffs on the DARPA model. In other words, me. In some ways this piece is a very long memo to myself laying out how to spend the next N years of my life and why I'm doing it. If you're in this category, you already (at least slightly) believe strongly enough in the importance of creating new innovation organizations that you want to take action on that belief. Builders are probably most interested in the general principles for building DARPA-riffs in Part II and less interested in the more abstract arguments in Part I and the specific plans in Part III.
+2. **"The supporter"**: You're this type of reader if you're in the position to support new innovation organizations --- monetarily or otherwise. Creating new innovation organizations isn't going to be your main thing, but you still would like to put your social or financial capital towards the effort. You could be coming from one of many institutional contexts: as a philanthropist, a member of a government, or a capitalist --- either an investor seeking monetary returns or the representative of a corporation looking for technological returns. Supporters are probably most interested in the justifications for building DARPA-riffs, the discussions around money and profit, and specific plans. 
+3. **"The enthusiast"**: You're this type of reader if you are generally interested in the question "how do we enable more creative science and technology in the world?" but perhaps you aren't in a position to be a builder or supporter ... yet. Enthusiasts are probably most interested in the history, big conclusions, and possibilities for further exploration in Part I and II along with program ideas in Part III. 
+4. **"The scholar"**: You're this type of reader if you have an academic interest in innovation and how it works. Maybe you're a historian, economist, or policy person. Scholars are probably most interested in the history and theoretical discussions in Part I along with bigger conclusions in Part II.
 5. **"The observer"**: You're this type of reader if you're a curious person who doesn't fall into any of the previous three categories but enjoy learning about the world and coming across new ways of thinking. Perhaps you have a professional role where you benefit from understanding what's going in the world of research and emerging technology. Perhaps not!
 
 Of course, you can always **chart your own adventure**.
@@ -201,15 +201,15 @@ Of course, you can always **chart your own adventure**.
 
 ## Housekeeping ##
 
-Whenever I lean on an argument I make elsewhere in the piece, I try to use [internal links that look like this][Housekeeping] (which will take you right back to this section). You shouldn't worry about losing your place because clicking an internal link will make a link back to the section you jumped from appear in the upper right.
+**Links.** Whenever I lean on an argument I make elsewhere in the piece, I try to use [internal links that look like this][Housekeeping] (which will take you right back to this section). You shouldn't worry about losing your place because clicking an internal link will make a link back to the section you jumped from appear in the upper right. External links [look like this one that actually links back to this piece.](http://benjaminreinhardt.com/parpa) I try to only use them when it's painfully obvious what they link to, usually the name of a piece I'm referencing directly in the text.
 
-External links [look like this one that actually links back to this piece.](http://benjaminreinhardt.com/parpa) I try to only use them when it's painfully obvious what they link to, usually the name of a piece I'm referencing directly in the text.
+**Guided tours.** This piece is long and everybody will get more or less value from different sections. Selecting a persona in the section above will highlight the headings of some sections in the table of contents and grey-out the headings of others in a 'recommended path' for that persona. It won't make anything disappear. You can get rid of the highlighting by choosing "chart your own adventure."
 
-This piece is long and everybody will get more or less value from different sections. Selecting a persona in the section above will highlight the headings of some sections in the table of contents and grey-out the headings of others in a 'recommended path' for that persona. It won't make anything disappear. You can get rid of the highlighting by choosing "chart your own adventure."
+**Money Notations.** When I refer to historical monetary values, I've converted them into 2021 dollars as indicated by eg. $(2021)1B for $1B in 2021 dollars. 
 
-When I refer to historical monetary values, I've converted them into 2021 dollars as indicated by eg. $(2021)1B for $1B in 2021 dollars. 
+**Foot and sidenotes.** This piece has both sidenotes and pop-up footnotes. Sidenotes are for external references to expand on a topic while footnotes are for extraneous asides --- you will lose nothing by not reading them.
 
-This piece has both sidenotes and pop-up footnotes. Sidenotes are for external references to expand on a topic while footnotes are for extraneous asides --- you will lose nothing by not reading them.
+**Playfulness.** This piece deals with a serious subject (to me it is one of *the* most serious subjects). It's easy and often expected to take a grim authoritative tone to convey seriousness. Yet, examples from Einstein to Feynman plates to Shannon suggest that playfulness not only does not get in the way of good work, it may be an ingredient. With that in mind, I've allowed myself to be a bit playful and irreverent at times and hope that doesn't diminish the piece's seriousness in your eyes! 
 
 ## Institutional Design is Navigating an Idea Maze ##
 
@@ -2516,17 +2516,17 @@ If however, you think the ideas I've presented are plausible, let's put them int
 
 Together we can *shift technology from impossible to inevitable*.
 
-## Acknowledgements ##
+## Gratitude ##
 
 Ideas don't spring out of a single brain, and this piece is no different. 
 
 Many excellent people read and helped refine early drafts: Adam Marblestone, Jed McCaleb, Pamela Vagata, Andy Matuschak, Mark McGranaghan, José Luis Ricón, Cheryl Reinhardt, Sam Arbesman, Michael Nielsen, Nathan Ihara, Martin Permin, Luke Constable, Arnaud Schenk.
 
-We stand on the shoulders of too many giants to give them all credit, but to list a few who helped me grope through the idea maze: Marissa Weichman, Ilan Gur, Semon Rezchikov, Tim Hwang, Jeff Graham, Arathi Prabyankar, Patrick Collison, Malcolm Handley, Olivia Wang, Noah Tye, Rebecca Li, Steven Glinert, Keegan McNamara, Michael Filler, Matt Clifford, Adrienne Little, Peter Van Hardenberg, Josh Tobin, Cameron Kelly, Evan Myazono, Jeff Lipton, Lee Ricketson, Adit Swarup, Alexey Guzey, Sebastian Winther.
+We stand on the shoulders of too many giants to give them all credit, but to list a few who helped me grope through the idea maze: Marissa Weichman, Ilan Gur, Semon Rezchikov, Tim Hwang, Jeff Graham, Arathi Prabyankar, Patrick Collison, Malcolm Handley, Olivia Wang, Noah Tye, Rebecca Li, Steven Glinert, Keegan McNamara, Michael Filler, Matt Clifford, Adrienne Little, Peter Van Hardenberg, Josh Tobin, Cameron Kelly, Evan Myazono, Jeff Lipton, Lee Ricketson, Adit Swarup, Alexey Guzey, Sebastian Winther, Luke Durant, Rachel Zucker.
 
 The styling and interface of this website is mostly derived from Andy Matuschak and Michael Nielsen, "How can we develop transformative tools for thought?", <https://numinous.productions/ttft>, San Francisco (2019)
 
-This work was graciously sponsored by The Astera Institute. 
+This work was graciously sponsored by [The Astera Institute](https://www.astera.org/). 
 
 If you want to support PARPA with either your time or money, [please reach out](mailto:ben@benjaminreinhardt.com)!
 
