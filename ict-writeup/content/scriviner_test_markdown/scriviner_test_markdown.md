@@ -1,6 +1,16 @@
 Title: ICT_Writeup  
 Author:
 
+This is some introductory text
+
+#Distillation
+
+In the distillation all internal links will be muted. [Here is an internal link.][Personas] [Here is another internal link.][Test Top Level] [Here is a third internal link.][Test Section 1.2]
+
+#Preliminaries
+
+Foo!
+
 #Personas
 
 This piece is intended for five types of readers. I'm explicitly calling them out because the whole thing is long and everybody will get more or less value from different sections. You don't need to be a completionist! Selecting a persona below will highlight the headings of some sections and de-emphasize the headings of others in a 'recommended path' for that persona. It won't make anything disappear.

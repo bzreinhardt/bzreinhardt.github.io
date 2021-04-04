@@ -51,19 +51,17 @@ def parse_personas(persona_file):
                 sections[generate_id_from_section_title(row[0])] = list(map(int,row[1:]))
     return sections, personas
 
-def parse_headers(content):
+def parse_headers(content, header_lines=3):
     lines = content.split('\n')
-    for i, line in enumerate(lines):
-        if len(line)>0 and line[0] == '#':
-            return '\n'.join(lines[i:])
-            '''
+    return '\n'.join(lines[header_lines:])
+    '''
         if len(line.split(':')) > 1:
             variable = line.split(':')[0]
             value = ':'.join(line.split(':')[1:])
             if variable == 'Title':
                 global TITLE
                 TITLE = value
-                '''
+    '''
 
 
 def convert_doc_markdown_to_normal_markdown(doc_markdown):
@@ -118,6 +116,9 @@ def fix_dashes(html):
     html = html.replace('--', '&ndash;')
     return html
 
+def remove_first_header(html):
+    soup = BeautifulSoup(html, features="html.parser")
+
 
 def generate_section_list(html):
     section_list = []
@@ -132,6 +133,18 @@ def generate_section_list(html):
     for h3 in h3s:
         section_list.append(generate_id_from_section_title(h3.string))
     return section_list
+
+def make_distillation_links_silent(html, start_id, stop_id):
+    soup = BeautifulSoup(html, features="html.parser")
+
+    section = soup.find(id=start_id)
+    while section.get('id') != stop_id:
+        for i, link in enumerate(section.find_all(class_="internal-link")):
+            link['class'] = link['class'] + ['silent-link']
+        section = section.nextSibling
+        while not hasattr(section, 'get'):
+            section = section.nextSibling
+    return soup.prettify()
 
 def generate_internal_links(html):
     ''' Find back-to-back-single-bracket parts and link them to the appropriate section'''
@@ -162,6 +175,7 @@ def generate_internal_links(html):
             new_html = new_html+html[position:link.start()]+a
             position = link.end()
     new_html = new_html+html[position:]
+    new_html = make_distillation_links_silent(new_html, 'distillation', 'preliminaries')
     return new_html
 
 def add_id_to_headers(html):
@@ -333,6 +347,7 @@ def parse_markdown(content, upgrade_headers=True,
     content = parse_headers(content)
     content = remove_comments(content)
     content = format_footnotes(content)
+
     html = mistune.markdown(content)
     h1_sections = re.finditer(r'<h1>.*?</h1>', html)
     '''
@@ -418,7 +433,7 @@ def create_table_of_contents(content, persona_path=None):
             lines.append(3*INDENT+'<div class="toc %s">'%" ".join(header_personas))
             lines.append(3*INDENT+'<a href="#%s">%s</a>'%(generate_id_from_section_title(child.getText()), child.getText()))
             lines.append(3*INDENT+'</div>')
-            lines.append(4*INDENT+'<ul>')
+            lines.append(4*INDENT+'<ul class="toc_ul">')
             last_header = 'h1'
         elif child.name == 'h2':
             lines.append(5*INDENT+'<li class="H3">')

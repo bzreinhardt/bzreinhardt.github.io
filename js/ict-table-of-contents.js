@@ -28,12 +28,23 @@ window.addEventListener('DOMContentLoaded', () => {
 		});
 		if (active_section != max_ratio_id) {
 			if (active_section && max_ratio_id) {
-				var sections = document.querySelector(`li:not(#tracker) a[href="#${active_section}"]`).parentElement.classList.remove('active');
+				document.querySelector(`li a[href="#${active_section}"]`).parentElement.classList.remove('active');
 			}
 			if (max_ratio_id) {
 				active_section = max_ratio_id;
 				document.getElementById('current_section_label').innerText = document.getElementById(active_section).innerText;
-				document.querySelector(`li:not(#tracker) a[href="#${active_section}"]`).parentElement.classList.add('active');
+				document.querySelector(`li a[href="#${active_section}"]`).parentElement.classList.add('active');
+			}
+			var uls = document.getElementsByClassName('toc_ul');
+			for (var i = 0; i < uls.length; i++) {
+				uls[i].style.display = "none";
+			}
+			if (document.querySelector(`div a[href="#${active_section}"]`).parentElement.parentElement.classList.contains("H2")) {
+				if (document.querySelector(`div a[href="#${active_section}"]`).parentElement.nextElementSibling) {
+					document.querySelector(`div a[href="#${active_section}"]`).parentElement.nextElementSibling.style.display = "block";
+				}
+			} else if (document.querySelector(`div a[href="#${active_section}"]`).parentElement.parentElement.classList.contains("H3")) {
+				document.querySelector(`div a[href="#${active_section}"]`).parentElement.parentElement.parentElement.style.display = "block";
 			}
 		}
 

@@ -55,6 +55,10 @@ img {
   color: #8c8785;
   font-family: Arial, Tahoma, sans-serif;}
 
+.toc_ul {
+  display: none;
+}
+
 .quote {
   //font-family: "Crimson-Pro";
   font-style: italic;
@@ -88,6 +92,10 @@ img {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: #aaaaaa
+}
+
+.silent-link {
+  text-decoration: none;
 }
 
 .image-paragraph {
