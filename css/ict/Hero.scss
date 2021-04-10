@@ -8,28 +8,31 @@ $redHighlight: #fffafa;
 $blueHighlight: #f5fcff;
 
 .HeroContainer {
-  --titleBoxPadding: #{scaleUnit(2)};
+  --titleBoxPadding: 0.5*#{scaleUnit(2)};
 
   @media screen and (max-width: 700px) {
-    background-image: url("assets/parpa-hero-mobile.png");
+    background-image: url("assets/parpa-mobile.png");
     background-position: center center;
     background-size: cover;
     --titleBoxPadding: #{scaleUnit(1.5)};
-    padding-top: calc(var(--verticalPadding) + var(--titleBoxPadding));
-    padding-bottom: calc(var(--verticalPadding) + var(--titleBoxPadding));
+    padding-top: calc((var(--verticalPadding) + var(--titleBoxPadding)));
+    //padding-bottom: calc(var(--verticalPadding) + var(--titleBoxPadding));
     background-size: 105%;
+    height: 300px;
     @include margin(bottom, 1.5);
     --verticalPadding: 8px;
     --slantSize: 0px;
 
-    border-bottom: 1px solid darken(saturate($blueHighlight, 20%), 15%);
+    //border-bottom: 1px solid darken(saturate($blueHighlight, 20%), 15%);
   }
 
-  background-image: url("assets/parpa-hero-dyson-2.png");
-  background-position: left calc(50vw - var(--slantSize)) center;
+  background-image: url("assets/parpa-desktop.png");
+  //background-position: left calc(50vw - var(--slantSize)) center;
   background-repeat: no-repeat;
-  --verticalPadding: #{scaleUnit(4)};
+  background-position: center center;
+  --verticalPadding: 0.5*#{scaleUnit(4)};
   //changed
+  //height: 400px;
   --slantSize: 0px;
   @include margin(bottom, 3);
   position: relative;
@@ -37,9 +40,10 @@ $blueHighlight: #f5fcff;
   @media print, screen and (min-width: 701px) {
     background-size: 70%;
     @media screen and (max-width: 1500px) {
-      background-size: 90%;
+      background-size: 100%;
     }
-
+  }
+    /*
     &::before {
       // z-index: 0;
       position: absolute;
@@ -48,7 +52,7 @@ $blueHighlight: #f5fcff;
       right: calc(50% - var(--slantSize) / 2);
       top: 0;
       bottom: -1px;
-      background-image: url("assets/parpa-hero-ship-small.png");
+      //background-image: url("assets/parpa-hero-ship-small.png");
       // background-position: right calc(50vw - var(--slantSize) / 2) top -20px;
       background-repeat: no-repeat;
       background-color: $redHighlight;
@@ -75,13 +79,14 @@ $blueHighlight: #f5fcff;
       border-bottom: 1px solid darken(saturate($blueHighlight, 30%), 10%);
     }
   }
-
+*/
 
   .HeroContents {
     // position: relative;
-    background-color: #2e3e2e;
-
-    --width: 920px;
+    //background-color: #2e3e2e;
+    background-color: none;
+    //--width: 920px;
+    --width: 400px;
     max-width: var(--width);
     padding-left: calc(var(--titleBoxPadding) + #{scaleUnit(1)});
     padding-right: calc(var(--slantSize) + #{scaleUnit(1.5)});
@@ -89,6 +94,7 @@ $blueHighlight: #f5fcff;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    text-shadow:0px 0px 10px rgba(51,51,51,0.6);
 
     @mixin big-devices {
       padding-top: calc(var(--verticalPadding) + var(--titleBoxPadding));
@@ -147,14 +153,15 @@ $blueHighlight: #f5fcff;
 
 
     h1 {
-      color: $primaryExtraDark;
+      //color: $primaryExtraDark;
+      color:white;
       font-family: Archivo, sans-serif;
       font-weight: 700;
       -webkit-font-smoothing: antialiased;
       background: linear-gradient(to right, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%));
       background-clip: text;
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      //-webkit-text-fill-color: transparent;
 
       font-size: 48px;
       letter-spacing: -0.03em;
@@ -188,22 +195,23 @@ $blueHighlight: #f5fcff;
         font-size: 26px;
         line-height: 28.5px;
         letter-spacing: -0.006em;
-        background: linear-gradient(to bottom, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%) 170%);
+        background: linear-gradient(90deg, #ffffff, darken(saturate($blueHighlight, 15%), 2%) 30%);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        //-webkit-text-fill-color: transparent;
       }
     }
 
     h2 {
-      color: $primaryExtraDark;
+      //color: $primaryExtraDark;
+      color:white;
       font-family: Archivo, sans-serif;
       font-weight: 600;
       -webkit-font-smoothing: antialiased;
       background: linear-gradient(to right, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%));
       background-clip: text;
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      //-webkit-text-fill-color: transparent;
 
       font-size: 36px;
       letter-spacing: -0.03em;
@@ -219,6 +227,10 @@ $blueHighlight: #f5fcff;
         letter-spacing: -0.02em;
         line-height: 25px;
         --width: 13.25em;
+      }
+
+      @media screen and (max-width: 1000px) {
+
       }
 
       @media screen and (max-width: 850px) {
@@ -240,7 +252,7 @@ $blueHighlight: #f5fcff;
         background: linear-gradient(to bottom, darken(saturate($redHighlight, 15%), 2%), darken(saturate($blueHighlight, 15%), 2%) 170%);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        //-webkit-text-fill-color: transparent;
       }
     }
 
@@ -269,12 +281,13 @@ $blueHighlight: #f5fcff;
         @media screen and (max-width: 850px) {
           font-size: 18px;
           letter-spacing: 0;
+
         }
 
         background: linear-gradient(to right, #ffdcdc, #eaf7fc);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        //-webkit-text-fill-color: transparent;
 
         @include respond-to(handhelds) {
           font-size: 15px;
@@ -292,7 +305,7 @@ $blueHighlight: #f5fcff;
         margin-bottom: 0;
 
         a {
-          color: inherit;
+          color: white;
 
           &:hover {
             border-bottom: 1px solid rgba(#fff, 0.5);
@@ -302,13 +315,20 @@ $blueHighlight: #f5fcff;
 
       .Date {
         font-family: $UIFont;
-        opacity: 0.5;
-        mix-blend-mode: screen;
+        opacity: 1;
+        //mix-blend-mode: screen;
+        color:white;
+        text-shadow:0px 0px 10px rgba(51,51,51,0.6);
 
         @include respond-to(non-handhelds) {
           float: right;
           margin-top: -1em;
         }
+        @media screen and (max-width: 1000px) {
+          opacity: 1;
+
+        }
+
       }
     }
   }
