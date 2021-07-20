@@ -19,7 +19,7 @@ Multi-Class Fighter/Mage with some levels in Bard.
 
 [Email is also good](mailto:ben@benjaminreinhardt.com).
 
-[I'm experimenting with doing digital office hours](https://ben-reinhardt.youcanbook.me/)
+[If you want to chat briefly when I'm free, I'm experimenting with digial office hours](https://calendly.com/bzreinhardt/15min)
 
 
 [systems]:https://en.wikipedia.org/wiki/Innovation_system
