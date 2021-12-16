@@ -78,7 +78,7 @@ paginate: 5
 exclude: [node_modules]
 kramdown:
   input: GFM
-link-tags: true
+link-tags: false
 exclude:
 - CHANGELOG.md
 - CNAME

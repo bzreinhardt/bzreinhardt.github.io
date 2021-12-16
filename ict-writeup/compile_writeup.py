@@ -175,7 +175,7 @@ def generate_internal_links(html):
             new_html = new_html+html[position:link.start()]+a
             position = link.end()
     new_html = new_html+html[position:]
-    new_html = make_distillation_links_silent(new_html, 'distillation', 'preliminaries')
+    #new_html = make_distillation_links_silent(new_html, 'preliminaries')
     return new_html
 
 def add_id_to_headers(html):
