@@ -5,9 +5,9 @@ tags:
 layout: post
 permalink: /efficiency
 ---
-Before you even undertake the work to create a thing, there’s some assessment of whether it’s possible and how valuable it will be.[^1] (For some extremely nebulous definition of value — I’ll talk about that later). Some ideas take a large chunk of resources to assess(**“fat” ideas**).[^2] In other cases, a spreadsheet and well-founded assumptions can make a strong case that “it will be hard, but if we pull off all these things that don’t violate physics along this critical path, it will be incredible.” (**“Lean” ideas**).
+Before you even undertake the work to create a thing, there’s some assessment of whether it’s possible and how valuable it will be.[^1] (For some extremely nebulous definition of value — I’ll talk about that later). Some ideas take a large chunk of resources to assess(**“fat” ideas**).[^2] In other cases, a spreadsheet and well-founded assumptions can make a strong case that “it will be hard, but if we pull off all these things that don’t violate physics along this critical path, it will be incredible.” (**“Lean” ideas**).[^3]
 
-SpaceX’s reusable rocket is a canonical lean idea: “If we can do X (which is very hard but has a clear critical path) then we will reduce/increase this key metric by an order of magnitude, which is a complete game changer.” Software’s low cost and fast iteration speeds make many bit-based ideas lean even without clear metrics or critical paths. “Basic Science”[^3] is a classic example of a “fat” idea: the curiosity-driven study of tree frog venom leads along a circuitous route to a miracle cure. However, fat ideas include more than just curiosity-based discovery. Most “systems research”[^4] ideas — of the sort that were the precursors of a good chunk of modern technology —are also fat ideas.[^5]
+SpaceX’s reusable rocket is a canonical lean idea: “If we can do X (which is very hard but has a clear critical path) then we will reduce/increase this key metric by an order of magnitude, which is a complete game changer.” Software’s low cost and fast iteration speeds make many bit-based ideas lean even without clear metrics or critical paths. “Basic Science”[^4] is a classic example of a “fat” idea: the curiosity-driven study of tree frog venom leads along a circuitous route to a miracle cure. However, fat ideas include more than just curiosity-based discovery. Most “systems research”[^5] ideas — of the sort that were the precursors of a good chunk of modern technology —are also fat ideas.[^6]
 
 If all you care about is big returns per dollar (in either financial terms or “impact”) there is a clear strategy: work to quickly kill ideas and bias towards a thousand false negatives over one expensive false positive.
 
@@ -17,9 +17,7 @@ Another framing is through the lens of scarce resources. If you have 100 units o
 
 The advantage of the lean strategy has nothing to do with whether you’re trying to capture the value you create or not — as long as you prioritize efficiency, it makes sense for both investments and philanthropic spending.
 
-In reality, ideas don’t fall neatly into buckets that take one of two values of resources to evaluate. There’s some continuum from zero effort to a situation where you don’t know if it will be valuable and possible until you literally complete it. However, because we’re talking about a scalar evaluation effort, it’s reasonable to draw a line that is the maximum effort you’re willing to spend per idea. Everything to the left of the line is lean and everything to the right is fat. This bucketing system means that you lose out on the marginal idea immediately to the right of the line.
-
- The fact that it’s hard to distinguish between many fat and lean ideas compounds the argument for a “lean assessment only” strategy. As a result, many research organizations either implicitly or explicitly pursue the lean strategy — explicitly preferring many false negatives over an expensive false positive. Indeed, many organizations play up the efficiency of their process: "we kill ideas fast!" And given the assumptions and constraints they’re operating under, they’re not wrong.
+The fact that it’s hard to distinguish between many fat and lean ideas compounds the argument for a “lean assessment only” strategy. As a result, many research organizations either implicitly or explicitly pursue the lean strategy — explicitly preferring many false negatives over an expensive false positive. Indeed, many organizations play up the efficiency of their process: "we kill ideas fast!" And given the assumptions and constraints they’re operating under, they’re not wrong.
 
 Let’s examine those assumptions:
 1. Lean and fat ideas create roughly the same amount of value on average.
@@ -32,7 +30,7 @@ Let’s examine those assumptions:
 ### 1. Lean and fat ideas create, on average, roughly the same amount of value.
 This assumption seems reasonable — I don’t know of a comprehensive study of innovations, the value they created, and whether it was easy for people to evaluate whether they were worth pursuing a priori but there are plenty of valuable examples of both types. SpaceX, Tesla, Transistors, airplanes, AI, artificial fertilizers, the structure of DNA, and atomic power (after a certain point) are all lean ideas — generally they’re characterized by either a gold rush or criticisms of impossibility to pull off. Lasers, cars, unix, the internet, germ theory, and solar panels are all fat ideas — generally they’re characterized by people calling them niche or useless and are preceded by a lot of “piddling around.”
 
-While historically, lean and fat ideas do seem to create roughly the same amount of value on average if you force them into a framework of scalarized value, I’m going to push back against that framework in point #5.
+The truth is that we have no idea how much value lean and fat ideas create if you force them into a framework of scalarized value. Regardess of their respective value, I’m going to push back against that entire framework in point #5.
 
 ### 2. The difference in cost between evaluating lean and fat ideas is several orders of magnitude.**
 
@@ -71,6 +69,7 @@ Thanks to Matt Clancy and Luke Constable for reading drafts of this piece and am
 
 [^1]: I’m implicitly talking about research ideas here, but I think this argument applies more broadly.
 [^2]: The “fat” and “lean” framework comes from [GUTS: The Grand Unified Theory of Striving (or Slacking)](https://studio.ribbonfarm.com/p/guts-the-grand-unified-theory-of) which is a chronically underdiscussed framework.
-[^3]: I think the pipeline model of innovation is deeply flawed, but for now this is the framework most people use.
-[^4]: See [http://doc.cat-v.org/bell_labs/utah2000/utah2000.pdf](http://doc.cat-v.org/bell_labs/utah2000/utah2000.pdf)
-[^5]: Digging into how to tell whether an idea is fat or lean and whether there are systemic differences between them is for another time.
+[^3]:In reality, ideas don’t fall neatly into buckets that take one of two values of resources to evaluate. There’s some continuum from zero effort to a situation where you don’t know if it will be valuable and possible until you literally complete it. However, because we’re talking about a scalar evaluation effort, it’s reasonable to draw a line that is the maximum effort you’re willing to spend per idea. Everything to the left of the line is lean and everything to the right is fat. This bucketing system means that you lose out on the marginal idea immediately to the right of the line.
+[^4]: I think the pipeline model of innovation is deeply flawed, but for now this is the framework most people use.
+[^5]: See [http://doc.cat-v.org/bell_labs/utah2000/utah2000.pdf](http://doc.cat-v.org/bell_labs/utah2000/utah2000.pdf)
+[^6]: Digging into how to tell whether an idea is fat or lean and whether there are systemic differences between them is for another time.
