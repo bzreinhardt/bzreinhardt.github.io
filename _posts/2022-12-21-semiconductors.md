@@ -1,6 +1,6 @@
 ---
 title: Thinking through semiconductors — old nodes and AI chips
-date: 2022-12-21
+date: 2022-12-20
 tags: Intellectual-exhaust
 layout: post
 permalink: /semiconductors
