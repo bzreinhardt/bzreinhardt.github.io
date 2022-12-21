@@ -1,4 +1,10 @@
-# Thinking through semiconductors — old nodes and AI chips
+---
+title: Thinking through semiconductors — old nodes and AI chips
+date: 2022-12-21
+tags: Intellectual-exhaust
+layout: post
+permalink: /semiconductors
+---
 A project I’m working on forced me to wade into the discourse about semiconductors – especially the economics of older chip manufacturing processes and claims about the importance of bleeding edge processes for AI. I wrote this piece mostly to clarify my own understanding but I thought it might be useful to other people. 
 
 Some really dumb preliminaries. Skip this if you know about semiconductor manufacturing:
