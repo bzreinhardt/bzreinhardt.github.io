@@ -8,7 +8,7 @@ I'm working on how to enable more amazing sci-fi things to become reality.
 
 Most of my time is spent running/building [Speculative Technologies](https://spec.tech) -- a nonprofit industrial research lab that's working to unlock a wonderful, abundant future through technologies that don't have a home in other institutions. Most of my writing these days is over at the [Spectech blog](https://blog.spec.tech).  
 
-[Here are ~monthly updated details about what's top of mind and what I'm working on currently.](https://notes.benjaminreinhardt.com/Top_of_mind)
+[Here are ~monthly updated details about what's top of mind and what I'm working on currently.](https://notes.benjaminreinhardt.com/Top+of+mind)
 
 I also (occasionally) host the [Idea Machines Podcast][ideamachines] where I have long form conversations with experts in different [innovation systems][systems].  
 
