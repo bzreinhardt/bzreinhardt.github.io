@@ -24,13 +24,13 @@ defaults:
   values:
     layout: page
     show-avatar: true
-url: http://benjaminreinhardt.com
+url: http://blog.benjaminreinhardt.com
 baseurl: ''
 sass:
     sass_dir: css/_sass
 description: Permittre dragonis adsurgo
 navbar-links:
-  Home: http://benjaminreinhardt.com
+  Home: http://blog.benjaminreinhardt.com
   About: about
   Projects:
   - Podcast: podcast
