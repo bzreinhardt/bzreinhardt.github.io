@@ -8,7 +8,7 @@ permalink: /collapse-of-complex-societies-notes
 *My notes on the thought-provoking book* [The Collapse of Complex Societies](https://archive.org/details/TheCollapseOfComplexSocieties). *Recommended to me by Eli Dourado, whose notes you can find* [here](https://www.elidourado.com/p/collapse).
 
 
-![][https://storage.googleapis.com/bzreinhardt-images/collapse-of-complex-societies-notes/image1.png]  
+![](https://storage.googleapis.com/bzreinhardt-images/collapse-of-complex-societies-notes/image1.png)  
 This chart sums up the thesis of the book, but it’s mislabeled. It’s the benefits of complexity vs level of complexity, not the marginal product of increasing complexity. The marginal product of complexity would be the derivative of this function, which would look like a monotonically decreasing function that at some point goes from positive to negative. 
 
 The core thesis of the book is that:
@@ -40,11 +40,11 @@ There are a bunch of things that the book leaves frustratingly fuzzy (I’ll lis
 * What does “benefit” actually mean? As Tainter points out, many people actually live better lives after the collapse of a complex society than before. There some hand wavy gesture towards “civilizational accomplishment and average well-being” but it’s frustratingly vague and someone with more a more populist might use the fact that societal benefit does not directly translate to individual benefit to attach the whole theory. I’m inclined to accept the assumption that more benefit on the benefit-complexity curve is Good.  
 * What is the relationship between energy and other resources? Tainter points to the Roman acquisition of conquered foreign wealth as the same as a new source of energy. This makes sense because for most of human history, most energy came from human or animal sources, so energy was directly downstream of land and money a society controlled.  (I think he may have addressed this and a breezed past it.)
 
-![][https://storage.googleapis.com/bzreinhardt-images/collapse-of-complex-societies-notes/image2.png]
+![](https://storage.googleapis.com/bzreinhardt-images/collapse-of-complex-societies-notes/image2.png)
 
 * Is the graph above correct, or does creating an innovation or acquisition of an energy subsidy actually change the shape of the curve? (like the graph below) Eg. This graph implies that a new technology actually inverts decreasing returns on complexity, whereas my understanding is that you still have decreasing marginal returns on complexity but energy subsidies keep the curve from inverting longer. 
 
-![][https://storage.googleapis.com/bzreinhardt-images/collapse-of-complex-societies-notes/image3.png]
+![](https://storage.googleapis.com/bzreinhardt-images/collapse-of-complex-societies-notes/image3.png)
 
 * What counts as a new energy paradigm?
 
