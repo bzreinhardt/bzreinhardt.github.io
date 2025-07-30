@@ -13,7 +13,7 @@ The PRLs:
 0. **Complete stranger**.
 1. **A second degree connection**. You know of this person and know who you know who knows them. 
 2. **Brief interaction**. People you have met once, briefly, and maybe don’t even remember meeting.
-3. **Distant acquaintance**. People you have one or two substantive interactions with who you suspect would also remember a few things about you and be more predisposition to you than a stranger. Unless you’re an extreme introvert, you put some effort into emails to these people: making sure you give them context, perhaps adopting a slightly more formal tone. 
+3. **Distant acquaintance**. People you have one or two substantive interactions with who you suspect would also remember a few things about you and be more predisposition to you than a stranger. You put some effort into emails to these people: making sure you give them context, perhaps adopting a slightly more formal tone. 
 4. **Acquaintance**. Someone you’ve interacted with several times, probably not 1-1. These are the people you see semi-regularly at professional events or friend’s gatherings but don’t seek out or see 1-1. 
 5. **Friendly Acquaintance**. Someone you see regularly and have met with 1-1 but wouldn’t say, have 1-1 dinner with in a non-professional context. (You don’t necessarily like this person but can at least tolerate them.) You’re happy to do this person a small favor but think harder about bigger ones. You’ll shoot these people a quick email question without thinking too much about it. 
 6. **Friend**. Someone whose company you actively seek out. You would happily do this person a favor and usually feel comfortable asking for one. You have a low barrier to communication with them — shooting a quick text, etc. 
