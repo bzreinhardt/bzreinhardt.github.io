@@ -53,6 +53,8 @@
 
 			// Display the page number of the current slide
 			slideNumber: false,
+			// Display the page number in x/total format
+			slideNumberTot: false,
 
 			// Push each slide change to the browser history
 			history: false,
@@ -2344,9 +2346,17 @@
 			}
 
 			dom.slideNumber.innerHTML = indexString;
+		} else if(config.slideNumberTot && dom.slideNumber){
+			// Display the number of the page using pagenum/tot format
+			var slide_num = getSlideNum();
+			var total_slides = getTotalSlides();
+			var indexString = slide_num + '/' + total_slides;
+			dom.slideNumber.innerHTML = indexString;
 		}
+		
 
 	}
+
 
 	/**
 	 * Updates the state of all control/navigation arrows.
@@ -2846,10 +2856,59 @@
 			}
 
 		}
-
+		
 		return pastCount / ( totalCount - 1 );
+		
 
 	}
+	
+	/**
+	 * Returns the current slide number 
+	 * 
+	 */
+	function getSlideNum() {
+
+		var horizontalSlides = toArray( dom.wrapper.querySelectorAll( HORIZONTAL_SLIDES_SELECTOR ) );
+
+		// The number of past and total slides
+		var totalCount = getTotalSlides();
+		var pastCount = 0;
+
+		// Step through all slides and count the past ones
+		mainLoop: for( var i = 0; i < horizontalSlides.length; i++ ) {
+
+			var horizontalSlide = horizontalSlides[i];
+			var verticalSlides = toArray( horizontalSlide.querySelectorAll( 'section' ) );
+
+			for( var j = 0; j < verticalSlides.length; j++ ) {
+
+				// Stop as soon as we arrive at the present
+				if( verticalSlides[j].classList.contains( 'present' ) ) {
+					break mainLoop;
+				}
+
+				pastCount++;
+
+			}
+
+			// Stop as soon as we arrive at the present
+			if( horizontalSlide.classList.contains( 'present' ) ) {
+				break;
+			}
+
+			// Don't count the wrapping section for vertical slides
+			if( horizontalSlide.classList.contains( 'stack' ) === false ) {
+				pastCount++;
+			}
+
+		}
+
+	
+		return pastCount;
+		
+
+	}
+
 
 	/**
 	 * Checks if this presentation is running inside of the
